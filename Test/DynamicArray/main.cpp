@@ -1,9 +1,10 @@
 #include <iostream>
-#include "DArray.h"
+#include "DynamicArray.h"
 
 using namespace std;
 
 int main() {
+    DynamicArray<int> t;
 
     return 0;
 }

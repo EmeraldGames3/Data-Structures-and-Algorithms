@@ -1,11 +1,10 @@
-#ifndef DYNAMICARRAY_DARRAY_H
-#define DYNAMICARRAY_DARRAY_H
+#ifndef DYNAMICARRAY_DYNAMICARRAY_H
+#define DYNAMICARRAY_DYNAMICARRAY_H
 
 #include <iostream>
 
 template<typename type>
-
-class DArray {
+class DynamicArray {
 private:
     type *array;
     size_t length{};
@@ -15,19 +14,19 @@ private:
 
 public:
     //constructor with 0 parameters
-    explicit DArray();
+    explicit DynamicArray();
 
     //constructor with 1 parameter
-    explicit DArray(size_t _length);
+    explicit DynamicArray(size_t _length);
 
     //constructor with 2 parameters
-    DArray(size_t _length, type *array);
+    DynamicArray(size_t _length, type *array);
 
     //constructor with 3 parameters
-    DArray(size_t _length, size_t _capacity, type *array);
+    DynamicArray(size_t _length, size_t _capacity, type *array);
 
     //Class destructor
-    ~DArray();
+    ~DynamicArray();
 
     size_t size();
 
@@ -47,4 +46,4 @@ public:
 };
 
 
-#endif //DYNAMICARRAY_DARRAY_H
+#endif //DYNAMICARRAY_DYNAMICARRAY_H

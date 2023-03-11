@@ -1,4 +1,49 @@
-#include "DynamicArray.h"
+#include <iostream>
+#pragma once
+
+//TODO find out how to separate this in two separate file DynamicArray.h and DynamicArray.cpp
+
+template<typename T>
+class DynamicArray {
+private:
+    T *array;
+    size_t length{};
+    size_t capacity{};
+
+    void automaticResize();
+
+public:
+    //constructor with 0 parameters
+    explicit DynamicArray();
+
+    //constructor with 1 parameter
+    explicit DynamicArray(size_t _length);
+
+    //constructor with 2 parameters
+    DynamicArray(size_t _length, T *array);
+
+    //constructor with 3 parameters
+    DynamicArray(size_t _length, size_t _capacity, T *array);
+
+    //Class destructor
+    ~DynamicArray();
+
+    size_t size();
+
+    void resize(size_t newCapacity);
+
+    T getElement(size_t index);
+
+    void setElement(size_t index, T value);
+
+    void addToEnd(T value);
+
+    void addToPosition(size_t index, T value);
+
+    void deleteFromEnd();
+
+    void deleteFromPosition(size_t index);
+};
 
 /**
  * @brief This is the default constructor of the class

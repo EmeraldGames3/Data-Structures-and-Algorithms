@@ -21,24 +21,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6f1364a-9458-4a5c-ad7e-c733a93b79fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DArray.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/DArray.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0d42f5e1c0af422b59c1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T10-47-28-0251.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-DynamicArray-Debug-323dd9f1fa994129790a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Template/DynamicArray/DynamicArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Template/DynamicArray/DynamicArray.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Template/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-73d4c91242e90d4b7830.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Template/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-39648544975ee4568192.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Template/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T13-39-34-0757.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Template/cmake-build-debug/.cmake/api/v1/reply/target-Template-Debug-6463cdc98881c0c199d1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Template/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Template/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Template/cmake-build-debug/CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Template/cmake-build-debug/CMakeFiles/Template.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DynamicArray.dir/DArray.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Template/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Template/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Template/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Template/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-3848be9e96f27ece83ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Template/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d33b1eec972b047b35f4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Template/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T13-38-45-0461.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Template/cmake-build-debug/.cmake/api/v1/reply/target-Template-Debug-7782d63a18e0c9336f9c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Template/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Template/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Template/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Template/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Template/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../Template/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Template/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Template/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/DArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DynamicArray.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DynamicArray.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DynamicArray.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Template/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678531544260</updated>
-      <workItem from="1678531546786" duration="9710000" />
+      <workItem from="1678531546786" duration="10262000" />
     </task>
     <servers />
   </component>
