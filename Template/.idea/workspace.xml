@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -22,34 +22,44 @@
   <component name="ChangeListManager">
     <list default="true" id="0b128deb-ac1e-4ebf-adb2-09dbe756ff7f" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/DynamicArray/DynamicArray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-73d4c91242e90d4b7830.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-39648544975ee4568192.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T13-39-34-0757.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Template-Debug-6463cdc98881c0c199d1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/main.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/DArray.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-19fc53452ba84dbdf3b9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T14-42-12-0796.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/.cmake/api/v1/reply/target-DynamicArray-Debug-b4013a0d212936c7f4d6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/Example.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/Example.cpp.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/main.cpp.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/DynamicArray.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-3848be9e96f27ece83ba.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d33b1eec972b047b35f4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T13-38-45-0461.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Template-Debug-7782d63a18e0c9336f9c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a05de06ee29c41729f76.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T14-18-41-0835.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Template-Debug-d3ef6538a46cb89479a7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Template.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Template.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/DArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/DArray.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/DArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/DArray.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/DynamicArray.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/DArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/DynamicArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3937df0ab53a6b6f4b37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T14-17-47-0120.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/.cmake/api/v1/reply/target-DynamicArray-Debug-01fee2d279cbaa763735.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/CMakeFiles/DynamicArray.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/DynamicArray.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/DynamicArray.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test/DynamicArray/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/DynamicArray/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test/Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test/Template/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,29 +89,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Template" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Template" TARGET_NAME="Template" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Template" RUN_TARGET_NAME="Template">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Template" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Template" TARGET_NAME="Template" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Template" RUN_TARGET_NAME="Template">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -116,6 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678541923438</updated>
       <workItem from="1678541924784" duration="417000" />
+      <workItem from="1678542355766" duration="2680000" />
     </task>
     <servers />
   </component>

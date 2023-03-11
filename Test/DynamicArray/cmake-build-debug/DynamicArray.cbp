@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Test/DynamicArray/DArray.cpp">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Test/DynamicArray/DynamicArray.cpp">
 			<Option target="DynamicArray"/>
 		</Unit>
 		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Test/DynamicArray/DynamicArray.h">

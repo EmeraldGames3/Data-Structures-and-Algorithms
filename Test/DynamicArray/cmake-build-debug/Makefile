@@ -128,29 +128,29 @@ DynamicArray/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArray.dir\build.make CMakeFiles/DynamicArray.dir/build
 .PHONY : DynamicArray/fast
 
-DArray.obj: DArray.cpp.obj
-.PHONY : DArray.obj
+DynamicArray.obj: DynamicArray.cpp.obj
+.PHONY : DynamicArray.obj
 
 # target to build an object file
-DArray.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArray.dir\build.make CMakeFiles/DynamicArray.dir/DArray.cpp.obj
-.PHONY : DArray.cpp.obj
+DynamicArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArray.dir\build.make CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj
+.PHONY : DynamicArray.cpp.obj
 
-DArray.i: DArray.cpp.i
-.PHONY : DArray.i
+DynamicArray.i: DynamicArray.cpp.i
+.PHONY : DynamicArray.i
 
 # target to preprocess a source file
-DArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArray.dir\build.make CMakeFiles/DynamicArray.dir/DArray.cpp.i
-.PHONY : DArray.cpp.i
+DynamicArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArray.dir\build.make CMakeFiles/DynamicArray.dir/DynamicArray.cpp.i
+.PHONY : DynamicArray.cpp.i
 
-DArray.s: DArray.cpp.s
-.PHONY : DArray.s
+DynamicArray.s: DynamicArray.cpp.s
+.PHONY : DynamicArray.s
 
 # target to generate assembly for a file
-DArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArray.dir\build.make CMakeFiles/DynamicArray.dir/DArray.cpp.s
-.PHONY : DArray.cpp.s
+DynamicArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArray.dir\build.make CMakeFiles/DynamicArray.dir/DynamicArray.cpp.s
+.PHONY : DynamicArray.cpp.s
 
 Example.obj: Example.cpp.obj
 .PHONY : Example.obj
@@ -209,9 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DynamicArray
-	@echo ... DArray.obj
-	@echo ... DArray.i
-	@echo ... DArray.s
+	@echo ... DynamicArray.obj
+	@echo ... DynamicArray.i
+	@echo ... DynamicArray.s
 	@echo ... Example.obj
 	@echo ... Example.i
 	@echo ... Example.s

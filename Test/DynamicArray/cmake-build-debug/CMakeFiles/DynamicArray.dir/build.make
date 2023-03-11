@@ -96,32 +96,32 @@ CMakeFiles/DynamicArray.dir/Example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DynamicArray.dir/Example.cpp.s"
 	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\Data-Structures-and-Algorithms\Test\DynamicArray\Example.cpp -o CMakeFiles\DynamicArray.dir\Example.cpp.s
 
-CMakeFiles/DynamicArray.dir/DArray.cpp.obj: CMakeFiles/DynamicArray.dir/flags.make
-CMakeFiles/DynamicArray.dir/DArray.cpp.obj: D:/Programming/Data-Structures-and-Algorithms/Test/DynamicArray/DArray.cpp
-CMakeFiles/DynamicArray.dir/DArray.cpp.obj: CMakeFiles/DynamicArray.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\Data-Structures-and-Algorithms\Test\DynamicArray\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DynamicArray.dir/DArray.cpp.obj"
-	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArray.dir/DArray.cpp.obj -MF CMakeFiles\DynamicArray.dir\DArray.cpp.obj.d -o CMakeFiles\DynamicArray.dir\DArray.cpp.obj -c D:\Programming\Data-Structures-and-Algorithms\Test\DynamicArray\DArray.cpp
+CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj: CMakeFiles/DynamicArray.dir/flags.make
+CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj: D:/Programming/Data-Structures-and-Algorithms/Test/DynamicArray/DynamicArray.cpp
+CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj: CMakeFiles/DynamicArray.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\Data-Structures-and-Algorithms\Test\DynamicArray\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj -MF CMakeFiles\DynamicArray.dir\DynamicArray.cpp.obj.d -o CMakeFiles\DynamicArray.dir\DynamicArray.cpp.obj -c D:\Programming\Data-Structures-and-Algorithms\Test\DynamicArray\DynamicArray.cpp
 
-CMakeFiles/DynamicArray.dir/DArray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DynamicArray.dir/DArray.cpp.i"
-	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\Data-Structures-and-Algorithms\Test\DynamicArray\DArray.cpp > CMakeFiles\DynamicArray.dir\DArray.cpp.i
+CMakeFiles/DynamicArray.dir/DynamicArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DynamicArray.dir/DynamicArray.cpp.i"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\Data-Structures-and-Algorithms\Test\DynamicArray\DynamicArray.cpp > CMakeFiles\DynamicArray.dir\DynamicArray.cpp.i
 
-CMakeFiles/DynamicArray.dir/DArray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DynamicArray.dir/DArray.cpp.s"
-	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\Data-Structures-and-Algorithms\Test\DynamicArray\DArray.cpp -o CMakeFiles\DynamicArray.dir\DArray.cpp.s
+CMakeFiles/DynamicArray.dir/DynamicArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DynamicArray.dir/DynamicArray.cpp.s"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\Data-Structures-and-Algorithms\Test\DynamicArray\DynamicArray.cpp -o CMakeFiles\DynamicArray.dir\DynamicArray.cpp.s
 
 # Object files for target DynamicArray
 DynamicArray_OBJECTS = \
 "CMakeFiles/DynamicArray.dir/main.cpp.obj" \
 "CMakeFiles/DynamicArray.dir/Example.cpp.obj" \
-"CMakeFiles/DynamicArray.dir/DArray.cpp.obj"
+"CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj"
 
 # External object files for target DynamicArray
 DynamicArray_EXTERNAL_OBJECTS =
 
 DynamicArray.exe: CMakeFiles/DynamicArray.dir/main.cpp.obj
 DynamicArray.exe: CMakeFiles/DynamicArray.dir/Example.cpp.obj
-DynamicArray.exe: CMakeFiles/DynamicArray.dir/DArray.cpp.obj
+DynamicArray.exe: CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj
 DynamicArray.exe: CMakeFiles/DynamicArray.dir/build.make
 DynamicArray.exe: CMakeFiles/DynamicArray.dir/linklibs.rsp
 DynamicArray.exe: CMakeFiles/DynamicArray.dir/objects1.rsp

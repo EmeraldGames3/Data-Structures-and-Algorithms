@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DynamicArray.dir/DArray.cpp.obj"
-  "CMakeFiles/DynamicArray.dir/DArray.cpp.obj.d"
+  "CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj"
+  "CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj.d"
   "CMakeFiles/DynamicArray.dir/Example.cpp.obj"
   "CMakeFiles/DynamicArray.dir/Example.cpp.obj.d"
   "CMakeFiles/DynamicArray.dir/main.cpp.obj"
