@@ -55,8 +55,14 @@ build CMakeFiles/DynamicArray.dir/main.cpp.obj: CXX_COMPILER__DynamicArray_Debug
   OBJECT_DIR = CMakeFiles\DynamicArray.dir
   OBJECT_FILE_DIR = CMakeFiles\DynamicArray.dir
 
-build CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj: CXX_COMPILER__DynamicArray_Debug D$:/Programming/Data-Structures-and-Algorithms/Test/DynamicArray/DynamicArray.cpp || cmake_object_order_depends_target_DynamicArray
-  DEP_FILE = CMakeFiles\DynamicArray.dir\DynamicArray.cpp.obj.d
+build CMakeFiles/DynamicArray.dir/Example.cpp.obj: CXX_COMPILER__DynamicArray_Debug D$:/Programming/Data-Structures-and-Algorithms/Test/DynamicArray/Example.cpp || cmake_object_order_depends_target_DynamicArray
+  DEP_FILE = CMakeFiles\DynamicArray.dir\Example.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DynamicArray.dir
+  OBJECT_FILE_DIR = CMakeFiles\DynamicArray.dir
+
+build CMakeFiles/DynamicArray.dir/DArray.cpp.obj: CXX_COMPILER__DynamicArray_Debug D$:/Programming/Data-Structures-and-Algorithms/Test/DynamicArray/DArray.cpp || cmake_object_order_depends_target_DynamicArray
+  DEP_FILE = CMakeFiles\DynamicArray.dir\DArray.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\DynamicArray.dir
   OBJECT_FILE_DIR = CMakeFiles\DynamicArray.dir
@@ -69,7 +75,7 @@ build CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj: CXX_COMPILER__DynamicArr
 #############################################
 # Link the executable DynamicArray.exe
 
-build DynamicArray.exe: CXX_EXECUTABLE_LINKER__DynamicArray_Debug CMakeFiles/DynamicArray.dir/main.cpp.obj CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj
+build DynamicArray.exe: CXX_EXECUTABLE_LINKER__DynamicArray_Debug CMakeFiles/DynamicArray.dir/main.cpp.obj CMakeFiles/DynamicArray.dir/Example.cpp.obj CMakeFiles/DynamicArray.dir/DArray.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DynamicArray.dir

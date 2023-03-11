@@ -3,4 +3,4 @@ project(DynamicArray)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(DynamicArray main.cpp DynamicArray.h DynamicArray.cpp)
+add_executable(DynamicArray main.cpp Example.cpp Example.h DArray.cpp DArray.h)
