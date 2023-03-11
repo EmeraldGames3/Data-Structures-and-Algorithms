@@ -21,18 +21,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b128deb-ac1e-4ebf-adb2-09dbe756ff7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Utils/Random.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/Random.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/SortingAlgorithms.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/SortingAlgorithms.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-db5ec49743a4a18d1332.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T14-26-53-0981.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Template-Debug-68a0b766f311941c7ffd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicArray/DynamicArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicArray/DynamicArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/Random.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Random.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/Random.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/SortingAlgorithms.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/SortingAlgorithms.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/SortingAlgorithms.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-4e30c7569505da4b27ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T14-46-43-0300.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Template-Debug-32dab3a089fc3d770a92.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/Utils/Random.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/Utils/Random.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Template.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Template.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +92,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1678541923438</updated>
       <workItem from="1678541924784" duration="417000" />
-      <workItem from="1678542355766" duration="2884000" />
+      <workItem from="1678542355766" duration="3165000" />
+      <workItem from="1678556878203" duration="1930000" />
     </task>
     <servers />
   </component>

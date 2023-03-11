@@ -1,4 +1,5 @@
 #include "DynamicArray.h"
+#include "../Utils/SortingAlgorithms.cpp"
 
 /**
  * @brief This is the default constructor of the class
@@ -210,4 +211,25 @@ void DynamicArray<type>::deleteFromPosition(size_t index) {
 
     if (length == capacity / 4)
         resize(capacity / 2);
+}
+
+/**
+ * @brief Sort the array
+ * TODO: Make it work
+ */
+template<typename type>
+void DynamicArray<type>::sortArray(bool reverse) {
+    bubbleSort(array, length);
+}
+
+/**
+ * @brief Print in the console the array and its length
+ */
+template<typename type>
+void DynamicArray<type>::printArray() {
+    std::cout<< "An array with the length " << length << " : ";
+    for (int i = 0; i < length; i++)
+        std::cout<< array[i] << ' ';
+
+    std::cout << std::endl;
 }

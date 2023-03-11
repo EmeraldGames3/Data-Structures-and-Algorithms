@@ -1,4 +1,5 @@
 #include <iostream>
+
 #pragma once
 
 template<typename type>
@@ -41,4 +42,8 @@ public:
     void deleteFromEnd();
 
     void deleteFromPosition(size_t index);
+
+    void sortArray(bool reverse = false);
+
+    void printArray();
 };
