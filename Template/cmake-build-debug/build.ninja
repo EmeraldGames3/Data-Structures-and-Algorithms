@@ -61,6 +61,18 @@ build CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj: CXX_COMPILER__T
   OBJECT_DIR = CMakeFiles\Template.dir
   OBJECT_FILE_DIR = CMakeFiles\Template.dir\DynamicArray
 
+build CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj: CXX_COMPILER__Template_Debug D$:/Programming/Data-Structures-and-Algorithms/Template/Utils/SortingAlgorithms.cpp || cmake_object_order_depends_target_Template
+  DEP_FILE = CMakeFiles\Template.dir\Utils\SortingAlgorithms.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Template.dir\Utils
+
+build CMakeFiles/Template.dir/Utils/Random.cpp.obj: CXX_COMPILER__Template_Debug D$:/Programming/Data-Structures-and-Algorithms/Template/Utils/Random.cpp || cmake_object_order_depends_target_Template
+  DEP_FILE = CMakeFiles\Template.dir\Utils\Random.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Template.dir\Utils
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Template
@@ -69,7 +81,7 @@ build CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj: CXX_COMPILER__T
 #############################################
 # Link the executable Template.exe
 
-build Template.exe: CXX_EXECUTABLE_LINKER__Template_Debug CMakeFiles/Template.dir/main.cpp.obj CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj
+build Template.exe: CXX_EXECUTABLE_LINKER__Template_Debug CMakeFiles/Template.dir/main.cpp.obj CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj CMakeFiles/Template.dir/Utils/Random.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Template.dir
