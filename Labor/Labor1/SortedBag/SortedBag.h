@@ -13,7 +13,8 @@ class SortedBag {
 	friend class SortedBagIterator;
 
 private:
-	//TODO - Representation
+	int length;
+
 
 public:
 	//constructor

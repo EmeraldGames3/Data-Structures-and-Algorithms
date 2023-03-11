@@ -61,12 +61,39 @@ DynamicArray<type>::DynamicArray(size_t _length, size_t _capacity, type *_array)
 }
 
 /**
+ * @brief Create an exact copy of a dynamic array
+ * @param other An object of type dynamic array
+ */
+template<typename type>
+DynamicArray<type>::DynamicArray(const DynamicArray<type> &other) {
+    length = other.length;
+    capacity = other.capacity;
+    array = new type[capacity];
+
+    for(size_t i = 0; i < length; i++){
+        array[i] = other.array[i];
+    }
+}
+
+/**
  * @brief This is the destructor of the class
  * @details Delete the dynamically allocated memory
  */
 template<typename type>
 DynamicArray<type>::~DynamicArray() {
     delete[] array;
+}
+
+/**
+ * @param index An integer corresponding to an index of the array
+ * @return True if the index is valid, false otherwise
+ */
+template<typename type>
+bool DynamicArray<type>::inRange(size_t index) {
+    if(index < 0 || index >= length)
+        return false;
+
+    return true;
 }
 
 /**
@@ -122,7 +149,7 @@ void DynamicArray<type>::automaticResize() {
  */
 template<typename type>
 type DynamicArray<type>::getElement(size_t index) {
-    if (index < 0 || index >= length)
+    if (inRange(index))
         throw std::out_of_range("index out of range");
 
     return array[index];
@@ -135,7 +162,7 @@ type DynamicArray<type>::getElement(size_t index) {
  */
 template<typename type>
 void DynamicArray<type>::setElement(size_t index, type value) {
-    if (index < 0 || index >= length)
+    if (inRange(index))
         throw std::out_of_range("index out of range");
 
     array[index] = value;
@@ -164,7 +191,7 @@ void DynamicArray<type>::addToEnd(type value) {
  */
 template<typename type>
 void DynamicArray<type>::addToPosition(size_t index, type value) {
-    if (index < 0 || index >= length)
+    if (inRange(index))
         throw std::out_of_range("index out of range");
 
     if (length == capacity)
@@ -200,7 +227,7 @@ void DynamicArray<type>::deleteFromEnd() {
  */
 template<typename type>
 void DynamicArray<type>::deleteFromPosition(size_t index) {
-    if (index < 0 || index >= length)
+    if (inRange(index))
         throw std::out_of_range("index out of range");
 
     // Shift all elements beginning from index+1 to the left
@@ -215,7 +242,6 @@ void DynamicArray<type>::deleteFromPosition(size_t index) {
 
 /**
  * @brief Sort the array
- * TODO: Make it work
  */
 template<typename type>
 void DynamicArray<type>::sortArray(bool reverse) {

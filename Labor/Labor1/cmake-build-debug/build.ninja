@@ -55,6 +55,30 @@ build CMakeFiles/Labor1.dir/App.cpp.obj: CXX_COMPILER__Labor1_Debug D$:/Programm
   OBJECT_DIR = CMakeFiles\Labor1.dir
   OBJECT_FILE_DIR = CMakeFiles\Labor1.dir
 
+build CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.obj: CXX_COMPILER__Labor1_Debug D$:/Programming/Data-Structures-and-Algorithms/Labor/Labor1/SortedBag/SortedBag.cpp || cmake_object_order_depends_target_Labor1
+  DEP_FILE = CMakeFiles\Labor1.dir\SortedBag\SortedBag.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Labor1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labor1.dir\SortedBag
+
+build CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.obj: CXX_COMPILER__Labor1_Debug D$:/Programming/Data-Structures-and-Algorithms/Labor/Labor1/SortedBagIterator/SortedBagIterator.cpp || cmake_object_order_depends_target_Labor1
+  DEP_FILE = CMakeFiles\Labor1.dir\SortedBagIterator\SortedBagIterator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Labor1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labor1.dir\SortedBagIterator
+
+build CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.obj: CXX_COMPILER__Labor1_Debug D$:/Programming/Data-Structures-and-Algorithms/Labor/Labor1/Tests/ExtendedTest.cpp || cmake_object_order_depends_target_Labor1
+  DEP_FILE = CMakeFiles\Labor1.dir\Tests\ExtendedTest.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Labor1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labor1.dir\Tests
+
+build CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.obj: CXX_COMPILER__Labor1_Debug D$:/Programming/Data-Structures-and-Algorithms/Labor/Labor1/Tests/ShortTest.cpp || cmake_object_order_depends_target_Labor1
+  DEP_FILE = CMakeFiles\Labor1.dir\Tests\ShortTest.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Labor1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Labor1.dir\Tests
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Labor1
@@ -63,7 +87,7 @@ build CMakeFiles/Labor1.dir/App.cpp.obj: CXX_COMPILER__Labor1_Debug D$:/Programm
 #############################################
 # Link the executable Labor1.exe
 
-build Labor1.exe: CXX_EXECUTABLE_LINKER__Labor1_Debug CMakeFiles/Labor1.dir/App.cpp.obj
+build Labor1.exe: CXX_EXECUTABLE_LINKER__Labor1_Debug CMakeFiles/Labor1.dir/App.cpp.obj CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.obj CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.obj CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.obj CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Labor1.dir

@@ -5,3 +5,7 @@
 410	481	7002614503443901	Template.exe	867c92cea443e115
 3	224	7002653101750935	build.ninja	82cef5815f75fad5
 9	51	7002607248791013	CMakeFiles/Template.dir/Utils/Random.cpp.obj	71a131932b84915e
+11	92	7002742729190385	CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj	1fa9472927a49013
+7	497	7002742733268278	CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj	2dff94a8fcbbc053
+3	512	7002742733418863	CMakeFiles/Template.dir/main.cpp.obj	9ad58f3e7cdf2ed0
+513	698	7002742735251220	Template.exe	867c92cea443e115

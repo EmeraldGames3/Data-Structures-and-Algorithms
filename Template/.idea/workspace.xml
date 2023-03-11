@@ -21,24 +21,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b128deb-ac1e-4ebf-adb2-09dbe756ff7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/.idea/Labor1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/App.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/ExtendedTest.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/ExtendedTest.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/ShortTest.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/ShortTest.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/SortedBag.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/SortedBag.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/SortedBagIterator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labor/Labor1/SortedBagIterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/App.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/App.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/ExtendedTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/Tests/ExtendedTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/ExtendedTest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/Tests/ExtendedTest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/ShortTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/Tests/ShortTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/ShortTest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/Tests/ShortTest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/SortedBag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/SortedBag/SortedBag.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/SortedBag.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/SortedBag/SortedBag.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/SortedBagIterator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/SortedBagIterator/SortedBagIterator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/SortedBagIterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/SortedBagIterator/SortedBagIterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-38addcf22416a988743e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T19-21-35-0836.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/.cmake/api/v1/reply/target-Labor1-Debug-31f1fccec556c0c62482.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-11T17-58-11-0153.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicArray/DynamicArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicArray/DynamicArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/SortingAlgorithms.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/SortingAlgorithms.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Template.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Template.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +113,7 @@
       <workItem from="1678556878203" duration="4148000" />
       <workItem from="1678564017042" duration="141000" />
       <workItem from="1678569772466" duration="194000" />
+      <workItem from="1678570374482" duration="2624000" />
     </task>
     <servers />
   </component>

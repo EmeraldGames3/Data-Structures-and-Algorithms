@@ -1,5 +1,5 @@
 #include "SortedBagIterator.h"
-#include "SortedBag.h"
+#include "../SortedBag/SortedBag.h"
 #include <exception>
 
 using namespace std;

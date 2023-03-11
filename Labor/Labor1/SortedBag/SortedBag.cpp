@@ -1,5 +1,5 @@
 #include "SortedBag.h"
-#include "SortedBagIterator.h"
+#include "../SortedBagIterator/SortedBagIterator.h"
 
 SortedBag::SortedBag(Relation r) {
 	//TODO - Implementation
