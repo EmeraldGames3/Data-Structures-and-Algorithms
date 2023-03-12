@@ -15,7 +15,6 @@ bool relation3(TComp r1, TComp r2) {
 	return r1 >= r2;
 }
 
-
 void testCreate() {
 	cout << "Test create" << endl;
 	SortedBag sb(relation2);
@@ -31,6 +30,7 @@ void testCreate() {
 	for (int i = -10; i < 30; i++) {
 		assert(sb.nrOccurrences(i) == 0);
 	}
+
 	SortedBagIterator it = sb.iterator();
 	assert(it.valid() == false);
 	try {
@@ -225,7 +225,7 @@ void testQuantity(Relation r) {
 	cout << "Test quantity" << endl;
 	SortedBag sb(r);
 	for (int j = 0; j < 10; j++) {
-		sb.add(0);		
+		sb.add(0);
 		for (int i = 1; i < 300; i++) {
 			sb.add(i);
 			sb.add(-i);
@@ -288,7 +288,7 @@ void testIterator(Relation rel) {
 void testAllExtended() {
 	testCreate();
 	testAdd(relation2);
-	testAdd(relation3);	
+	testAdd(relation3);
 	testRemove(relation2);
 	testRemove(relation3);
 	testIterator(relation2);

@@ -16,15 +16,22 @@ SortedBag::SortedBag(Relation r) {
 /**
  * Add an element to the array
  * @param e An element of type TComp
- * @complexity O(n) as it correspondences to the complexity of the sort function
+ * @complexity O(n)
  */
 void SortedBag::add(TComp e) {
+    // Increase the length of the array and resize it if needed
     length++;
-    automaticResize();//Resize the array if needed
+    automaticResize();
 
-    //Add the element to the end of the array and sort the array again
-    dynamicArray[length - 1] = e;
-    sort();
+    // Find the correct position for the new element
+    int position = length - 1;
+    while (position > 0 && relation(e, dynamicArray[position - 1])) {
+        dynamicArray[position] = dynamicArray[position - 1];
+        position--;
+    }
+
+    // Insert the new element in the correct position
+    dynamicArray[position] = e;
 }
 
 /**
@@ -56,15 +63,9 @@ bool SortedBag::remove(TComp e) {
 bool SortedBag::search(TComp elem) const {
     if (isEmpty()) return false;
 
-    int left = 0;
-    int right = length - 1;
-
-    while (left <= right) {
-        int middle = (left + right) / 2;
-        if (dynamicArray[middle] == elem) return true;
-        if (relation(dynamicArray[middle], elem)) left = middle + 1;
-        else right = middle - 1;
-    }
+    for (int i = 0; i < length; i++)
+        if (elem == dynamicArray[i])
+            return true;
 
     return false;
 }
@@ -78,7 +79,9 @@ int SortedBag::nrOccurrences(TComp elem) const {
     if (isEmpty()) return 0; // The array is empty
 
     int counter = 0;
-    for (int i = 0; i < length; i++) if (elem == dynamicArray[i]) counter++;
+    for (int i = 0; i < length; i++)
+        if (elem == dynamicArray[i])
+            counter++;
 
     return counter;
 }
@@ -98,9 +101,10 @@ bool SortedBag::isEmpty() const {
     return false;
 }
 
-SortedBagIterator SortedBag::iterator() const {
-    return SortedBagIterator(*this);
-}
+/**
+ * @return An iterator for this sorted bag
+ */
+SortedBagIterator SortedBag::iterator() const { return SortedBagIterator(*this); }
 
 /**
  * Class destructor
@@ -108,19 +112,18 @@ SortedBagIterator SortedBag::iterator() const {
 SortedBag::~SortedBag() { delete[] dynamicArray; }
 
 /**
- * Sort the array using the insertion-sort algorithm
- * @complexity θ(n), i am not 100% sure how this is linear but, i found it on the internet
+ * @deprecated
+ * Sort the array using the bubble-sort algorithm
+ * @complexity O(n^2)
  */
 void SortedBag::sort() {
-    for (int i = 1; i < length; i++) {
-        TElem key = dynamicArray[i];
-        int j = i - 1;
-        while (j >= 0 && relation(dynamicArray[j], key)) {
-            dynamicArray[j + 1] = dynamicArray[j];
-            j--;
-        }
-        dynamicArray[j + 1] = key;
-    }
+    for (int i = 0; i < length - 1; i++)
+        for (int j = 0; j < length - 1; j++)
+            if (!relation(dynamicArray[j], dynamicArray[j + 1])) {
+                TElem temp = dynamicArray[j + 1];
+                dynamicArray[j + 1] = dynamicArray[j];
+                dynamicArray[j] = temp;
+            }
 }
 
 /**

@@ -4,25 +4,30 @@
 
 using namespace std;
 
-SortedBagIterator::SortedBagIterator(const SortedBag& b) : bag(b) {
-	//TODO - Implementation
+SortedBagIterator::SortedBagIterator(const SortedBag &b) : bag(b) {
+    current = 0;
 }
 
 TComp SortedBagIterator::getCurrent() {
-	//TODO - Implementation
-	return NULL_TCOMP;
+    if (!valid()) throw exception(); // if the iterator is not valid, throw an exception
+    return bag.dynamicArray[current];
 }
 
 bool SortedBagIterator::valid() {
-	//TODO - Implementation
-	return false;
+    if(bag.isEmpty())
+        return false;
+    if(current < 0 || current >= bag.length)
+        return false;
+    return true;
 }
 
 void SortedBagIterator::next() {
-	//TODO - Implementation
+    if (current == bag.length) throw exception();
+    current++;
 }
 
 void SortedBagIterator::first() {
-	//TODO - Implementation
+    if (bag.isEmpty()) throw exception();
+    current = 0;
 }
 
