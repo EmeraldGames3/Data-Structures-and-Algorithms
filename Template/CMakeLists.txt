@@ -3,4 +3,4 @@ project(Template)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Template main.cpp DynamicArray/DynamicArray.h DynamicArray/DynamicArray.cpp Utils/SortingAlgorithms.cpp Utils/Random.cpp)
+add_executable(Template main.cpp DynamicArray/DynamicArray.h DynamicArray/DynamicArray.cpp Utils/SortingAlgorithms.cpp Utils/Swap.cpp DynamicArray/DynamicArrayIterator.cpp DynamicArray/DynamicArrayIterator.h)

@@ -3,7 +3,12 @@
 #pragma once
 
 template<typename type>
+class DynamicArrayIterator;
+
+template<typename type>
 class DynamicArray {
+    friend class DynamicArrayIterator<type>;
+
 private:
     type *array;
     size_t length{};
@@ -36,10 +41,7 @@ public:
 
     //Overload the '[]' operator
     int &operator[](int index) {
-        if (index < 0 || index >= length) {
-            throw std::out_of_range("Index out of range");
-        }
-
+        if (index < 0 || index >= length)throw std::out_of_range("Index out of range");
         return array[index];
     }
 
@@ -58,11 +60,11 @@ public:
         return *this;
     }
 
-    //Overload the '+' operator
-    DynamicArray<type> &operator+(const DynamicArray<type> &other) {
+//Overload the '+' operator
+    DynamicArray<type> operator+(const DynamicArray<type> &other) {
         size_t newLength = this->length + other.length;
         size_t newCapacity = this->capacity + other.capacity;
-        type* newArray = new type[newCapacity];
+        type *newArray = new type[newCapacity];
 
         for (size_t i = 0; i < this->length; i++)
             newArray[i] = this->array[i];
@@ -75,8 +77,28 @@ public:
         return result;
     }
 
+    //Overload the '==' operator
+    bool operator==(const DynamicArray<type> &other) const{
+        if(this->length != other.length) return false;
+
+        DynamicArray<type> copyOfThis = DynamicArray<type>(length, capacity, array);
+        DynamicArray<type> copyOfOther = DynamicArray<type>(other);
+
+        copyOfOther.sortArray();
+        copyOfThis.sortArray();
+
+        for(int i = 0; i < length; i++)
+            if(copyOfThis[i] != copyOfOther[i])
+                return false;
+
+        return true;
+    }
+
     //Return the size of the array
     size_t size();
+
+    //Return the current capacity of the array
+    size_t getCapacity();
 
     //Resize the array
     void resize(size_t newCapacity);

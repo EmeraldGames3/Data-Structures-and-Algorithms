@@ -1,11 +1,16 @@
 # ninja log v5
-12	57	7002614499209497	CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj	1fa9472927a49013
-8	388	7002614502532772	CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj	2dff94a8fcbbc053
-2	409	7002614502753745	CMakeFiles/Template.dir/main.cpp.obj	9ad58f3e7cdf2ed0
-410	481	7002614503443901	Template.exe	867c92cea443e115
-3	224	7002653101750935	build.ninja	82cef5815f75fad5
+6	412	7002813786809792	CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj	2dff94a8fcbbc053
+9	51	7002806970694265	CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj	1fa9472927a49013
+13	51	7002806970683748	CMakeFiles/Template.dir/Utils/Swap.cpp.obj	2e485b124dbbf67f
+3	418	7002815504319615	CMakeFiles/Template.dir/main.cpp.obj	9ad58f3e7cdf2ed0
+418	494	7002815505050499	Template.exe	dcea3bfc52be562c
+5	213	7002817899773129	build.ninja	82cef5815f75fad5
 9	51	7002607248791013	CMakeFiles/Template.dir/Utils/Random.cpp.obj	71a131932b84915e
-11	92	7002742729190385	CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj	1fa9472927a49013
-7	497	7002742733268278	CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj	2dff94a8fcbbc053
-3	512	7002742733418863	CMakeFiles/Template.dir/main.cpp.obj	9ad58f3e7cdf2ed0
-513	698	7002742735251220	Template.exe	867c92cea443e115
+10	411	7002821245252689	CMakeFiles/Template.dir/DynamicArray/DynamicArrayIterator.cpp.obj	e761469acee6220d
+7	412	7002821245263312	CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj	2dff94a8fcbbc053
+3	433	7002821245483760	CMakeFiles/Template.dir/main.cpp.obj	9ad58f3e7cdf2ed0
+433	508	7002821246193924	Template.exe	879188ecd72738f4
+11	414	7002824485367007	CMakeFiles/Template.dir/DynamicArray/DynamicArrayIterator.cpp.obj	e761469acee6220d
+7	415	7002824485377010	CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj	2dff94a8fcbbc053
+3	437	7002824485607066	CMakeFiles/Template.dir/main.cpp.obj	9ad58f3e7cdf2ed0
+437	519	7002824486387242	Template.exe	879188ecd72738f4

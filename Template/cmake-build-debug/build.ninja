@@ -67,11 +67,17 @@ build CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj: CXX_COMPILER__Tem
   OBJECT_DIR = CMakeFiles\Template.dir
   OBJECT_FILE_DIR = CMakeFiles\Template.dir\Utils
 
-build CMakeFiles/Template.dir/Utils/Random.cpp.obj: CXX_COMPILER__Template_Debug D$:/Programming/Data-Structures-and-Algorithms/Template/Utils/Random.cpp || cmake_object_order_depends_target_Template
-  DEP_FILE = CMakeFiles\Template.dir\Utils\Random.cpp.obj.d
+build CMakeFiles/Template.dir/Utils/Swap.cpp.obj: CXX_COMPILER__Template_Debug D$:/Programming/Data-Structures-and-Algorithms/Template/Utils/Swap.cpp || cmake_object_order_depends_target_Template
+  DEP_FILE = CMakeFiles\Template.dir\Utils\Swap.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\Template.dir
   OBJECT_FILE_DIR = CMakeFiles\Template.dir\Utils
+
+build CMakeFiles/Template.dir/DynamicArray/DynamicArrayIterator.cpp.obj: CXX_COMPILER__Template_Debug D$:/Programming/Data-Structures-and-Algorithms/Template/DynamicArray/DynamicArrayIterator.cpp || cmake_object_order_depends_target_Template
+  DEP_FILE = CMakeFiles\Template.dir\DynamicArray\DynamicArrayIterator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Template.dir\DynamicArray
 
 
 # =============================================================================
@@ -81,7 +87,7 @@ build CMakeFiles/Template.dir/Utils/Random.cpp.obj: CXX_COMPILER__Template_Debug
 #############################################
 # Link the executable Template.exe
 
-build Template.exe: CXX_EXECUTABLE_LINKER__Template_Debug CMakeFiles/Template.dir/main.cpp.obj CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj CMakeFiles/Template.dir/Utils/Random.cpp.obj
+build Template.exe: CXX_EXECUTABLE_LINKER__Template_Debug CMakeFiles/Template.dir/main.cpp.obj CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj CMakeFiles/Template.dir/Utils/Swap.cpp.obj CMakeFiles/Template.dir/DynamicArray/DynamicArrayIterator.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Template.dir
