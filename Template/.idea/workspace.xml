@@ -21,14 +21,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b128deb-ac1e-4ebf-adb2-09dbe756ff7f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-12T12-59-24-0511.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/SortedBag/SortedBag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/SortedBag/SortedBag.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/SortedBag/SortedBag.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/SortedBag/SortedBag.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Labor/Labor1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicArray/DynamicArray.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicArray/DynamicArrayIterator.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DynamicArray/DynamicArrayIterator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-12T12-33-35-0411.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/DynamicArray/DynamicArrayIterator.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Template.dir/DynamicArray/DynamicArrayIterator.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Template.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Template.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
@@ -77,6 +78,11 @@
   }
 }</component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Template" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Template" TARGET_NAME="Template" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Template" RUN_TARGET_NAME="Template">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />

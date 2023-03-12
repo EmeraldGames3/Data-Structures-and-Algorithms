@@ -14,9 +14,24 @@ class SortedBag {
 
 private:
 	int length;
+    int capacity;
+    TElem *dynamicArray;
+    Relation relation;
 
+    //sorts the array
+    void sort();
+
+    //Resize the dynamicArray
+    void resize(int newCapacity);
+
+    //Automatically resize the dynamicArray
+    void automaticResize();
+
+    //Test if a given index is valid
+    bool inRange(int index) const;
 
 public:
+
 	//constructor
 	SortedBag(Relation r);
 

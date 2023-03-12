@@ -1,13 +1,12 @@
 # ninja log v5
 9	54	7003120652602460	CMakeFiles/Template.dir/Utils/Swap.cpp.obj	2e485b124dbbf67f
 16	60	7003120652652930	CMakeFiles/Template.dir/Utils/SortingAlgorithms.cpp.obj	1fa9472927a49013
-7	401	7003251369537735	CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj	2dff94a8fcbbc053
-6	395	7003253494538820	CMakeFiles/Template.dir/DynamicArray/DynamicArrayIterator.cpp.obj	e761469acee6220d
-3	438	7003120656433756	CMakeFiles/Template.dir/main.cpp.obj	9ad58f3e7cdf2ed0
-438	512	7003120657153926	Template.exe	879188ecd72738f4
-5	213	7003276153741942	build.ninja	82cef5815f75fad5
-9	51	7002607248791013	CMakeFiles/Template.dir/Utils/Random.cpp.obj	71a131932b84915e
-2	274	7003276153741942	build.ninja	82cef5815f75fad5
-3	536	7003276394359416	CMakeFiles/Template.dir/main.cpp.obj	9ad58f3e7cdf2ed0
 8	549	7003276394499451	CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj	2dff94a8fcbbc053
+6	395	7003253494538820	CMakeFiles/Template.dir/DynamicArray/DynamicArrayIterator.cpp.obj	e761469acee6220d
+3	536	7003276394359416	CMakeFiles/Template.dir/main.cpp.obj	9ad58f3e7cdf2ed0
 549	703	7003276395989787	Template.exe	dcea3bfc52be562c
+2	274	7003291644458821	build.ninja	82cef5815f75fad5
+9	51	7002607248791013	CMakeFiles/Template.dir/Utils/Random.cpp.obj	71a131932b84915e
+7	397	7003291744160312	CMakeFiles/Template.dir/DynamicArray/DynamicArray.cpp.obj	2dff94a8fcbbc053
+3	416	7003291744360752	CMakeFiles/Template.dir/main.cpp.obj	9ad58f3e7cdf2ed0
+416	501	7003291745170943	Template.exe	dcea3bfc52be562c
