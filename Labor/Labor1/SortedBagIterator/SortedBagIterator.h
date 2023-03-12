@@ -1,22 +1,25 @@
 #pragma once
+
 #include "../SortedBag/SortedBag.h"
 
 class SortedBag;
 
-class SortedBagIterator
-{
-	friend class SortedBag;
+class SortedBagIterator {
+    friend class SortedBag;
 
 private:
-	const SortedBag& bag;
-	SortedBagIterator(const SortedBag& b);
+    int current;
+    const SortedBag &bag;
 
-	//TODO - Representation
+    SortedBagIterator(const SortedBag &b);
 
 public:
-	TComp getCurrent();
-	bool valid();
-	void next();
-	void first();
+    TComp getCurrent();
+
+    bool valid();
+
+    void next();
+
+    void first();
 };
 

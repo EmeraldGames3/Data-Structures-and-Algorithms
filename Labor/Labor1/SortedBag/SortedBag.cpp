@@ -13,10 +13,16 @@ SortedBag::SortedBag(Relation r) {
     relation = r;
 }
 
+/**
+ * Add an element to the array
+ * @param e An element of type TComp
+ * @complexity O(n) as it correspondences to the complexity of the sort function
+ */
 void SortedBag::add(TComp e) {
     length++;
-    automaticResize();
+    automaticResize();//Resize the array if needed
 
+    //Add the element to the end of the array and sort the array again
     dynamicArray[length - 1] = e;
     sort();
 }
@@ -24,7 +30,6 @@ void SortedBag::add(TComp e) {
 /**
  * @param e An element of type TComp
  * @return true if e was deleted from the array, false otherwise
- *
  * @complexity O(n)
  */
 bool SortedBag::remove(TComp e) {
@@ -35,26 +40,31 @@ bool SortedBag::remove(TComp e) {
     if (i == length) return false;//E is not in the array
 
     //Shift all elements that come one position after e to the right so that e becomes the last element
-    for (int j = i; j < length - 1; j++)
-        dynamicArray[j] = dynamicArray[j + 1];
+    for (int j = i; j < length - 1; j++) dynamicArray[j] = dynamicArray[j + 1];
 
     //Delete e by decrementing the length of the array
     length--;
+    automaticResize(); // Resize the array if needed
     return true;
 }
 
 /**
  * @param elem A variable of type TComp
  * @return true if the element is present in the list, false otherwise
- *
- * @complexity O(n)
+ * @complexity O(log n), as we use binary search
  */
 bool SortedBag::search(TComp elem) const {
     if (isEmpty()) return false;
 
-    for (int i = 0; i < length; i++)
-        if (elem == dynamicArray[i])
-            return true;
+    int left = 0;
+    int right = length - 1;
+
+    while (left <= right) {
+        int middle = (left + right) / 2;
+        if (dynamicArray[middle] == elem) return true;
+        if (relation(dynamicArray[middle], elem)) left = middle + 1;
+        else right = middle - 1;
+    }
 
     return false;
 }
@@ -62,16 +72,13 @@ bool SortedBag::search(TComp elem) const {
 /**
  * @param elem A variable of type TComp
  * @return The amount of times the element appears in the array
- *
  * @complexity O(n)
  */
 int SortedBag::nrOccurrences(TComp elem) const {
     if (isEmpty()) return 0; // The array is empty
 
     int counter = 0;
-    for (int i = 0; i < length; i++)
-        if (elem == dynamicArray[i])
-            counter++;
+    for (int i = 0; i < length; i++) if (elem == dynamicArray[i]) counter++;
 
     return counter;
 }
@@ -101,34 +108,31 @@ SortedBagIterator SortedBag::iterator() const {
 SortedBag::~SortedBag() { delete[] dynamicArray; }
 
 /**
- * Sort the array using the bubble-sort algorithm
- * @complexity O(n^2)
+ * Sort the array using the insertion-sort algorithm
+ * @complexity θ(n), i am not 100% sure how this is linear but, i found it on the internet
  */
 void SortedBag::sort() {
-    for (int i = 0; i < length - 1; i++) {
-        for (int j = 0; j < length - 1; j++) {
-            if (relation(dynamicArray[j], dynamicArray[j + 1])) {
-                TElem temp = dynamicArray[j];
-                dynamicArray[j] = dynamicArray[j + 1];
-                dynamicArray[j + 1] = temp;
-            }
+    for (int i = 1; i < length; i++) {
+        TElem key = dynamicArray[i];
+        int j = i - 1;
+        while (j >= 0 && relation(dynamicArray[j], key)) {
+            dynamicArray[j + 1] = dynamicArray[j];
+            j--;
         }
+        dynamicArray[j + 1] = key;
     }
 }
 
 /**
  * Resize the array to a new capacity
  * @throws out_of_range if newCapacity < length
- *
  * @complexity θ(n)
  */
 void SortedBag::resize(int newCapacity) {
     if (newCapacity < length) throw std::out_of_range("Index out of range");
 
     auto *newArray = new TElem[newCapacity];
-    for (size_t i = 0; i < length; i++) {
-        newArray[i] = dynamicArray[i];
-    }
+    for (size_t i = 0; i < length; i++) newArray[i] = dynamicArray[i];
 
     delete[] dynamicArray;
     dynamicArray = newArray;
@@ -140,23 +144,9 @@ void SortedBag::resize(int newCapacity) {
  * @details If capacity == length a new block of memory is allocated for the dynamic array with enough space
  * and the old one is deleted. If the length of the array becomes equal to one quarter of the capacity the array is
  * resized to half its capacity as not to waste too much memory
- *
  * @complexity θ(1)
  */
 void SortedBag::automaticResize() {
-    if (length == capacity)
-        resize(capacity * 2);
-
-    if (length <= capacity / 4)
-        resize(capacity / 2);
-}
-
-/**
- * @return True if the index is valid, false otherwise
- *
- * @complexity θ(1)
- */
-bool SortedBag::inRange(int index) const {
-    if (index < 0 || index >= length) return false;
-    return true;
+    if (length == capacity) resize(capacity * 2);
+    if (length <= capacity / 4 && capacity >= 10) resize(capacity / 2);
 }
