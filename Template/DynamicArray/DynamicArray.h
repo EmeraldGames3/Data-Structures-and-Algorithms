@@ -9,7 +9,6 @@ private:
     type *array;
     size_t length{};
     size_t capacity{};
-    DynamicArrayIterator<type> iterator = DynamicArrayIterator<type>(DynamicArray<type>());
 
     //Automatically resize the array
     void automaticResize();
