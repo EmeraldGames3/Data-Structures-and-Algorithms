@@ -3,16 +3,13 @@
 #pragma once
 
 template<typename type>
-class DynamicArrayIterator;
-
-template<typename type>
 class DynamicArray {
-    friend class DynamicArrayIterator<type>;
 
 private:
     type *array;
     size_t length{};
     size_t capacity{};
+    DynamicArrayIterator<type> iterator = DynamicArrayIterator<type>(DynamicArray<type>());
 
     //Automatically resize the array
     void automaticResize();
