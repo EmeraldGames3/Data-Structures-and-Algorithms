@@ -11,5 +11,5 @@ int main() {
 	testAllExtended();
 	
 	cout << "Test over" << endl;
-	system("pause");
+//	system("pause"); It doesn't work for some reason TODO: Find out why and fix it
 }

@@ -58,7 +58,8 @@ bool SortedBag::remove(TComp e) {
 /**
  * @param elem A variable of type TComp
  * @return true if the element is present in the list, false otherwise
- * @complexity O(log n), as we use binary search
+ * @complexity O(n)
+ * TODO: use binary search
  */
 bool SortedBag::search(TComp elem) const {
     if (isEmpty()) return false;
@@ -73,7 +74,8 @@ bool SortedBag::search(TComp elem) const {
 /**
  * @param elem A variable of type TComp
  * @return The amount of times the element appears in the array
- * @complexity O(n)
+ * @complexity θ(n)
+ * TODO: use binary search?
  */
 int SortedBag::nrOccurrences(TComp elem) const {
     if (isEmpty()) return 0; // The array is empty
@@ -112,7 +114,7 @@ SortedBagIterator SortedBag::iterator() const { return SortedBagIterator(*this);
 SortedBag::~SortedBag() { delete[] dynamicArray; }
 
 /**
- * @deprecated
+ * @deprecated This function is legacy code and should not be used
  * Sort the array using the bubble-sort algorithm
  * @complexity O(n^2)
  */

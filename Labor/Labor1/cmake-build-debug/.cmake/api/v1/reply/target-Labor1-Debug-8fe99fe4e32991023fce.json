@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Labor1.exe"
-		},
-		{
-			"path" : "Labor1.pdb"
+			"path" : "Labor1"
 		}
 	],
 	"backtrace" : 1,
@@ -75,16 +72,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Labor1",
-	"nameOnDisk" : "Labor1.exe",
+	"nameOnDisk" : "Labor1",
 	"paths" : 
 	{
 		"build" : ".",

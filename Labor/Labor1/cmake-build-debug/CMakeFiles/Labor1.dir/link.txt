@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Labor1.dir/App.cpp.o CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.o CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.o CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.o CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.o -o Labor1 
