@@ -29,6 +29,9 @@ private:
     //Automatically resize the dynamicArray
     void automaticResize();
 
+    //Perform a binary search on the array
+    int binarySearch(int element) const;
+
 public:
 
     //constructor

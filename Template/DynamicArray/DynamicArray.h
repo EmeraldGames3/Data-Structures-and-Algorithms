@@ -56,7 +56,7 @@ public:
         return *this;
     }
 
-//Overload the '+' operator
+    //Overload the '+' operator
     DynamicArray<type> operator+(const DynamicArray<type> &other) {
         size_t newLength = this->length + other.length;
         size_t newCapacity = this->capacity + other.capacity;
