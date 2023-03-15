@@ -33,7 +33,7 @@ DynamicArray<type>::DynamicArray(size_t _length) {
  * @details The capacity of the array is equal to 2 * (length + 1)
  */
 template<typename type>
-DynamicArray<type>::DynamicArray(size_t _length, type *_array) {
+[[maybe_unused]] DynamicArray<type>::DynamicArray(size_t _length, type *_array) {
     length = _length;
     capacity = 2 * (length + 1);
     array = new type[capacity];

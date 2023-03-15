@@ -24,7 +24,7 @@ public:
     explicit DynamicArray(size_t _length);
 
     //constructor with 2 parameters
-    DynamicArray(size_t _length, type *array);
+    [[maybe_unused]] DynamicArray(size_t _length, type *array);
 
     //constructor with 3 parameters
     DynamicArray(size_t _length, size_t _capacity, type *array);

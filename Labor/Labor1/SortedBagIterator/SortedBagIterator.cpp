@@ -8,7 +8,7 @@ using namespace std;
  * @param b A SortedBag
  * @complexity θ(1)
  */
-SortedBagIterator::SortedBagIterator(const SortedBag &b) : bag(b) { current = 0; }
+SortedBagIterator::SortedBagIterator(const SortedBag &b) : bag(b) { this->current = 0; }
 
 /**
  * @return The element corresponding to the current value of the iterator
@@ -17,7 +17,7 @@ SortedBagIterator::SortedBagIterator(const SortedBag &b) : bag(b) { current = 0;
  */
 TComp SortedBagIterator::getCurrent() {
     if (!valid()) throw exception(); // if the iterator is not valid, throw an exception
-    return bag.dynamicArray[current];
+    return this->bag.dynamicArray[current];
 }
 
 /**
@@ -25,8 +25,8 @@ TComp SortedBagIterator::getCurrent() {
  * @complexity θ(1)
  */
 bool SortedBagIterator::valid() {
-    if (bag.isEmpty()) return false;
-    if (current < 0 || current >= bag.length) return false;
+    if (this->bag.isEmpty()) return false;
+    if (this->current < 0 || this->current >= this->bag.length) return false;
     return true;
 }
 
@@ -35,8 +35,8 @@ bool SortedBagIterator::valid() {
  * @complexity θ(1)
  */
 void SortedBagIterator::next() {
-    if (current == bag.length) throw exception();
-    current++;
+    if (this->current == this->bag.length) throw exception();
+    this->current++;
 }
 
 /**
@@ -45,7 +45,6 @@ void SortedBagIterator::next() {
  * @complexity θ(1)
  */
 void SortedBagIterator::first() {
-    if (bag.isEmpty()) throw exception();
-    current = 0;
+    if (this->bag.isEmpty()) throw exception();
+    this->current = 0;
 }
-

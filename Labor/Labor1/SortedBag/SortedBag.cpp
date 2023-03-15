@@ -8,31 +8,31 @@
  * @complexity θ(1), for every case this function executes a constant amount of steps
  */
 SortedBag::SortedBag(Relation r) {
-    length = 0;
-    capacity = 10;
-    dynamicArray = new TElem[capacity];
-    relation = r;
+    this->length = 0;
+    this->capacity = 10;
+    this->dynamicArray = new TElem[capacity];
+    this->relation = r;
 }
 
 /**
  * Add an element to the array
  * @param e An element of type TComp
- * @complexity θ(n)m for every case this function executes n steps
+ * @complexity θ(n) for every case this function executes n steps
  */
 void SortedBag::add(TComp e) {
     // Increase the length of the array and resize it if needed
-    length++;
+    this->length++;
     automaticResize();
 
     // Find the correct position for the new element
-    int position = length - 1;
-    while (position > 0 && relation(e, dynamicArray[position - 1])) {
-        dynamicArray[position] = dynamicArray[position - 1];
+    int position = this->length - 1;
+    while (position > 0 && this->relation(e, this->dynamicArray[position - 1])) {
+        this->dynamicArray[position] = this->dynamicArray[position - 1];
         position--;
     }
 
     // Insert the new element in the correct position
-    dynamicArray[position] = e;
+    this->dynamicArray[position] = e;
 }
 
 /**
@@ -44,14 +44,16 @@ bool SortedBag::remove(TComp e) {
     int i = 0;
 
     //Find the position of e
-    while (i < length && dynamicArray[i] != e) i++;
-    if (i == length) return false;//E is not in the array
+    while (i < this->length && this->dynamicArray[i] != e)
+        i++;
+    if (i == this->length) return false;//E is not in the array
 
     //Shift all elements that come one position after e to the right so that e becomes the last element
-    for (int j = i; j < length - 1; j++) dynamicArray[j] = dynamicArray[j + 1];
+    for (int j = i; j < this->length - 1; j++)
+        this->dynamicArray[j] = this->dynamicArray[j + 1];
 
     //Delete e by decrementing the length of the array
-    length--;
+    this->length--;
     automaticResize(); // Resize the array if needed
     return true;
 }
@@ -65,7 +67,7 @@ bool SortedBag::remove(TComp e) {
  */
 bool SortedBag::search(TComp elem) const {
     if (isEmpty()) return false;
-    if(binarySearch(elem) < 0) return false;
+    if (binarySearch(elem) < 0) return false;
     return true;
 }
 
@@ -79,23 +81,23 @@ bool SortedBag::search(TComp elem) const {
 int SortedBag::nrOccurrences(TComp elem) const {
     if (isEmpty()) return 0; // The array is empty
 
+    //perform a binary search
     int indexElement = binarySearch(elem);
-    if(indexElement < 0) return 0;
+    if (indexElement < 0) return 0; // The element is not in the array
 
     int counter = 1;
+    // search to the right of the found position
     int i = indexElement + 1;
-
-    while(elem == dynamicArray[i] && i < length){
+    while (elem == this->dynamicArray[i] && i < this->length) {
         counter++;
         i++;
     }
-
+    //search to the left of the found position
     i = indexElement - 1;
-    while(elem == dynamicArray[i] && i >= 0){
+    while (elem == this->dynamicArray[i] && i >= 0) {
         counter++;
         i--;
     }
-
     return counter;
 }
 
@@ -103,14 +105,14 @@ int SortedBag::nrOccurrences(TComp elem) const {
  * @return The length of the array
  * @complexity θ(1), for every case this function executes a constant amount of steps
  */
-int SortedBag::size() const { return length; }
+int SortedBag::size() const { return this->length; }
 
 /**
  * @return true if the array is empty, false otherwise
  * @complexity θ(1), for every case this function executes a constant amount of steps
  */
 bool SortedBag::isEmpty() const {
-    if (length <= 0) return true;
+    if (this->length <= 0) return true;
     return false;
 }
 
@@ -124,7 +126,7 @@ SortedBagIterator SortedBag::iterator() const { return SortedBagIterator(*this);
  * Class destructor
  * @complexity θ(n), for every case this function executes exactly n steps
  */
-SortedBag::~SortedBag() { delete[] dynamicArray; }
+SortedBag::~SortedBag() { delete[] this->dynamicArray; }
 
 /**
  * @deprecated This function is legacy code and should not be used
@@ -134,12 +136,12 @@ SortedBag::~SortedBag() { delete[] dynamicArray; }
  * @complexityO θ(n^2)
  */
 void SortedBag::sort() {
-    for (int i = 0; i < length - 1; i++)
-        for (int j = 0; j < length - 1; j++)
-            if (!relation(dynamicArray[j], dynamicArray[j + 1])) {
-                TElem temp = dynamicArray[j + 1];
-                dynamicArray[j + 1] = dynamicArray[j];
-                dynamicArray[j] = temp;
+    for (int i = 0; i < this->length - 1; i++)
+        for (int j = 0; j < this->length - 1; j++)
+            if (!this->relation(this->dynamicArray[j], this->dynamicArray[j + 1])) {
+                TElem temp = this->dynamicArray[j + 1];
+                this->dynamicArray[j + 1] = this->dynamicArray[j];
+                this->dynamicArray[j] = temp;
             }
 }
 
@@ -149,14 +151,15 @@ void SortedBag::sort() {
  * @complexity θ(n), for every case this function performs exactly n steps
  */
 void SortedBag::resize(int newCapacity) {
-    if (newCapacity < length) throw std::out_of_range("Index out of range");
+    if (newCapacity < this->length) throw std::out_of_range("Index out of range");
 
     auto *newArray = new TElem[newCapacity];
-    for (size_t i = 0; i < length; i++) newArray[i] = dynamicArray[i];
+    for (size_t i = 0; i < this->length; i++)
+        newArray[i] = this->dynamicArray[i];
 
-    delete[] dynamicArray;
-    dynamicArray = newArray;
-    capacity = newCapacity;
+    delete[] this->dynamicArray;
+    this->dynamicArray = newArray;
+    this->capacity = newCapacity;
 }
 
 /**
@@ -169,8 +172,8 @@ void SortedBag::resize(int newCapacity) {
  * @complexityO θ(n)
  */
 void SortedBag::automaticResize() {
-    if (length == capacity) resize(capacity * 2);
-    if (length <= capacity / 4 && capacity >= 10) resize(capacity / 2);
+    if (this->length == this->capacity) resize(this->capacity * 2);
+    if (this->length <= this->capacity / 4 && this->capacity >= 10) resize(this->capacity / 2);
 }
 
 /**
@@ -181,18 +184,17 @@ void SortedBag::automaticResize() {
  * @complexityθ θ(log n)
  * @complexityO θ(log n)
  */
-int SortedBag::binarySearch(int element) const{
+int SortedBag::binarySearch(int element) const {
     int left = 0;
-    int right = length - 1;
+    int right = this->length - 1;
 
     while (left <= right) {
         int mid = left + (right - left) / 2;
-        if (dynamicArray[mid] == element) {
+        if (this->dynamicArray[mid] == element) {
             return mid; // Found target, return index
-        } else
-            if (relation(dynamicArray[mid], element)) {
+        } else if (this->relation(this->dynamicArray[mid], element)) {
             left = mid + 1; // Target is in right half
-            } else {
+        } else {
             right = mid - 1; // Target is in left half
         }
     }
