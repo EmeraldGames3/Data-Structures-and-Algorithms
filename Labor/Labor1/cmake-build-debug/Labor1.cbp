@@ -85,28 +85,28 @@
 		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/App.cpp">
 			<Option target="Labor1"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBag/SortedBag.cpp">
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ExtendedTest.cpp">
 			<Option target="Labor1"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBag/SortedBag.h">
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ExtendedTest.h">
 			<Option target="Labor1"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBagIterator/SortedBagIterator.cpp">
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ShortTest.cpp">
 			<Option target="Labor1"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBagIterator/SortedBagIterator.h">
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ShortTest.h">
 			<Option target="Labor1"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/Tests/ExtendedTest.cpp">
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBag.cpp">
 			<Option target="Labor1"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/Tests/ExtendedTest.h">
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBag.h">
 			<Option target="Labor1"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/Tests/ShortTest.cpp">
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBagIterator.cpp">
 			<Option target="Labor1"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/Tests/ShortTest.h">
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBagIterator.h">
 			<Option target="Labor1"/>
 		</Unit>
 		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/CMakeLists.txt">

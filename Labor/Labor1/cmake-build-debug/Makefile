@@ -153,101 +153,101 @@ App.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/App.cpp.s
 .PHONY : App.cpp.s
 
-SortedBag/SortedBag.o: SortedBag/SortedBag.cpp.o
-.PHONY : SortedBag/SortedBag.o
+ExtendedTest.o: ExtendedTest.cpp.o
+.PHONY : ExtendedTest.o
 
 # target to build an object file
-SortedBag/SortedBag.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.o
-.PHONY : SortedBag/SortedBag.cpp.o
+ExtendedTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/ExtendedTest.cpp.o
+.PHONY : ExtendedTest.cpp.o
 
-SortedBag/SortedBag.i: SortedBag/SortedBag.cpp.i
-.PHONY : SortedBag/SortedBag.i
+ExtendedTest.i: ExtendedTest.cpp.i
+.PHONY : ExtendedTest.i
 
 # target to preprocess a source file
-SortedBag/SortedBag.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.i
-.PHONY : SortedBag/SortedBag.cpp.i
+ExtendedTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/ExtendedTest.cpp.i
+.PHONY : ExtendedTest.cpp.i
 
-SortedBag/SortedBag.s: SortedBag/SortedBag.cpp.s
-.PHONY : SortedBag/SortedBag.s
+ExtendedTest.s: ExtendedTest.cpp.s
+.PHONY : ExtendedTest.s
 
 # target to generate assembly for a file
-SortedBag/SortedBag.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.s
-.PHONY : SortedBag/SortedBag.cpp.s
+ExtendedTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/ExtendedTest.cpp.s
+.PHONY : ExtendedTest.cpp.s
 
-SortedBagIterator/SortedBagIterator.o: SortedBagIterator/SortedBagIterator.cpp.o
-.PHONY : SortedBagIterator/SortedBagIterator.o
+ShortTest.o: ShortTest.cpp.o
+.PHONY : ShortTest.o
 
 # target to build an object file
-SortedBagIterator/SortedBagIterator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.o
-.PHONY : SortedBagIterator/SortedBagIterator.cpp.o
+ShortTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/ShortTest.cpp.o
+.PHONY : ShortTest.cpp.o
 
-SortedBagIterator/SortedBagIterator.i: SortedBagIterator/SortedBagIterator.cpp.i
-.PHONY : SortedBagIterator/SortedBagIterator.i
+ShortTest.i: ShortTest.cpp.i
+.PHONY : ShortTest.i
 
 # target to preprocess a source file
-SortedBagIterator/SortedBagIterator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.i
-.PHONY : SortedBagIterator/SortedBagIterator.cpp.i
+ShortTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/ShortTest.cpp.i
+.PHONY : ShortTest.cpp.i
 
-SortedBagIterator/SortedBagIterator.s: SortedBagIterator/SortedBagIterator.cpp.s
-.PHONY : SortedBagIterator/SortedBagIterator.s
+ShortTest.s: ShortTest.cpp.s
+.PHONY : ShortTest.s
 
 # target to generate assembly for a file
-SortedBagIterator/SortedBagIterator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.s
-.PHONY : SortedBagIterator/SortedBagIterator.cpp.s
+ShortTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/ShortTest.cpp.s
+.PHONY : ShortTest.cpp.s
 
-Tests/ExtendedTest.o: Tests/ExtendedTest.cpp.o
-.PHONY : Tests/ExtendedTest.o
+SortedBag.o: SortedBag.cpp.o
+.PHONY : SortedBag.o
 
 # target to build an object file
-Tests/ExtendedTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.o
-.PHONY : Tests/ExtendedTest.cpp.o
+SortedBag.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBag.cpp.o
+.PHONY : SortedBag.cpp.o
 
-Tests/ExtendedTest.i: Tests/ExtendedTest.cpp.i
-.PHONY : Tests/ExtendedTest.i
+SortedBag.i: SortedBag.cpp.i
+.PHONY : SortedBag.i
 
 # target to preprocess a source file
-Tests/ExtendedTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.i
-.PHONY : Tests/ExtendedTest.cpp.i
+SortedBag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBag.cpp.i
+.PHONY : SortedBag.cpp.i
 
-Tests/ExtendedTest.s: Tests/ExtendedTest.cpp.s
-.PHONY : Tests/ExtendedTest.s
+SortedBag.s: SortedBag.cpp.s
+.PHONY : SortedBag.s
 
 # target to generate assembly for a file
-Tests/ExtendedTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.s
-.PHONY : Tests/ExtendedTest.cpp.s
+SortedBag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBag.cpp.s
+.PHONY : SortedBag.cpp.s
 
-Tests/ShortTest.o: Tests/ShortTest.cpp.o
-.PHONY : Tests/ShortTest.o
+SortedBagIterator.o: SortedBagIterator.cpp.o
+.PHONY : SortedBagIterator.o
 
 # target to build an object file
-Tests/ShortTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.o
-.PHONY : Tests/ShortTest.cpp.o
+SortedBagIterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o
+.PHONY : SortedBagIterator.cpp.o
 
-Tests/ShortTest.i: Tests/ShortTest.cpp.i
-.PHONY : Tests/ShortTest.i
+SortedBagIterator.i: SortedBagIterator.cpp.i
+.PHONY : SortedBagIterator.i
 
 # target to preprocess a source file
-Tests/ShortTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.i
-.PHONY : Tests/ShortTest.cpp.i
+SortedBagIterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBagIterator.cpp.i
+.PHONY : SortedBagIterator.cpp.i
 
-Tests/ShortTest.s: Tests/ShortTest.cpp.s
-.PHONY : Tests/ShortTest.s
+SortedBagIterator.s: SortedBagIterator.cpp.s
+.PHONY : SortedBagIterator.s
 
 # target to generate assembly for a file
-Tests/ShortTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.s
-.PHONY : Tests/ShortTest.cpp.s
+SortedBagIterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBagIterator.cpp.s
+.PHONY : SortedBagIterator.cpp.s
 
 # Help Target
 help:
@@ -261,18 +261,18 @@ help:
 	@echo "... App.o"
 	@echo "... App.i"
 	@echo "... App.s"
-	@echo "... SortedBag/SortedBag.o"
-	@echo "... SortedBag/SortedBag.i"
-	@echo "... SortedBag/SortedBag.s"
-	@echo "... SortedBagIterator/SortedBagIterator.o"
-	@echo "... SortedBagIterator/SortedBagIterator.i"
-	@echo "... SortedBagIterator/SortedBagIterator.s"
-	@echo "... Tests/ExtendedTest.o"
-	@echo "... Tests/ExtendedTest.i"
-	@echo "... Tests/ExtendedTest.s"
-	@echo "... Tests/ShortTest.o"
-	@echo "... Tests/ShortTest.i"
-	@echo "... Tests/ShortTest.s"
+	@echo "... ExtendedTest.o"
+	@echo "... ExtendedTest.i"
+	@echo "... ExtendedTest.s"
+	@echo "... ShortTest.o"
+	@echo "... ShortTest.i"
+	@echo "... ShortTest.s"
+	@echo "... SortedBag.o"
+	@echo "... SortedBag.i"
+	@echo "... SortedBag.s"
+	@echo "... SortedBagIterator.o"
+	@echo "... SortedBagIterator.i"
+	@echo "... SortedBagIterator.s"
 .PHONY : help
 
 

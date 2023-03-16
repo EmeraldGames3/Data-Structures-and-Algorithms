@@ -1,8 +1,8 @@
-#include "SortedBag/SortedBag.h"
-#include "SortedBagIterator/SortedBagIterator.h"
+#include "SortedBag.h"
+#include "SortedBagIterator.h"
 #include <iostream>
-#include "Tests/ShortTest.h"
-#include "Tests/ExtendedTest.h"
+#include "ShortTest.h"
+#include "ExtendedTest.h"
 
 using namespace std;
 

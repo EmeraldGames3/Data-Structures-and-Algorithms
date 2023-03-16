@@ -1,6 +1,6 @@
 #include <stdexcept>
 #include "SortedBag.h"
-#include "../SortedBagIterator/SortedBagIterator.h"
+#include "SortedBagIterator.h"
 
 /**
  * Class constructor
@@ -177,7 +177,7 @@ void SortedBag::automaticResize() {
 }
 
 /**
- *  Perform a binary search on the array to fin an elemeny
+ *  Perform a binary search on the array to find an element
  * @param element The element we search
  * @return The position of the element or -1 if the element is not found in the array
  * @complexityΩ θ(1)
@@ -190,13 +190,12 @@ int SortedBag::binarySearch(int element) const {
 
     while (left <= right) {
         int mid = left + (right - left) / 2;
-        if (this->dynamicArray[mid] == element) {
+        if (this->dynamicArray[mid] == element)
             return mid; // Found target, return index
-        } else if (this->relation(this->dynamicArray[mid], element)) {
+        else if (this->relation(this->dynamicArray[mid], element))
             left = mid + 1; // Target is in right half
-        } else {
+        else
             right = mid - 1; // Target is in left half
-        }
     }
 
     return -1; // Target not found in array

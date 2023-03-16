@@ -1,15 +1,16 @@
-CMakeFiles/Labor1.dir/App.cpp.o: \
- /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/App.cpp \
+CMakeFiles/Labor1.dir/ExtendedTest.cpp.o: \
+ /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/ExtendedTest.cpp \
  /usr/include/stdc-predef.h \
+ /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/ShortTest.h \
  /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/SortedBag.h \
  /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/SortedBagIterator.h \
- /usr/include/c++/12.2.1/iostream \
+ /usr/include/assert.h /usr/include/features.h \
+ /usr/include/features-time64.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/c++/12.2.1/iostream \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
- /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
- /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/12.2.1/pstl/pstl_config.h \
  /usr/include/c++/12.2.1/ostream /usr/include/c++/12.2.1/ios \
@@ -140,6 +141,4 @@ CMakeFiles/Labor1.dir/App.cpp.o: \
  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
  /usr/include/c++/12.2.1/bits/ostream.tcc /usr/include/c++/12.2.1/istream \
- /usr/include/c++/12.2.1/bits/istream.tcc \
- /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/ShortTest.h \
- /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/ExtendedTest.h
+ /usr/include/c++/12.2.1/bits/istream.tcc

@@ -83,78 +83,78 @@ CMakeFiles/Labor1.dir/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labor1.dir/App.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/App.cpp" -o CMakeFiles/Labor1.dir/App.cpp.s
 
-CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.o: CMakeFiles/Labor1.dir/flags.make
-CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.o: /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/SortedBag/SortedBag.cpp
-CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.o: CMakeFiles/Labor1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.o -MF CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.o.d -o CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.o -c "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBag/SortedBag.cpp"
+CMakeFiles/Labor1.dir/SortedBag.cpp.o: CMakeFiles/Labor1.dir/flags.make
+CMakeFiles/Labor1.dir/SortedBag.cpp.o: /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/SortedBag.cpp
+CMakeFiles/Labor1.dir/SortedBag.cpp.o: CMakeFiles/Labor1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Labor1.dir/SortedBag.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labor1.dir/SortedBag.cpp.o -MF CMakeFiles/Labor1.dir/SortedBag.cpp.o.d -o CMakeFiles/Labor1.dir/SortedBag.cpp.o -c "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBag.cpp"
 
-CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBag/SortedBag.cpp" > CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.i
+CMakeFiles/Labor1.dir/SortedBag.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labor1.dir/SortedBag.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBag.cpp" > CMakeFiles/Labor1.dir/SortedBag.cpp.i
 
-CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBag/SortedBag.cpp" -o CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.s
+CMakeFiles/Labor1.dir/SortedBag.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labor1.dir/SortedBag.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBag.cpp" -o CMakeFiles/Labor1.dir/SortedBag.cpp.s
 
-CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.o: CMakeFiles/Labor1.dir/flags.make
-CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.o: /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/SortedBagIterator/SortedBagIterator.cpp
-CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.o: CMakeFiles/Labor1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.o -MF CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.o.d -o CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.o -c "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBagIterator/SortedBagIterator.cpp"
+CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o: CMakeFiles/Labor1.dir/flags.make
+CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o: /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/SortedBagIterator.cpp
+CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o: CMakeFiles/Labor1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o -MF CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o.d -o CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o -c "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBagIterator.cpp"
 
-CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBagIterator/SortedBagIterator.cpp" > CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.i
+CMakeFiles/Labor1.dir/SortedBagIterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labor1.dir/SortedBagIterator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBagIterator.cpp" > CMakeFiles/Labor1.dir/SortedBagIterator.cpp.i
 
-CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBagIterator/SortedBagIterator.cpp" -o CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.s
+CMakeFiles/Labor1.dir/SortedBagIterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labor1.dir/SortedBagIterator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBagIterator.cpp" -o CMakeFiles/Labor1.dir/SortedBagIterator.cpp.s
 
-CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.o: CMakeFiles/Labor1.dir/flags.make
-CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.o: /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/Tests/ExtendedTest.cpp
-CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.o: CMakeFiles/Labor1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.o -MF CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.o.d -o CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.o -c "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/Tests/ExtendedTest.cpp"
+CMakeFiles/Labor1.dir/ExtendedTest.cpp.o: CMakeFiles/Labor1.dir/flags.make
+CMakeFiles/Labor1.dir/ExtendedTest.cpp.o: /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/ExtendedTest.cpp
+CMakeFiles/Labor1.dir/ExtendedTest.cpp.o: CMakeFiles/Labor1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Labor1.dir/ExtendedTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labor1.dir/ExtendedTest.cpp.o -MF CMakeFiles/Labor1.dir/ExtendedTest.cpp.o.d -o CMakeFiles/Labor1.dir/ExtendedTest.cpp.o -c "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ExtendedTest.cpp"
 
-CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/Tests/ExtendedTest.cpp" > CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.i
+CMakeFiles/Labor1.dir/ExtendedTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labor1.dir/ExtendedTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ExtendedTest.cpp" > CMakeFiles/Labor1.dir/ExtendedTest.cpp.i
 
-CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/Tests/ExtendedTest.cpp" -o CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.s
+CMakeFiles/Labor1.dir/ExtendedTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labor1.dir/ExtendedTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ExtendedTest.cpp" -o CMakeFiles/Labor1.dir/ExtendedTest.cpp.s
 
-CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.o: CMakeFiles/Labor1.dir/flags.make
-CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.o: /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/Tests/ShortTest.cpp
-CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.o: CMakeFiles/Labor1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.o -MF CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.o.d -o CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.o -c "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/Tests/ShortTest.cpp"
+CMakeFiles/Labor1.dir/ShortTest.cpp.o: CMakeFiles/Labor1.dir/flags.make
+CMakeFiles/Labor1.dir/ShortTest.cpp.o: /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/ShortTest.cpp
+CMakeFiles/Labor1.dir/ShortTest.cpp.o: CMakeFiles/Labor1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Labor1.dir/ShortTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labor1.dir/ShortTest.cpp.o -MF CMakeFiles/Labor1.dir/ShortTest.cpp.o.d -o CMakeFiles/Labor1.dir/ShortTest.cpp.o -c "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ShortTest.cpp"
 
-CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/Tests/ShortTest.cpp" > CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.i
+CMakeFiles/Labor1.dir/ShortTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labor1.dir/ShortTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ShortTest.cpp" > CMakeFiles/Labor1.dir/ShortTest.cpp.i
 
-CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/Tests/ShortTest.cpp" -o CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.s
+CMakeFiles/Labor1.dir/ShortTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labor1.dir/ShortTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ShortTest.cpp" -o CMakeFiles/Labor1.dir/ShortTest.cpp.s
 
 # Object files for target Labor1
 Labor1_OBJECTS = \
 "CMakeFiles/Labor1.dir/App.cpp.o" \
-"CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.o" \
-"CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.o" \
-"CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.o" \
-"CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.o"
+"CMakeFiles/Labor1.dir/SortedBag.cpp.o" \
+"CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o" \
+"CMakeFiles/Labor1.dir/ExtendedTest.cpp.o" \
+"CMakeFiles/Labor1.dir/ShortTest.cpp.o"
 
 # External object files for target Labor1
 Labor1_EXTERNAL_OBJECTS =
 
 Labor1: CMakeFiles/Labor1.dir/App.cpp.o
-Labor1: CMakeFiles/Labor1.dir/SortedBag/SortedBag.cpp.o
-Labor1: CMakeFiles/Labor1.dir/SortedBagIterator/SortedBagIterator.cpp.o
-Labor1: CMakeFiles/Labor1.dir/Tests/ExtendedTest.cpp.o
-Labor1: CMakeFiles/Labor1.dir/Tests/ShortTest.cpp.o
+Labor1: CMakeFiles/Labor1.dir/SortedBag.cpp.o
+Labor1: CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o
+Labor1: CMakeFiles/Labor1.dir/ExtendedTest.cpp.o
+Labor1: CMakeFiles/Labor1.dir/ShortTest.cpp.o
 Labor1: CMakeFiles/Labor1.dir/build.make
 Labor1: CMakeFiles/Labor1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Labor1"

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../SortedBag/SortedBag.h"
+#include "SortedBag.h"
 
 class SortedBag;
 
