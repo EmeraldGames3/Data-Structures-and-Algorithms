@@ -17,11 +17,7 @@ class SortedBag {
 private:
     int length;
     int capacity;
-    TElem *dynamicArray;
     Relation relation;
-
-    //sorts the array
-    void sort();
 
     //Resize the dynamicArray
     void resize(int newCapacity);
@@ -61,4 +57,6 @@ public:
 
     //destructor
     ~SortedBag();
+
+    TComp *dynamicArray;
 };

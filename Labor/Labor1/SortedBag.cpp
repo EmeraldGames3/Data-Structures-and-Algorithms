@@ -17,16 +17,40 @@ SortedBag::SortedBag(Relation r) {
 /**
  * Add an element to the array
  * @param e An element of type TComp
- * @complexity θ(n) for every case this function executes n steps
+ * @complexityΩ θ(1)
+ * @complexityθ θ(log n)
+ * @complexity θ(n)
  */
 void SortedBag::add(TComp e) {
     // Increase the length of the array and resize it if needed
-    this->length++;
-    automaticResize();
+    if (isEmpty()) {
+        this->dynamicArray[0] = e;
+        length = 1;
+        return;
+    }
 
-    // Find the correct position for the new element
+    this->length++; // Increase the length of the array
+    automaticResize(); // Resize the array if needed
+
+    //Perform a binary search
+    //If the element is in the already in the array insert it where you found it
+    //If the element is not in the array the binary search gives as the position where the element should be inserted
+    int left = 0, right = this->length - 1, mid;
+    while (left <= right) {
+        mid = left + (right - left) / 2;
+        if (this->dynamicArray[mid] == e){
+            left = mid;
+            break; // Element is in the array
+        }
+        else if (this->relation(this->dynamicArray[mid], e))
+            left = mid + 1; // Element is in right half
+        else
+            right = mid - 1; // Element is in left half
+    }
+
+    // In worst case left = right = mid
     int position = this->length - 1;
-    while (position > 0 && this->relation(e, this->dynamicArray[position - 1])) {
+    while (position > left && this->relation(e, this->dynamicArray[position - 1])) {
         this->dynamicArray[position] = this->dynamicArray[position - 1];
         position--;
     }
@@ -38,18 +62,17 @@ void SortedBag::add(TComp e) {
 /**
  * @param e An element of type TComp
  * @return true if e was deleted from the array, false otherwise
- * @complexity O(n)
+ * @complexityΩ θ(1)
+ * @complexityθ θ(log n)
+ * @complexity θ(n)
  */
 bool SortedBag::remove(TComp e) {
-    int i = 0;
-
-    //Find the position of e
-    while (i < this->length && this->dynamicArray[i] != e)
-        i++;
-    if (i == this->length) return false;//E is not in the array
+    if(isEmpty()) return false;
+    int ePosition = binarySearch(e); // Perform a binary search to find the position of e
+    if(ePosition == -1) return false; // e is not in the array
 
     //Shift all elements that come one position after e to the right so that e becomes the last element
-    for (int j = i; j < this->length - 1; j++)
+    for (int j = ePosition; j < this->length - 1; j++)
         this->dynamicArray[j] = this->dynamicArray[j + 1];
 
     //Delete e by decrementing the length of the array
@@ -129,23 +152,6 @@ SortedBagIterator SortedBag::iterator() const { return SortedBagIterator(*this);
 SortedBag::~SortedBag() { delete[] this->dynamicArray; }
 
 /**
- * @deprecated This function is legacy code and should not be used
- * Sort the array using the bubble-sort algorithm
- * @complexityΩ θ(n)
- * @complexityθ θ(n^2)
- * @complexityO θ(n^2)
- */
-void SortedBag::sort() {
-    for (int i = 0; i < this->length - 1; i++)
-        for (int j = 0; j < this->length - 1; j++)
-            if (!this->relation(this->dynamicArray[j], this->dynamicArray[j + 1])) {
-                TElem temp = this->dynamicArray[j + 1];
-                this->dynamicArray[j + 1] = this->dynamicArray[j];
-                this->dynamicArray[j] = temp;
-            }
-}
-
-/**
  * Resize the array to a new capacity
  * @throws out_of_range if newCapacity < length
  * @complexity θ(n), for every case this function performs exactly n steps
@@ -185,18 +191,15 @@ void SortedBag::automaticResize() {
  * @complexityO θ(log n)
  */
 int SortedBag::binarySearch(int element) const {
-    int left = 0;
-    int right = this->length - 1;
-
+    int left = 0, right = this->length - 1;
     while (left <= right) {
         int mid = left + (right - left) / 2;
         if (this->dynamicArray[mid] == element)
-            return mid; // Found target, return index
+            return mid; // Found index
         else if (this->relation(this->dynamicArray[mid], element))
-            left = mid + 1; // Target is in right half
+            left = mid + 1; // Element is in right half
         else
-            right = mid - 1; // Target is in left half
+            right = mid - 1; // Element is in left half
     }
-
-    return -1; // Target not found in array
+    return -1; // The element is not in the array
 }
