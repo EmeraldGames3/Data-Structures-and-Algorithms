@@ -153,6 +153,30 @@ App.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/App.cpp.s
 .PHONY : App.cpp.s
 
+ExtendedIterator.o: ExtendedIterator.cpp.o
+.PHONY : ExtendedIterator.o
+
+# target to build an object file
+ExtendedIterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/ExtendedIterator.cpp.o
+.PHONY : ExtendedIterator.cpp.o
+
+ExtendedIterator.i: ExtendedIterator.cpp.i
+.PHONY : ExtendedIterator.i
+
+# target to preprocess a source file
+ExtendedIterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/ExtendedIterator.cpp.i
+.PHONY : ExtendedIterator.cpp.i
+
+ExtendedIterator.s: ExtendedIterator.cpp.s
+.PHONY : ExtendedIterator.s
+
+# target to generate assembly for a file
+ExtendedIterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/ExtendedIterator.cpp.s
+.PHONY : ExtendedIterator.cpp.s
+
 ExtendedTest.o: ExtendedTest.cpp.o
 .PHONY : ExtendedTest.o
 
@@ -249,6 +273,30 @@ SortedBagIterator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/SortedBagIterator.cpp.s
 .PHONY : SortedBagIterator.cpp.s
 
+testExtendedIterator.o: testExtendedIterator.cpp.o
+.PHONY : testExtendedIterator.o
+
+# target to build an object file
+testExtendedIterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/testExtendedIterator.cpp.o
+.PHONY : testExtendedIterator.cpp.o
+
+testExtendedIterator.i: testExtendedIterator.cpp.i
+.PHONY : testExtendedIterator.i
+
+# target to preprocess a source file
+testExtendedIterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/testExtendedIterator.cpp.i
+.PHONY : testExtendedIterator.cpp.i
+
+testExtendedIterator.s: testExtendedIterator.cpp.s
+.PHONY : testExtendedIterator.s
+
+# target to generate assembly for a file
+testExtendedIterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Labor1.dir/build.make CMakeFiles/Labor1.dir/testExtendedIterator.cpp.s
+.PHONY : testExtendedIterator.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -261,6 +309,9 @@ help:
 	@echo "... App.o"
 	@echo "... App.i"
 	@echo "... App.s"
+	@echo "... ExtendedIterator.o"
+	@echo "... ExtendedIterator.i"
+	@echo "... ExtendedIterator.s"
 	@echo "... ExtendedTest.o"
 	@echo "... ExtendedTest.i"
 	@echo "... ExtendedTest.s"
@@ -273,6 +324,9 @@ help:
 	@echo "... SortedBagIterator.o"
 	@echo "... SortedBagIterator.i"
 	@echo "... SortedBagIterator.s"
+	@echo "... testExtendedIterator.o"
+	@echo "... testExtendedIterator.i"
+	@echo "... testExtendedIterator.s"
 .PHONY : help
 
 

@@ -1,6 +1,7 @@
 #include <stdexcept>
 #include "SortedBag.h"
 #include "SortedBagIterator.h"
+#include "ExtendedIterator.h"
 
 /**
  * Class constructor
@@ -202,4 +203,8 @@ int SortedBag::binarySearch(int element) const {
             right = mid - 1; // Element is in left half
     }
     return -1; // The element is not in the array
+}
+
+ExtendedSortedBagIterator SortedBag::extendedIterator(int position) const {
+    return ExtendedSortedBagIterator(*this, position);
 }

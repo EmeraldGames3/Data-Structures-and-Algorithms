@@ -85,6 +85,12 @@
 		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/App.cpp">
 			<Option target="Labor1"/>
 		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ExtendedIterator.cpp">
+			<Option target="Labor1"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ExtendedIterator.h">
+			<Option target="Labor1"/>
+		</Unit>
 		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/ExtendedTest.cpp">
 			<Option target="Labor1"/>
 		</Unit>
@@ -107,6 +113,12 @@
 			<Option target="Labor1"/>
 		</Unit>
 		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/SortedBagIterator.h">
+			<Option target="Labor1"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/testExtendedIterator.cpp">
+			<Option target="Labor1"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/testExtendedIterator.h">
 			<Option target="Labor1"/>
 		</Unit>
 		<Unit filename="/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/Labor1/CMakeLists.txt">

@@ -142,4 +142,5 @@ CMakeFiles/Labor1.dir/App.cpp.o: \
  /usr/include/c++/12.2.1/bits/ostream.tcc /usr/include/c++/12.2.1/istream \
  /usr/include/c++/12.2.1/bits/istream.tcc \
  /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/ShortTest.h \
- /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/ExtendedTest.h
+ /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/ExtendedTest.h \
+ /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/testExtendedIterator.h

@@ -10,14 +10,17 @@ typedef bool(*Relation)(TComp, TComp);
 #define NULL_TCOMP -11111;
 
 class SortedBagIterator;
+class ExtendedSortedBagIterator;
 
 class SortedBag {
     friend class SortedBagIterator;
+    friend class ExtendedSortedBagIterator;
 
 private:
     int length;
     int capacity;
     Relation relation;
+    TComp *dynamicArray;
 
     //Resize the dynamicArray
     void resize(int newCapacity);
@@ -52,11 +55,12 @@ public:
     //returns an iterator for this sorted bag
     SortedBagIterator iterator() const;
 
+    //returns an iterator for this sorted bag
+    [[maybe_unused]] ExtendedSortedBagIterator extendedIterator(int position) const;
+
     //checks if the sorted bag is empty
     bool isEmpty() const;
 
     //destructor
     ~SortedBag();
-
-    TComp *dynamicArray;
 };

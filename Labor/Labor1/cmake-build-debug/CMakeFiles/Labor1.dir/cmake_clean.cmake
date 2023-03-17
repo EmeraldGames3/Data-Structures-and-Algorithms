@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Labor1.dir/App.cpp.o"
   "CMakeFiles/Labor1.dir/App.cpp.o.d"
+  "CMakeFiles/Labor1.dir/ExtendedIterator.cpp.o"
+  "CMakeFiles/Labor1.dir/ExtendedIterator.cpp.o.d"
   "CMakeFiles/Labor1.dir/ExtendedTest.cpp.o"
   "CMakeFiles/Labor1.dir/ExtendedTest.cpp.o.d"
   "CMakeFiles/Labor1.dir/ShortTest.cpp.o"
@@ -9,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Labor1.dir/SortedBag.cpp.o.d"
   "CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o"
   "CMakeFiles/Labor1.dir/SortedBagIterator.cpp.o.d"
+  "CMakeFiles/Labor1.dir/testExtendedIterator.cpp.o"
+  "CMakeFiles/Labor1.dir/testExtendedIterator.cpp.o.d"
   "Labor1"
   "Labor1.pdb"
 )

@@ -109,4 +109,5 @@ CMakeFiles/Labor1.dir/SortedBag.cpp.o: \
  /usr/include/c++/12.2.1/bits/charconv.h \
  /usr/include/c++/12.2.1/bits/basic_string.tcc \
  /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/SortedBag.h \
- /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/SortedBagIterator.h
+ /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/SortedBagIterator.h \
+ /home/bogdan/Programming/Uni/Data\ Structures\ and\ Algorithms/Labor/Labor1/ExtendedIterator.h
