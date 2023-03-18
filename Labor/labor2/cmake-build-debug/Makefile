@@ -152,54 +152,6 @@ App.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/App.cpp.s
 .PHONY : App.cpp.s
 
-LinkedList/LinkedList.obj: LinkedList/LinkedList.cpp.obj
-.PHONY : LinkedList/LinkedList.obj
-
-# target to build an object file
-LinkedList/LinkedList.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/LinkedList.cpp.obj
-.PHONY : LinkedList/LinkedList.cpp.obj
-
-LinkedList/LinkedList.i: LinkedList/LinkedList.cpp.i
-.PHONY : LinkedList/LinkedList.i
-
-# target to preprocess a source file
-LinkedList/LinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/LinkedList.cpp.i
-.PHONY : LinkedList/LinkedList.cpp.i
-
-LinkedList/LinkedList.s: LinkedList/LinkedList.cpp.s
-.PHONY : LinkedList/LinkedList.s
-
-# target to generate assembly for a file
-LinkedList/LinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/LinkedList.cpp.s
-.PHONY : LinkedList/LinkedList.cpp.s
-
-LinkedList/LinkedListTest/LinkedListTest.obj: LinkedList/LinkedListTest/LinkedListTest.cpp.obj
-.PHONY : LinkedList/LinkedListTest/LinkedListTest.obj
-
-# target to build an object file
-LinkedList/LinkedListTest/LinkedListTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj
-.PHONY : LinkedList/LinkedListTest/LinkedListTest.cpp.obj
-
-LinkedList/LinkedListTest/LinkedListTest.i: LinkedList/LinkedListTest/LinkedListTest.cpp.i
-.PHONY : LinkedList/LinkedListTest/LinkedListTest.i
-
-# target to preprocess a source file
-LinkedList/LinkedListTest/LinkedListTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.i
-.PHONY : LinkedList/LinkedListTest/LinkedListTest.cpp.i
-
-LinkedList/LinkedListTest/LinkedListTest.s: LinkedList/LinkedListTest/LinkedListTest.cpp.s
-.PHONY : LinkedList/LinkedListTest/LinkedListTest.s
-
-# target to generate assembly for a file
-LinkedList/LinkedListTest/LinkedListTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.s
-.PHONY : LinkedList/LinkedListTest/LinkedListTest.cpp.s
-
 Queue/Queue.obj: Queue/Queue.cpp.obj
 .PHONY : Queue/Queue.obj
 
@@ -284,12 +236,6 @@ help:
 	@echo ... App.obj
 	@echo ... App.i
 	@echo ... App.s
-	@echo ... LinkedList/LinkedList.obj
-	@echo ... LinkedList/LinkedList.i
-	@echo ... LinkedList/LinkedList.s
-	@echo ... LinkedList/LinkedListTest/LinkedListTest.obj
-	@echo ... LinkedList/LinkedListTest/LinkedListTest.i
-	@echo ... LinkedList/LinkedListTest/LinkedListTest.s
 	@echo ... Queue/Queue.obj
 	@echo ... Queue/Queue.i
 	@echo ... Queue/Queue.s

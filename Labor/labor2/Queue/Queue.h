@@ -1,17 +1,21 @@
 #pragma once
-#include "../LinkedList/LinkedList.h"
 
 using namespace std;
 
 //DO NOT CHANGE THIS PART
 typedef int TElem;
-#ifndef NULL_TELEM
 #define NULL_TELEM -11111
-#endif //NULL_TELEM
+
+struct Node{
+    TElem info;
+    Node *previous;
+    Node *next;
+};
 
 class Queue{
 private:
-    DoubleLinkedList linkedList;
+    Node *head;
+    Node *tail;
 
 public:
 	Queue();

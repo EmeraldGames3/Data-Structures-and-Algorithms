@@ -1,7 +1,6 @@
 CMakeFiles/labor2.dir/Queue/Queue.cpp.obj: \
  D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\Queue.cpp \
  D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\Queue.h \
- D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/LinkedList.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

@@ -12,15 +12,15 @@ void testCreate() {
 	Queue q;
 	assert(q.isEmpty() == true);
 	try {
-		q.top(); 
-		assert(false); 
+		q.top();
+		assert(false);
 	}
 	catch (exception&) {
 		assert(true);
 	}
 	try {
-		q.pop(); 
-		assert(false); 
+		q.pop();
+		assert(false);
 	}
 	catch (exception&) {
 		assert(true);

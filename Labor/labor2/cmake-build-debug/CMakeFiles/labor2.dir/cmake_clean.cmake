@@ -1,10 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/labor2.dir/App.cpp.obj"
   "CMakeFiles/labor2.dir/App.cpp.obj.d"
-  "CMakeFiles/labor2.dir/LinkedList/LinkedList.cpp.obj"
-  "CMakeFiles/labor2.dir/LinkedList/LinkedList.cpp.obj.d"
-  "CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj"
-  "CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj.d"
   "CMakeFiles/labor2.dir/Queue/Queue.cpp.obj"
   "CMakeFiles/labor2.dir/Queue/Queue.cpp.obj.d"
   "CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.obj"
