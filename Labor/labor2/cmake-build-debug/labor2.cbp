@@ -91,6 +91,12 @@
 		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/LinkedList.h">
 			<Option target="labor2"/>
 		</Unit>
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/LinkedListTest/LinkedListTest.cpp">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/LinkedListTest/LinkedListTest.h">
+			<Option target="labor2"/>
+		</Unit>
 		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/Node/Node.cpp">
 			<Option target="labor2"/>
 		</Unit>
@@ -109,16 +115,16 @@
 		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTests/ExtendedTest.cpp">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTests/ExtendedTest.h">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTests/ShortTest.cpp">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTests/ShortTest.h">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.h">
 			<Option target="labor2"/>
 		</Unit>
 		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/CMakeLists.txt">

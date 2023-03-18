@@ -5,7 +5,9 @@ using namespace std;
 
 //DO NOT CHANGE THIS PART
 typedef int TElem;
+#ifndef NULL_TELEM
 #define NULL_TELEM -11111
+#endif //NULL_TELEM
 
 class Queue
 {

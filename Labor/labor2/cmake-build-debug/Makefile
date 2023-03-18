@@ -176,6 +176,30 @@ LinkedList/LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/LinkedList.cpp.s
 .PHONY : LinkedList/LinkedList.cpp.s
 
+LinkedList/LinkedListTest/LinkedListTest.obj: LinkedList/LinkedListTest/LinkedListTest.cpp.obj
+.PHONY : LinkedList/LinkedListTest/LinkedListTest.obj
+
+# target to build an object file
+LinkedList/LinkedListTest/LinkedListTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj
+.PHONY : LinkedList/LinkedListTest/LinkedListTest.cpp.obj
+
+LinkedList/LinkedListTest/LinkedListTest.i: LinkedList/LinkedListTest/LinkedListTest.cpp.i
+.PHONY : LinkedList/LinkedListTest/LinkedListTest.i
+
+# target to preprocess a source file
+LinkedList/LinkedListTest/LinkedListTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.i
+.PHONY : LinkedList/LinkedListTest/LinkedListTest.cpp.i
+
+LinkedList/LinkedListTest/LinkedListTest.s: LinkedList/LinkedListTest/LinkedListTest.cpp.s
+.PHONY : LinkedList/LinkedListTest/LinkedListTest.s
+
+# target to generate assembly for a file
+LinkedList/LinkedListTest/LinkedListTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.s
+.PHONY : LinkedList/LinkedListTest/LinkedListTest.cpp.s
+
 LinkedList/Node/Node.obj: LinkedList/Node/Node.cpp.obj
 .PHONY : LinkedList/Node/Node.obj
 
@@ -248,53 +272,53 @@ Queue/Queue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/Queue.cpp.s
 .PHONY : Queue/Queue.cpp.s
 
-Queue/QueueTests/ExtendedTest.obj: Queue/QueueTests/ExtendedTest.cpp.obj
-.PHONY : Queue/QueueTests/ExtendedTest.obj
+Queue/QueueTest/ExtendedTest.obj: Queue/QueueTest/ExtendedTest.cpp.obj
+.PHONY : Queue/QueueTest/ExtendedTest.obj
 
 # target to build an object file
-Queue/QueueTests/ExtendedTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.obj
-.PHONY : Queue/QueueTests/ExtendedTest.cpp.obj
+Queue/QueueTest/ExtendedTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.obj
+.PHONY : Queue/QueueTest/ExtendedTest.cpp.obj
 
-Queue/QueueTests/ExtendedTest.i: Queue/QueueTests/ExtendedTest.cpp.i
-.PHONY : Queue/QueueTests/ExtendedTest.i
+Queue/QueueTest/ExtendedTest.i: Queue/QueueTest/ExtendedTest.cpp.i
+.PHONY : Queue/QueueTest/ExtendedTest.i
 
 # target to preprocess a source file
-Queue/QueueTests/ExtendedTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.i
-.PHONY : Queue/QueueTests/ExtendedTest.cpp.i
+Queue/QueueTest/ExtendedTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.i
+.PHONY : Queue/QueueTest/ExtendedTest.cpp.i
 
-Queue/QueueTests/ExtendedTest.s: Queue/QueueTests/ExtendedTest.cpp.s
-.PHONY : Queue/QueueTests/ExtendedTest.s
+Queue/QueueTest/ExtendedTest.s: Queue/QueueTest/ExtendedTest.cpp.s
+.PHONY : Queue/QueueTest/ExtendedTest.s
 
 # target to generate assembly for a file
-Queue/QueueTests/ExtendedTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.s
-.PHONY : Queue/QueueTests/ExtendedTest.cpp.s
+Queue/QueueTest/ExtendedTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.s
+.PHONY : Queue/QueueTest/ExtendedTest.cpp.s
 
-Queue/QueueTests/ShortTest.obj: Queue/QueueTests/ShortTest.cpp.obj
-.PHONY : Queue/QueueTests/ShortTest.obj
+Queue/QueueTest/ShortTest.obj: Queue/QueueTest/ShortTest.cpp.obj
+.PHONY : Queue/QueueTest/ShortTest.obj
 
 # target to build an object file
-Queue/QueueTests/ShortTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.obj
-.PHONY : Queue/QueueTests/ShortTest.cpp.obj
+Queue/QueueTest/ShortTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.obj
+.PHONY : Queue/QueueTest/ShortTest.cpp.obj
 
-Queue/QueueTests/ShortTest.i: Queue/QueueTests/ShortTest.cpp.i
-.PHONY : Queue/QueueTests/ShortTest.i
+Queue/QueueTest/ShortTest.i: Queue/QueueTest/ShortTest.cpp.i
+.PHONY : Queue/QueueTest/ShortTest.i
 
 # target to preprocess a source file
-Queue/QueueTests/ShortTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.i
-.PHONY : Queue/QueueTests/ShortTest.cpp.i
+Queue/QueueTest/ShortTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.i
+.PHONY : Queue/QueueTest/ShortTest.cpp.i
 
-Queue/QueueTests/ShortTest.s: Queue/QueueTests/ShortTest.cpp.s
-.PHONY : Queue/QueueTests/ShortTest.s
+Queue/QueueTest/ShortTest.s: Queue/QueueTest/ShortTest.cpp.s
+.PHONY : Queue/QueueTest/ShortTest.s
 
 # target to generate assembly for a file
-Queue/QueueTests/ShortTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.s
-.PHONY : Queue/QueueTests/ShortTest.cpp.s
+Queue/QueueTest/ShortTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.s
+.PHONY : Queue/QueueTest/ShortTest.cpp.s
 
 # Help Target
 help:
@@ -311,6 +335,9 @@ help:
 	@echo ... LinkedList/LinkedList.obj
 	@echo ... LinkedList/LinkedList.i
 	@echo ... LinkedList/LinkedList.s
+	@echo ... LinkedList/LinkedListTest/LinkedListTest.obj
+	@echo ... LinkedList/LinkedListTest/LinkedListTest.i
+	@echo ... LinkedList/LinkedListTest/LinkedListTest.s
 	@echo ... LinkedList/Node/Node.obj
 	@echo ... LinkedList/Node/Node.i
 	@echo ... LinkedList/Node/Node.s
@@ -320,12 +347,12 @@ help:
 	@echo ... Queue/Queue.obj
 	@echo ... Queue/Queue.i
 	@echo ... Queue/Queue.s
-	@echo ... Queue/QueueTests/ExtendedTest.obj
-	@echo ... Queue/QueueTests/ExtendedTest.i
-	@echo ... Queue/QueueTests/ExtendedTest.s
-	@echo ... Queue/QueueTests/ShortTest.obj
-	@echo ... Queue/QueueTests/ShortTest.i
-	@echo ... Queue/QueueTests/ShortTest.s
+	@echo ... Queue/QueueTest/ExtendedTest.obj
+	@echo ... Queue/QueueTest/ExtendedTest.i
+	@echo ... Queue/QueueTest/ExtendedTest.s
+	@echo ... Queue/QueueTest/ShortTest.obj
+	@echo ... Queue/QueueTest/ShortTest.i
+	@echo ... Queue/QueueTest/ShortTest.s
 .PHONY : help
 
 

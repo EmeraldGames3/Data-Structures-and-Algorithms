@@ -82,19 +82,19 @@ CMakeFiles/labor2.dir/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/App.cpp.s"
 	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\App.cpp -o CMakeFiles\labor2.dir\App.cpp.s
 
-CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.obj: CMakeFiles/labor2.dir/flags.make
-CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.obj: D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTests/ExtendedTest.cpp
-CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.obj: CMakeFiles/labor2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.obj"
-	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.obj -MF CMakeFiles\labor2.dir\Queue\QueueTests\ExtendedTest.cpp.obj.d -o CMakeFiles\labor2.dir\Queue\QueueTests\ExtendedTest.cpp.obj -c D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTests\ExtendedTest.cpp
+CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.obj: CMakeFiles/labor2.dir/flags.make
+CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.obj: D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp
+CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.obj: CMakeFiles/labor2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.obj"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.obj -MF CMakeFiles\labor2.dir\Queue\QueueTest\ExtendedTest.cpp.obj.d -o CMakeFiles\labor2.dir\Queue\QueueTest\ExtendedTest.cpp.obj -c D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTest\ExtendedTest.cpp
 
-CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.i"
-	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTests\ExtendedTest.cpp > CMakeFiles\labor2.dir\Queue\QueueTests\ExtendedTest.cpp.i
+CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.i"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTest\ExtendedTest.cpp > CMakeFiles\labor2.dir\Queue\QueueTest\ExtendedTest.cpp.i
 
-CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.s"
-	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTests\ExtendedTest.cpp -o CMakeFiles\labor2.dir\Queue\QueueTests\ExtendedTest.cpp.s
+CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.s"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTest\ExtendedTest.cpp -o CMakeFiles\labor2.dir\Queue\QueueTest\ExtendedTest.cpp.s
 
 CMakeFiles/labor2.dir/Queue/Queue.cpp.obj: CMakeFiles/labor2.dir/flags.make
 CMakeFiles/labor2.dir/Queue/Queue.cpp.obj: D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp
@@ -110,19 +110,19 @@ CMakeFiles/labor2.dir/Queue/Queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/Queue/Queue.cpp.s"
 	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\Queue.cpp -o CMakeFiles\labor2.dir\Queue\Queue.cpp.s
 
-CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.obj: CMakeFiles/labor2.dir/flags.make
-CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.obj: D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTests/ShortTest.cpp
-CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.obj: CMakeFiles/labor2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.obj"
-	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.obj -MF CMakeFiles\labor2.dir\Queue\QueueTests\ShortTest.cpp.obj.d -o CMakeFiles\labor2.dir\Queue\QueueTests\ShortTest.cpp.obj -c D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTests\ShortTest.cpp
+CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.obj: CMakeFiles/labor2.dir/flags.make
+CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.obj: D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp
+CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.obj: CMakeFiles/labor2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.obj"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.obj -MF CMakeFiles\labor2.dir\Queue\QueueTest\ShortTest.cpp.obj.d -o CMakeFiles\labor2.dir\Queue\QueueTest\ShortTest.cpp.obj -c D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTest\ShortTest.cpp
 
-CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.i"
-	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTests\ShortTest.cpp > CMakeFiles\labor2.dir\Queue\QueueTests\ShortTest.cpp.i
+CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.i"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTest\ShortTest.cpp > CMakeFiles\labor2.dir\Queue\QueueTest\ShortTest.cpp.i
 
-CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.s"
-	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTests\ShortTest.cpp -o CMakeFiles\labor2.dir\Queue\QueueTests\ShortTest.cpp.s
+CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.s"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTest\ShortTest.cpp -o CMakeFiles\labor2.dir\Queue\QueueTest\ShortTest.cpp.s
 
 CMakeFiles/labor2.dir/LinkedList/LinkedList.cpp.obj: CMakeFiles/labor2.dir/flags.make
 CMakeFiles/labor2.dir/LinkedList/LinkedList.cpp.obj: D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/LinkedList.cpp
@@ -166,31 +166,47 @@ CMakeFiles/labor2.dir/LinkedList/Node/NodeTest/NodeTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/LinkedList/Node/NodeTest/NodeTest.cpp.s"
 	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\LinkedList\Node\NodeTest\NodeTest.cpp -o CMakeFiles\labor2.dir\LinkedList\Node\NodeTest\NodeTest.cpp.s
 
+CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj: CMakeFiles/labor2.dir/flags.make
+CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj: D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/LinkedListTest/LinkedListTest.cpp
+CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj: CMakeFiles/labor2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj -MF CMakeFiles\labor2.dir\LinkedList\LinkedListTest\LinkedListTest.cpp.obj.d -o CMakeFiles\labor2.dir\LinkedList\LinkedListTest\LinkedListTest.cpp.obj -c D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\LinkedList\LinkedListTest\LinkedListTest.cpp
+
+CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.i"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\LinkedList\LinkedListTest\LinkedListTest.cpp > CMakeFiles\labor2.dir\LinkedList\LinkedListTest\LinkedListTest.cpp.i
+
+CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.s"
+	C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\LinkedList\LinkedListTest\LinkedListTest.cpp -o CMakeFiles\labor2.dir\LinkedList\LinkedListTest\LinkedListTest.cpp.s
+
 # Object files for target labor2
 labor2_OBJECTS = \
 "CMakeFiles/labor2.dir/App.cpp.obj" \
-"CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.obj" \
+"CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.obj" \
 "CMakeFiles/labor2.dir/Queue/Queue.cpp.obj" \
-"CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.obj" \
+"CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.obj" \
 "CMakeFiles/labor2.dir/LinkedList/LinkedList.cpp.obj" \
 "CMakeFiles/labor2.dir/LinkedList/Node/Node.cpp.obj" \
-"CMakeFiles/labor2.dir/LinkedList/Node/NodeTest/NodeTest.cpp.obj"
+"CMakeFiles/labor2.dir/LinkedList/Node/NodeTest/NodeTest.cpp.obj" \
+"CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj"
 
 # External object files for target labor2
 labor2_EXTERNAL_OBJECTS =
 
 labor2.exe: CMakeFiles/labor2.dir/App.cpp.obj
-labor2.exe: CMakeFiles/labor2.dir/Queue/QueueTests/ExtendedTest.cpp.obj
+labor2.exe: CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.obj
 labor2.exe: CMakeFiles/labor2.dir/Queue/Queue.cpp.obj
-labor2.exe: CMakeFiles/labor2.dir/Queue/QueueTests/ShortTest.cpp.obj
+labor2.exe: CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.obj
 labor2.exe: CMakeFiles/labor2.dir/LinkedList/LinkedList.cpp.obj
 labor2.exe: CMakeFiles/labor2.dir/LinkedList/Node/Node.cpp.obj
 labor2.exe: CMakeFiles/labor2.dir/LinkedList/Node/NodeTest/NodeTest.cpp.obj
+labor2.exe: CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj
 labor2.exe: CMakeFiles/labor2.dir/build.make
 labor2.exe: CMakeFiles/labor2.dir/linklibs.rsp
 labor2.exe: CMakeFiles/labor2.dir/objects1.rsp
 labor2.exe: CMakeFiles/labor2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable labor2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable labor2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\labor2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

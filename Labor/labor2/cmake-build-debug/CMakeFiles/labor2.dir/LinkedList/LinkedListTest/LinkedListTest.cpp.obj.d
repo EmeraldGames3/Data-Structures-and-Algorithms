@@ -1,17 +1,34 @@
-CMakeFiles/labor2.dir/App.cpp.obj: \
- D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\App.cpp \
- D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue/Queue.h \
+CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.obj: \
+ D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\LinkedList\LinkedListTest\LinkedListTest.cpp \
+ D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\LinkedList\LinkedListTest\LinkedListTest.h \
  D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/LinkedList.h \
  D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/Node/Node.h \
- D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue/QueueTest/ExtendedTest.h \
- D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue/QueueTest/ShortTest.h \
- D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\LinkedList/Node/NodeTest/NodeTest.h \
- D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\LinkedList/LinkedListTest/LinkedListTest.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cassert \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/pstl_config.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/assert.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
+ C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
@@ -20,14 +37,7 @@ CMakeFiles/labor2.dir/App.cpp.obj: \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
@@ -39,7 +49,6 @@ CMakeFiles/labor2.dir/App.cpp.obj: \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new \
@@ -81,13 +90,9 @@ CMakeFiles/labor2.dir/App.cpp.obj: \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/pthread.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/errno.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/process.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/limits.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/signal.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/time.h \
@@ -108,13 +113,6 @@ CMakeFiles/labor2.dir/App.cpp.obj: \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
- C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h \

@@ -1,45 +1,67 @@
 #include "LinkedList.h"
-#include <exception>
 
+/**
+ * @brief Default constructor fo the DLL class
+ * @warning The head and tail are initialised to NULL_NODE
+ * @details The programmer is responsible for further initialisation of the DLL
+ */
 DoubleLinkedList::DoubleLinkedList() {
-    head.setNextNode(nullptr);
-    head.setPreviousNode(nullptr);
-    tail.setNextNode(nullptr);
-    tail.setPreviousNode(nullptr);
+    head = Node::NULL_NODE();
+    tail = head;
 }
 
+DoubleLinkedList::DoubleLinkedList(const Node &head) {
+    this->head = head;
+    this->tail = this->head;
+}
+
+DoubleLinkedList::DoubleLinkedList(const Node &head, const Node &tail) {
+    this->head = head;
+    this->tail = tail;
+    this->head.setNext(&(this->tail));
+    this->tail.setPrevious(&(this->head));
+};
+
 void DoubleLinkedList::deleteFirst() {
-    if(isEmpty()) throw std::exception();
+
 }
 
 void DoubleLinkedList::deleteLast() {
-    if(isEmpty()) throw std::exception();
+
 }
 
 void DoubleLinkedList::addFirst(TElem element) {
-    Node newNode = Node();
-    newNode.setElement(element);
+
 }
 
 void DoubleLinkedList::addLast(TElem element) {
-    Node newNode = Node();
-    newNode.setElement(element);
+
 }
 
-TElem DoubleLinkedList::getHead() const {
-    return head.getElement();
+Node DoubleLinkedList::getHead() const {
+    return head;
 }
 
-TElem DoubleLinkedList::getTail() const {
-    return tail.getElement();
+Node DoubleLinkedList::getTail() const {
+    return tail;
 }
 
 bool DoubleLinkedList::isEmpty() const {
-    if(head.next() == nullptr && head.previous() == nullptr)
-        return false;
-    return true;
+    if(head.isNULL()) return true;
+    return false;
 }
 
-DoubleLinkedList::~DoubleLinkedList() {
+/**
+ * @brief DLL destructor
+ * @details Iterate through the linked list to delete all Nodes
+ * @complexity θ(n)
+ */
+DoubleLinkedList::~DoubleLinkedList(){
+    //We have no dynamically allocated memory to delete
+    if(head.next() == nullptr) return; //The list has only on element
+    if(*head.next() == tail) return; //The list has only two elements
 
+    //TODO iterate through the list
 }
+
+
