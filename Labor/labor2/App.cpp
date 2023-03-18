@@ -1,11 +1,13 @@
 #include "Queue/Queue.h"
-#include "QueueTests/ExtendedTest.h"
-#include "QueueTests/ShortTest.h"
+#include "Queue/QueueTests/ExtendedTest.h"
+#include "Queue/QueueTests/ShortTest.h"
+#include "LinkedList/Node/NodeTest/NodeTest.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
-	testAll();
-	testAllExtended();
+    testNode();
+//	testAll();
+//	testAllExtended();
 }

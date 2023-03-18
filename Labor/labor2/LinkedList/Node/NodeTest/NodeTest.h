@@ -1,0 +1,3 @@
+#pragma oance
+
+void testNode();
