@@ -5,22 +5,14 @@
  * @warning This constructor initialises the node as a NULL_NODE
  * @details The programmer is responsible for initialising these values later
  **/
-Node::Node() {
-    element = NULL_TELEM;
-    nextNode = nullptr;
-    previousNode = nullptr;
-}
+Node::Node() : element(NULL_TELEM), previousNode(nullptr), nextNode(nullptr) {}
 
 /**
  * @brief Overloaded constructor with one parameter
  * @param elem The element stored in the node
  * @details The programmer is responsible for initialising the value with a value other then NULL in the future
  **/
-Node::Node(TElem elem) {
-    element = elem;
-    nextNode = nullptr;
-    previousNode = nullptr;
-}
+Node::Node(TElem elem) : element(elem), previousNode(nullptr), nextNode(nullptr) {}
 
 /**
  * @brief Overloaded constructor with Three parameter
@@ -29,19 +21,14 @@ Node::Node(TElem elem) {
  * @param previous A pointer to the previous node, can be NULL
  * @warning The programmer should be careful if it makes next or previous NULL
  **/
-Node::Node(TElem elem, Node *previous, Node * next) {
-    this->element = elem;
-    this->previousNode = previous;
-    this->nextNode = next;
-}
+Node::Node(TElem elem, Node *previous, Node *next) : element(elem), previousNode(previous), nextNode(next) {}
 
 /**
  * @brief Copy constructor of the class Node
  * @param other An object of type node
  * @warning The programmer should be careful in case that nextNode and/or previousNode are NULL
  **/
-Node::Node(const Node &other) {
-    this->element = other.element;
+Node::Node(const Node &other) : element(other.element) {
     this->nextNode = other.nextNode;
     this->previousNode = other.previousNode;
 }
@@ -84,11 +71,8 @@ bool Node::isNULL() const {
 
 /** @brief Overload the == operator for the class Node **/
 bool Node::operator==(Node &other) {
-    if(this->element != other.element) return false;
-    if(this->previousNode != other.previousNode) return false;
-    if(this->nextNode != other.nextNode) return false;
+    if (this->element != other.element) return false;
+    if (this->previousNode != other.previousNode) return false;
+    if (this->nextNode != other.nextNode) return false;
     return true;
 }
-
-
-

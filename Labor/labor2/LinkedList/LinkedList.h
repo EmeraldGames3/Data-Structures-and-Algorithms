@@ -19,23 +19,29 @@ public:
     //Constructor with 1 parameter
     explicit DoubleLinkedList(const Node &head);
 
+    //Constructor with 1 parameter
+    explicit DoubleLinkedList(TElem elem);
+
     //Constructor with 2 parameters
     DoubleLinkedList(const Node &head, const Node &tail);
 
-    //Destructor
-    ~DoubleLinkedList();
+    //Constructor with 2 parameters
+    DoubleLinkedList(TElem head, TElem tail);
 
-    //Get the first element in th list
-    [[nodiscard]] Node getHead() const;
+    //Copy constructor
+    DoubleLinkedList(const DoubleLinkedList &doubleLinkedList);
+
+    //Get the first node in th list
+    [[nodiscard]] Node getHeadNode() const;
+
+    //Get the first element in the list
+    [[nodiscard]] TElem getHead() const;
 
     //Get the last element in the list
-    [[nodiscard]] Node getTail() const;
+    [[nodiscard]] TElem getTail() const;
 
-    //Delete the first element in the list
-    void deleteFirst();
-
-    //Delete the last element in the list
-    void deleteLast();
+    //Get the last node in the list
+    [[nodiscard]] Node getTailNode() const;
 
     //Add an element to the front of the list
     void addFirst(TElem element);
@@ -43,6 +49,15 @@ public:
     //Add an element to the back of the list
     void addLast(TElem element);
 
+    //Delete the first element in the list
+    void deleteFirst();
+
+    //Delete the last element in the list
+    void deleteLast();
+
     //Check if the list is empty
     [[nodiscard]] bool isEmpty() const;
+
+    //Destructor
+    ~DoubleLinkedList();
 };
