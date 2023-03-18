@@ -200,54 +200,6 @@ LinkedList/LinkedListTest/LinkedListTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/LinkedListTest/LinkedListTest.cpp.s
 .PHONY : LinkedList/LinkedListTest/LinkedListTest.cpp.s
 
-LinkedList/Node/Node.obj: LinkedList/Node/Node.cpp.obj
-.PHONY : LinkedList/Node/Node.obj
-
-# target to build an object file
-LinkedList/Node/Node.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/Node/Node.cpp.obj
-.PHONY : LinkedList/Node/Node.cpp.obj
-
-LinkedList/Node/Node.i: LinkedList/Node/Node.cpp.i
-.PHONY : LinkedList/Node/Node.i
-
-# target to preprocess a source file
-LinkedList/Node/Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/Node/Node.cpp.i
-.PHONY : LinkedList/Node/Node.cpp.i
-
-LinkedList/Node/Node.s: LinkedList/Node/Node.cpp.s
-.PHONY : LinkedList/Node/Node.s
-
-# target to generate assembly for a file
-LinkedList/Node/Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/Node/Node.cpp.s
-.PHONY : LinkedList/Node/Node.cpp.s
-
-LinkedList/Node/NodeTest/NodeTest.obj: LinkedList/Node/NodeTest/NodeTest.cpp.obj
-.PHONY : LinkedList/Node/NodeTest/NodeTest.obj
-
-# target to build an object file
-LinkedList/Node/NodeTest/NodeTest.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/Node/NodeTest/NodeTest.cpp.obj
-.PHONY : LinkedList/Node/NodeTest/NodeTest.cpp.obj
-
-LinkedList/Node/NodeTest/NodeTest.i: LinkedList/Node/NodeTest/NodeTest.cpp.i
-.PHONY : LinkedList/Node/NodeTest/NodeTest.i
-
-# target to preprocess a source file
-LinkedList/Node/NodeTest/NodeTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/Node/NodeTest/NodeTest.cpp.i
-.PHONY : LinkedList/Node/NodeTest/NodeTest.cpp.i
-
-LinkedList/Node/NodeTest/NodeTest.s: LinkedList/Node/NodeTest/NodeTest.cpp.s
-.PHONY : LinkedList/Node/NodeTest/NodeTest.s
-
-# target to generate assembly for a file
-LinkedList/Node/NodeTest/NodeTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labor2.dir\build.make CMakeFiles/labor2.dir/LinkedList/Node/NodeTest/NodeTest.cpp.s
-.PHONY : LinkedList/Node/NodeTest/NodeTest.cpp.s
-
 Queue/Queue.obj: Queue/Queue.cpp.obj
 .PHONY : Queue/Queue.obj
 
@@ -338,12 +290,6 @@ help:
 	@echo ... LinkedList/LinkedListTest/LinkedListTest.obj
 	@echo ... LinkedList/LinkedListTest/LinkedListTest.i
 	@echo ... LinkedList/LinkedListTest/LinkedListTest.s
-	@echo ... LinkedList/Node/Node.obj
-	@echo ... LinkedList/Node/Node.i
-	@echo ... LinkedList/Node/Node.s
-	@echo ... LinkedList/Node/NodeTest/NodeTest.obj
-	@echo ... LinkedList/Node/NodeTest/NodeTest.i
-	@echo ... LinkedList/Node/NodeTest/NodeTest.s
 	@echo ... Queue/Queue.obj
 	@echo ... Queue/Queue.i
 	@echo ... Queue/Queue.s

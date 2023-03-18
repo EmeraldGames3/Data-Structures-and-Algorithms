@@ -97,18 +97,6 @@
 		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/LinkedListTest/LinkedListTest.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/Node/Node.cpp">
-			<Option target="labor2"/>
-		</Unit>
-		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/Node/Node.h">
-			<Option target="labor2"/>
-		</Unit>
-		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/Node/NodeTest/NodeTest.cpp">
-			<Option target="labor2"/>
-		</Unit>
-		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/Node/NodeTest/NodeTest.h">
-			<Option target="labor2"/>
-		</Unit>
 		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp">
 			<Option target="labor2"/>
 		</Unit>

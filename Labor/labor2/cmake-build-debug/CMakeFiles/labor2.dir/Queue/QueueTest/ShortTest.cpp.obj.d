@@ -3,7 +3,6 @@ CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.obj: \
  D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue\QueueTest\ShortTest.h \
  D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.h \
  D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/LinkedList.h \
- D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/Node/Node.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/assert.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \

@@ -60,9 +60,7 @@
 				2,
 				3,
 				4,
-				6,
-				8,
-				10
+				6
 			]
 		}
 	],
@@ -104,9 +102,7 @@
 				2,
 				3,
 				4,
-				6,
-				8,
-				10
+				6
 			]
 		},
 		{
@@ -114,9 +110,7 @@
 			"sourceIndexes" : 
 			[
 				5,
-				7,
-				9,
-				11
+				7
 			]
 		}
 	],
@@ -155,28 +149,6 @@
 		{
 			"backtrace" : 1,
 			"path" : "LinkedList/LinkedList.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "LinkedList/Node/Node.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "LinkedList/Node/Node.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "LinkedList/Node/NodeTest/NodeTest.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "LinkedList/Node/NodeTest/NodeTest.h",
 			"sourceGroupIndex" : 1
 		},
 		{

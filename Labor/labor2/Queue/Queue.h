@@ -9,8 +9,7 @@ typedef int TElem;
 #define NULL_TELEM -11111
 #endif //NULL_TELEM
 
-class Queue
-{
+class Queue{
 private:
     DoubleLinkedList linkedList;
 

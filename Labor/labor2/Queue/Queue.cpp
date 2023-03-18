@@ -4,34 +4,25 @@
 
 using namespace std;
 
-
 Queue::Queue() {
-	//TODO - Implementation
+    linkedList = DoubleLinkedList();
 }
-
 
 void Queue::push(TElem elem) {
-	//TODO - Implementation
+    linkedList.insertLast(elem);
 }
 
-
 TElem Queue::top() const {
-	//TODO - Implementation
-	return NULL_TELEM;
+    return linkedList.head->info;
 }
 
 TElem Queue::pop() {
-	//TODO - Implementation
-	return NULL_TELEM;
+    TElem temp= linkedList.head->info;
+    linkedList.deleteFirst();
+    return temp;
 }
 
-bool Queue::isEmpty() const {
-	//TODO - Implementation
-	return false;
-}
+bool Queue::isEmpty() const { return linkedList.isEmpty(); }
 
 
-Queue::~Queue() {
-	//TODO - Implementation
-}
-
+Queue::~Queue() = default;

@@ -2,10 +2,8 @@ CMakeFiles/labor2.dir/App.cpp.obj: \
  D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\App.cpp \
  D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue/Queue.h \
  D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/LinkedList.h \
- D:/Programming/Data-Structures-and-Algorithms/Labor/labor2/LinkedList/Node/Node.h \
  D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue/QueueTest/ExtendedTest.h \
  D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\Queue/QueueTest/ShortTest.h \
- D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\LinkedList/Node/NodeTest/NodeTest.h \
  D:\Programming\Data-Structures-and-Algorithms\Labor\labor2\LinkedList/LinkedListTest/LinkedListTest.h \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
