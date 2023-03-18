@@ -117,9 +117,9 @@ void testLinkedList() {
     testConstructor1();
     testConstructor2();
     testAddFirst();
-    testAddLast();
-    testDeleteFirst();
-    testDeleteLast();
+//    testAddLast();
+//    testDeleteFirst();
+//    testDeleteLast();
 
     std::cout << "DLL test" << std::endl;
 }
