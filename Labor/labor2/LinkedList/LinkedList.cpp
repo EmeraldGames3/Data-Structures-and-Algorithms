@@ -65,6 +65,7 @@ void DoubleLinkedList::addFirst(TElem element) {
         //DLL has only on element
         head = Node(element);
         head.setNext(&tail);
+        tail.setPrevious(&head);
     }
     else {
         //DLL has at least two elements so we are dealing with dynamically allocated memory
@@ -83,6 +84,7 @@ void DoubleLinkedList::addLast(TElem element) {
     else if (head == tail) {
         //DLL has only on element
         tail = Node(element);
+        head.setNext(&tail);
         tail.setPrevious(&head);
     }
     else {

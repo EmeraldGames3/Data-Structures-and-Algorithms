@@ -8,8 +8,8 @@ typedef int TElem;
 class Node{
 private:
     TElem element;
-    Node *nextNode;
     Node *previousNode;
+    Node *nextNode;
 
 public:
     //Default constructor
