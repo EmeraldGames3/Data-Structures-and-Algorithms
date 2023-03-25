@@ -41,10 +41,10 @@ void printMatrix(char **matrix, int rows, int columns) {
         }
         std::cout << "\n";
     }
+    std::cout << "\n";
 }
 
-
-void deallocateMatrix(char **matrix, int rows, int columns) {
+void deallocateMatrix(char **matrix, int rows) {
     for (int i = 0; i < rows; i++) {
         delete[] matrix[i];
     }

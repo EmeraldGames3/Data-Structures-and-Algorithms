@@ -14,10 +14,11 @@ int main() {
     char **matrix = readMatrixFromFile("IO/input.txt", rows, columns);
 
     printMatrix(matrix, rows, columns);
+    std::cout<<'\n';
 
-//    solveMaze(matrix, rows, columns);
+    solveMaze(matrix, rows, columns);
 
-    deallocateMatrix(matrix, rows, columns);
+    deallocateMatrix(matrix, rows);
 
     return 0;
 }

@@ -12,7 +12,7 @@ public:
     explicit Location(int i = -1, int j = -1);
 
     //Copy constructor
-    Location(Location &location);
+    Location(const Location &location);
 
     //Getters
     [[nodiscard]] int getRow() const;

@@ -1,5 +1,6 @@
 #include <exception>
 #include "Location.h"
+#include <cmath>
 
 /**
  * @brief Constructor with implicit parameters
@@ -10,7 +11,7 @@ Location::Location(int i, int j) : row(i), column(j) {}
 /**
  * @brief Copy constructor
  **/
-Location::Location(Location &location) : row(location.getRow()), column(location.getColumn()) {}
+Location::Location(const Location &location) : row(location.getRow()), column(location.getColumn()) {}
 
 /**
  * @brief Getters

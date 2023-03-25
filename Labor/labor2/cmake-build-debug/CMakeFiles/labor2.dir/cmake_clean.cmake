@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/labor2.dir/Queue/Queue.cpp.o.d"
   "CMakeFiles/labor2.dir/Robot/Robot.cpp.o"
   "CMakeFiles/labor2.dir/Robot/Robot.cpp.o.d"
+  "CMakeFiles/labor2.dir/Robot/RobotSetup.cpp.o"
+  "CMakeFiles/labor2.dir/Robot/RobotSetup.cpp.o.d"
   "CMakeFiles/labor2.dir/Tests/LocationQueueTests/LocationQueueTests.cpp.o"
   "CMakeFiles/labor2.dir/Tests/LocationQueueTests/LocationQueueTests.cpp.o.d"
   "CMakeFiles/labor2.dir/Tests/LocationTests/LocationTests.cpp.o"

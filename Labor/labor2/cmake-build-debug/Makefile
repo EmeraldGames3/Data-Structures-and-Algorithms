@@ -273,6 +273,30 @@ Robot/Robot.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Robot/Robot.cpp.s
 .PHONY : Robot/Robot.cpp.s
 
+Robot/RobotSetup.o: Robot/RobotSetup.cpp.o
+.PHONY : Robot/RobotSetup.o
+
+# target to build an object file
+Robot/RobotSetup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Robot/RobotSetup.cpp.o
+.PHONY : Robot/RobotSetup.cpp.o
+
+Robot/RobotSetup.i: Robot/RobotSetup.cpp.i
+.PHONY : Robot/RobotSetup.i
+
+# target to preprocess a source file
+Robot/RobotSetup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Robot/RobotSetup.cpp.i
+.PHONY : Robot/RobotSetup.cpp.i
+
+Robot/RobotSetup.s: Robot/RobotSetup.cpp.s
+.PHONY : Robot/RobotSetup.s
+
+# target to generate assembly for a file
+Robot/RobotSetup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Robot/RobotSetup.cpp.s
+.PHONY : Robot/RobotSetup.cpp.s
+
 Tests/LocationQueueTests/LocationQueueTests.o: Tests/LocationQueueTests/LocationQueueTests.cpp.o
 .PHONY : Tests/LocationQueueTests/LocationQueueTests.o
 
@@ -420,6 +444,9 @@ help:
 	@echo "... Robot/Robot.o"
 	@echo "... Robot/Robot.i"
 	@echo "... Robot/Robot.s"
+	@echo "... Robot/RobotSetup.o"
+	@echo "... Robot/RobotSetup.i"
+	@echo "... Robot/RobotSetup.s"
 	@echo "... Tests/LocationQueueTests/LocationQueueTests.o"
 	@echo "... Tests/LocationQueueTests/LocationQueueTests.i"
 	@echo "... Tests/LocationQueueTests/LocationQueueTests.s"

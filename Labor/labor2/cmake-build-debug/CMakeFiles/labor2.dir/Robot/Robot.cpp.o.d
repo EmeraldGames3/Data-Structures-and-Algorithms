@@ -139,5 +139,5 @@ CMakeFiles/labor2.dir/Robot/Robot.cpp.o: \
  /usr/include/c++/12.2.1/bits/ostream.tcc /usr/include/c++/12.2.1/istream \
  /usr/include/c++/12.2.1/bits/istream.tcc \
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/../LocationQueue/LocationQueue.h \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/RobotSetup.h \
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/../LocationQueue/Location/Location.h

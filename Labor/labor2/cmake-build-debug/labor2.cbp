@@ -115,6 +115,12 @@
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h">
 			<Option target="labor2"/>
 		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/RobotSetup.cpp">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/RobotSetup.h">
+			<Option target="labor2"/>
+		</Unit>
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationQueueTests/LocationQueueTests.cpp">
 			<Option target="labor2"/>
 		</Unit>
