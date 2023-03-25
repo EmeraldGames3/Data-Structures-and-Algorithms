@@ -1,15 +1,16 @@
 #pragma once
+#include "Location.h"
 
-using namespace std;
-
-//DO NOT CHANGE THIS PART
-typedef int TElem;
-#define NULL_TELEM -11111
+typedef Location TElem;
+#define NULL_TELEM Location();
 
 struct Node{
     TElem info;
     Node *previous;
     Node *next;
+
+    //Constructor with implicit parameters
+    explicit Node(TElem _info = Location(-1,-1), Node *_previous = nullptr, Node *_next = nullptr);
 };
 
 class Queue{
@@ -21,18 +22,18 @@ public:
 	Queue();
 
 	//pushes an element to the end of the queue
-	void push(TElem e);
+	void push(const TElem& e);
 
 	//returns the element from the front of the queue
 	//throws exception if the queue is empty
-	TElem top() const;
+	[[nodiscard]] TElem top() const;
 
 	//removes and returns the element from the front of the queue
 	//throws exception if the queue is empty
 	TElem pop();
 
 	//checks if the queue is empty
-	bool isEmpty() const;
+	[[nodiscard]] bool isEmpty() const;
 
 	// destructor
 	~Queue();

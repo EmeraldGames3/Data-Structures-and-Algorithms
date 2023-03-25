@@ -56,7 +56,9 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				6,
+				8
 			]
 		}
 	],
@@ -93,14 +95,18 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				6,
+				8
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				5
+				5,
+				7,
+				9
 			]
 		}
 	],
@@ -121,7 +127,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Queue/Queue.cpp",
+			"path" : "LocationQueue/Queue.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -133,12 +139,34 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "RobotInLabyrinth.cpp",
+			"path" : "IO/IO.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "RobotInLabyrinth.h",
+			"path" : "IO/IO.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Robot.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Robot.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LocationQueue/Location.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "LocationQueue/Location.h",
 			"sourceGroupIndex" : 1
 		}
 	],

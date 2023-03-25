@@ -1,5 +1,5 @@
 #include <assert.h>
-#include "../Queue.h"
+#include "../../LocationQueue/Queue.h"
 #include "ExtendedTest.h"
 #include <vector>
 #include <exception>

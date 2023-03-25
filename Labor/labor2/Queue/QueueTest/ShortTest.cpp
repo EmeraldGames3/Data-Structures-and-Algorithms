@@ -1,5 +1,5 @@
 #include "ShortTest.h"
-#include "../Queue.h"
+#include "../../LocationQueue/Queue.h"
 #include <assert.h>
 
 void testAll() { 

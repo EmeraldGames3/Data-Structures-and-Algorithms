@@ -1,12 +1,15 @@
 #include "Queue.h"
 #include <exception>
-#include <iostream>
 
-using namespace std;
+/**
+ * @brief Constructor with implicit parameters for the Node struct
+ * @details The implicit value of a Location is row = -1 and column = -1 which is an invalid Location
+ **/
+Node::Node(TElem _info, Node *_previous, Node *_next) : info(_info), previous(_previous), next(_next){}
 
 Queue::Queue() : head(nullptr), tail(nullptr) {}
 
-void Queue::push(TElem elem) {
+void Queue::push(const TElem &elem) {
     if (isEmpty()) {
         head = new Node;
         head->info = elem;
@@ -42,8 +45,9 @@ TElem Queue::pop() {
     return temp;
 }
 
-bool Queue::isEmpty() const { return head == nullptr; }
-
+bool Queue::isEmpty() const {
+    return head == nullptr;
+}
 
 Queue::~Queue() {
     Node *currentNode = head;
