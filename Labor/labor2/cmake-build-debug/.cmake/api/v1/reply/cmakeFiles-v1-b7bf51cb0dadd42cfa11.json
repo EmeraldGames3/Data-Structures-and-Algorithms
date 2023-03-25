@@ -49,6 +49,21 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/linux/x64/share/cmake-3.24/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -125,8 +140,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/labor2/cmake-build-debug",
-		"source" : "/home/bogdan/Programming/Uni/Data Structures and Algorithms/Labor/labor2"
+		"build" : "/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug",
+		"source" : "/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2"
 	},
 	"version" : 
 	{

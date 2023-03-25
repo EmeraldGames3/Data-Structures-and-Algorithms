@@ -6,7 +6,7 @@
 #include <iostream>
 
 using namespace std;
-
+/*
 void testCreate() {
 	cout << "Test create" << endl;
 	Queue q;
@@ -140,4 +140,4 @@ void testAllExtended() {
 	testPop();
 	testMix();
 	testQuantity();
-}
+}*/

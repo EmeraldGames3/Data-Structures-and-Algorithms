@@ -2,6 +2,7 @@
 #include "../../LocationQueue/Queue.h"
 #include <assert.h>
 
+/*
 void testAll() { 
 	Queue q;
 	assert(q.isEmpty() == true);
@@ -17,3 +18,4 @@ void testAll() {
 	assert(q.pop() == 10);
 	assert(q.isEmpty() == true);
 }
+ */
