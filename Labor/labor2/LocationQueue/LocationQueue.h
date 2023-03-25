@@ -1,5 +1,5 @@
 #pragma once
-#include "Location.h"
+#include "Location/Location.h"
 
 typedef Location TElem;
 #define NULL_TELEM Location();
@@ -19,7 +19,11 @@ private:
     Node *tail;
 
 public:
+    //Default constructor
 	LocationQueue();
+
+    //Copy constructor
+    LocationQueue(const LocationQueue &other);
 
 	//pushes an element to the end of the queue
 	void push(const TElem& e);
@@ -37,4 +41,7 @@ public:
 
 	// destructor
 	~LocationQueue();
+
+    //Overload the = operator
+    LocationQueue &operator=(const LocationQueue &other);
 };

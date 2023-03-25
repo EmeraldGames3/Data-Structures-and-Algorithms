@@ -9,6 +9,16 @@ Node::Node(TElem _info, Node *_previous, Node *_next) : info(_info), previous(_p
 
 LocationQueue::LocationQueue() : head(nullptr), tail(nullptr) {}
 
+LocationQueue::LocationQueue(const LocationQueue &other) {
+    head = nullptr;
+    tail = nullptr;
+    Node *currentNode = other.head;
+    while (currentNode != nullptr) {
+        push(currentNode->info);
+        currentNode = currentNode->next;
+    }
+}
+
 void LocationQueue::push(const TElem &elem) {
     if (isEmpty()) {
         head = new Node;
@@ -47,6 +57,19 @@ TElem LocationQueue::pop() {
 
 bool LocationQueue::isEmpty() const {
     return head == nullptr;
+}
+
+LocationQueue &LocationQueue::operator=(const LocationQueue &other) {
+    if(this != &other){
+        head = nullptr;
+        tail = nullptr;
+        Node *currentNode = other.head;
+        while (currentNode != nullptr) {
+            push(currentNode->info);
+            currentNode = currentNode->next;
+        }
+    }
+    return *this;
 }
 
 LocationQueue::~LocationQueue() {

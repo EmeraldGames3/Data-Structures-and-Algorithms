@@ -1,9 +1,6 @@
-CMakeFiles/labor2.dir/LocationQueue/LocationQueue.cpp.o: \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/LocationQueue.cpp \
- /usr/include/stdc-predef.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/LocationQueue.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.h \
- /usr/include/c++/12.2.1/exception \
+CMakeFiles/labor2.dir/LocationQueue/Location/Location.cpp.o: \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/12.2.1/exception \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -20,4 +17,5 @@ CMakeFiles/labor2.dir/LocationQueue/LocationQueue.cpp.o: \
  /usr/include/c++/12.2.1/typeinfo \
  /usr/include/c++/12.2.1/bits/hash_bytes.h /usr/include/c++/12.2.1/new \
  /usr/include/c++/12.2.1/bits/move.h /usr/include/c++/12.2.1/type_traits \
- /usr/include/c++/12.2.1/bits/nested_exception.h
+ /usr/include/c++/12.2.1/bits/nested_exception.h \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.h

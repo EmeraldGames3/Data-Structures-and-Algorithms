@@ -6,6 +6,8 @@ private:
     int column;
 
 public:
+    static Location InvalidLocation();
+
     //Constructor with implicit parameters
     explicit Location(int i = -1, int j = -1);
 
@@ -23,6 +25,7 @@ public:
     //Destructor
     ~Location();
 
-    //Overloaded parameters
-    bool operator==(const Location& otherLocation) const;
+    //Overloaded operators
+    bool operator==(const Location &otherLocation) const;
+    Location &operator=(const Location &other);
 };

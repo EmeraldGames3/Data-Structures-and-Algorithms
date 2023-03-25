@@ -1,6 +1,6 @@
-CMakeFiles/labor2.dir/App.cpp.o: \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/App.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/12.2.1/iostream \
+CMakeFiles/labor2.dir/Tests/LocationQueueTests/LocationQueueTests.cpp.o: \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationQueueTests/LocationQueueTests.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/12.2.1/cassert \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -8,9 +8,10 @@ CMakeFiles/labor2.dir/App.cpp.o: \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
- /usr/include/c++/12.2.1/pstl/pstl_config.h \
- /usr/include/c++/12.2.1/ostream /usr/include/c++/12.2.1/ios \
- /usr/include/c++/12.2.1/iosfwd /usr/include/c++/12.2.1/bits/stringfwd.h \
+ /usr/include/c++/12.2.1/pstl/pstl_config.h /usr/include/assert.h \
+ /usr/include/c++/12.2.1/iostream /usr/include/c++/12.2.1/ostream \
+ /usr/include/c++/12.2.1/ios /usr/include/c++/12.2.1/iosfwd \
+ /usr/include/c++/12.2.1/bits/stringfwd.h \
  /usr/include/c++/12.2.1/bits/memoryfwd.h \
  /usr/include/c++/12.2.1/bits/postypes.h /usr/include/c++/12.2.1/cwchar \
  /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
@@ -138,8 +139,5 @@ CMakeFiles/labor2.dir/App.cpp.o: \
  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
  /usr/include/c++/12.2.1/bits/ostream.tcc /usr/include/c++/12.2.1/istream \
  /usr/include/c++/12.2.1/bits/istream.tcc \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/TestAllFunctionalities.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/../LocationQueue/LocationQueue.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/../LocationQueue/Location/Location.h
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationQueueTests/../../LocationQueue/LocationQueue.h \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationQueueTests/../../LocationQueue/Location/Location.h

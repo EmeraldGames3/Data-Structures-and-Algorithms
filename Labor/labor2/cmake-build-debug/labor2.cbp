@@ -91,10 +91,10 @@
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location.cpp">
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.cpp">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location.h">
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.h">
 			<Option target="labor2"/>
 		</Unit>
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/LocationQueue.cpp">
@@ -109,22 +109,40 @@
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp">
-			<Option target="labor2"/>
-		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.h">
-			<Option target="labor2"/>
-		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp">
-			<Option target="labor2"/>
-		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.h">
-			<Option target="labor2"/>
-		</Unit>
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.cpp">
 			<Option target="labor2"/>
 		</Unit>
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationQueueTests/LocationQueueTests.cpp">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationQueueTests/LocationQueueTests.h">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationTests/LocationTests.cpp">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationTests/LocationTests.h">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/QueueTest/ExtendedTest.cpp">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/QueueTest/ExtendedTest.h">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/QueueTest/ShortTest.cpp">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/QueueTest/ShortTest.h">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/TestAllFunctionalities.cpp">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/TestAllFunctionalities.h">
 			<Option target="labor2"/>
 		</Unit>
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/CMakeLists.txt">

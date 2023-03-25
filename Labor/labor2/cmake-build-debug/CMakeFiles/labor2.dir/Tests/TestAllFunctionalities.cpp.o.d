@@ -1,6 +1,11 @@
-CMakeFiles/labor2.dir/App.cpp.o: \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/App.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/12.2.1/iostream \
+CMakeFiles/labor2.dir/Tests/TestAllFunctionalities.cpp.o: \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/TestAllFunctionalities.cpp \
+ /usr/include/stdc-predef.h \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationTests/LocationTests.h \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationQueueTests/LocationQueueTests.h \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/QueueTest/ShortTest.h \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/QueueTest/ExtendedTest.h \
+ /usr/include/c++/12.2.1/iostream \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -137,9 +142,4 @@ CMakeFiles/labor2.dir/App.cpp.o: \
  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
  /usr/include/c++/12.2.1/bits/ostream.tcc /usr/include/c++/12.2.1/istream \
- /usr/include/c++/12.2.1/bits/istream.tcc \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/TestAllFunctionalities.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/../LocationQueue/LocationQueue.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/../LocationQueue/Location/Location.h
+ /usr/include/c++/12.2.1/bits/istream.tcc

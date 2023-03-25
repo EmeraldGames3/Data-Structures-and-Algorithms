@@ -1,6 +1,6 @@
-CMakeFiles/labor2.dir/App.cpp.o: \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/App.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/12.2.1/iostream \
+CMakeFiles/labor2.dir/LocationQueue/Location/LocationTests/LocationTests.cpp.o: \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/LocationTests/LocationTests.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/12.2.1/cassert \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -8,28 +8,30 @@ CMakeFiles/labor2.dir/App.cpp.o: \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
- /usr/include/c++/12.2.1/pstl/pstl_config.h \
- /usr/include/c++/12.2.1/ostream /usr/include/c++/12.2.1/ios \
- /usr/include/c++/12.2.1/iosfwd /usr/include/c++/12.2.1/bits/stringfwd.h \
+ /usr/include/c++/12.2.1/pstl/pstl_config.h /usr/include/assert.h \
+ /usr/include/c++/12.2.1/exception \
+ /usr/include/c++/12.2.1/bits/exception.h \
+ /usr/include/c++/12.2.1/bits/exception_ptr.h \
+ /usr/include/c++/12.2.1/bits/exception_defines.h \
+ /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
+ /usr/include/c++/12.2.1/typeinfo \
+ /usr/include/c++/12.2.1/bits/hash_bytes.h /usr/include/c++/12.2.1/new \
+ /usr/include/c++/12.2.1/bits/move.h /usr/include/c++/12.2.1/type_traits \
+ /usr/include/c++/12.2.1/bits/nested_exception.h \
+ /usr/include/c++/12.2.1/iostream /usr/include/c++/12.2.1/ostream \
+ /usr/include/c++/12.2.1/ios /usr/include/c++/12.2.1/iosfwd \
+ /usr/include/c++/12.2.1/bits/stringfwd.h \
  /usr/include/c++/12.2.1/bits/memoryfwd.h \
  /usr/include/c++/12.2.1/bits/postypes.h /usr/include/c++/12.2.1/cwchar \
  /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
  /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
- /usr/include/bits/types/__locale_t.h /usr/include/c++/12.2.1/exception \
- /usr/include/c++/12.2.1/bits/exception.h \
- /usr/include/c++/12.2.1/bits/exception_ptr.h \
- /usr/include/c++/12.2.1/bits/exception_defines.h \
- /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
- /usr/include/c++/12.2.1/typeinfo \
- /usr/include/c++/12.2.1/bits/hash_bytes.h /usr/include/c++/12.2.1/new \
- /usr/include/c++/12.2.1/bits/move.h /usr/include/c++/12.2.1/type_traits \
- /usr/include/c++/12.2.1/bits/nested_exception.h \
+ /usr/include/bits/types/__locale_t.h \
  /usr/include/c++/12.2.1/bits/char_traits.h \
  /usr/include/c++/12.2.1/compare /usr/include/c++/12.2.1/concepts \
  /usr/include/c++/12.2.1/bits/stl_construct.h \
@@ -138,8 +140,4 @@ CMakeFiles/labor2.dir/App.cpp.o: \
  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
  /usr/include/c++/12.2.1/bits/ostream.tcc /usr/include/c++/12.2.1/istream \
  /usr/include/c++/12.2.1/bits/istream.tcc \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/TestAllFunctionalities.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/../LocationQueue/LocationQueue.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/../LocationQueue/Location/Location.h
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/LocationTests/../Location.h

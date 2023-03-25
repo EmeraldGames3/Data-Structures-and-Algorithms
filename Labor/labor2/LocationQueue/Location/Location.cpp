@@ -10,24 +10,26 @@ Location::Location(int i, int j) : row(i), column(j) {}
 /**
  * @brief Copy constructor
  **/
-Location::Location(Location &location) : row(location.getRow()), column(location.getColumn()){}
+Location::Location(Location &location) : row(location.getRow()), column(location.getColumn()) {}
 
 /**
  * @brief Getters
  **/
-int Location::getRow() const {return row;}
-int Location::getColumn() const {return column;}
+int Location::getRow() const { return row; }
+
+int Location::getColumn() const { return column; }
 
 /**
  * @brief Setters
  **/
 void Location::setRow(int newRow) {
-    if(newRow < -1)
+    if (newRow < -1)
         throw std::exception();
     this->row = newRow;
 }
+
 void Location::setColumn(int newColumn) {
-    if(newColumn < -1)
+    if (newColumn < -1)
         throw std::exception();
     this->column = newColumn;
 }
@@ -37,6 +39,21 @@ void Location::setColumn(int newColumn) {
  **/
 bool Location::operator==(const Location &otherLocation) const {
     return this->row == otherLocation.getRow() && this->column == otherLocation.getColumn();
+}
+
+/**
+ * @brief Overloaded = operator
+ **/
+Location &Location::operator=(const Location &other) {
+    if (this != &other) {  // check for self-assignment
+        row = other.row;
+        column = other.column;
+    }
+    return *this;
+}
+
+Location Location::InvalidLocation() {
+    return Location{-1, -1};
 }
 
 /**
