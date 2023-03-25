@@ -55,26 +55,26 @@ build CMakeFiles/labor2.dir/App.cpp.o: CXX_COMPILER__labor2_Debug /home/bogdan/P
   OBJECT_DIR = CMakeFiles/labor2.dir
   OBJECT_FILE_DIR = CMakeFiles/labor2.dir
 
-build CMakeFiles/labor2.dir/ExtendedTest.cpp.o: CXX_COMPILER__labor2_Debug /home/bogdan/Programming/Uni/Data$ Structures$ and$ Algorithms/Labor/labor2/ExtendedTest.cpp || cmake_object_order_depends_target_labor2
-  DEP_FILE = CMakeFiles/labor2.dir/ExtendedTest.cpp.o.d
+build CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o: CXX_COMPILER__labor2_Debug /home/bogdan/Programming/Uni/Data$ Structures$ and$ Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp || cmake_object_order_depends_target_labor2
+  DEP_FILE = CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles/labor2.dir
-  OBJECT_FILE_DIR = CMakeFiles/labor2.dir
+  OBJECT_FILE_DIR = CMakeFiles/labor2.dir/Queue/QueueTest
 
-build CMakeFiles/labor2.dir/Queue.cpp.o: CXX_COMPILER__labor2_Debug /home/bogdan/Programming/Uni/Data$ Structures$ and$ Algorithms/Labor/labor2/Queue.cpp || cmake_object_order_depends_target_labor2
-  DEP_FILE = CMakeFiles/labor2.dir/Queue.cpp.o.d
+build CMakeFiles/labor2.dir/Queue/Queue.cpp.o: CXX_COMPILER__labor2_Debug /home/bogdan/Programming/Uni/Data$ Structures$ and$ Algorithms/Labor/labor2/Queue/Queue.cpp || cmake_object_order_depends_target_labor2
+  DEP_FILE = CMakeFiles/labor2.dir/Queue/Queue.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles/labor2.dir
-  OBJECT_FILE_DIR = CMakeFiles/labor2.dir
+  OBJECT_FILE_DIR = CMakeFiles/labor2.dir/Queue
 
-build CMakeFiles/labor2.dir/ShortTest.cpp.o: CXX_COMPILER__labor2_Debug /home/bogdan/Programming/Uni/Data$ Structures$ and$ Algorithms/Labor/labor2/ShortTest.cpp || cmake_object_order_depends_target_labor2
-  DEP_FILE = CMakeFiles/labor2.dir/ShortTest.cpp.o.d
+build CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: CXX_COMPILER__labor2_Debug /home/bogdan/Programming/Uni/Data$ Structures$ and$ Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp || cmake_object_order_depends_target_labor2
+  DEP_FILE = CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles/labor2.dir
-  OBJECT_FILE_DIR = CMakeFiles/labor2.dir
+  OBJECT_FILE_DIR = CMakeFiles/labor2.dir/Queue/QueueTest
 
-build CMakeFiles/labor2.dir/LinkedList.cpp.o: CXX_COMPILER__labor2_Debug /home/bogdan/Programming/Uni/Data$ Structures$ and$ Algorithms/Labor/labor2/LinkedList.cpp || cmake_object_order_depends_target_labor2
-  DEP_FILE = CMakeFiles/labor2.dir/LinkedList.cpp.o.d
+build CMakeFiles/labor2.dir/RobotInLabyrinth.cpp.o: CXX_COMPILER__labor2_Debug /home/bogdan/Programming/Uni/Data$ Structures$ and$ Algorithms/Labor/labor2/RobotInLabyrinth.cpp || cmake_object_order_depends_target_labor2
+  DEP_FILE = CMakeFiles/labor2.dir/RobotInLabyrinth.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles/labor2.dir
   OBJECT_FILE_DIR = CMakeFiles/labor2.dir
@@ -87,7 +87,7 @@ build CMakeFiles/labor2.dir/LinkedList.cpp.o: CXX_COMPILER__labor2_Debug /home/b
 #############################################
 # Link the executable labor2
 
-build labor2: CXX_EXECUTABLE_LINKER__labor2_Debug CMakeFiles/labor2.dir/App.cpp.o CMakeFiles/labor2.dir/ExtendedTest.cpp.o CMakeFiles/labor2.dir/Queue.cpp.o CMakeFiles/labor2.dir/ShortTest.cpp.o CMakeFiles/labor2.dir/LinkedList.cpp.o
+build labor2: CXX_EXECUTABLE_LINKER__labor2_Debug CMakeFiles/labor2.dir/App.cpp.o CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o CMakeFiles/labor2.dir/Queue/Queue.cpp.o CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o CMakeFiles/labor2.dir/RobotInLabyrinth.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/labor2.dir
   POST_BUILD = :

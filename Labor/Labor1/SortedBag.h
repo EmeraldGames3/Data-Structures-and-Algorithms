@@ -32,7 +32,6 @@ private:
     int binarySearch(int element) const;
 
 public:
-
     //constructor
     SortedBag(Relation r);
 
