@@ -201,29 +201,53 @@ LocationQueue/Location.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/Location.cpp.s
 .PHONY : LocationQueue/Location.cpp.s
 
-LocationQueue/Queue.o: LocationQueue/Queue.cpp.o
-.PHONY : LocationQueue/Queue.o
+LocationQueue/LocationQueue.o: LocationQueue/LocationQueue.cpp.o
+.PHONY : LocationQueue/LocationQueue.o
 
 # target to build an object file
-LocationQueue/Queue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/Queue.cpp.o
-.PHONY : LocationQueue/Queue.cpp.o
+LocationQueue/LocationQueue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/LocationQueue.cpp.o
+.PHONY : LocationQueue/LocationQueue.cpp.o
 
-LocationQueue/Queue.i: LocationQueue/Queue.cpp.i
-.PHONY : LocationQueue/Queue.i
+LocationQueue/LocationQueue.i: LocationQueue/LocationQueue.cpp.i
+.PHONY : LocationQueue/LocationQueue.i
 
 # target to preprocess a source file
-LocationQueue/Queue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/Queue.cpp.i
-.PHONY : LocationQueue/Queue.cpp.i
+LocationQueue/LocationQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/LocationQueue.cpp.i
+.PHONY : LocationQueue/LocationQueue.cpp.i
 
-LocationQueue/Queue.s: LocationQueue/Queue.cpp.s
-.PHONY : LocationQueue/Queue.s
+LocationQueue/LocationQueue.s: LocationQueue/LocationQueue.cpp.s
+.PHONY : LocationQueue/LocationQueue.s
 
 # target to generate assembly for a file
-LocationQueue/Queue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/Queue.cpp.s
-.PHONY : LocationQueue/Queue.cpp.s
+LocationQueue/LocationQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/LocationQueue.cpp.s
+.PHONY : LocationQueue/LocationQueue.cpp.s
+
+Queue/Queue.o: Queue/Queue.cpp.o
+.PHONY : Queue/Queue.o
+
+# target to build an object file
+Queue/Queue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Queue/Queue.cpp.o
+.PHONY : Queue/Queue.cpp.o
+
+Queue/Queue.i: Queue/Queue.cpp.i
+.PHONY : Queue/Queue.i
+
+# target to preprocess a source file
+Queue/Queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Queue/Queue.cpp.i
+.PHONY : Queue/Queue.cpp.i
+
+Queue/Queue.s: Queue/Queue.cpp.s
+.PHONY : Queue/Queue.s
+
+# target to generate assembly for a file
+Queue/Queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Queue/Queue.cpp.s
+.PHONY : Queue/Queue.cpp.s
 
 Queue/QueueTest/ExtendedTest.o: Queue/QueueTest/ExtendedTest.cpp.o
 .PHONY : Queue/QueueTest/ExtendedTest.o
@@ -315,9 +339,12 @@ help:
 	@echo "... LocationQueue/Location.o"
 	@echo "... LocationQueue/Location.i"
 	@echo "... LocationQueue/Location.s"
-	@echo "... LocationQueue/Queue.o"
-	@echo "... LocationQueue/Queue.i"
-	@echo "... LocationQueue/Queue.s"
+	@echo "... LocationQueue/LocationQueue.o"
+	@echo "... LocationQueue/LocationQueue.i"
+	@echo "... LocationQueue/LocationQueue.s"
+	@echo "... Queue/Queue.o"
+	@echo "... Queue/Queue.i"
+	@echo "... Queue/Queue.s"
 	@echo "... Queue/QueueTest/ExtendedTest.o"
 	@echo "... Queue/QueueTest/ExtendedTest.i"
 	@echo "... Queue/QueueTest/ExtendedTest.s"

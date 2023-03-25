@@ -2,8 +2,7 @@ CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: \
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp \
  /usr/include/stdc-predef.h \
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/../../LocationQueue/Queue.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/../../LocationQueue/Location.h \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/../Queue.h \
  /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \

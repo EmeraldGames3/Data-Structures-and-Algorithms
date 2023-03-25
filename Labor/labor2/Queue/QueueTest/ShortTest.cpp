@@ -1,9 +1,8 @@
 #include "ShortTest.h"
-#include "../../LocationQueue/Queue.h"
+#include "../Queue.h"
 #include <assert.h>
 
-/*
-void testAll() { 
+void testAll() {
 	Queue q;
 	assert(q.isEmpty() == true);
 	q.push(5);
@@ -18,4 +17,3 @@ void testAll() {
 	assert(q.pop() == 10);
 	assert(q.isEmpty() == true);
 }
- */

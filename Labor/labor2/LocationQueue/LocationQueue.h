@@ -13,13 +13,13 @@ struct Node{
     explicit Node(TElem _info = Location(-1,-1), Node *_previous = nullptr, Node *_next = nullptr);
 };
 
-class Queue{
+class LocationQueue{
 private:
     Node *head;
     Node *tail;
 
 public:
-	Queue();
+	LocationQueue();
 
 	//pushes an element to the end of the queue
 	void push(const TElem& e);
@@ -36,5 +36,5 @@ public:
 	[[nodiscard]] bool isEmpty() const;
 
 	// destructor
-	~Queue();
+	~LocationQueue();
 };

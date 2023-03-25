@@ -1,4 +1,4 @@
-#include "Queue.h"
+#include "LocationQueue.h"
 #include <exception>
 
 /**
@@ -7,9 +7,9 @@
  **/
 Node::Node(TElem _info, Node *_previous, Node *_next) : info(_info), previous(_previous), next(_next){}
 
-Queue::Queue() : head(nullptr), tail(nullptr) {}
+LocationQueue::LocationQueue() : head(nullptr), tail(nullptr) {}
 
-void Queue::push(const TElem &elem) {
+void LocationQueue::push(const TElem &elem) {
     if (isEmpty()) {
         head = new Node;
         head->info = elem;
@@ -26,12 +26,12 @@ void Queue::push(const TElem &elem) {
     }
 }
 
-TElem Queue::top() const {
+TElem LocationQueue::top() const {
     if(isEmpty()) throw std::exception();
     return head->info;
 }
 
-TElem Queue::pop() {
+TElem LocationQueue::pop() {
     if (isEmpty()) throw std::exception();
 
     TElem temp = head->info;
@@ -45,11 +45,11 @@ TElem Queue::pop() {
     return temp;
 }
 
-bool Queue::isEmpty() const {
+bool LocationQueue::isEmpty() const {
     return head == nullptr;
 }
 
-Queue::~Queue() {
+LocationQueue::~LocationQueue() {
     Node *currentNode = head;
     while (currentNode != nullptr) {
         Node *nextNode = currentNode->next;

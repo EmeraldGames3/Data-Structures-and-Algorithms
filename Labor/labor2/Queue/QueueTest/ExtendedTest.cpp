@@ -1,12 +1,12 @@
 #include <assert.h>
-#include "../../LocationQueue/Queue.h"
+#include "../Queue.h"
 #include "ExtendedTest.h"
 #include <vector>
 #include <exception>
 #include <iostream>
 
 using namespace std;
-/*
+
 void testCreate() {
 	cout << "Test create" << endl;
 	Queue q;
@@ -140,4 +140,4 @@ void testAllExtended() {
 	testPop();
 	testMix();
 	testQuantity();
-}*/
+}

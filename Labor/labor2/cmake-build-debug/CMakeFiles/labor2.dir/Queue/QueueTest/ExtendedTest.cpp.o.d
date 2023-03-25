@@ -5,8 +5,7 @@ CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o: \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
  /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
  /usr/include/gnu/stubs-64.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/../../LocationQueue/Queue.h \
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/../../LocationQueue/Location.h \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/../Queue.h \
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.h \
  /usr/include/c++/12.2.1/vector \
  /usr/include/c++/12.2.1/bits/stl_algobase.h \
