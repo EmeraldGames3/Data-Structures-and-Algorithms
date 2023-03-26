@@ -5,7 +5,9 @@
  * @brief Constructor with implicit parameters for the Node struct
  * @details The implicit value of a Location is row = -1 and column = -1 which is an invalid Location
  **/
-Node::Node(TElem _info, Node *_previous, Node *_next) : info(_info), previous(_previous), next(_next){}
+Node::Node(const TElem& _info, Node *_previous, Node *_next) : info(_info), previous(_previous), next(_next){}
+
+Node::Node() : info(Location::InvalidLocation()), previous(nullptr), next(nullptr){}
 
 LocationQueue::LocationQueue() : head(nullptr), tail(nullptr) {}
 
@@ -27,7 +29,7 @@ void LocationQueue::push(const TElem &elem) {
         head->next = tail;
         tail = head;
     } else {
-        Node *newNode = new Node;
+        Node *newNode = new Node();
         newNode->info = elem;
         newNode->next = nullptr;
         newNode->previous = tail;

@@ -17,6 +17,7 @@ int main() {
     std::cout<<'\n';
 
     solveMaze(matrix, rows, columns);
+    printMatrix(matrix, rows, columns);
 
     deallocateMatrix(matrix, rows);
 

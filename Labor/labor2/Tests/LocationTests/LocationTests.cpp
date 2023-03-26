@@ -33,14 +33,14 @@ void testLocationSetters() {
         loc.setRow(-2); //invalid row value
         assert(false); //if exception is not thrown, the test fails
     } catch (std::exception& e) {
-        //expected exception
+        assert(true);
     }
 
     try {
         loc.setColumn(-2); //invalid column value
         assert(false); //if exception is not thrown, the test fails
     } catch (std::exception& e) {
-        //expected exception
+        assert(true);
     }
 }
 

@@ -1,6 +1,6 @@
 #pragma once
 
-//#include "../LocationQueue/LocationQueue.h"
+#include "../LocationQueue/LocationQueue.h"
 
 enum MazeSymbol {
     Wall = 'X',

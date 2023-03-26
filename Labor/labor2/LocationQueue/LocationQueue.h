@@ -9,8 +9,9 @@ struct Node{
     Node *previous;
     Node *next;
 
+    Node();
     //Constructor with implicit parameters
-    explicit Node(TElem _info = Location(-1,-1), Node *_previous = nullptr, Node *_next = nullptr);
+    explicit Node(const TElem& _info, Node *_previous, Node *_next);
 };
 
 class LocationQueue{

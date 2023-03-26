@@ -193,7 +193,9 @@ CMakeFiles/labor2.dir/App.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-an
   /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/TestAllFunctionalities.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h \
-  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h \
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/LocationQueue.h \
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.h
 
 CMakeFiles/labor2.dir/IO/IO.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp \
   /usr/include/stdc-predef.h \
@@ -915,14 +917,16 @@ CMakeFiles/labor2.dir/Robot/Robot.cpp.o: /home/bogdan/Programming/Uni/Data-Struc
   /usr/include/c++/12.2.1/istream \
   /usr/include/c++/12.2.1/bits/istream.tcc \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h \
-  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/RobotSetup.h \
-  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.h
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/LocationQueue.h \
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.h \
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/RobotSetup.h
 
 CMakeFiles/labor2.dir/Robot/RobotSetup.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/RobotSetup.cpp \
   /usr/include/stdc-predef.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/RobotSetup.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.h \
-  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h \
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/LocationQueue.h
 
 CMakeFiles/labor2.dir/Tests/LocationQueueTests/LocationQueueTests.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationQueueTests/LocationQueueTests.cpp \
   /usr/include/stdc-predef.h \
@@ -1762,10 +1766,6 @@ CMakeFiles/labor2.dir/Tests/TestAllFunctionalities.cpp.o: /home/bogdan/Programmi
 
 /usr/include/c++/12.2.1/limits:
 
-/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/LocationQueue.h:
-
-/usr/include/bits/iscanonical.h:
-
 /usr/include/bits/mathcalls-narrow.h:
 
 /usr/include/bits/mathcalls.h:
@@ -1787,6 +1787,10 @@ CMakeFiles/labor2.dir/Tests/TestAllFunctionalities.cpp.o: /home/bogdan/Programmi
 /usr/include/c++/12.2.1/bits/codecvt.h:
 
 /usr/include/c++/12.2.1/fstream:
+
+/usr/include/bits/iscanonical.h:
+
+/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/LocationQueue.h:
 
 /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/basic_file.h:
 

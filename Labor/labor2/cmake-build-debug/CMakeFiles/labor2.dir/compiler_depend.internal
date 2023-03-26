@@ -195,6 +195,8 @@ CMakeFiles/labor2.dir/App.cpp.o
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/TestAllFunctionalities.h
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/LocationQueue.h
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.h
 
 CMakeFiles/labor2.dir/IO/IO.cpp.o
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp
@@ -921,8 +923,9 @@ CMakeFiles/labor2.dir/Robot/Robot.cpp.o
  /usr/include/c++/12.2.1/istream
  /usr/include/c++/12.2.1/bits/istream.tcc
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h
- /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/RobotSetup.h
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/LocationQueue.h
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.h
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/RobotSetup.h
 
 CMakeFiles/labor2.dir/Robot/RobotSetup.cpp.o
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/RobotSetup.cpp
@@ -930,6 +933,7 @@ CMakeFiles/labor2.dir/Robot/RobotSetup.cpp.o
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/RobotSetup.h
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/Location/Location.h
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Robot/Robot.h
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/LocationQueue/LocationQueue.h
 
 CMakeFiles/labor2.dir/Tests/LocationQueueTests/LocationQueueTests.cpp.o
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Tests/LocationQueueTests/LocationQueueTests.cpp
