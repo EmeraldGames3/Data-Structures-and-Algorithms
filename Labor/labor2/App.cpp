@@ -1,12 +1,13 @@
 #include <iostream>
-#include "Tests/TestAllFunctionalities.h"
 #include "IO/IO.h"
-#include "Robot/Robot.h"
+#include "Queue/QueueTest/ExtendedTest.h"
+#include "Queue/QueueTest/ShortTest.h"
 
 using namespace std;
 
 int main() {
-    testAllFunctionalities();
+    testAll();
+    testAllExtended();
 //    cin.get();
 
     int rows = 0;
@@ -14,9 +15,7 @@ int main() {
     char **matrix = readMatrixFromFile("IO/input.txt", rows, columns);
 
     printMatrix(matrix, rows, columns);
-    std::cout<<'\n';
-
-    solveMaze(matrix, rows, columns);
+    setGoal(matrix, rows, columns);
     printMatrix(matrix, rows, columns);
 
     deallocateMatrix(matrix, rows);

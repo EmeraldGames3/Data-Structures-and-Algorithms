@@ -44,6 +44,16 @@ void printMatrix(char **matrix, int rows, int columns) {
     std::cout << "\n";
 }
 
+void setGoal(char **matrix, int rows, int columns) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < columns; j++) {
+            if ((i == 0 || j == 0 || i == rows - 1 || j == columns - 1) && matrix[i][j] == '*') {
+                matrix[i][j] = 'G';
+            }
+        }
+    }
+}
+
 void deallocateMatrix(char **matrix, int rows) {
     for (int i = 0; i < rows; i++) {
         delete[] matrix[i];

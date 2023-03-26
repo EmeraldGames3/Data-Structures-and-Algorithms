@@ -177,54 +177,6 @@ IO/IO.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/IO/IO.cpp.s
 .PHONY : IO/IO.cpp.s
 
-LocationQueue/Location/Location.o: LocationQueue/Location/Location.cpp.o
-.PHONY : LocationQueue/Location/Location.o
-
-# target to build an object file
-LocationQueue/Location/Location.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/Location/Location.cpp.o
-.PHONY : LocationQueue/Location/Location.cpp.o
-
-LocationQueue/Location/Location.i: LocationQueue/Location/Location.cpp.i
-.PHONY : LocationQueue/Location/Location.i
-
-# target to preprocess a source file
-LocationQueue/Location/Location.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/Location/Location.cpp.i
-.PHONY : LocationQueue/Location/Location.cpp.i
-
-LocationQueue/Location/Location.s: LocationQueue/Location/Location.cpp.s
-.PHONY : LocationQueue/Location/Location.s
-
-# target to generate assembly for a file
-LocationQueue/Location/Location.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/Location/Location.cpp.s
-.PHONY : LocationQueue/Location/Location.cpp.s
-
-LocationQueue/LocationQueue.o: LocationQueue/LocationQueue.cpp.o
-.PHONY : LocationQueue/LocationQueue.o
-
-# target to build an object file
-LocationQueue/LocationQueue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/LocationQueue.cpp.o
-.PHONY : LocationQueue/LocationQueue.cpp.o
-
-LocationQueue/LocationQueue.i: LocationQueue/LocationQueue.cpp.i
-.PHONY : LocationQueue/LocationQueue.i
-
-# target to preprocess a source file
-LocationQueue/LocationQueue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/LocationQueue.cpp.i
-.PHONY : LocationQueue/LocationQueue.cpp.i
-
-LocationQueue/LocationQueue.s: LocationQueue/LocationQueue.cpp.s
-.PHONY : LocationQueue/LocationQueue.s
-
-# target to generate assembly for a file
-LocationQueue/LocationQueue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/LocationQueue/LocationQueue.cpp.s
-.PHONY : LocationQueue/LocationQueue.cpp.s
-
 Queue/Queue.o: Queue/Queue.cpp.o
 .PHONY : Queue/Queue.o
 
@@ -249,173 +201,53 @@ Queue/Queue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Queue/Queue.cpp.s
 .PHONY : Queue/Queue.cpp.s
 
-Robot/Robot.o: Robot/Robot.cpp.o
-.PHONY : Robot/Robot.o
+Queue/QueueTest/ExtendedTest.o: Queue/QueueTest/ExtendedTest.cpp.o
+.PHONY : Queue/QueueTest/ExtendedTest.o
 
 # target to build an object file
-Robot/Robot.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Robot/Robot.cpp.o
-.PHONY : Robot/Robot.cpp.o
+Queue/QueueTest/ExtendedTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o
+.PHONY : Queue/QueueTest/ExtendedTest.cpp.o
 
-Robot/Robot.i: Robot/Robot.cpp.i
-.PHONY : Robot/Robot.i
+Queue/QueueTest/ExtendedTest.i: Queue/QueueTest/ExtendedTest.cpp.i
+.PHONY : Queue/QueueTest/ExtendedTest.i
 
 # target to preprocess a source file
-Robot/Robot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Robot/Robot.cpp.i
-.PHONY : Robot/Robot.cpp.i
+Queue/QueueTest/ExtendedTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.i
+.PHONY : Queue/QueueTest/ExtendedTest.cpp.i
 
-Robot/Robot.s: Robot/Robot.cpp.s
-.PHONY : Robot/Robot.s
+Queue/QueueTest/ExtendedTest.s: Queue/QueueTest/ExtendedTest.cpp.s
+.PHONY : Queue/QueueTest/ExtendedTest.s
 
 # target to generate assembly for a file
-Robot/Robot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Robot/Robot.cpp.s
-.PHONY : Robot/Robot.cpp.s
+Queue/QueueTest/ExtendedTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.s
+.PHONY : Queue/QueueTest/ExtendedTest.cpp.s
 
-Robot/RobotSetup.o: Robot/RobotSetup.cpp.o
-.PHONY : Robot/RobotSetup.o
+Queue/QueueTest/ShortTest.o: Queue/QueueTest/ShortTest.cpp.o
+.PHONY : Queue/QueueTest/ShortTest.o
 
 # target to build an object file
-Robot/RobotSetup.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Robot/RobotSetup.cpp.o
-.PHONY : Robot/RobotSetup.cpp.o
+Queue/QueueTest/ShortTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o
+.PHONY : Queue/QueueTest/ShortTest.cpp.o
 
-Robot/RobotSetup.i: Robot/RobotSetup.cpp.i
-.PHONY : Robot/RobotSetup.i
-
-# target to preprocess a source file
-Robot/RobotSetup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Robot/RobotSetup.cpp.i
-.PHONY : Robot/RobotSetup.cpp.i
-
-Robot/RobotSetup.s: Robot/RobotSetup.cpp.s
-.PHONY : Robot/RobotSetup.s
-
-# target to generate assembly for a file
-Robot/RobotSetup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Robot/RobotSetup.cpp.s
-.PHONY : Robot/RobotSetup.cpp.s
-
-Tests/LocationQueueTests/LocationQueueTests.o: Tests/LocationQueueTests/LocationQueueTests.cpp.o
-.PHONY : Tests/LocationQueueTests/LocationQueueTests.o
-
-# target to build an object file
-Tests/LocationQueueTests/LocationQueueTests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/LocationQueueTests/LocationQueueTests.cpp.o
-.PHONY : Tests/LocationQueueTests/LocationQueueTests.cpp.o
-
-Tests/LocationQueueTests/LocationQueueTests.i: Tests/LocationQueueTests/LocationQueueTests.cpp.i
-.PHONY : Tests/LocationQueueTests/LocationQueueTests.i
+Queue/QueueTest/ShortTest.i: Queue/QueueTest/ShortTest.cpp.i
+.PHONY : Queue/QueueTest/ShortTest.i
 
 # target to preprocess a source file
-Tests/LocationQueueTests/LocationQueueTests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/LocationQueueTests/LocationQueueTests.cpp.i
-.PHONY : Tests/LocationQueueTests/LocationQueueTests.cpp.i
+Queue/QueueTest/ShortTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.i
+.PHONY : Queue/QueueTest/ShortTest.cpp.i
 
-Tests/LocationQueueTests/LocationQueueTests.s: Tests/LocationQueueTests/LocationQueueTests.cpp.s
-.PHONY : Tests/LocationQueueTests/LocationQueueTests.s
-
-# target to generate assembly for a file
-Tests/LocationQueueTests/LocationQueueTests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/LocationQueueTests/LocationQueueTests.cpp.s
-.PHONY : Tests/LocationQueueTests/LocationQueueTests.cpp.s
-
-Tests/LocationTests/LocationTests.o: Tests/LocationTests/LocationTests.cpp.o
-.PHONY : Tests/LocationTests/LocationTests.o
-
-# target to build an object file
-Tests/LocationTests/LocationTests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/LocationTests/LocationTests.cpp.o
-.PHONY : Tests/LocationTests/LocationTests.cpp.o
-
-Tests/LocationTests/LocationTests.i: Tests/LocationTests/LocationTests.cpp.i
-.PHONY : Tests/LocationTests/LocationTests.i
-
-# target to preprocess a source file
-Tests/LocationTests/LocationTests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/LocationTests/LocationTests.cpp.i
-.PHONY : Tests/LocationTests/LocationTests.cpp.i
-
-Tests/LocationTests/LocationTests.s: Tests/LocationTests/LocationTests.cpp.s
-.PHONY : Tests/LocationTests/LocationTests.s
+Queue/QueueTest/ShortTest.s: Queue/QueueTest/ShortTest.cpp.s
+.PHONY : Queue/QueueTest/ShortTest.s
 
 # target to generate assembly for a file
-Tests/LocationTests/LocationTests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/LocationTests/LocationTests.cpp.s
-.PHONY : Tests/LocationTests/LocationTests.cpp.s
-
-Tests/QueueTest/ExtendedTest.o: Tests/QueueTest/ExtendedTest.cpp.o
-.PHONY : Tests/QueueTest/ExtendedTest.o
-
-# target to build an object file
-Tests/QueueTest/ExtendedTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/QueueTest/ExtendedTest.cpp.o
-.PHONY : Tests/QueueTest/ExtendedTest.cpp.o
-
-Tests/QueueTest/ExtendedTest.i: Tests/QueueTest/ExtendedTest.cpp.i
-.PHONY : Tests/QueueTest/ExtendedTest.i
-
-# target to preprocess a source file
-Tests/QueueTest/ExtendedTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/QueueTest/ExtendedTest.cpp.i
-.PHONY : Tests/QueueTest/ExtendedTest.cpp.i
-
-Tests/QueueTest/ExtendedTest.s: Tests/QueueTest/ExtendedTest.cpp.s
-.PHONY : Tests/QueueTest/ExtendedTest.s
-
-# target to generate assembly for a file
-Tests/QueueTest/ExtendedTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/QueueTest/ExtendedTest.cpp.s
-.PHONY : Tests/QueueTest/ExtendedTest.cpp.s
-
-Tests/QueueTest/ShortTest.o: Tests/QueueTest/ShortTest.cpp.o
-.PHONY : Tests/QueueTest/ShortTest.o
-
-# target to build an object file
-Tests/QueueTest/ShortTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/QueueTest/ShortTest.cpp.o
-.PHONY : Tests/QueueTest/ShortTest.cpp.o
-
-Tests/QueueTest/ShortTest.i: Tests/QueueTest/ShortTest.cpp.i
-.PHONY : Tests/QueueTest/ShortTest.i
-
-# target to preprocess a source file
-Tests/QueueTest/ShortTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/QueueTest/ShortTest.cpp.i
-.PHONY : Tests/QueueTest/ShortTest.cpp.i
-
-Tests/QueueTest/ShortTest.s: Tests/QueueTest/ShortTest.cpp.s
-.PHONY : Tests/QueueTest/ShortTest.s
-
-# target to generate assembly for a file
-Tests/QueueTest/ShortTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/QueueTest/ShortTest.cpp.s
-.PHONY : Tests/QueueTest/ShortTest.cpp.s
-
-Tests/TestAllFunctionalities.o: Tests/TestAllFunctionalities.cpp.o
-.PHONY : Tests/TestAllFunctionalities.o
-
-# target to build an object file
-Tests/TestAllFunctionalities.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/TestAllFunctionalities.cpp.o
-.PHONY : Tests/TestAllFunctionalities.cpp.o
-
-Tests/TestAllFunctionalities.i: Tests/TestAllFunctionalities.cpp.i
-.PHONY : Tests/TestAllFunctionalities.i
-
-# target to preprocess a source file
-Tests/TestAllFunctionalities.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/TestAllFunctionalities.cpp.i
-.PHONY : Tests/TestAllFunctionalities.cpp.i
-
-Tests/TestAllFunctionalities.s: Tests/TestAllFunctionalities.cpp.s
-.PHONY : Tests/TestAllFunctionalities.s
-
-# target to generate assembly for a file
-Tests/TestAllFunctionalities.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Tests/TestAllFunctionalities.cpp.s
-.PHONY : Tests/TestAllFunctionalities.cpp.s
+Queue/QueueTest/ShortTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.s
+.PHONY : Queue/QueueTest/ShortTest.cpp.s
 
 # Help Target
 help:
@@ -432,36 +264,15 @@ help:
 	@echo "... IO/IO.o"
 	@echo "... IO/IO.i"
 	@echo "... IO/IO.s"
-	@echo "... LocationQueue/Location/Location.o"
-	@echo "... LocationQueue/Location/Location.i"
-	@echo "... LocationQueue/Location/Location.s"
-	@echo "... LocationQueue/LocationQueue.o"
-	@echo "... LocationQueue/LocationQueue.i"
-	@echo "... LocationQueue/LocationQueue.s"
 	@echo "... Queue/Queue.o"
 	@echo "... Queue/Queue.i"
 	@echo "... Queue/Queue.s"
-	@echo "... Robot/Robot.o"
-	@echo "... Robot/Robot.i"
-	@echo "... Robot/Robot.s"
-	@echo "... Robot/RobotSetup.o"
-	@echo "... Robot/RobotSetup.i"
-	@echo "... Robot/RobotSetup.s"
-	@echo "... Tests/LocationQueueTests/LocationQueueTests.o"
-	@echo "... Tests/LocationQueueTests/LocationQueueTests.i"
-	@echo "... Tests/LocationQueueTests/LocationQueueTests.s"
-	@echo "... Tests/LocationTests/LocationTests.o"
-	@echo "... Tests/LocationTests/LocationTests.i"
-	@echo "... Tests/LocationTests/LocationTests.s"
-	@echo "... Tests/QueueTest/ExtendedTest.o"
-	@echo "... Tests/QueueTest/ExtendedTest.i"
-	@echo "... Tests/QueueTest/ExtendedTest.s"
-	@echo "... Tests/QueueTest/ShortTest.o"
-	@echo "... Tests/QueueTest/ShortTest.i"
-	@echo "... Tests/QueueTest/ShortTest.s"
-	@echo "... Tests/TestAllFunctionalities.o"
-	@echo "... Tests/TestAllFunctionalities.i"
-	@echo "... Tests/TestAllFunctionalities.s"
+	@echo "... Queue/QueueTest/ExtendedTest.o"
+	@echo "... Queue/QueueTest/ExtendedTest.i"
+	@echo "... Queue/QueueTest/ExtendedTest.s"
+	@echo "... Queue/QueueTest/ShortTest.o"
+	@echo "... Queue/QueueTest/ShortTest.i"
+	@echo "... Queue/QueueTest/ShortTest.s"
 .PHONY : help
 
 
