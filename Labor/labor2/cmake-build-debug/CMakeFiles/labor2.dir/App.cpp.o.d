@@ -137,7 +137,17 @@ CMakeFiles/labor2.dir/App.cpp.o: \
  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
  /usr/include/c++/12.2.1/bits/ostream.tcc /usr/include/c++/12.2.1/istream \
- /usr/include/c++/12.2.1/bits/istream.tcc \
+ /usr/include/c++/12.2.1/bits/istream.tcc /usr/include/c++/12.2.1/queue \
+ /usr/include/c++/12.2.1/deque \
+ /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/12.2.1/bits/stl_deque.h \
+ /usr/include/c++/12.2.1/bits/deque.tcc /usr/include/c++/12.2.1/vector \
+ /usr/include/c++/12.2.1/bits/stl_vector.h \
+ /usr/include/c++/12.2.1/bits/stl_bvector.h \
+ /usr/include/c++/12.2.1/bits/vector.tcc \
+ /usr/include/c++/12.2.1/bits/stl_heap.h \
+ /usr/include/c++/12.2.1/bits/stl_queue.h \
+ /usr/include/c++/12.2.1/bits/uses_allocator.h \
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h \
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.h \
  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.h
