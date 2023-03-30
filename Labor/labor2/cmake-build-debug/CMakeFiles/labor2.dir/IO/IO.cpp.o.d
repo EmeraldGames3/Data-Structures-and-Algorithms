@@ -142,4 +142,5 @@ CMakeFiles/labor2.dir/IO/IO.cpp.o: \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/12.2.1/bits/fstream.tcc /usr/include/c++/12.2.1/sstream \
- /usr/include/c++/12.2.1/bits/sstream.tcc
+ /usr/include/c++/12.2.1/bits/sstream.tcc \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h

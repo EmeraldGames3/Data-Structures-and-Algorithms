@@ -273,6 +273,54 @@ SolveLabyrinth/SolveLabyrinth.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.s
 .PHONY : SolveLabyrinth/SolveLabyrinth.cpp.s
 
+Stack/Stack.o: Stack/Stack.cpp.o
+.PHONY : Stack/Stack.o
+
+# target to build an object file
+Stack/Stack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Stack/Stack.cpp.o
+.PHONY : Stack/Stack.cpp.o
+
+Stack/Stack.i: Stack/Stack.cpp.i
+.PHONY : Stack/Stack.i
+
+# target to preprocess a source file
+Stack/Stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Stack/Stack.cpp.i
+.PHONY : Stack/Stack.cpp.i
+
+Stack/Stack.s: Stack/Stack.cpp.s
+.PHONY : Stack/Stack.s
+
+# target to generate assembly for a file
+Stack/Stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Stack/Stack.cpp.s
+.PHONY : Stack/Stack.cpp.s
+
+Stack/StackTest/StackTest.o: Stack/StackTest/StackTest.cpp.o
+.PHONY : Stack/StackTest/StackTest.o
+
+# target to build an object file
+Stack/StackTest/StackTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o
+.PHONY : Stack/StackTest/StackTest.cpp.o
+
+Stack/StackTest/StackTest.i: Stack/StackTest/StackTest.cpp.i
+.PHONY : Stack/StackTest/StackTest.i
+
+# target to preprocess a source file
+Stack/StackTest/StackTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.i
+.PHONY : Stack/StackTest/StackTest.cpp.i
+
+Stack/StackTest/StackTest.s: Stack/StackTest/StackTest.cpp.s
+.PHONY : Stack/StackTest/StackTest.s
+
+# target to generate assembly for a file
+Stack/StackTest/StackTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.s
+.PHONY : Stack/StackTest/StackTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -300,6 +348,12 @@ help:
 	@echo "... SolveLabyrinth/SolveLabyrinth.o"
 	@echo "... SolveLabyrinth/SolveLabyrinth.i"
 	@echo "... SolveLabyrinth/SolveLabyrinth.s"
+	@echo "... Stack/Stack.o"
+	@echo "... Stack/Stack.i"
+	@echo "... Stack/Stack.s"
+	@echo "... Stack/StackTest/StackTest.o"
+	@echo "... Stack/StackTest/StackTest.i"
+	@echo "... Stack/StackTest/StackTest.s"
 .PHONY : help
 
 

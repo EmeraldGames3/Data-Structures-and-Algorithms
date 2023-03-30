@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 #include <sstream>
+#include "IO.h"
 
 char **readMatrixFromFile(const char *fileName, int &rows, int &columns) {
     std::ifstream inputFile(fileName);

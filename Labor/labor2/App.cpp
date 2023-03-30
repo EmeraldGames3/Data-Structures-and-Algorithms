@@ -1,67 +1,19 @@
 #include <iostream>
-#include <stack>
 #include "IO/IO.h"
 #include "SolveLabyrinth/SolveLabyrinth.h"
 #include "Queue/QueueTest/ExtendedTest.h"
 #include "Queue/QueueTest/ShortTest.h"
+#include "Stack/StackTest/StackTest.h"
 
 using namespace std;
 
-void printShortestPath(short **previous, Location robotLocation, Location pointOfExit) {
-    Location currentLocation = pointOfExit;
-
-    std::stack<Directions> stack1;
-    while (currentLocation.column != robotLocation.column || currentLocation.row != robotLocation.row) {
-//        std::cout << currentLocation.row << ' ' << currentLocation.column << ' ';
-        switch (previous[currentLocation.row][currentLocation.column]) {
-            case North:
-                currentLocation = Location(currentLocation.row - 1, currentLocation.column);
-                stack1.push(South);
-                break;
-            case South:
-                currentLocation = Location(currentLocation.row + 1, currentLocation.column);
-                stack1.push(North);
-                break;
-            case East:
-                currentLocation = Location(currentLocation.row, currentLocation.column - 1);
-                stack1.push(East);
-                break;
-            case West:
-                currentLocation = Location(currentLocation.row, currentLocation.column + 1);
-                stack1.push(West);
-                break;
-            default:
-                throw exception();
-        }
-    }
-
-    std::cout << "\nThe shortest path towards the exit of the labyrinth is:\n";
-    while (!stack1.empty()) {
-        int current = stack1.top();
-        stack1.pop();
-
-        switch (current) {
-            case North:
-                std::cout << "North ";
-                break;
-            case South:
-                std::cout << "South ";
-                break;
-            case West:
-                std::cout << "West ";
-                break;
-            case East:
-                std::cout << "East ";
-                break;
-            default:
-                break;
-        }
-    }
-}
-
 int main() {
+    cout << "Test Queue:\n";
     testAll();
     testAllExtended();
+    cout << "\nTest Stack:\n";
+    testStack();
+    cin.get();
 
     int rows = 0;
     int columns = 0;

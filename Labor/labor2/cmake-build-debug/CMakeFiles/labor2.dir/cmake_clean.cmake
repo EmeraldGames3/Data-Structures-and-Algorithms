@@ -11,6 +11,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o.d"
   "CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o"
   "CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o.d"
+  "CMakeFiles/labor2.dir/Stack/Stack.cpp.o"
+  "CMakeFiles/labor2.dir/Stack/Stack.cpp.o.d"
+  "CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o"
+  "CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o.d"
   "labor2"
   "labor2.pdb"
 )

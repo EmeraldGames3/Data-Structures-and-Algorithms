@@ -115,6 +115,18 @@
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.h">
 			<Option target="labor2"/>
 		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.h">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.h">
+			<Option target="labor2"/>
+		</Unit>
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

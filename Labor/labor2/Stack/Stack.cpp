@@ -1,20 +1,18 @@
-#include "Queue.h"
+#include "Stack.h"
 #include <exception>
-#include <iostream>
-
-using namespace std;
 
 /**
- * Queue constructor
+ * Stack constructor
  * @complexity θ(1)
  */
-Queue::Queue() : head(nullptr), tail(nullptr) {}
+Stack::Stack() : head(nullptr), tail(nullptr) {}
 
 /**
- * Add an element to the end of the queue
+ * Push an element to the end of the stack
+ * @param elem
  * @complexity θ(1)
  */
-void Queue::push(TElem elem) {
+void Stack::push(TElem elem) {
     if (isEmpty()) {
         head = new Node;
         head->info = elem;
@@ -32,47 +30,49 @@ void Queue::push(TElem elem) {
 }
 
 /**
- * Get the first element in the queue
+ * Get the first element in the stack
  * @complexity θ(1)
- * @throws exception if queue is empty
+ * @throws exception if stack is empty
  */
-TElem Queue::top() const {
+TElem Stack::top() const {
     if (isEmpty()) throw std::exception();
-    return head->info;
+    return tail->info;
 }
 
 /**
- * Get the first element in the queue and pop it out of the queue
+ * Get the last element in the stack and pop it out of the stack
  * @complexity θ(1)
- * @throws exception if the queue is empty
+ * @throws exception if the stack is empty
  */
-TElem Queue::pop() {
+TElem Stack::pop() {
     if (isEmpty()) throw std::exception();
 
-    TElem temp = head->info;
-    Node *deletedNode = head;
-    head = head->next;
+    TElem temp = tail->info;
+    Node *deletedNode = tail;
+    tail = tail->previous;
 
-    if (head == nullptr)
-        tail = nullptr;
+    if (tail == nullptr)
+        head = nullptr;
     else
-        head->previous = nullptr;
+        tail->next = nullptr;
 
     delete deletedNode;
     return temp;
 }
 
 /**
- * Check if the queue is empty
+ * Check if the stack is empty
  * @complexity θ(1)
  */
-bool Queue::isEmpty() const { return head == nullptr; }
+bool Stack::isEmpty() const {
+    return head == nullptr;
+}
 
 /**
- * Queue destructor
+ * Stack destructor
  * @complexity θ(n)
  */
-Queue::~Queue() {
+Stack::~Stack() {
     Node *currentNode = head;
     while (currentNode != nullptr) {
         Node *nextNode = currentNode->next;
@@ -82,3 +82,4 @@ Queue::~Queue() {
     head = nullptr;
     tail = nullptr;
 }
+

@@ -2,6 +2,8 @@
 
 #include "../Queue/Queue.h"
 #include "../IO/IO.h"
+#include <iostream>
+#include <stack>
 
 enum Directions {
     Invalid = -1,
@@ -31,3 +33,5 @@ Location findPositionOfLinearIndex(TElem linearIndex, int columns);
 
 bool breadthFirstSearch(char **matrix, Location robotLocation, int rows, int columns, short **previous,
                         Location &pointOfExit);
+
+void printShortestPath(short **previous, Location robotLocation, Location pointOfExit);
