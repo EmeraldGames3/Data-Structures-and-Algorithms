@@ -15,6 +15,13 @@ enum MatrixStates {
     PointOfExit = 'E'
 };
 
+enum Directions {
+    North = 0,
+    South = 1,
+    West = 2,
+    East = 3
+};
+
 struct Location {
     int row;
     int column;
@@ -43,6 +50,16 @@ bool exitExists(char **matrix, int rows, int columns) {
             return true;
 
     return false;
+}
+
+int getLinearIndex(int i, int j, int columns){
+    return (i-1) * columns + j;
+}
+
+Location findPositionOfLinearIndex(TElem linearIndex, int columns){
+    int row = (linearIndex-1) / columns + 1;
+    int col = (linearIndex-1) % columns + 1;
+    return {row, col};
 }
 
 int main() {
@@ -76,47 +93,64 @@ int main() {
         std::cout << "Robot is already out, no need to solve the labyrinth\n";
         return 0;
     }
+    
+    auto queue = Queue();
+    queue.push(getLinearIndex(robotLocation.row, robotLocation.column, columns));
 
-    enum Directions {
-        North = 0,
-        South = 1,
-        West = 2,
-        East = 3
-    };
-    auto robotPath = Queue();
+    while(!queue.isEmpty()){
+        int currentLinearIndex = queue.pop();
+        Location currentLocation = findPositionOfLinearIndex(currentLinearIndex, columns);
+        int i = currentLocation.row;
+        int j = currentLocation.column;
+        matrix[robotLocation.row][robotLocation.column] = Robot;
 
-    Location currentLocation = Location(robotLocation.row, robotLocation.column);
-
-    while (!robotPath.isEmpty()) {
-        int row = currentLocation.row;
-        int column = currentLocation.column;
-
-        if (matrix[row][column] == Goal) {
-            std::cout << "Robot has reached the exit!\n\n";
-            break;
+        if (i > 0 && matrix[i - 1][j] != Visited && matrix[i - 1][j] != Wall){
+            if(matrix[i - 1][j] == Goal){
+                std::cout << "Labyrinth solved\n";
+                matrix[i- 1][j] = Visited;
+                printMatrix(matrix, rows, columns);
+                break;
+            }
+            matrix[i- 1][j] = Visited;
+            queue.push(currentLinearIndex - columns);
         }
-
-        if (matrix[row][column] != Visited) {
-            // Visit the current location
-            matrix[row][column] = Visited;
-
-            // Visit the neighbours
-            if (column > 0 && matrix[row][column - 1] != Wall) {
-                robotPath.push(North);
+        if (i < rows - 1 && matrix[i + 1][j] != Visited && matrix[i + 1][j] != Wall){
+            if(matrix[i + 1][j] == Goal){
+                std::cout << "Labyrinth solved\n";
+                matrix[i + 1][j] = Visited;
+                printMatrix(matrix, rows, columns);
+                break;
             }
-            if (column < columns - 1 && matrix[row][column + 1] != Wall) {
-                robotPath.push(South);
-            }
-            if (row > 0 && matrix[row - 1][column] != Wall) {
-                robotPath.push(East);
-            }
-            if (row < rows - 1 && matrix[row + 1][column] != Wall) {
-                robotPath.push(West);
-            }
+            matrix[i + 1][j] = Visited;
+            queue.push(currentLinearIndex + columns);
         }
+        if (j > 0 && matrix[i][j - 1] != Visited && matrix[i][j - 1] != Wall){
+            if(matrix[i][j - 1] == Goal){
+                std::cout << "Labyrinth solved\n";
+                matrix[i][j - 1] = Visited;
+                printMatrix(matrix, rows, columns);
+                break;
+            }
+            matrix[i][j - 1] = Visited;
+            queue.push(currentLinearIndex - 1);
+        }
+        if (j < columns - 1 && matrix[i][j + 1] != Visited && matrix[i][j + 1] != Wall) {
+            if(matrix[i][j + 1] == Goal){
+                std::cout << "Labyrinth solved\n";
+                matrix[i][j + 1] = Visited;
+                printMatrix(matrix, rows, columns);
+                break;
+            }
+            matrix[i][j + 1] = Visited;
+            queue.push(currentLinearIndex + 1);
+        }
+        printMatrix(matrix, rows, columns);
     }
 
-    printMatrix(matrix, rows, columns);
+    if(queue.isEmpty()){
+        std::cout << "The labyrinth has no exit\n";
+        return 0;
+    }
 
     deallocateMatrix(matrix, rows);
     return 0;
