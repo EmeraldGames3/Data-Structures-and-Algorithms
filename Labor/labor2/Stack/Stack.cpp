@@ -48,15 +48,16 @@ TElem Stack::pop() {
     if (isEmpty()) throw std::exception();
 
     TElem temp = tail->info;
-    Node *deletedNode = tail;
-    tail = tail->previous;
-
-    if (tail == nullptr)
+    if (head == tail) {
+        delete head;
         head = nullptr;
-    else
-        tail->next = nullptr;
+        tail = nullptr;
+    } else {
+        Node *deletedNode = tail;
+        tail = tail->previous;
+        delete deletedNode;
+    }
 
-    delete deletedNode;
     return temp;
 }
 
