@@ -6,16 +6,16 @@ using namespace std;
 typedef int TElem;
 #define NULL_TELEM -11111
 
-struct Node{
+struct StackNode{
     TElem info;
-    Node *previous;
-    Node *next;
+    StackNode *previous;
+    StackNode *next;
 };
 
 class Stack{
 private:
-    Node *head;
-    Node *tail;
+    StackNode *head;
+    StackNode *tail;
 
 public:
     Stack();

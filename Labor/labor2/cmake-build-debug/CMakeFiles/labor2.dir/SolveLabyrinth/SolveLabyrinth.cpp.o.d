@@ -141,10 +141,5 @@ CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o: \
  /usr/include/c++/12.2.1/bits/locale_facets.tcc \
  /usr/include/c++/12.2.1/bits/basic_ios.tcc \
  /usr/include/c++/12.2.1/bits/ostream.tcc /usr/include/c++/12.2.1/istream \
- /usr/include/c++/12.2.1/bits/istream.tcc /usr/include/c++/12.2.1/stack \
- /usr/include/c++/12.2.1/deque \
- /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/12.2.1/bits/stl_deque.h \
- /usr/include/c++/12.2.1/bits/deque.tcc \
- /usr/include/c++/12.2.1/bits/stl_stack.h \
- /usr/include/c++/12.2.1/bits/uses_allocator.h
+ /usr/include/c++/12.2.1/bits/istream.tcc \
+ /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/../Stack/Stack.h

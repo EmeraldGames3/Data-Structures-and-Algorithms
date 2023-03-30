@@ -14,13 +14,13 @@ Stack::Stack() : head(nullptr), tail(nullptr) {}
  */
 void Stack::push(TElem elem) {
     if (isEmpty()) {
-        head = new Node;
+        head = new StackNode;
         head->info = elem;
         head->previous = head;
         head->next = tail;
         tail = head;
     } else {
-        Node *newNode = new Node;
+        StackNode *newNode = new StackNode;
         newNode->info = elem;
         newNode->next = nullptr;
         newNode->previous = tail;
@@ -53,7 +53,7 @@ TElem Stack::pop() {
         head = nullptr;
         tail = nullptr;
     } else {
-        Node *deletedNode = tail;
+        StackNode *deletedNode = tail;
         tail = tail->previous;
         delete deletedNode;
     }
@@ -74,9 +74,9 @@ bool Stack::isEmpty() const {
  * @complexity θ(n)
  */
 Stack::~Stack() {
-    Node *currentNode = head;
+    StackNode *currentNode = head;
     while (currentNode != nullptr) {
-        Node *nextNode = currentNode->next;
+        StackNode *nextNode = currentNode->next;
         delete currentNode;
         currentNode = nextNode;
     }

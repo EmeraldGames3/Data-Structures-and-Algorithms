@@ -107,7 +107,7 @@ bool breadthFirstSearch(char **matrix, Location robotLocation, int rows, int col
 void printShortestPath(short **previous, Location robotLocation, Location pointOfExit) {
     Location currentLocation = pointOfExit;
 
-    std::stack<Directions> stack1;
+    Stack stack1;
     while (currentLocation.column != robotLocation.column || currentLocation.row != robotLocation.row) {
 //        std::cout << currentLocation.row << ' ' << currentLocation.column << ' ';
         switch (previous[currentLocation.row][currentLocation.column]) {
@@ -133,10 +133,8 @@ void printShortestPath(short **previous, Location robotLocation, Location pointO
     }
 
     std::cout << "\nThe shortest path towards the exit of the labyrinth is:\n";
-    while (!stack1.empty()) {
-        int current = stack1.top();
-        stack1.pop();
-
+    while (!stack1.isEmpty()) {
+        int current = stack1.pop();
         switch (current) {
             case North:
                 std::cout << "North ";

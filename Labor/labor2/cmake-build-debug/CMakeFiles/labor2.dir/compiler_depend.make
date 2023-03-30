@@ -194,13 +194,7 @@ CMakeFiles/labor2.dir/App.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-an
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.h \
-  /usr/include/c++/12.2.1/stack \
-  /usr/include/c++/12.2.1/deque \
-  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.1/bits/stl_deque.h \
-  /usr/include/c++/12.2.1/bits/deque.tcc \
-  /usr/include/c++/12.2.1/bits/stl_stack.h \
-  /usr/include/c++/12.2.1/bits/uses_allocator.h \
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.h
@@ -1002,13 +996,7 @@ CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o: /home/bogdan/Programm
   /usr/include/c++/12.2.1/bits/ostream.tcc \
   /usr/include/c++/12.2.1/istream \
   /usr/include/c++/12.2.1/bits/istream.tcc \
-  /usr/include/c++/12.2.1/stack \
-  /usr/include/c++/12.2.1/deque \
-  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
-  /usr/include/c++/12.2.1/bits/stl_deque.h \
-  /usr/include/c++/12.2.1/bits/deque.tcc \
-  /usr/include/c++/12.2.1/bits/stl_stack.h \
-  /usr/include/c++/12.2.1/bits/uses_allocator.h
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.h
 
 CMakeFiles/labor2.dir/Stack/Stack.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp \
   /usr/include/stdc-predef.h \
@@ -1234,11 +1222,15 @@ CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o: /home/bogdan/Programming/
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.h
 
 
+/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp:
+
 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp:
 
 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp:
 
 /usr/include/c++/12.2.1/bits/vector.tcc:
+
+/usr/include/c++/12.2.1/bits/stl_uninitialized.h:
 
 /usr/include/c++/12.2.1/vector:
 
@@ -1257,20 +1249,6 @@ CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o: /home/bogdan/Programming/
 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.h:
 
 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.h:
-
-/usr/include/c++/12.2.1/bits/uses_allocator.h:
-
-/usr/include/c++/12.2.1/bits/stl_stack.h:
-
-/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp:
-
-/usr/include/c++/12.2.1/bits/deque.tcc:
-
-/usr/include/c++/12.2.1/bits/stl_deque.h:
-
-/usr/include/c++/12.2.1/bits/stl_uninitialized.h:
-
-/usr/include/c++/12.2.1/deque:
 
 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.h:
 
@@ -1327,8 +1305,6 @@ CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o: /home/bogdan/Programming/
 /usr/include/c++/12.2.1/clocale:
 
 /usr/include/c++/12.2.1/bits/refwrap.h:
-
-/usr/include/c++/12.2.1/stack:
 
 /usr/include/stdint.h:
 
