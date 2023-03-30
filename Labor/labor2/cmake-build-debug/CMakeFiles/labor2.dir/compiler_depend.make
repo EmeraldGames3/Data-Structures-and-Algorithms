@@ -191,6 +191,13 @@ CMakeFiles/labor2.dir/App.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-an
   /usr/include/c++/12.2.1/bits/ostream.tcc \
   /usr/include/c++/12.2.1/istream \
   /usr/include/c++/12.2.1/bits/istream.tcc \
+  /usr/include/c++/12.2.1/stack \
+  /usr/include/c++/12.2.1/deque \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_deque.h \
+  /usr/include/c++/12.2.1/bits/deque.tcc \
+  /usr/include/c++/12.2.1/bits/stl_stack.h \
+  /usr/include/c++/12.2.1/bits/uses_allocator.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.h \
@@ -804,8 +811,6 @@ CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: /home/bogdan/Programming/
 
 /usr/include/c++/12.2.1/bits/vector.tcc:
 
-/usr/include/c++/12.2.1/bits/stl_uninitialized.h:
-
 /usr/include/c++/12.2.1/vector:
 
 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp:
@@ -827,6 +832,18 @@ CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: /home/bogdan/Programming/
 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h:
 
 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.h:
+
+/usr/include/c++/12.2.1/bits/uses_allocator.h:
+
+/usr/include/c++/12.2.1/bits/stl_stack.h:
+
+/usr/include/c++/12.2.1/bits/deque.tcc:
+
+/usr/include/c++/12.2.1/bits/stl_deque.h:
+
+/usr/include/c++/12.2.1/bits/stl_uninitialized.h:
+
+/usr/include/c++/12.2.1/deque:
 
 /usr/include/c++/12.2.1/bits/basic_ios.tcc:
 
@@ -875,6 +892,8 @@ CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: /home/bogdan/Programming/
 /usr/include/c++/12.2.1/clocale:
 
 /usr/include/c++/12.2.1/bits/refwrap.h:
+
+/usr/include/c++/12.2.1/stack:
 
 /usr/include/stdint.h:
 
