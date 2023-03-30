@@ -7,6 +7,12 @@
 
 using namespace std;
 
+/**
+ * Solve a labyrinth with bfd
+ * @complexityΩ θ(1)
+ * @complexityθ θ(n^2)
+ * @complexityO θ(n^2)
+ */
 int main() {
     cout << "Test Queue:\n";
     testAll();
@@ -46,8 +52,9 @@ int main() {
         }
     }
 
-//    previous[robotLocation.row][robotLocation.column] = RobotPosition;
+    //previous[robotLocation.row][robotLocation.column] = RobotPosition;
 
+    //Perform a breadth first to find the shortest path to the exit if one exists
     if (!breadthFirstSearch(matrix, robotLocation, rows, columns, previous, pointOfExit)) {
         std::cout << "The labyrinth has no exit\n";
         return 0;

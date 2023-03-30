@@ -4,6 +4,12 @@
 #include <sstream>
 #include "IO.h"
 
+/**
+ * Read the matrix from the file
+ * @complexityΩ θ(n^2)
+ * @complexityθ θ(n^2)
+ * @complexityO θ(n^2)
+ */
 char **readMatrixFromFile(const char *fileName, int &rows, int &columns) {
     std::ifstream inputFile(fileName);
     std::string line;
@@ -35,6 +41,12 @@ char **readMatrixFromFile(const char *fileName, int &rows, int &columns) {
     return matrix;
 }
 
+/**
+* Print the matrix
+* @complexityΩ θ(n^2)
+* @complexityθ θ(n^2)
+* @complexityO θ(n^2)
+ */
 void printMatrix(char **matrix, int rows, int columns) {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < columns; j++) {
@@ -45,6 +57,12 @@ void printMatrix(char **matrix, int rows, int columns) {
     std::cout << "\n";
 }
 
+/**
+* Set the goals that have to be reaches
+* @complexityΩ θ(n^2)
+* @complexityθ θ(n^2)
+* @complexityO θ(n^2)
+ */
 void setGoal(char **matrix, int rows, int columns) {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < columns; j++) {
@@ -55,6 +73,12 @@ void setGoal(char **matrix, int rows, int columns) {
     }
 }
 
+/**
+* Delete the dynamically allocated matrix
+* @complexityΩ θ(n^2)
+* @complexityθ θ(n^2)
+* @complexityO θ(n^2)
+ */
 void deallocateMatrix(char **matrix, int rows) {
     for (int i = 0; i < rows; i++) {
         delete[] matrix[i];

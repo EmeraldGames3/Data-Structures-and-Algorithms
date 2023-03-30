@@ -1,9 +1,23 @@
 #include "SolveLabyrinth.h"
 
+/**
+ * Location constructor
+ * @complexity θ(1)
+ */
 Location::Location() : row(-1), column(-1) {}
 
+/**
+ * Location constructor
+ * @complexity θ(1)
+ */
 Location::Location(int i, int j) : row(i), column(j) {}
 
+/**
+ * Find the location of the Robot in the Labyrinth
+ * @complexityΩ θ(1)
+ * @complexityθ θ(n^2)
+ * @complexityO θ(n^2)
+ */
 Location findRobot(char **matrix, int rows, int columns) {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < columns; j++) {
@@ -14,6 +28,12 @@ Location findRobot(char **matrix, int rows, int columns) {
     return {-1, -1};
 }
 
+/**
+ * Find the location of the Robot in the Labyrinth
+ * @complexityΩ θ(1)
+ * @complexityθ θ(n)
+ * @complexityO θ(n)
+ */
 bool exitExists(char **matrix, int rows, int columns) {
     for (int j = 0; j < columns; j++)
         if (matrix[0][j] == Goal || matrix[rows - 1][j] == Goal)
@@ -26,18 +46,31 @@ bool exitExists(char **matrix, int rows, int columns) {
     return false;
 }
 
+/**
+ * Get the linear index int the matrix
+ * @complexity θ(1)
+ */
 int getLinearIndex(int i, int j, int columns) {
-    return (i - 1) * columns + j;
+    return i * columns + j;
 }
 
+/**
+ * Find the position in the matrix
+ * @complexity θ(1)
+ */
 Location findPositionOfLinearIndex(TElem linearIndex, int columns) {
-    int row = (linearIndex - 1) / columns + 1;
-    int col = (linearIndex - 1) % columns + 1;
+    int row = linearIndex / columns;
+    int col = linearIndex % columns;
     return {row, col};
 }
 
-//Returns false if the labyrinth has no exit
-//Changes pointOfExit to the coordinates where the robot exits the labyrinth
+/**
+ * Returns false if there is no path out of the labyrinth
+ * Changes pointOfExit to the coordinates where the robot exit the labyrinth
+ * @complexityΩ θ(1)
+ * @complexityθ θ(n^2)
+ * @complexityO θ(n^2)
+ */
 bool breadthFirstSearch(char **matrix, Location robotLocation, int rows, int columns, short **previous,
                         Location &pointOfExit) {
     auto queue = Queue();
@@ -56,11 +89,11 @@ bool breadthFirstSearch(char **matrix, Location robotLocation, int rows, int col
                 pointOfExit = Location(i - 1, j);
                 matrix[i - 1][j] = Visited;
                 printMatrix(matrix, rows, columns);
-                previous[i - 1][j] = South;
+                previous[i - 1][j] = North;
                 return true;
             }
             matrix[i - 1][j] = Visited;
-            previous[i - 1][j] = South;
+            previous[i - 1][j] = North;
             queue.push(currentLinearIndex - columns);
         }
         if (i < rows - 1 && matrix[i + 1][j] != Visited && matrix[i + 1][j] != Wall) {
@@ -68,11 +101,11 @@ bool breadthFirstSearch(char **matrix, Location robotLocation, int rows, int col
                 pointOfExit = Location(i + 1, j);
                 matrix[i + 1][j] = Visited;
                 printMatrix(matrix, rows, columns);
-                previous[i + 1][j] = North;
+                previous[i + 1][j] = South;
                 return true;
             }
             matrix[i + 1][j] = Visited;
-            previous[i + 1][j] = North;
+            previous[i + 1][j] = South;
             queue.push(currentLinearIndex + columns);
         }
         if (j > 0 && matrix[i][j - 1] != Visited && matrix[i][j - 1] != Wall) {
@@ -104,20 +137,26 @@ bool breadthFirstSearch(char **matrix, Location robotLocation, int rows, int col
     return false;
 }
 
+/**
+ * Prints the shortest path out of the labyrinth
+ * Uses backtracking to find the path that the robot took to exit the labyrinth
+ * @complexityθ Ω(1)
+ * @complexityθ θ(n^2)
+ * @complexityO θ(n^2)
+ */
 void printShortestPath(short **previous, Location robotLocation, Location pointOfExit) {
     Location currentLocation = pointOfExit;
-
     Stack stack1;
+
     while (currentLocation.column != robotLocation.column || currentLocation.row != robotLocation.row) {
-//        std::cout << currentLocation.row << ' ' << currentLocation.column << ' ';
         switch (previous[currentLocation.row][currentLocation.column]) {
             case North:
-                currentLocation = Location(currentLocation.row - 1, currentLocation.column);
-                stack1.push(South);
-                break;
-            case South:
                 currentLocation = Location(currentLocation.row + 1, currentLocation.column);
                 stack1.push(North);
+                break;
+            case South:
+                currentLocation = Location(currentLocation.row - 1, currentLocation.column);
+                stack1.push(South);
                 break;
             case East:
                 currentLocation = Location(currentLocation.row, currentLocation.column - 1);
