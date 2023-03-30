@@ -1,5 +1,13 @@
 #pragma once
 
+enum MatrixStates {
+    Wall = 'X',
+    Robot = 'R',
+    Visited = 'V',
+    Path = '*',
+    Goal = 'G',
+};
+
 char **readMatrixFromFile(const char *fileName, int &rows, int &columns);
 
 void deallocateMatrix(char **matrix, int rows);

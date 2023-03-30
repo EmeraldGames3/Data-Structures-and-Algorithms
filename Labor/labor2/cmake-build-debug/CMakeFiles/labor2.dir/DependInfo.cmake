@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp" "CMakeFiles/labor2.dir/Queue/Queue.cpp.o" "gcc" "CMakeFiles/labor2.dir/Queue/Queue.cpp.o.d"
   "/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp" "CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o" "gcc" "CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o.d"
   "/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp" "CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o" "gcc" "CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o.d"
+  "/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp" "CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o" "gcc" "CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o.d"
   )
 
 # Targets to which this target links.

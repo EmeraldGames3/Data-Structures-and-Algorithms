@@ -109,6 +109,12 @@
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.h">
 			<Option target="labor2"/>
 		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp">
+			<Option target="labor2"/>
+		</Unit>
+		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.h">
+			<Option target="labor2"/>
+		</Unit>
 		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

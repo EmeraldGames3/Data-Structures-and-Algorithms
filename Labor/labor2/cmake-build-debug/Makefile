@@ -249,6 +249,30 @@ Queue/QueueTest/ShortTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.s
 .PHONY : Queue/QueueTest/ShortTest.cpp.s
 
+SolveLabyrinth/SolveLabyrinth.o: SolveLabyrinth/SolveLabyrinth.cpp.o
+.PHONY : SolveLabyrinth/SolveLabyrinth.o
+
+# target to build an object file
+SolveLabyrinth/SolveLabyrinth.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o
+.PHONY : SolveLabyrinth/SolveLabyrinth.cpp.o
+
+SolveLabyrinth/SolveLabyrinth.i: SolveLabyrinth/SolveLabyrinth.cpp.i
+.PHONY : SolveLabyrinth/SolveLabyrinth.i
+
+# target to preprocess a source file
+SolveLabyrinth/SolveLabyrinth.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.i
+.PHONY : SolveLabyrinth/SolveLabyrinth.cpp.i
+
+SolveLabyrinth/SolveLabyrinth.s: SolveLabyrinth/SolveLabyrinth.cpp.s
+.PHONY : SolveLabyrinth/SolveLabyrinth.s
+
+# target to generate assembly for a file
+SolveLabyrinth/SolveLabyrinth.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labor2.dir/build.make CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.s
+.PHONY : SolveLabyrinth/SolveLabyrinth.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,6 +297,9 @@ help:
 	@echo "... Queue/QueueTest/ShortTest.o"
 	@echo "... Queue/QueueTest/ShortTest.i"
 	@echo "... Queue/QueueTest/ShortTest.s"
+	@echo "... SolveLabyrinth/SolveLabyrinth.o"
+	@echo "... SolveLabyrinth/SolveLabyrinth.i"
+	@echo "... SolveLabyrinth/SolveLabyrinth.s"
 .PHONY : help
 
 

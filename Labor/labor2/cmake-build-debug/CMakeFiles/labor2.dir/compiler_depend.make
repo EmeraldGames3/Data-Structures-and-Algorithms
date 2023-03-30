@@ -200,6 +200,7 @@ CMakeFiles/labor2.dir/App.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-an
   /usr/include/c++/12.2.1/bits/uses_allocator.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h \
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.h \
   /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.h
 
@@ -806,6 +807,12 @@ CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: /home/bogdan/Programming/
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h
 
+CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp \
+  /usr/include/stdc-predef.h \
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.h \
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.h \
+  /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h
+
 
 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp:
 
@@ -826,6 +833,8 @@ CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: /home/bogdan/Programming/
 /usr/include/c++/12.2.1/fstream:
 
 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.h:
+
+/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.h:
 
 /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/basic_file.h:
 
@@ -956,6 +965,8 @@ CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: /home/bogdan/Programming/
 /usr/include/c++/12.2.1/ios:
 
 /usr/include/bits/types/struct_sched_param.h:
+
+/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp:
 
 /usr/include/c++/12.2.1/initializer_list:
 
