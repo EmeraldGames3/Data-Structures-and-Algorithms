@@ -54,6 +54,7 @@ int main() {
             previous[i][j] = Invalid;
         }
     }
+
     //previous[robotLocation.row][robotLocation.column] = RobotPosition;
 
     //Perform a breadth first to find the shortest path to the exit if one exists
