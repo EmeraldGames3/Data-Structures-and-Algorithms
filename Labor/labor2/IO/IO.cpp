@@ -59,18 +59,33 @@ void printMatrix(char **matrix, int rows, int columns) {
 
 /**
 * Set the goals that have to be reaches
-* @complexityΩ θ(n^2)
-* @complexityθ θ(n^2)
-* @complexityO θ(n^2)
+* @complexityΩ θ(n)
+* @complexityθ θ(n)
+* @complexityO θ(n)
  */
 void setGoal(char **matrix, int rows, int columns) {
+
     for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < columns; j++) {
-            if ((i == 0 || j == 0 || i == rows - 1 || j == columns - 1) && matrix[i][j] == '*') {
-                matrix[i][j] = 'G';
-            }
-        }
+        if (matrix[i][0] == '*')
+            matrix[i][0] = 'G';
+        if (matrix[i][columns - 1] == '*')
+            matrix[i][columns - 1] = 'G';
     }
+
+    for (int j = 0; j < columns; j++) {
+        if (matrix[0][j] == '*')
+            matrix[0][j] = 'G';
+        if (matrix[rows - 1][j] == '*')
+            matrix[rows - 1][j] = 'G';
+    }
+
+//    for (int i = 0; i < rows; i++) {
+//        for (int j = 0; j < columns; j++) {
+//            if ((i == 0 || j == 0 || i == rows - 1 || j == columns - 1) && matrix[i][j] == '*') {
+//                matrix[i][j] = 'G';
+//            }
+//        }
+//    }
 }
 
 /**
