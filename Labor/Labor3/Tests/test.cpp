@@ -2,6 +2,6 @@
 
 void test(){
     testAll();
-//    testAllExtended();
+    testAllExtended();
 //    testStack();
 }

@@ -13,7 +13,7 @@ struct SLLANode {
 
 class Stack{
 private:
-    SLLANode *arr;
+    SLLANode *array;
     int head;
     int size;
     int capacity;

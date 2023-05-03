@@ -19,9 +19,10 @@ private:
     int tail;
     int size;
     int capacity;
+    int firstEmpty;
 
     //Resize the array to a new size
-    void resize(int newSize);
+    void resize(int newCapacity);
 
     //Automatically resize the array
     void automaticResize();
