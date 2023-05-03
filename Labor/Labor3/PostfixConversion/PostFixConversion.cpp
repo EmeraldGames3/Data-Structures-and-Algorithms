@@ -44,6 +44,44 @@ string infixToPostfix(const string &expression){
 
     string currentNumber{};
     for (auto character : expression) {
-        if(character)
+        if(isDigit(character)){
+            currentNumber += character;
+            continue;
+        }
+
+        if(!currentNumber.empty()){
+            queue.push(convertToNumber(currentNumber));
+            currentNumber = "";
+        }
+
+        if(character == ' ') {
+            continue;
+        }
+
+        if(isOperator(character)){
+            //TODO modify this
+            queue.push(character);
+        }
+        if(character == '('){
+            //TODO implementation
+        }
+        if(character == ')'){
+            //TODO implementation
+        }
+
     }
+
+    string result{};
+    while (!queue.isEmpty()){
+        int element = queue.pop();
+
+        //TODO implement a better solution
+        if(element >= 0 && element <= 256 && isOperator(static_cast<char>(element))){
+            result += ((static_cast<char>(element)) + ' ');
+        } else{
+            result += (std::to_string(element) + ' ');
+        }
+    }
+
+    return result;
 }
