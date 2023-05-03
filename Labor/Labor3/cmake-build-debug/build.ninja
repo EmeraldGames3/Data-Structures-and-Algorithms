@@ -55,29 +55,17 @@ build CMakeFiles/Labor3.dir/App.cpp.o: CXX_COMPILER__Labor3_Debug /home/bogdan/P
   OBJECT_DIR = CMakeFiles/Labor3.dir
   OBJECT_FILE_DIR = CMakeFiles/Labor3.dir
 
-build CMakeFiles/Labor3.dir/Stack/Stack.cpp.o: CXX_COMPILER__Labor3_Debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/Labor3/Stack/Stack.cpp || cmake_object_order_depends_target_Labor3
-  DEP_FILE = CMakeFiles/Labor3.dir/Stack/Stack.cpp.o.d
+build CMakeFiles/Labor3.dir/PostfixConversion/PostFixConversion.cpp.o: CXX_COMPILER__Labor3_Debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/Labor3/PostfixConversion/PostFixConversion.cpp || cmake_object_order_depends_target_Labor3
+  DEP_FILE = CMakeFiles/Labor3.dir/PostfixConversion/PostFixConversion.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles/Labor3.dir
-  OBJECT_FILE_DIR = CMakeFiles/Labor3.dir/Stack
-
-build CMakeFiles/Labor3.dir/Tests/StackTest/StackTest.cpp.o: CXX_COMPILER__Labor3_Debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/Labor3/Tests/StackTest/StackTest.cpp || cmake_object_order_depends_target_Labor3
-  DEP_FILE = CMakeFiles/Labor3.dir/Tests/StackTest/StackTest.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles/Labor3.dir
-  OBJECT_FILE_DIR = CMakeFiles/Labor3.dir/Tests/StackTest
+  OBJECT_FILE_DIR = CMakeFiles/Labor3.dir/PostfixConversion
 
 build CMakeFiles/Labor3.dir/Tests/TestQueue/ExtendedTest.cpp.o: CXX_COMPILER__Labor3_Debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/Labor3/Tests/TestQueue/ExtendedTest.cpp || cmake_object_order_depends_target_Labor3
   DEP_FILE = CMakeFiles/Labor3.dir/Tests/TestQueue/ExtendedTest.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles/Labor3.dir
   OBJECT_FILE_DIR = CMakeFiles/Labor3.dir/Tests/TestQueue
-
-build CMakeFiles/Labor3.dir/Queue/Queue.cpp.o: CXX_COMPILER__Labor3_Debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/Labor3/Queue/Queue.cpp || cmake_object_order_depends_target_Labor3
-  DEP_FILE = CMakeFiles/Labor3.dir/Queue/Queue.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  OBJECT_DIR = CMakeFiles/Labor3.dir
-  OBJECT_FILE_DIR = CMakeFiles/Labor3.dir/Queue
 
 build CMakeFiles/Labor3.dir/Tests/TestQueue/ShortTest.cpp.o: CXX_COMPILER__Labor3_Debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/Labor3/Tests/TestQueue/ShortTest.cpp || cmake_object_order_depends_target_Labor3
   DEP_FILE = CMakeFiles/Labor3.dir/Tests/TestQueue/ShortTest.cpp.o.d
@@ -91,6 +79,30 @@ build CMakeFiles/Labor3.dir/Tests/test.cpp.o: CXX_COMPILER__Labor3_Debug /home/b
   OBJECT_DIR = CMakeFiles/Labor3.dir
   OBJECT_FILE_DIR = CMakeFiles/Labor3.dir/Tests
 
+build CMakeFiles/Labor3.dir/Tests/TestPostFixConversion/testPostfixConversion.cpp.o: CXX_COMPILER__Labor3_Debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/Labor3/Tests/TestPostFixConversion/testPostfixConversion.cpp || cmake_object_order_depends_target_Labor3
+  DEP_FILE = CMakeFiles/Labor3.dir/Tests/TestPostFixConversion/testPostfixConversion.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Labor3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Labor3.dir/Tests/TestPostFixConversion
+
+build CMakeFiles/Labor3.dir/Stack/Stack.cpp.o: CXX_COMPILER__Labor3_Debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/Labor3/Stack/Stack.cpp || cmake_object_order_depends_target_Labor3
+  DEP_FILE = CMakeFiles/Labor3.dir/Stack/Stack.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Labor3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Labor3.dir/Stack
+
+build CMakeFiles/Labor3.dir/Queue/Queue.cpp.o: CXX_COMPILER__Labor3_Debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/Labor3/Queue/Queue.cpp || cmake_object_order_depends_target_Labor3
+  DEP_FILE = CMakeFiles/Labor3.dir/Queue/Queue.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Labor3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Labor3.dir/Queue
+
+build CMakeFiles/Labor3.dir/Tests/TestStack/StackTest.cpp.o: CXX_COMPILER__Labor3_Debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/Labor3/Tests/TestStack/StackTest.cpp || cmake_object_order_depends_target_Labor3
+  DEP_FILE = CMakeFiles/Labor3.dir/Tests/TestStack/StackTest.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Labor3.dir
+  OBJECT_FILE_DIR = CMakeFiles/Labor3.dir/Tests/TestStack
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Labor3
@@ -99,7 +111,7 @@ build CMakeFiles/Labor3.dir/Tests/test.cpp.o: CXX_COMPILER__Labor3_Debug /home/b
 #############################################
 # Link the executable Labor3
 
-build Labor3: CXX_EXECUTABLE_LINKER__Labor3_Debug CMakeFiles/Labor3.dir/App.cpp.o CMakeFiles/Labor3.dir/Stack/Stack.cpp.o CMakeFiles/Labor3.dir/Tests/StackTest/StackTest.cpp.o CMakeFiles/Labor3.dir/Tests/TestQueue/ExtendedTest.cpp.o CMakeFiles/Labor3.dir/Queue/Queue.cpp.o CMakeFiles/Labor3.dir/Tests/TestQueue/ShortTest.cpp.o CMakeFiles/Labor3.dir/Tests/test.cpp.o
+build Labor3: CXX_EXECUTABLE_LINKER__Labor3_Debug CMakeFiles/Labor3.dir/App.cpp.o CMakeFiles/Labor3.dir/PostfixConversion/PostFixConversion.cpp.o CMakeFiles/Labor3.dir/Tests/TestQueue/ExtendedTest.cpp.o CMakeFiles/Labor3.dir/Tests/TestQueue/ShortTest.cpp.o CMakeFiles/Labor3.dir/Tests/test.cpp.o CMakeFiles/Labor3.dir/Tests/TestPostFixConversion/testPostfixConversion.cpp.o CMakeFiles/Labor3.dir/Stack/Stack.cpp.o CMakeFiles/Labor3.dir/Queue/Queue.cpp.o CMakeFiles/Labor3.dir/Tests/TestStack/StackTest.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Labor3.dir
   POST_BUILD = :
