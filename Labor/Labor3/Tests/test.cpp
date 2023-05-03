@@ -3,5 +3,5 @@
 void test(){
     testAll();
     testAllExtended();
-//    testStack();
+    testStack();
 }
