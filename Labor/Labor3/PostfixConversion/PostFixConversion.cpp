@@ -19,7 +19,7 @@ int precedence(char character) {
         return 0;
 }
 
-int convertToNumber(const std::string &expression) {
+int convertToNumber(const string &expression) {
     int result = 0;
     int sign = 1;
     int i = 0;
@@ -34,13 +34,16 @@ int convertToNumber(const std::string &expression) {
     return result * sign;
 }
 
+bool isDigit(char character){
+    return character >= '0' && character <= '9';
+}
+
 string infixToPostfix(const string &expression){
     Stack stack;
     Queue queue;
 
-    for(auto character : expression){
-        if(character == '('){
-
-        }
+    string currentNumber{};
+    for (auto character : expression) {
+        if(character)
     }
 }

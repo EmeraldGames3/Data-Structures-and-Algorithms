@@ -26,7 +26,59 @@ void testPrecedence() {
     std::cout << "Test precedence\n";
 }
 
+void testConvertToNumber(){
+    std::string input1 = "123";
+    int expected_output1 = 123;
+    assert(convertToNumber(input1) == expected_output1);
+
+    std::string input2 = "-456";
+    int expected_output2 = -456;
+    assert(convertToNumber(input2) == expected_output2);
+
+    std::string input3 = "0";
+    int expected_output3 = 0;
+    assert(convertToNumber(input3) == expected_output3);
+
+    std::string input4 = "999";
+    int expected_output4 = 999;
+    assert(convertToNumber(input4) == expected_output4);
+
+    std::string input5 = "-789";
+    int expected_output5 = -789;
+    assert(convertToNumber(input5) == expected_output5);
+    std::cout << "Test convert to number\n";
+}
+
+void testInfixToPostfix() {
+    std::string input1 = "2 + 3 * 4";
+    std::string output1 = "2 3 4 * + ";
+
+    std::cout << infixToPostfix(output1) << '\n';
+
+    /*
+    assert(infixToPostfix(input1) == output1);
+
+    std::string input2 = "2 * (3 + 4)";
+    std::string output2 = "2 3 4 + * ";
+    assert(infixToPostfix(input2) == output2);
+
+    std::string input3 = "(1 + 2) * 3 - 4 / 5";
+    std::string output3 = "1 2 + 3 * 4 5 / - ";
+    assert(infixToPostfix(input3) == output3);
+
+    std::string input4 = "a * b + c / d";
+    std::string output4 = "97 98 * 99 100 / + ";
+    assert(infixToPostfix(input4) == output4);
+
+    std::string input5 = "(3 + 4) * 2 + 1";
+    std::string output5 = "3 4 + 2 * 1 + ";
+    assert(infixToPostfix(input5) == output5);
+     */
+}
+
 void testInfixConversion(){
     testIsOperator();
     testPrecedence();
-};
+    testConvertToNumber();
+    testInfixToPostfix();
+}
