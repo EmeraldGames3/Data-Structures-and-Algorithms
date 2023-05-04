@@ -5,7 +5,7 @@
 using namespace std;
 
 Queue::Queue() {
-    capacity = 10;
+    capacity = INT16_MAX;
     array = new DLLANode[capacity];
     head = -1;
     tail = -1;
@@ -42,8 +42,8 @@ void Queue::resize(int newCapacity) {
 void Queue::automaticResize() {
     if (size == capacity)
         resize(capacity * 2);
-    if (size <= capacity / 4 && capacity > 10)
-        resize(capacity / 2);
+//    if (size <= capacity / 4 && capacity > 10)
+//        resize(capacity / 2);
 }
 
 void Queue::push(TElem elem) {

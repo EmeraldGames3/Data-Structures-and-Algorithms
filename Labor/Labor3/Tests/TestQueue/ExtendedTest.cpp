@@ -114,7 +114,6 @@ void testMix() {
 	}
 	while (!q.isEmpty()) {
 		assert(q.pop() == first);
-		q.pop();
 		first = (first + 7) % 111111;
 	}
 }
@@ -139,6 +138,6 @@ void testAllExtended() {
 	testCreate();
 	testPush();
 	testPop();
-//	testMix();
+	testMix();
 	testQuantity();
 }
