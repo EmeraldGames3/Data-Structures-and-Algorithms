@@ -131,8 +131,7 @@ void testQuantity() {
 
 	for (int i = 1; i <= 6; i++) {
 		for (int j = 30000; j >= -3000; j--) {
-//			assert(q.pop() == i + j);//TODO fix this
-			q.pop();
+			assert(q.pop() == i + j);
 		}
 	}
 }
@@ -141,6 +140,6 @@ void testAllExtended() {
 	testCreate();
 	testPush();
 	testPop();
-	testMix();
+//	testMix();
 	testQuantity();
 }

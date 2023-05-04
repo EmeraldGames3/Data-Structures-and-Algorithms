@@ -5,8 +5,27 @@
 Stack::Stack() {
     head = -1;
     size = 0;
-    capacity = 100000; //TODO change this
+    capacity = 10;
     array = new SLLANode[capacity];
+}
+
+void Stack::resize(int newCapacity) {
+    auto *newArray = new SLLANode[newCapacity];
+
+    // Copy the elements from the old array to the new array.
+    for(int i = 0; i < size; i++)
+        newArray[i] = array[i];
+
+    delete[] array;
+    capacity = newCapacity;
+    array = newArray;
+}
+
+void Stack::automaticResize() {
+    if(size == capacity)
+        resize(capacity * 2);
+    if(size <= capacity / 4 && capacity > 10)
+        resize(capacity / 2);
 }
 
 void Stack::push(TElem elem) {
@@ -21,6 +40,8 @@ void Stack::push(TElem elem) {
     array[head - 1] = newNode;
     head--;
     size++;
+
+    automaticResize();
 }
 
 TElem Stack::top() const {
@@ -38,6 +59,8 @@ TElem Stack::pop() {
     head = array[head].next;
 
     size--;
+    automaticResize();
+
     return data;
 }
 
@@ -48,4 +71,3 @@ bool Stack::isEmpty() const {
 Stack::~Stack() {
     delete[] array;
 }
-

@@ -16,11 +16,22 @@ Queue::Queue() {
 void Queue::resize(int newCapacity) {
     auto *newArray = new DLLANode[newCapacity];
 
-    for(int it = head, i = 0; it != -1; it = array[it].next, i++){
-        newArray[i].data = array[it].data;
-        newArray[i].previous = array[it].previous;
-        newArray[i].next = array[it].next;
+    // Copy the elements from the old array to the new array
+    int i = head;
+    int j = 0;
+    while (i != -1) {
+        newArray[j].data = array[i].data;
+        newArray[j].previous = j - 1;
+        newArray[j].next = j + 1;
+        i = array[i].next;
+        j++;
     }
+
+    // Set the head and tail of the new array
+    newArray[0].previous = -1;
+    newArray[j - 1].next = -1;
+    head = 0;
+    tail = j - 1;
 
     delete[] array;
     array = newArray;
@@ -31,8 +42,8 @@ void Queue::resize(int newCapacity) {
 void Queue::automaticResize() {
     if (size == capacity)
         resize(capacity * 2);
-//    if (size <= capacity / 4 && capacity >= 10) //TODO make resizing down work
-//        resize(capacity / 2);
+    if (size <= capacity / 4 && capacity > 10)
+        resize(capacity / 2);
 }
 
 void Queue::push(TElem elem) {
@@ -69,21 +80,20 @@ void Queue::push(TElem elem) {
     automaticResize();
 }
 
+
 TElem Queue::top() const {
     if(isEmpty())
         throw std::runtime_error("Queue is empty");
 
-	return array[head].data;
+    return array[head].data;
 }
 
 TElem Queue::pop() {
-    //TODO find out why this function does not work in testMix and testQuantity
-
     if(isEmpty())
         throw std::runtime_error("Queue is empty");
 
     TElem data = array[head].data;
-    firstEmpty = head;
+    int poppedIndex = head;
 
     if(head == tail){
         tail = -1;
@@ -93,28 +103,22 @@ TElem Queue::pop() {
         return data;
     }
 
-    if(size == 2){
+    head = array[head].next;
+    array[head].previous = -1;
+    if(poppedIndex == firstEmpty)
         firstEmpty = head;
-        head = tail;
-        array[tail].previous = -1;
-        size = 1;
-        return data;
-    }
 
-    int newHead;
-    newHead = array[head].next;
-    array[newHead].previous = -1;
-    head = newHead;
     size--;
-
     automaticResize();
+
     return data;
 }
 
 bool Queue::isEmpty() const {
-	return size == 0;
+    return size == 0;
 }
 
+
 Queue::~Queue() {
-	delete[] array;
+    delete[] array;
 }

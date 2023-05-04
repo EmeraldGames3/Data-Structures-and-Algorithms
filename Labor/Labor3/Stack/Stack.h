@@ -18,6 +18,12 @@ private:
     int size;
     int capacity;
 
+    //Resize the stack to a new capacity
+    void resize(int newCapacity);
+
+    //Automatically resize the Stack
+    void automaticResize();
+
 public:
     Stack();
 
