@@ -9,7 +9,7 @@ using namespace std;
  * @complexity θ(1)
  */
 Queue::Queue() {
-    capacity = INT16_MAX;
+    capacity = 10;
     array = new DLLANode[capacity];
     head = -1;
     tail = -1;
@@ -38,8 +38,14 @@ void Queue::resize(int newCapacity) {
     // Set the head and tail of the new array
     newArray[0].previous = -1;
     newArray[j - 1].next = -1;
-    head = 0;
-    tail = j - 1;
+
+    if (size == 0) {
+        head = -1;
+        tail = -1;
+    } else {
+        head = 0;
+        tail = j - 1;
+    }
 
     delete[] array;
     array = newArray;
@@ -54,10 +60,10 @@ void Queue::resize(int newCapacity) {
  * @complexityO θ(n)
  */
 void Queue::automaticResize() {
-    if (size == capacity)
+    if (size >= capacity)
         resize(capacity * 2);
-//    if (size <= capacity / 4 && capacity > 10)
-//        resize(capacity / 2);
+    if (size <= capacity / 4 && capacity > 10)
+        resize(capacity / 2);
 }
 
 /**
@@ -67,7 +73,7 @@ void Queue::automaticResize() {
 void Queue::push(TElem elem) {
     DLLANode newNode{};
 
-    if(size == 0){
+    if (size == 0) {
         //Queue is empty
         newNode.data = elem;
         newNode.previous = -1;
@@ -88,7 +94,7 @@ void Queue::push(TElem elem) {
     array[firstEmpty] = newNode;
     tail = firstEmpty;
 
-    if(firstEmpty == capacity)
+    if (firstEmpty == capacity)
         //Start filling the array from the front
         firstEmpty = 0;
     else
@@ -104,7 +110,7 @@ void Queue::push(TElem elem) {
  * @throws exception if queue is empty
  */
 TElem Queue::top() const {
-    if(isEmpty())
+    if (isEmpty())
         throw std::runtime_error("Queue is empty");
 
     return array[head].data;
@@ -116,13 +122,13 @@ TElem Queue::top() const {
  * @throws exception if the queue is empty
  */
 TElem Queue::pop() {
-    if(isEmpty())
+    if (isEmpty())
         throw std::runtime_error("Queue is empty");
 
     TElem data = array[head].data;
     int poppedIndex = head;
 
-    if(head == tail){
+    if (head == tail) {
         tail = -1;
         head = -1;
         firstEmpty = 0;
@@ -132,7 +138,7 @@ TElem Queue::pop() {
 
     head = array[head].next;
     array[head].previous = -1;
-    if(poppedIndex == firstEmpty)
+    if (poppedIndex == firstEmpty)
         firstEmpty = head;
 
     size--;

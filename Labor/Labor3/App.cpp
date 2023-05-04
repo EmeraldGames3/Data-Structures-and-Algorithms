@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include "Postfix/postfix.h"
+#include <cassert>
 
 using std::string;
 

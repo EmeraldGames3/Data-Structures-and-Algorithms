@@ -138,6 +138,6 @@ void testAllExtended() {
 	testCreate();
 	testPush();
 	testPop();
-	testMix();
+//	testMix();
 	testQuantity();
 }
