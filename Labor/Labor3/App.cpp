@@ -11,8 +11,8 @@ int main() {
     test();
 
     string expression;
-    std::cout << "Enter an expression: ";
+    std::cout << "\nEnter an expression: ";
 
-    std::getline(std::cin, expression);!
+    std::getline(std::cin, expression);
     std::cout << postfix(expression);
 }

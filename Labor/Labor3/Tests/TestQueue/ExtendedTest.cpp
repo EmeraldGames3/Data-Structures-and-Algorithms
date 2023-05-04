@@ -106,15 +106,14 @@ void testMix() {
 			q.push(last);
 			last = (last + 7) % 111111;			
 		}
-		q.pop();
-//		assert(q.pop() == first); //TODO fix this
+		assert(q.pop() == first);
 		first = (first + 7) % 111111;
 		if (i % 30 == 0) {
 			limit++;
 		}
 	}
 	while (!q.isEmpty()) {
-//		assert(q.pop() == first); // TODO fix this
+		assert(q.pop() == first);
 		q.pop();
 		first = (first + 7) % 111111;
 	}
