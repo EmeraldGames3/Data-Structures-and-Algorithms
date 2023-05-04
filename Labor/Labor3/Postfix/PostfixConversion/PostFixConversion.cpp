@@ -20,6 +20,7 @@ int precedence(char character) {
         return 0;
 }
 
+//Convert a string to a number
 int convertToNumber(const string &expression) {
     int result = 0;
     int sign = 1;

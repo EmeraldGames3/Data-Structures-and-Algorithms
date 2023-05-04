@@ -20,7 +20,7 @@ void Stack::push(TElem elem) {
         head->next = tail;
         tail = head;
     } else {
-        StackNode *newNode = new StackNode;
+        auto *newNode = new StackNode;
         newNode->info = elem;
         newNode->next = nullptr;
         newNode->previous = tail;

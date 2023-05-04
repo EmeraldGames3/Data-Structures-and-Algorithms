@@ -4,6 +4,10 @@
 
 using namespace std;
 
+/**
+ * Queue constructor
+ * @complexity θ(1)
+ */
 Queue::Queue() {
     capacity = INT16_MAX;
     array = new DLLANode[capacity];
@@ -13,6 +17,10 @@ Queue::Queue() {
     firstEmpty = 0;
 }
 
+/**
+ * Resize the array to a new capacity
+ * @complexity θ(n), for every case this function performs exactly n steps
+ */
 void Queue::resize(int newCapacity) {
     auto *newArray = new DLLANode[newCapacity];
 
@@ -39,6 +47,12 @@ void Queue::resize(int newCapacity) {
     firstEmpty = size;
 }
 
+/**
+ * Automatically resizes the array
+ * @complexityΩ θ(1)
+ * @complexityθ θ(1) (costuri amortizate)
+ * @complexityO θ(n)
+ */
 void Queue::automaticResize() {
     if (size == capacity)
         resize(capacity * 2);
@@ -46,6 +60,10 @@ void Queue::automaticResize() {
 //        resize(capacity / 2);
 }
 
+/**
+ * Add an element to the end of the queue
+ * @complexity θ(1)
+ */
 void Queue::push(TElem elem) {
     DLLANode newNode{};
 
@@ -80,6 +98,11 @@ void Queue::push(TElem elem) {
     automaticResize();
 }
 
+/**
+ * Get the first element in the queue
+ * @complexity θ(1)
+ * @throws exception if queue is empty
+ */
 TElem Queue::top() const {
     if(isEmpty())
         throw std::runtime_error("Queue is empty");
@@ -87,6 +110,11 @@ TElem Queue::top() const {
     return array[head].data;
 }
 
+/**
+ * Get the first element in the queue and pop it out of the queue
+ * @complexity θ(1)
+ * @throws exception if the queue is empty
+ */
 TElem Queue::pop() {
     if(isEmpty())
         throw std::runtime_error("Queue is empty");
@@ -113,10 +141,18 @@ TElem Queue::pop() {
     return data;
 }
 
+/**
+ * Check if the queue is empty
+ * @complexity θ(1)
+ */
 bool Queue::isEmpty() const {
     return size == 0;
 }
 
+/**
+ * Queue destructor
+ * @complexity θ(1)
+ */
 Queue::~Queue() {
     delete[] array;
 }

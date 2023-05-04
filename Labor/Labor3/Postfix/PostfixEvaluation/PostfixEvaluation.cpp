@@ -36,19 +36,23 @@ int evaluatePostfixExpression(const string &expression){
             int rightOperand = operands.pop();
             int leftOperand = operands.pop();
 
-            if (token == "+") {
+            if (token == "+")
                 operands.push(leftOperand + rightOperand);
-            } else if (token == "-") {
+
+            else if (token == "-")
                 operands.push(leftOperand - rightOperand);
-            } else if (token == "*") {
+
+            else if (token == "*")
                 operands.push(leftOperand * rightOperand);
-            } else if (token == "/") {
+
+            else if (token == "/")
                 operands.push(leftOperand / rightOperand);
-            } else if (token == "^") {
+
+            else if (token == "^") {
                 int result = 1;
-                for (int j = 0; j < rightOperand; j++) {
+                for (int j = 0; j < rightOperand; j++)
                     result *= leftOperand;
-                }
+
                 operands.push(result);
             }
         }

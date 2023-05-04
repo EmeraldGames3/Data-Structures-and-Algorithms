@@ -2,6 +2,10 @@
 #include <exception>
 #include <stdexcept>
 
+/**
+ * Stack constructor
+ *  @complexity θ(1)
+ */
 Stack::Stack() {
     head = -1;
     size = 0;
@@ -9,6 +13,10 @@ Stack::Stack() {
     array = new SLLANode[capacity];
 }
 
+/**
+ * Resize the array to a new capacity
+ * @complexity θ(n), for every case this function performs exactly n steps
+ */
 void Stack::resize(int newCapacity) {
     auto *newArray = new SLLANode[newCapacity];
 
@@ -21,6 +29,12 @@ void Stack::resize(int newCapacity) {
     array = newArray;
 }
 
+/**
+ * Automatically resizes the array
+ * @complexityΩ θ(1)
+ * @complexityθ θ(1) (costuri amortizate)
+ * @complexityO θ(n)
+ */
 void Stack::automaticResize() {
     if(size == capacity)
         resize(capacity * 2);
@@ -28,6 +42,11 @@ void Stack::automaticResize() {
         resize(capacity / 2);
 }
 
+/**
+ * Push an element to the end of the stack
+ * @param elem
+ * @complexity θ(1)
+ */
 void Stack::push(TElem elem) {
     SLLANode newNode{};
     newNode.data = elem;
@@ -44,6 +63,11 @@ void Stack::push(TElem elem) {
     automaticResize();
 }
 
+/**
+ * Get the first element in the stack
+ * @complexity θ(1)
+ * @throws exception if stack is empty
+ */
 TElem Stack::top() const {
     if(isEmpty())
         throw std::runtime_error("Stack is empty");
@@ -51,6 +75,11 @@ TElem Stack::top() const {
     return array[head].data;
 }
 
+/**
+ * Get the last element in the stack and pop it out of the stack
+ * @complexity θ(1)
+ * @throws exception if the stack is empty
+ */
 TElem Stack::pop() {
     if(isEmpty())
         throw std::runtime_error("Stack is empty");
@@ -64,10 +93,18 @@ TElem Stack::pop() {
     return data;
 }
 
+/**
+ * Check if the stack is empty
+ * @complexity θ(1)
+ */
 bool Stack::isEmpty() const {
     return head == -1;
 }
 
+/**
+ * Stack destructor
+ * @complexity θ(1)
+ */
 Stack::~Stack() {
     delete[] array;
 }
