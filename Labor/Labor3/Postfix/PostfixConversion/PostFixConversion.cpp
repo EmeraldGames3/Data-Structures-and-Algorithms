@@ -3,12 +3,14 @@
 #include "../../Stack/Stack.h"
 #include <iostream>
 
-//Check if a character is an operator
+// Check if a character is an operator
+// @complexity θ(1)
 bool isOperator(char character) {
     return character == '+' || character == '-' || character == '*' || character == '/' || character == '^';
 }
 
 // Function to check the precedence of an operator
+// @complexity θ(1)
 int precedence(char character) {
     if (character == '^')
         return 3;
@@ -20,7 +22,8 @@ int precedence(char character) {
         return 0;
 }
 
-//Convert a string to a number
+// Convert a string to a number
+// @complexity θ(1)
 int convertToNumber(const string &expression) {
     int result = 0;
     int sign = 1;
@@ -36,31 +39,44 @@ int convertToNumber(const string &expression) {
     return result * sign;
 }
 
+// Check if a character is numeric
+// @complexity θ(1)
 bool isDigit(char character) {
     return character >= '0' && character <= '9';
 }
 
+/**
+ * Convert an arithmetic expression from infix notation to postfix notation
+ * @throws runtime_error if the expression is invalid
+ * @complexity θ(n), we need to traverse the whole expression every time
+ **/
 string infixToPostfix(const string &expression) {
-    Stack operatorStack;
-    Queue operatorQueue;
-    Queue queue;
-    const int operatorAsInt = INT16_MAX;
+    Stack operatorStack; // Stack where operators are held
+    Queue operatorQueue; // Queue where the operators are held in the correct order
+    Queue queue; // Queue with the expression with INT32_MAX representing that an operator will be there
+    const int operatorAsInt = INT32_MAX;
 
+    //push ( onto the stack to have a reference for where the stack ends
     operatorStack.push(int('('));
 
     string currentNumber{};
     for (auto character: expression) {
+        //Evaluate the expression character by character
+
         if (isDigit(character)) {
+            //Build the numbers out of the characters
             currentNumber += character;
             continue;
         }
 
         if (!currentNumber.empty()) {
+            //Push the number onto the queue
             queue.push(convertToNumber(currentNumber));
             currentNumber = "";
         }
 
         if (character == ' ') {
+            //Ignore white spaces
             continue;
         }
 
@@ -69,6 +85,8 @@ string infixToPostfix(const string &expression) {
         }
 
         if (isOperator(char(character))) {
+            //Push the operator onto the stack
+            //Pop operators from the stack based on their precedence and push them in the queue
             while (precedence(char(operatorStack.top())) >= precedence(char(character))) {
                 operatorQueue.push(int(operatorStack.pop()));
                 queue.push(operatorAsInt);
@@ -77,6 +95,9 @@ string infixToPostfix(const string &expression) {
         }
 
         if (character == ')') {
+            //If a closing parenthesis is encountered pop all operators from the stack untill
+            //you encounter its match
+            //If no match is found throw runtime_error
             while (operatorStack.top() != '(') {
                 queue.push(operatorAsInt);
                 operatorQueue.push(operatorStack.pop());
@@ -102,15 +123,19 @@ string infixToPostfix(const string &expression) {
 
     string result{};
     while (!queue.isEmpty()) {
+        //Build the final expression
         int element = queue.pop();
 
         if (element == operatorAsInt) {
+            //Add back the operators
             result += char(operatorQueue.pop());
         } else {
+            //Add the operands in the expression
             result += (std::to_string(element));
         }
 
         result += ' ';
     }
+
     return result;
 }

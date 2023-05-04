@@ -1,5 +1,7 @@
 #include "PostfixEvaluation.h"
 
+// Convert a string to a number
+// @complexity θ(1)
 int convertToNumber2(const string &expression) {
     int result = 0;
     int sign = 1;
@@ -15,6 +17,12 @@ int convertToNumber2(const string &expression) {
     return result * sign;
 }
 
+/**
+ * @warning This function assumes that the expression is correctly written
+ * @param expression An arithmetic expression in postfix notation
+ * @return What the arithmetic expression computes to
+ * @complexity θ(n), we need to traverse the whole expression to find out it result
+**/
 int evaluatePostfixExpression(const string &expression){
     Stack operands;
     string token;
@@ -23,7 +31,9 @@ int evaluatePostfixExpression(const string &expression){
     // Iterate over each token in the expression
     for (size_t i = 0; i < expression.length(); i++) {
         token = "";
+
         while (i < expression.length() && expression[i] != ' ') {
+            //Build the number
             token += expression[i];
             i++;
         }
