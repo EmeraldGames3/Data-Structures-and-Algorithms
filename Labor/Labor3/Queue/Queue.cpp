@@ -80,7 +80,6 @@ void Queue::push(TElem elem) {
     automaticResize();
 }
 
-
 TElem Queue::top() const {
     if(isEmpty())
         throw std::runtime_error("Queue is empty");
@@ -117,7 +116,6 @@ TElem Queue::pop() {
 bool Queue::isEmpty() const {
     return size == 0;
 }
-
 
 Queue::~Queue() {
     delete[] array;
