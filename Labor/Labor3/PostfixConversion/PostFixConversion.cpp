@@ -1,6 +1,7 @@
 #include "PostFixConversion.h"
 #include "../Queue/Queue.h"
 #include "../Stack/Stack.h"
+#include <iostream>
 
 //Check if a character is an operator
 bool isOperator(char character) {
@@ -34,54 +35,81 @@ int convertToNumber(const string &expression) {
     return result * sign;
 }
 
-bool isDigit(char character){
+bool isDigit(char character) {
     return character >= '0' && character <= '9';
 }
 
-string infixToPostfix(const string &expression){
-    Stack stack;
+string infixToPostfix(const string &expression) {
+    Stack operatorStack;
+    Queue operatorQueue;
     Queue queue;
+    const int operatorAsInt = INT16_MAX;
+
+    operatorStack.push(int('('));
 
     string currentNumber{};
-    for (auto character : expression) {
-        if(isDigit(character)){
+    for (auto character: expression) {
+        if (isDigit(character)) {
             currentNumber += character;
             continue;
         }
 
-        if(!currentNumber.empty()){
+        if (!currentNumber.empty()) {
             queue.push(convertToNumber(currentNumber));
             currentNumber = "";
         }
 
-        if(character == ' ') {
+        if (character == ' ') {
             continue;
         }
 
-        if(isOperator(character)){
-            //TODO modify this
-            queue.push(character);
-        }
-        if(character == '('){
-            //TODO implementation
-        }
-        if(character == ')'){
-            //TODO implementation
+        if (character == '(') {
+            operatorStack.push(int('('));
         }
 
+        if (isOperator(char(character))) {
+            while (precedence(char(operatorStack.top())) >= precedence(char(character))) {
+                operatorQueue.push(int(operatorStack.pop()));
+                queue.push(operatorAsInt);
+            }
+            operatorStack.push(int(character));
+        }
+
+        if (character == ')') {
+            while (operatorStack.top() != '(') {
+                queue.push(operatorAsInt);
+                operatorQueue.push(operatorStack.pop());
+            }
+            operatorStack.pop();
+
+            if (operatorStack.isEmpty()) {
+                throw std::runtime_error("Invalid matching of parenthesis");
+            }
+        }
+    }
+
+    if (!currentNumber.empty()) {
+        //push the last number onto the queue
+        queue.push(convertToNumber(currentNumber));
+    }
+
+    while (!operatorStack.isEmpty() && char(operatorStack.top()) != '(') {
+        //push the last operators onto the queue
+        queue.push(operatorAsInt);
+        operatorQueue.push(operatorStack.pop());
     }
 
     string result{};
-    while (!queue.isEmpty()){
+    while (!queue.isEmpty()) {
         int element = queue.pop();
 
-        //TODO implement a better solution
-        if(element >= 0 && element <= 256 && isOperator(static_cast<char>(element))){
-            result += ((static_cast<char>(element)) + ' ');
-        } else{
-            result += (std::to_string(element) + ' ');
+        if (element == operatorAsInt) {
+            result += char(operatorQueue.pop());
+        } else {
+            result += (std::to_string(element));
         }
-    }
 
+        result += ' ';
+    }
     return result;
 }
