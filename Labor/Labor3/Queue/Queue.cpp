@@ -62,8 +62,8 @@ void Queue::resize(int newCapacity) {
 void Queue::automaticResize() {
     if (size >= capacity)
         resize(capacity * 2);
-    if (size <= capacity / 4 && capacity > 10)
-        resize(capacity / 2);
+//    if (size <= capacity / 4 && capacity > 10)
+//        resize(capacity / 2);
 }
 
 /**
