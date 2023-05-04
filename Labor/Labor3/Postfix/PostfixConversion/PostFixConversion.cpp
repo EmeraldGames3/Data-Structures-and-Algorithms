@@ -1,6 +1,6 @@
 #include "PostFixConversion.h"
-#include "../Queue/Queue.h"
-#include "../Stack/Stack.h"
+#include "../../Queue/Queue.h"
+#include "../../Stack/Stack.h"
 #include <iostream>
 
 //Check if a character is an operator

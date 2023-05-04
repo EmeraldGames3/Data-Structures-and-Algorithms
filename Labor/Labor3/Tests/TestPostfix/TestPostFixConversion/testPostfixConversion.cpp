@@ -1,6 +1,6 @@
 #include "testPostfixConversion.h"
 #include <cassert>
-#include "../../PostfixConversion//PostFixConversion.h"
+#include "../../../Postfix/PostfixConversion/PostFixConversion.h"
 #include <iostream>
 
 void testIsOperator() {
@@ -65,7 +65,6 @@ void testInfixToPostfix() {
     std::string input4 = "(3 + 4) * 2 + 1";
     std::string output4 = "3 4 + 2 * 1 + ";
     assert(infixToPostfix(input4) == output4);
-    std::cout << "Test infix to postfix conversion\n";
 
     std::string input5 = "1 + 2 )";
     try {
@@ -74,6 +73,16 @@ void testInfixToPostfix() {
     }catch (const std::runtime_error &exception){
         assert(true);
     }
+
+    std::string input6 = "(2 + 3) ^ 3";
+    std::string output6 = "2 3 + 3 ^ ";
+    assert(infixToPostfix(input6) == output6);
+
+    std::string input7 = "(5 + 2) * 3 / (7 - 2) + 4 - 1 ^ 2";
+    std::string output7 = "5 2 + 3 * 7 2 - / 4 + 1 2 ^ - ";
+    assert(infixToPostfix(input7) == output7);
+
+    std::cout << "Test infix to postfix conversion\n";
 }
 
 void testInfixConversion(){

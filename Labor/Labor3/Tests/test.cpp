@@ -1,9 +1,11 @@
 #include "test.h"
 #include <iostream>
-#include "TestPostFixConversion/testPostfixConversion.h"
+#include "TestPostfix/TestPostFixConversion/testPostfixConversion.h"
 #include "TestQueue/ShortTest.h"
 #include "TestQueue/ExtendedTest.h"
 #include "TestStack/StackTest.h"
+#include "TestPostfix/TestPostfixEvaluation/TestPostfixEvaluation.h"
+#include "TestPostfix/testPostfix.h"
 
 void test(){
     std::cout << "Test Queue:\n";
@@ -13,4 +15,8 @@ void test(){
     testStack();
     std::cout << "\nTest Infix conversion:\n";
     testInfixConversion();
+    std::cout << "\nTest Postfix evaluation:\n";
+    testPostFixEvaluation();
+    std::cout << "\nTest Postfix:\n";
+    testPostfix();
 }
