@@ -22,35 +22,40 @@ Queue::Queue() {
  * @complexity θ(n), for every case this function performs exactly n steps
  */
 void Queue::resize(int newCapacity) {
-    auto *newArray = new DLLANode[newCapacity];
-
-    // Copy the elements from the old array to the new array
-    int i = head;
-    int j = 0;
-    while (i != -1) {
-        newArray[j].data = array[i].data;
-        newArray[j].previous = j - 1;
-        newArray[j].next = j + 1;
-        i = array[i].next;
-        j++;
+    if (newCapacity == capacity) {
+        // Nothing to do
+        return;
     }
 
-    // Set the head and tail of the new array
-    newArray[0].previous = -1;
-    newArray[j - 1].next = -1;
-
-    if (size == 0) {
+    if(size == 0){
         head = -1;
         tail = -1;
-    } else {
-        head = 0;
-        tail = j - 1;
+        firstEmpty = 0;
+
+        auto newArray = new DLLANode[capacity];
+        delete[] array;
+        array = newArray;
+        capacity = newCapacity;
     }
+
+    auto newArray = new DLLANode[newCapacity];
+
+    for(int i = head, j = 0; i != -1 && j < size; i = array[i].next, j++){
+        newArray[j] = array[i];
+        newArray[j].previous = j - 1;
+        newArray[j].next = j + 1;
+    }
+
+    head = 0;
+    tail = size - 1;
+    firstEmpty = size;
+
+    newArray[head].previous = -1;
+    newArray[tail].next = -1;
 
     delete[] array;
     array = newArray;
     capacity = newCapacity;
-    firstEmpty = size;
 }
 
 /**
@@ -62,8 +67,8 @@ void Queue::resize(int newCapacity) {
 void Queue::automaticResize() {
     if (size >= capacity)
         resize(capacity * 2);
-//    if (size <= capacity / 4 && capacity > 10)
-//        resize(capacity / 2);
+    if (size <= capacity / 4 && capacity > 10)
+        resize(capacity / 2);
 }
 
 /**
@@ -94,7 +99,7 @@ void Queue::push(TElem elem) {
     array[firstEmpty] = newNode;
     tail = firstEmpty;
 
-    if (firstEmpty == capacity)
+    if (firstEmpty == capacity - 1)
         //Start filling the array from the front
         firstEmpty = 0;
     else
@@ -103,6 +108,7 @@ void Queue::push(TElem elem) {
     size++;
     automaticResize();
 }
+
 
 /**
  * Get the first element in the queue

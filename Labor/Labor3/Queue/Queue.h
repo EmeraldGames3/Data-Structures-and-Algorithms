@@ -21,12 +21,13 @@ public:
     int capacity;
     int firstEmpty;
 
-public:
     //Resize the array to a new size
     void resize(int newCapacity);
 
     //Automatically resize the array
     void automaticResize();
+
+public:
 
     Queue();
 
