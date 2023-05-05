@@ -1,0 +1,7 @@
+# ninja log v5
+1	638	1683287043286684675	CMakeFiles/Labor4.dir/ExtendedTest.cpp.o	ef719599a8f6c920
+1	91	1683287042739676445	CMakeFiles/Labor4.dir/ShortTest.cpp.o	6cdb0870084c9353
+0	464	1683287012269208631	CMakeFiles/Labor4.dir/App.cpp.o	68d5b2483b451fe3
+1	77	1683287060119935146	CMakeFiles/Labor4.dir/SortedMap.cpp.o	d4228f357a15451a
+0	80	1683287060121935176	CMakeFiles/Labor4.dir/SMIterator.cpp.o	757dbf1a0309749b
+80	152	1683287060192936220	Labor4	ab49e0881aaa2f07
