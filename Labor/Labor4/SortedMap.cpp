@@ -4,7 +4,10 @@
 using namespace std;
 
 SortedMap::SortedMap(Relation r) {
-	//TODO - Implementation
+	relation = r;
+    capacity = 10;
+    table = new Node *[capacity];
+    count = 0;
 }
 
 TValue SortedMap::add(TKey k, TValue v) {

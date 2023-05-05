@@ -28,18 +28,17 @@ class SortedMap {
     friend class SMIterator;
 
 private:
-    Node *array;
-    int arraySize;
+    Node **table;
     int capacity;
+    int count;
     Relation relation;
 
-    //Hashing function
-    int hash();
+    int hash(TKey key) const;
 
 public:
 
     // implicit constructor
-    SortedMap(Relation r);
+    explicit SortedMap(Relation r);
 
     // adds a pair (key,value) to the map
     //if the key already exists in the map, then the value associated to the key is replaced by the new value and the old value is returned
