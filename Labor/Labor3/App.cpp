@@ -15,5 +15,7 @@ int main() {
     std::cout << "\nEnter an expression: ";
 
     std::getline(std::cin, expression);
+
+    std::cout << infixToPostfix(expression) << '\n';
     std::cout << postfix(expression);
 }

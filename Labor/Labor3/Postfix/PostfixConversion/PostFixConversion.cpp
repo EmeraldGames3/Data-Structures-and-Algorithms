@@ -95,8 +95,7 @@ string infixToPostfix(const string &expression) {
         }
 
         if (character == ')') {
-            //If a closing parenthesis is encountered pop all operators from the stack untill
-            //you encounter its match
+            //If a closing parenthesis is encountered pop all operators from the stack until you encounter its match
             //If no match is found throw runtime_error
             while (operatorStack.top() != '(') {
                 queue.push(operatorAsInt);
