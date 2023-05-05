@@ -5,7 +5,7 @@
 using namespace std;
 
 SMIterator::SMIterator(const SortedMap& m) : map(m){
-	//TODO - Implementation
+	currentNode = m.head;
 }
 
 void SMIterator::first(){

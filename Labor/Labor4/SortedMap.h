@@ -18,10 +18,13 @@ typedef bool(*Relation)(TKey, TKey);
 struct Node {
     TKey key;
     TValue value;
+
+    Node *nextCollision;
     Node *next;
     Node *previous;
 
-    explicit Node(TElem elem) : key(elem.first), value(elem.second), next(nullptr), previous(nullptr){}
+    explicit Node(TElem elem) : key(elem.first), value(elem.second), next(nullptr), nextCollision(nullptr),
+                                previous(nullptr) {}
 };
 
 class SortedMap {
@@ -29,11 +32,22 @@ class SortedMap {
 
 private:
     Node **table;
+
+    Node *head;
+    Node *tail;
+
     int capacity;
     int count;
     Relation relation;
 
+    //Hashing function
     int hash(TKey key) const;
+
+    //Resize the table to a new size
+    void resize(int newCapacity);
+
+    //Rehash all elements after a resize
+    void rehash();
 
 public:
 
@@ -47,7 +61,6 @@ public:
 
     //searches for the key and returns the value associated with the key if the map contains the key or null: NULL_TVALUE otherwise
     TValue search(TKey c) const;
-
 
     //removes a key from the map and returns the value associated with the key if the key existed ot null: NULL_TVALUE otherwise
     TValue remove(TKey c);

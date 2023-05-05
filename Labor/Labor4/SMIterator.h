@@ -6,9 +6,9 @@ class SMIterator{
 	friend class SortedMap;
 private:
 	const SortedMap& map;
-	SMIterator(const SortedMap& mapionar);
+	explicit SMIterator(const SortedMap& mapionar);
 
-	//TODO - Representation
+	Node *currentNode;
 
 public:
 	void first();
