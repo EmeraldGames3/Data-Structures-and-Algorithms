@@ -13,6 +13,7 @@ Bag::Bag() {
 }
 
 void Bag::add(TElem elem) {
+    automaticResize();
     for(int i = 0; i < arrayLength; i++){
         if(dynamicArray[i].first == elem){
             dynamicArray[i].second++;
@@ -27,6 +28,12 @@ void Bag::add(TElem elem) {
 }
 
 bool Bag::remove(TElem elem) {
+    if(length == 1 && elem == dynamicArray[0].first){
+        arrayLength = 0;
+        length = 0;
+        return true;
+    }
+
     for(int i = 0; i < arrayLength; i++){
         if(dynamicArray[i].first == elem){
             if(dynamicArray[i].second == 1){
@@ -76,7 +83,7 @@ Bag::~Bag() {
 }
 
 void Bag::resize(int newCapacity) {
-    if (newCapacity < length)
+    if (newCapacity < arrayLength)
         throw std::out_of_range("Index out of range");
 
     auto *newArray = new pair<TElem, int>[newCapacity];
@@ -91,6 +98,6 @@ void Bag::resize(int newCapacity) {
 void Bag::automaticResize() {
     if (arrayLength == capacity)
         resize(capacity * 2);
-    if (arrayLength <= capacity / 4 && capacity >= 10)
+    if (arrayLength <= capacity / 4 && capacity > 10)
         resize(capacity / 2);
 }

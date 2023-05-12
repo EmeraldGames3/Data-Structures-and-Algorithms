@@ -42,7 +42,7 @@ void SortedBag::add(TComp e) {
 
 // worst: ϴ(n)  (e is the first element in the bag, all elem need to be shifted)
 // average: ϴ(n)
-// best: ϴ(1)  (e is in the element element in the bag and its number of occurrences is greater than 1)
+// best: ϴ(1)  (e is in the element in the bag and its number of occurrences is greater than 1)
 // total: O(n)
 bool SortedBag::remove(TComp e) {
     // find the index of the element we want to remove

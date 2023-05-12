@@ -97,11 +97,11 @@ void testAdd() {
 void testRemove() {
 	cout << "Test remove" << endl;
 	Bag b;
-	for (int i = -100; i < 100; i++) { 
+	for (int i = -100; i < 100; i++) {
 		assert(b.remove(i) == false);
 	}
 	assert(b.size() == 0);
-	for (int i = -100; i < 100; i = i + 2) { 
+	for (int i = -100; i < 100; i = i + 2) {
 		b.add(i);
 	}
 	for (int i = -100; i < 100; i++) {
@@ -115,10 +115,10 @@ void testRemove() {
 	}
 	testIteratorSteps(b);
 	assert(b.size() == 0);
-	for (int i = -100; i <= 100; i = i + 2) { 
+	for (int i = -100; i <= 100; i = i + 2) {
 		b.add(i);
 	}
-	for (int i = 100; i > -100; i--) { 
+	for (int i = 100; i > -100; i--) {
 		if (i % 2 == 0) {
 			assert(b.remove(i) == true);
 		}
@@ -128,6 +128,7 @@ void testRemove() {
 	}
 	testIteratorSteps(b);
 	assert(b.size() == 1);
+
 	b.remove(-100);
 	for (int i = -100; i < 100; i++) { 
 		b.add(i);
@@ -136,6 +137,7 @@ void testRemove() {
 		b.add(i);
 		b.add(i);
 	}
+
 	assert(b.size() == 1000);
 	for (int i = -100; i < 100; i++) {
 		assert(b.nrOccurrences(i) == 5);
@@ -191,7 +193,6 @@ void testRemove() {
 		}
 	}
 	assert(b.size() == 342);
-
 }
 
 void testIterator() { 

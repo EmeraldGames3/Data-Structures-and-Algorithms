@@ -1,0 +1,3 @@
+C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\BagOfPairs.dir/objects.a
+C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\ar.exe qc CMakeFiles\BagOfPairs.dir/objects.a @CMakeFiles\BagOfPairs.dir\objects1
+C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\BagOfPairs.dir/objects.a -Wl,--no-whole-archive -o BagOfPairs.exe -Wl,--out-implib,libBagOfPairs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BagOfPairs.dir\linkLibs.rsp
