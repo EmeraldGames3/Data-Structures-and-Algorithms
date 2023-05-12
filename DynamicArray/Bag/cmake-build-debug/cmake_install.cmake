@@ -1,4 +1,4 @@
-# Install script for directory: /home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray
+# Install script for directory: /home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/Bag
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/Bag/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

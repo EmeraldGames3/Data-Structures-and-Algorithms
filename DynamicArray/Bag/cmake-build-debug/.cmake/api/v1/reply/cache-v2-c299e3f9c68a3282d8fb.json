@@ -2,6 +2,42 @@
 	"entries" : 
 	[
 		{
+			"name" : "Bag_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/Bag/cmake-build-debug"
+		},
+		{
+			"name" : "Bag_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Bag_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/Bag"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -55,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray/cmake-build-debug"
+			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/Bag/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +579,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/Bag/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +639,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray"
+			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/Bag"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -843,7 +879,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "GenerciDynamicArray"
+			"value" : "Bag"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1124,42 +1160,6 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
-		},
-		{
-			"name" : "GenerciDynamicArray_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray/cmake-build-debug"
-		},
-		{
-			"name" : "GenerciDynamicArray_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "GenerciDynamicArray_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

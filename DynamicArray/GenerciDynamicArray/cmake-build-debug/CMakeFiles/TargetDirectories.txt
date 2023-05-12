@@ -1,3 +1,0 @@
-/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray/cmake-build-debug/CMakeFiles/GenerciDynamicArray.dir
-/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray/cmake-build-debug/CMakeFiles/rebuild_cache.dir

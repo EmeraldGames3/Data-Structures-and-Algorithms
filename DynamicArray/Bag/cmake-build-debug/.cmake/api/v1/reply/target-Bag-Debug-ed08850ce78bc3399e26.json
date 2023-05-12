@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "GenerciDynamicArray"
+			"path" : "Bag"
 		}
 	],
 	"backtrace" : 1,
@@ -53,11 +53,14 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4
 			]
 		}
 	],
-	"id" : "GenerciDynamicArray::@6890427a1f51a3e7e1df",
+	"id" : "Bag::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -73,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "GenerciDynamicArray",
-	"nameOnDisk" : "GenerciDynamicArray",
+	"name" : "Bag",
+	"nameOnDisk" : "Bag",
 	"paths" : 
 	{
 		"build" : ".",
@@ -87,14 +90,10 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				2
+				1,
+				2,
+				3,
+				4
 			]
 		}
 	],
@@ -103,19 +102,32 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "App.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "DynamicArray.cpp",
+			"path" : "Bag.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "DynamicArray.h",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"path" : "ExtendedTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ShortTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BagIterator.cpp",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "EXECUTABLE"

@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "GenerciDynamicArray",
+					"name" : "Bag",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "GenerciDynamicArray::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GenerciDynamicArray-Debug-d2d91cbb3c69c47f2f09.json",
-					"name" : "GenerciDynamicArray",
+					"id" : "Bag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Bag-Debug-ed08850ce78bc3399e26.json",
+					"name" : "Bag",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray/cmake-build-debug",
-		"source" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray"
+		"build" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/Bag/cmake-build-debug",
+		"source" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/Bag"
 	},
 	"version" : 
 	{

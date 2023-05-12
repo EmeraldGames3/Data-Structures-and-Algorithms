@@ -125,8 +125,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray/cmake-build-debug",
-		"source" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/GenerciDynamicArray"
+		"build" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/Bag/cmake-build-debug",
+		"source" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/Bag"
 	},
 	"version" : 
 	{
