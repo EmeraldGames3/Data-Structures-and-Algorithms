@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 BagIterator::BagIterator(const Bag &c) : bag(c) {
     current = 0;
 }
