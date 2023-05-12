@@ -1,3 +1,0 @@
-C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\DynamicArray.dir/objects.a
-C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\ar.exe qc CMakeFiles\DynamicArray.dir/objects.a @CMakeFiles\DynamicArray.dir\objects1.rsp
-C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\DynamicArray.dir/objects.a -Wl,--no-whole-archive -o DynamicArray.exe -Wl,--out-implib,libDynamicArray.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DynamicArray.dir\linklibs.rsp

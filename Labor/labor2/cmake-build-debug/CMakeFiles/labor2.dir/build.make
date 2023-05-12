@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2
+CMAKE_SOURCE_DIR = /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/labor2.dir/depend.make
@@ -70,116 +70,116 @@ include CMakeFiles/labor2.dir/progress.make
 include CMakeFiles/labor2.dir/flags.make
 
 CMakeFiles/labor2.dir/App.cpp.o: CMakeFiles/labor2.dir/flags.make
-CMakeFiles/labor2.dir/App.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/App.cpp
+CMakeFiles/labor2.dir/App.cpp.o: /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/App.cpp
 CMakeFiles/labor2.dir/App.cpp.o: CMakeFiles/labor2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/labor2.dir/App.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/App.cpp.o -MF CMakeFiles/labor2.dir/App.cpp.o.d -o CMakeFiles/labor2.dir/App.cpp.o -c /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/App.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/labor2.dir/App.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/App.cpp.o -MF CMakeFiles/labor2.dir/App.cpp.o.d -o CMakeFiles/labor2.dir/App.cpp.o -c /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/App.cpp
 
 CMakeFiles/labor2.dir/App.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/App.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/App.cpp > CMakeFiles/labor2.dir/App.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/App.cpp > CMakeFiles/labor2.dir/App.cpp.i
 
 CMakeFiles/labor2.dir/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/App.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/App.cpp -o CMakeFiles/labor2.dir/App.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/App.cpp -o CMakeFiles/labor2.dir/App.cpp.s
 
 CMakeFiles/labor2.dir/Queue/Queue.cpp.o: CMakeFiles/labor2.dir/flags.make
-CMakeFiles/labor2.dir/Queue/Queue.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp
+CMakeFiles/labor2.dir/Queue/Queue.cpp.o: /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp
 CMakeFiles/labor2.dir/Queue/Queue.cpp.o: CMakeFiles/labor2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/labor2.dir/Queue/Queue.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Queue/Queue.cpp.o -MF CMakeFiles/labor2.dir/Queue/Queue.cpp.o.d -o CMakeFiles/labor2.dir/Queue/Queue.cpp.o -c /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/labor2.dir/Queue/Queue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Queue/Queue.cpp.o -MF CMakeFiles/labor2.dir/Queue/Queue.cpp.o.d -o CMakeFiles/labor2.dir/Queue/Queue.cpp.o -c /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp
 
 CMakeFiles/labor2.dir/Queue/Queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/Queue/Queue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp > CMakeFiles/labor2.dir/Queue/Queue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp > CMakeFiles/labor2.dir/Queue/Queue.cpp.i
 
 CMakeFiles/labor2.dir/Queue/Queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/Queue/Queue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp -o CMakeFiles/labor2.dir/Queue/Queue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp -o CMakeFiles/labor2.dir/Queue/Queue.cpp.s
 
 CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: CMakeFiles/labor2.dir/flags.make
-CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp
+CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp
 CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o: CMakeFiles/labor2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o -MF CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o.d -o CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o -c /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o -MF CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o.d -o CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o -c /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp
 
 CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp > CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp > CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.i
 
 CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp -o CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp -o CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.s
 
 CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o: CMakeFiles/labor2.dir/flags.make
-CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp
+CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o: /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp
 CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o: CMakeFiles/labor2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o -MF CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o.d -o CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o -c /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o -MF CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o.d -o CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o -c /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp
 
 CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp > CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp > CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.i
 
 CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp -o CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp -o CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.s
 
 CMakeFiles/labor2.dir/IO/IO.cpp.o: CMakeFiles/labor2.dir/flags.make
-CMakeFiles/labor2.dir/IO/IO.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp
+CMakeFiles/labor2.dir/IO/IO.cpp.o: /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp
 CMakeFiles/labor2.dir/IO/IO.cpp.o: CMakeFiles/labor2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/labor2.dir/IO/IO.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/IO/IO.cpp.o -MF CMakeFiles/labor2.dir/IO/IO.cpp.o.d -o CMakeFiles/labor2.dir/IO/IO.cpp.o -c /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/labor2.dir/IO/IO.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/IO/IO.cpp.o -MF CMakeFiles/labor2.dir/IO/IO.cpp.o.d -o CMakeFiles/labor2.dir/IO/IO.cpp.o -c /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp
 
 CMakeFiles/labor2.dir/IO/IO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/IO/IO.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp > CMakeFiles/labor2.dir/IO/IO.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp > CMakeFiles/labor2.dir/IO/IO.cpp.i
 
 CMakeFiles/labor2.dir/IO/IO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/IO/IO.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp -o CMakeFiles/labor2.dir/IO/IO.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp -o CMakeFiles/labor2.dir/IO/IO.cpp.s
 
 CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o: CMakeFiles/labor2.dir/flags.make
-CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp
+CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o: /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp
 CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o: CMakeFiles/labor2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o -MF CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o.d -o CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o -c /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o -MF CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o.d -o CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.o -c /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp
 
 CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp > CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp > CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.i
 
 CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp -o CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp -o CMakeFiles/labor2.dir/SolveLabyrinth/SolveLabyrinth.cpp.s
 
 CMakeFiles/labor2.dir/Stack/Stack.cpp.o: CMakeFiles/labor2.dir/flags.make
-CMakeFiles/labor2.dir/Stack/Stack.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp
+CMakeFiles/labor2.dir/Stack/Stack.cpp.o: /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp
 CMakeFiles/labor2.dir/Stack/Stack.cpp.o: CMakeFiles/labor2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/labor2.dir/Stack/Stack.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Stack/Stack.cpp.o -MF CMakeFiles/labor2.dir/Stack/Stack.cpp.o.d -o CMakeFiles/labor2.dir/Stack/Stack.cpp.o -c /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/labor2.dir/Stack/Stack.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Stack/Stack.cpp.o -MF CMakeFiles/labor2.dir/Stack/Stack.cpp.o.d -o CMakeFiles/labor2.dir/Stack/Stack.cpp.o -c /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp
 
 CMakeFiles/labor2.dir/Stack/Stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/Stack/Stack.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp > CMakeFiles/labor2.dir/Stack/Stack.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp > CMakeFiles/labor2.dir/Stack/Stack.cpp.i
 
 CMakeFiles/labor2.dir/Stack/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/Stack/Stack.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp -o CMakeFiles/labor2.dir/Stack/Stack.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp -o CMakeFiles/labor2.dir/Stack/Stack.cpp.s
 
 CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o: CMakeFiles/labor2.dir/flags.make
-CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o: /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp
+CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o: /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp
 CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o: CMakeFiles/labor2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o -MF CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o.d -o CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o -c /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o -MF CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o.d -o CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o -c /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp
 
 CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp > CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp > CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.i
 
 CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp -o CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp -o CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.s
 
 # Object files for target labor2
 labor2_OBJECTS = \
@@ -205,7 +205,7 @@ labor2: CMakeFiles/labor2.dir/Stack/Stack.cpp.o
 labor2: CMakeFiles/labor2.dir/Stack/StackTest/StackTest.cpp.o
 labor2: CMakeFiles/labor2.dir/build.make
 labor2: CMakeFiles/labor2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable labor2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable labor2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/labor2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/labor2.dir/clean:
 .PHONY : CMakeFiles/labor2.dir/clean
 
 CMakeFiles/labor2.dir/depend:
-	cd /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2 /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug /home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles/labor2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2 /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2 /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug /home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/CMakeFiles/labor2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/labor2.dir/depend
 

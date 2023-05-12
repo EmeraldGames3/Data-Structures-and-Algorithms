@@ -1,9 +1,0 @@
-# ninja log v5
-3	428	7002448521820871	CMakeFiles/DynamicArray.dir/main.cpp.obj	cc66ecf7f340684f
-431	524	7002448522761076	DynamicArray.exe	b449a423e1fdb812
-7	412	7002428949095948	CMakeFiles/DynamicArray.dir/DynamicArray.cpp.obj	407f97e57c2d2906
-7	431	7002448521860893	CMakeFiles/DynamicArray.dir/Example.cpp.obj	eaaa5df8768178e6
-8	400	7002450029781908	CMakeFiles/DynamicArray.dir/main.cpp.obj	cc66ecf7f340684f
-3	400	7002450029781908	CMakeFiles/DynamicArray.dir/Example.cpp.obj	eaaa5df8768178e6
-2	383	7002454515261696	CMakeFiles/DynamicArray.dir/main.cpp.obj	cc66ecf7f340684f
-3	396	7002455296605106	CMakeFiles/DynamicArray.dir/DArray.cpp.obj	988864d0506256a0

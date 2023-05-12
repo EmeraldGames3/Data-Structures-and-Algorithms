@@ -8,126 +8,126 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug"/>
+				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="labor2">
-				<Option output="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/labor2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug"/>
+				<Option output="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/labor2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 labor2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 labor2"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="labor2/fast">
-				<Option output="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/labor2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug"/>
+				<Option output="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/labor2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 labor2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 labor2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug"/>
+				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug"/>
+				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/App.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/App.cpp">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.cpp">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/IO/IO.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.cpp">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.h">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/Queue.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.cpp">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.h">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ExtendedTest.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.cpp">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.h">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Queue/QueueTest/ShortTest.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.cpp">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.h">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/SolveLabyrinth/SolveLabyrinth.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.cpp">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.h">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/Stack.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.cpp">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.h">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/Stack/StackTest/StackTest.h">
 			<Option target="labor2"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/Uni/Data-Structures-and-Algorithms/Labor/labor2/CMakeLists.txt">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/labor2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
