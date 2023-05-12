@@ -1,0 +1,7 @@
+# ninja log v5
+32	124	7025731284563762	CMakeFiles/test.dir/SetIterator.cpp.obj	4ee064717ac56336
+11	126	7025731284583780	CMakeFiles/test.dir/Set.cpp.obj	b11886368439c83d
+4	768	7025731291020461	CMakeFiles/test.dir/ExtendedTest.cpp.obj	b3d8b01e056a394c
+25	785	7025731291182741	CMakeFiles/test.dir/App.cpp.obj	970d8846041fa66f
+18	146	7025731284805736	CMakeFiles/test.dir/ShortTest.cpp.obj	cf1625d88984cc1d
+785	945	7025731292752016	test.exe	f9d80f10061455ea

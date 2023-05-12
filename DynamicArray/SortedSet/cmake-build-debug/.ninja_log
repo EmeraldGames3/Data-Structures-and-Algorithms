@@ -1,0 +1,8 @@
+# ninja log v5
+764	1089	7019816097779893	lab1.exe	68978ddc907c7af2
+22	860	7019666422140698	CMakeFiles/lab1.dir/App.cpp.obj	4c0cbdf722fa39eb
+15	668	7024847724007865	CMakeFiles/lab1.dir/SortedSet.cpp.obj	7242042ce0c0cfd1
+3	749	7019816094403182	CMakeFiles/lab1.dir/SortedSetIterator.cpp.obj	a015362a96762b6a
+23	725	7019816094171404	CMakeFiles/lab1.dir/ShortTest.cpp.obj	5738bc5933688d77
+14	743	7019816094343074	CMakeFiles/lab1.dir/ExtendedIterator.cpp.obj	3d72813835c01dd5
+19	764	7019816094553214	CMakeFiles/lab1.dir/ExtendedTest.cpp.obj	1729d75f3b523f51

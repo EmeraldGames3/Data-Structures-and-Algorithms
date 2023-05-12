@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="L1" targetName="L1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d27d0877-d948-4eee-bc7b-45df85dce31f" name="Changes" comment="" />
+    <list id="3c97e27a-996f-4953-9ca7-03a62c64198d" name="Changes by Alin" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="xxn8deuq" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectId" id="2MpW76FSvf1WRQo72GgP1MeqHfn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/Users/lulu/UBB/Semestrul_II/Data-Structures-and-Algorithms/Laborator/L1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="L1" TARGET_NAME="L1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="L1" RUN_TARGET_NAME="L1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d27d0877-d948-4eee-bc7b-45df85dce31f" name="Changes" comment="" />
+      <created>1678464834413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678464834413</updated>
+      <workItem from="1678464836049" duration="4030000" />
+      <workItem from="1678479258329" duration="6078000" />
+      <workItem from="1678560992102" duration="95000" />
+      <workItem from="1678721987360" duration="560000" />
+      <workItem from="1678724660128" duration="42000" />
+      <workItem from="1678728482472" duration="134000" />
+      <workItem from="1678889659829" duration="18000" />
+      <workItem from="1678976050283" duration="2475000" />
+      <workItem from="1679130927119" duration="5277000" />
+      <workItem from="1679168716890" duration="2424000" />
+      <workItem from="1679171660765" duration="4024000" />
+      <workItem from="1679596434191" duration="237000" />
+      <workItem from="1679665837075" duration="160000" />
+      <workItem from="1679679288006" duration="836000" />
+      <workItem from="1679689343559" duration="5819000" />
+      <workItem from="1679696149613" duration="111000" />
+      <workItem from="1679899156761" duration="1943000" />
+      <workItem from="1679915013479" duration="805000" />
+      <workItem from="1679925160891" duration="119000" />
+      <workItem from="1679943152442" duration="719000" />
+      <workItem from="1679986895410" duration="692000" />
+      <workItem from="1680006749003" duration="193000" />
+      <workItem from="1680104782094" duration="1206000" />
+      <workItem from="1680116153702" duration="3499000" />
+      <workItem from="1680173583471" duration="1002000" />
+      <workItem from="1680174601969" duration="5000" />
+      <workItem from="1680184780741" duration="5279000" />
+      <workItem from="1680192127235" duration="59000" />
+      <workItem from="1680205639215" duration="485000" />
+      <workItem from="1680292094780" duration="927000" />
+      <workItem from="1680440705718" duration="1081000" />
+      <workItem from="1680507363644" duration="103000" />
+      <workItem from="1680508605758" duration="2962000" />
+      <workItem from="1680526088194" duration="257000" />
+      <workItem from="1680688184415" duration="1008000" />
+      <workItem from="1680724999295" duration="31000" />
+      <workItem from="1680757014270" duration="6000" />
+      <workItem from="1680758336507" duration="82000" />
+      <workItem from="1680783023626" duration="396000" />
+      <workItem from="1680783834464" duration="799000" />
+      <workItem from="1680786741072" duration="1166000" />
+      <workItem from="1680793754445" duration="1257000" />
+      <workItem from="1680798867411" duration="141000" />
+      <workItem from="1680799044613" duration="91000" />
+      <workItem from="1680808100004" duration="598000" />
+      <workItem from="1680856661845" duration="8646000" />
+      <workItem from="1680877053572" duration="612000" />
+      <workItem from="1680879218402" duration="8000" />
+      <workItem from="1680879241619" duration="152000" />
+      <workItem from="1680879664352" duration="6480000" />
+      <workItem from="1681419493848" duration="181000" />
+      <workItem from="1681981159935" duration="7000" />
+      <workItem from="1682624580623" duration="8000" />
+      <workItem from="1683369454071" duration="1830000" />
+      <workItem from="1683379665400" duration="598000" />
+      <workItem from="1683396183041" duration="1107000" />
+      <workItem from="1683788689087" duration="7000" />
+      <workItem from="1683827368906" duration="2416000" />
+      <workItem from="1683876108515" duration="3349000" />
+      <workItem from="1683883105612" duration="597000" />
+      <workItem from="1683884681762" duration="319000" />
+      <workItem from="1683885147166" duration="1477000" />
+      <workItem from="1683911065045" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
