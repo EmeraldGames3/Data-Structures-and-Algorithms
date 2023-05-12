@@ -8,6 +8,7 @@ class BagIterator
 private:
 	const Bag& bag;
     int current;
+    int currentFrequency;
 
 	explicit BagIterator(const Bag& c);
 public:

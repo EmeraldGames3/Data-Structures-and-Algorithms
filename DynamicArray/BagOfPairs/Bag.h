@@ -14,6 +14,7 @@ class BagIterator;
 class Bag {
 private:
     int length;
+    int arrayLength;
     int capacity;
     pair<TElem, int> *dynamicArray;
 

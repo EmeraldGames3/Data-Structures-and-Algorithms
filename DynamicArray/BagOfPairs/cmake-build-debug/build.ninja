@@ -61,6 +61,24 @@ build CMakeFiles/BagOfPairs.dir/Bag.cpp.o: CXX_COMPILER__BagOfPairs_Debug /home/
   OBJECT_DIR = CMakeFiles/BagOfPairs.dir
   OBJECT_FILE_DIR = CMakeFiles/BagOfPairs.dir
 
+build CMakeFiles/BagOfPairs.dir/BagIterator.cpp.o: CXX_COMPILER__BagOfPairs_Debug /home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/BagOfPairs/BagIterator.cpp || cmake_object_order_depends_target_BagOfPairs
+  DEP_FILE = CMakeFiles/BagOfPairs.dir/BagIterator.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles/BagOfPairs.dir
+  OBJECT_FILE_DIR = CMakeFiles/BagOfPairs.dir
+
+build CMakeFiles/BagOfPairs.dir/ExtendedTest.cpp.o: CXX_COMPILER__BagOfPairs_Debug /home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/BagOfPairs/ExtendedTest.cpp || cmake_object_order_depends_target_BagOfPairs
+  DEP_FILE = CMakeFiles/BagOfPairs.dir/ExtendedTest.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles/BagOfPairs.dir
+  OBJECT_FILE_DIR = CMakeFiles/BagOfPairs.dir
+
+build CMakeFiles/BagOfPairs.dir/ShortTest.cpp.o: CXX_COMPILER__BagOfPairs_Debug /home/bogdan/Programming/University/Data-Structures-and-Algorithms/DynamicArray/BagOfPairs/ShortTest.cpp || cmake_object_order_depends_target_BagOfPairs
+  DEP_FILE = CMakeFiles/BagOfPairs.dir/ShortTest.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles/BagOfPairs.dir
+  OBJECT_FILE_DIR = CMakeFiles/BagOfPairs.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BagOfPairs
@@ -69,7 +87,7 @@ build CMakeFiles/BagOfPairs.dir/Bag.cpp.o: CXX_COMPILER__BagOfPairs_Debug /home/
 #############################################
 # Link the executable BagOfPairs
 
-build BagOfPairs: CXX_EXECUTABLE_LINKER__BagOfPairs_Debug CMakeFiles/BagOfPairs.dir/App.cpp.o CMakeFiles/BagOfPairs.dir/Bag.cpp.o
+build BagOfPairs: CXX_EXECUTABLE_LINKER__BagOfPairs_Debug CMakeFiles/BagOfPairs.dir/App.cpp.o CMakeFiles/BagOfPairs.dir/Bag.cpp.o CMakeFiles/BagOfPairs.dir/BagIterator.cpp.o CMakeFiles/BagOfPairs.dir/ExtendedTest.cpp.o CMakeFiles/BagOfPairs.dir/ShortTest.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/BagOfPairs.dir
   POST_BUILD = :
