@@ -48,5 +48,8 @@ bool BagIterator::valid() const {
 }
 
 TElem BagIterator::getCurrent() const {
+    if(!valid())
+        throw exception();
+
     return bag.minimumElement + index;
 }

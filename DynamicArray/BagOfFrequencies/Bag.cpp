@@ -55,7 +55,7 @@ void Bag::add(TElem elem) {
 
     int newMaximumElement = minimumElement + capacity - 1;
     int newArraySize = capacity + (elem - newMaximumElement);
-    int *auxiliaryArray = new int [newArraySize];
+    int *auxiliaryArray = new int[newArraySize];
 
     // copy the old array
     for (int i = 0; i < capacity; i++)
@@ -75,12 +75,22 @@ void Bag::add(TElem elem) {
 }
 
 bool Bag::remove(TElem elem) {
-    if(size() == 0){
+    if (size() < 1) {
         return false;
     }
 
-    if(elem > minimumElement && elem < maximumElement){
-        if(array[elem - minimumElement] == 0){
+    if (size() == 1 && (elem == minimumElement || elem == maximumElement)) {
+        delete[] array;
+        array = nullptr;
+        capacity = 0;
+        nrElems = 0;
+        minimumElement = 0;
+        maximumElement = 0;
+        return true;
+    }
+
+    if (elem > minimumElement && elem < maximumElement) {
+        if (array[elem - minimumElement] == 0) {
             return false;
         }
         array[elem - minimumElement]--;
@@ -88,50 +98,90 @@ bool Bag::remove(TElem elem) {
         return true;
     }
 
-    if(elem == minimumElement){
-        if(array[0] > 1)
+    if (elem == minimumElement) {
+        nrElems--;
+        if (array[0] > 1)
             array[0]--;
-        else{
-//            int newStart = 1;
-//
-//            while (array[newStart] == 0)
-//                newStart++;
-//
-//            minimumElement += newStart;
-//            int newCapacity = capacity - newStart;
-//            auto newArray = new int[newCapacity];
-//            for(int i = 0; i < newCapacity; i++){
-//                newArray[i] = array[i + newStart];
-//            }
-//            delete[] array;
-//            array = newArray;
+        else {
+            int newStart = 1;
+
+            while (array[newStart] == 0)
+                newStart++;
+
+            minimumElement += newStart;
+            int newCapacity = capacity - newStart;
+            auto newArray = new int[newCapacity];
+            for (int i = 0; i < newCapacity; i++) {
+                newArray[i] = array[i + newStart];
+            }
+            delete[] array;
+            array = newArray;
+            capacity = newCapacity;
         }
         return true;
     }
 
-    if(elem == maximumElement){
-        if(array[capacity - 1] > 1)
-            array[0]--;
-        else{
+    if (elem == maximumElement) {
+        nrElems--;
+        if (array[capacity - 1] > 1)
+            array[capacity - 1]--;
+        else {
+            if(nrElems == array[0]){
+                delete[] array;
+                array = new int [1];
+                array[0] = 1;
+                capacity = 1;
+                nrElems = 1;
+                maximumElement = minimumElement;
+                return true;
+            }
 
+            int indexLastElement = maximumElement - minimumElement - 1;
+            indexLastElement--;
+
+            while (indexLastElement == 0)
+                indexLastElement--;
+
+            maximumElement = indexLastElement + minimumElement;
+            capacity = indexLastElement + 1;
+
+            auto *newArray = new int[capacity];
+
+            for(int i = 0; i < capacity; i++){
+                newArray[i] = array[i];
+            }
+            delete[] array;
+            array = newArray;
         }
+        return true;
     }
 
     return false;
 }
 
 bool Bag::search(TElem elem) const {
-    if(size() == 0){
+    if (size() == 0)
+        return false;
+
+    if(elem == minimumElement)
+        return true;
+
+    if(elem == maximumElement)
+        return true;
+
+    if (elem < minimumElement || elem > maximumElement) {
         return false;
     }
-    if (elem < minimumElement || elem > maximumElement)
-        return false;
+
+    if(elem > minimumElement && elem < maximumElement) {
+        return array[elem - minimumElement] != 0;
+    }
 
     return true;
 }
 
 int Bag::nrOccurrences(TElem elem) const {
-    if(size() == 0){
+    if (size() == 0) {
         return 0;
     }
 
