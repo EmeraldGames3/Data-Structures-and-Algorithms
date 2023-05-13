@@ -1,0 +1,3 @@
+D:/Programming/Object-Oriented-Programming/Labor/BagOfFrequencies/cmake-build-debug/CMakeFiles/BagOfFrequencies.dir
+D:/Programming/Object-Oriented-Programming/Labor/BagOfFrequencies/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programming/Object-Oriented-Programming/Labor/BagOfFrequencies/cmake-build-debug/CMakeFiles/rebuild_cache.dir
