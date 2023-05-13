@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/mserg/CLionProjects/DSA_L1_Bitarray_Set/cmake-build-debug",
-		"source" : "C:/Users/mserg/CLionProjects/DSA_L1_Bitarray_Set"
+		"build" : "D:/Programming/Data-Structures-and-Algorithms/DynamicArray/Set_Bitarray/cmake-build-debug",
+		"source" : "D:/Programming/Data-Structures-and-Algorithms/DynamicArray/Set_Bitarray"
 	},
 	"version" : 
 	{
