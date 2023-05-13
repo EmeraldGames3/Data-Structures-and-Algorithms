@@ -28,8 +28,8 @@ void testAll() {
 	assert(b.nrOccurrences(1) == 1);
 	BagIterator it = b.iterator();
 	it.first();
-//	while (it.valid()) {
-//		TElem e = it.getCurrent();
-//		it.next();
-//	}
+	while (it.valid()) {
+		TElem e = it.getCurrent();
+		it.next();
+	}
 }

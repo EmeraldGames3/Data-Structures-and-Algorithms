@@ -5,6 +5,7 @@
 #include <iostream>
 #include <vector>
 #include <exception>
+#include <iostream>
 
 using namespace std;
 
@@ -361,7 +362,7 @@ void testQuantity() {
 
 void testAllExtended() {
 	testCreate();
-//	testAdd();
+	testAdd();
 //	testRemove();
 //	testIterator();
 //	testQuantity();

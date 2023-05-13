@@ -6,8 +6,8 @@
 using namespace std;
 
 Bag::Bag() {
-    capacity = 1;
-    array = new int[capacity];
+    capacity = 0;
+    array = nullptr;
     minimumElement = 0;
     maximumElement = 0;
     nrElems = 0;
@@ -16,6 +16,8 @@ Bag::Bag() {
 
 void Bag::add(TElem elem) {
     if (nrElems == 0) {
+        capacity = 1;
+        array = new int[capacity];
         array[0] = 1;
         minimumElement = elem;
         maximumElement = elem;
@@ -23,7 +25,7 @@ void Bag::add(TElem elem) {
         return;
     }
 
-    if (elem >= minimumElement && elem < maximumElement) {
+    if (elem >= minimumElement && elem <= maximumElement) {
         array[elem - minimumElement]++;
         nrElems++;
         return;
@@ -63,7 +65,7 @@ void Bag::add(TElem elem) {
     // add elem
     auxiliaryArray[newArraySize - 1] = true;
     //delete the old array
-//    delete[] array;
+    delete[] array;
 
     // update the pointer to the array and the size
     array = auxiliaryArray;
@@ -77,7 +79,7 @@ bool Bag::remove(TElem elem) {
         return false;
     }
 
-    if(elem >= minimumElement && elem <= maximumElement){
+    if(elem > minimumElement && elem < maximumElement){
         if(array[elem - minimumElement] == 0){
             return false;
         }
@@ -86,7 +88,34 @@ bool Bag::remove(TElem elem) {
         return true;
     }
 
-    //resize down if needed
+    if(elem == minimumElement){
+        if(array[0] > 1)
+            array[0]--;
+        else{
+//            int newStart = 1;
+//
+//            while (array[newStart] == 0)
+//                newStart++;
+//
+//            minimumElement += newStart;
+//            int newCapacity = capacity - newStart;
+//            auto newArray = new int[newCapacity];
+//            for(int i = 0; i < newCapacity; i++){
+//                newArray[i] = array[i + newStart];
+//            }
+//            delete[] array;
+//            array = newArray;
+        }
+        return true;
+    }
+
+    if(elem == maximumElement){
+        if(array[capacity - 1] > 1)
+            array[0]--;
+        else{
+
+        }
+    }
 
     return false;
 }

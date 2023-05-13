@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/BagOfFrequencies.dir/App.cpp.o CMakeFiles/BagOfFrequencies.dir/ExtendedTest.cpp.o CMakeFiles/BagOfFrequencies.dir/ShortTest.cpp.o CMakeFiles/BagOfFrequencies.dir/BagIterator.cpp.o CMakeFiles/BagOfFrequencies.dir/Bag.cpp.o -o BagOfFrequencies 

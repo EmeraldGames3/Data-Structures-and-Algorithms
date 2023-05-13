@@ -6,7 +6,6 @@
 using namespace std;
 
 int main() {
-
 	testAll();
 	cout << "Short tests over" << endl;
 	testAllExtended();
