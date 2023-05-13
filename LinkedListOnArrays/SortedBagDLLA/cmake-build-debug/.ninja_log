@@ -1,0 +1,7 @@
+# ninja log v5
+2	477	7049474759851697	CMakeFiles/Labor3_DSA.dir/ShortTest.cpp.obj	5cf8833de1990ba
+5	564	7049494769340275	CMakeFiles/Labor3_DSA.dir/App.cpp.obj	9085d787778e42b0
+5	476	7049495180349871	CMakeFiles/Labor3_DSA.dir/SortedBag.cpp.obj	f1e284b3c170215d
+4	493	7049496939639991	CMakeFiles/Labor3_DSA.dir/ExtendedTest.cpp.obj	dfbadbda018bbe38
+9	522	7049443590250865	CMakeFiles/Labor3_DSA.dir/SortedBagIterator.cpp.obj	f5f9fe7e3665f32e
+493	620	7049496940883502	Labor3_DSA.exe	c55cc82e6132109b

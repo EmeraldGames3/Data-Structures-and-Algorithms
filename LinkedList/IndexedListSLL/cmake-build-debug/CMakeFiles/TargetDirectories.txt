@@ -1,0 +1,3 @@
+C:/Users/boboo/Downloads/Labor2(DSA)/cmake-build-debug/CMakeFiles/Labor3_DSA_.dir
+C:/Users/boboo/Downloads/Labor2(DSA)/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/boboo/Downloads/Labor2(DSA)/cmake-build-debug/CMakeFiles/rebuild_cache.dir

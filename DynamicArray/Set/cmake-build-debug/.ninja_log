@@ -1,0 +1,18 @@
+# ninja log v5
+4	101	7002581917794281	CMakeFiles/lab1.dir/App.cpp.obj	53882b8f5baa5996
+15	148	7002576239932486	CMakeFiles/lab1.dir/SetIterator.cpp.obj	42d75d18f831ed9c
+3	435	7002506561168692	CMakeFiles/lab1.dir/testeee.cpp.obj	ba0e8347defad02c
+11	130	7002545996390538	CMakeFiles/lab1.dir/ShortTest.cpp.obj	5e59295221041ec1
+15	158	7002553363388024	CMakeFiles/lab1.dir/Set.cpp.obj	33fcd1606a971ce0
+4	572	7002582922919591	CMakeFiles/lab1.dir/teste.cpp.obj	a157dc940d132524
+3	59	7002510480414748	CMakeFiles/lab1.dir/main.cpp.obj	5d1dbb95236ae313
+3	102	7002582488439524	CMakeFiles/lab1.dir/ExtendedTest.cpp.obj	fbae0eab2396c84
+1	193	7002554783487473	build.ninja	8f743f5c1f7bfa55
+573	762	7002582924792407	lab1.exe	9ce14e9329c0d784
+4	106	7002558979203667	CMakeFiles/lab1.dir/teste2.cpp.obj	efc0b323c22eefeb
+31	158	7002583519125559	CMakeFiles/lab1.dir/teste.cpp.obj	a157dc940d132524
+18	782	7002583525337278	CMakeFiles/lab1.dir/ExtendedTest.cpp.obj	fbae0eab2396c84
+5	825	7002583525778361	CMakeFiles/lab1.dir/App.cpp.obj	53882b8f5baa5996
+826	1040	7002583527863602	lab1.exe	9ce14e9329c0d784
+3	587	7002583772766009	CMakeFiles/lab1.dir/ExtendedTest.cpp.obj	fbae0eab2396c84
+588	762	7002583774442003	lab1.exe	9ce14e9329c0d784

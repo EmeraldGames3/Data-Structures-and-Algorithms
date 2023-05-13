@@ -1,0 +1,8 @@
+# ninja log v5
+4	279	7056175753978041	build.ninja	262bb67a9cd4c5db
+53	1365	7042294178665206	CMakeFiles/MultiMap.dir/MultiMap.cpp.obj	8aed2b7738cbd675
+40	1305	7042294178069336	CMakeFiles/MultiMap.dir/MultiMapIterator.cpp.obj	afe74f5f5fd22601
+27	1478	7042294179807232	CMakeFiles/MultiMap.dir/ExtendedTest.cpp.obj	88a5577dcfd0d101
+14	1200	7042294177025639	CMakeFiles/MultiMap.dir/App.cpp.obj	3449c96b7bee7e33
+5	1294	7042294177979332	CMakeFiles/MultiMap.dir/ShortTest.cpp.obj	f68e723086296a47
+1479	1681	7042294181756515	MultiMap.exe	e842a1db26f1c30b
