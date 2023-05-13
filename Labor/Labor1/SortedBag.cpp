@@ -19,7 +19,7 @@ SortedBag::SortedBag(Relation r) {
  * Add an element to the array
  * @param e An element of type TComp
  * @complexityΩ θ(1)
- * @complexityθ θ(log n)
+ * @complexityθ θ(n)
  * @complexity θ(n)
  */
 void SortedBag::add(TComp e) {
@@ -34,7 +34,7 @@ void SortedBag::add(TComp e) {
     automaticResize(); // Resize the array if needed
 
     //Perform a binary search
-    //If the element is in the already in the array insert it where you found it
+    //If the element is already in the array insert it where you found it
     //If the element is not in the array the binary search gives as the position where the element should be inserted
     int left = 0, right = this->length - 1, mid;
     while (left <= right) {
@@ -64,7 +64,7 @@ void SortedBag::add(TComp e) {
  * @param e An element of type TComp
  * @return true if e was deleted from the array, false otherwise
  * @complexityΩ θ(1)
- * @complexityθ θ(log n)
+ * @complexityθ θ(n)
  * @complexity θ(n)
  */
 bool SortedBag::remove(TComp e) {
@@ -144,7 +144,7 @@ bool SortedBag::isEmpty() const {
  * @return An iterator for this sorted bag
  * @complexity θ(1)
  */
-SortedBagIterator SortedBag::iterator() const { return SortedBagIterator(*this); }
+SortedBagIterator SortedBag::iterator() const { return {*this}; }
 
 /**
  * Class destructor
@@ -206,5 +206,5 @@ int SortedBag::binarySearch(int element) const {
 }
 
 ExtendedSortedBagIterator SortedBag::extendedIterator(int position) const {
-    return ExtendedSortedBagIterator(*this, position);
+    return {*this, position};
 }
