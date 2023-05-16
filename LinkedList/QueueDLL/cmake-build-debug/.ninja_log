@@ -1,0 +1,10 @@
+# ninja log v5
+1	571	1679739163405102675	CMakeFiles/labor2.dir/App.cpp.o	739ae3a3b118485f
+1	462	1679737913160703333	CMakeFiles/labor2.dir/IO.cpp.o	2a97612cb850fb2f
+0	482	1679735028459297323	CMakeFiles/labor2.dir/RobotInLabyrinth.cpp.o	f32468867652a221
+1	446	1679738132669740190	CMakeFiles/labor2.dir/IO/IO.cpp.o	8798cd55077c1f07
+1	32	1679581976935687915	CMakeFiles/labor2.dir/Queue/QueueTest/ShortTest.cpp.o	77c42a0b7ac06dc
+1	437	1679581977339890019	CMakeFiles/labor2.dir/Queue/Queue.cpp.o	3779e107f94ff9a1
+0	517	1679581977420930540	CMakeFiles/labor2.dir/Queue/QueueTest/ExtendedTest.cpp.o	9bb9270a98ff3db0
+1	31	1679739162864029968	CMakeFiles/labor2.dir/Robot.cpp.o	b74358fc55516666
+572	637	1679739163469111287	labor2	fc99843d196c31fe

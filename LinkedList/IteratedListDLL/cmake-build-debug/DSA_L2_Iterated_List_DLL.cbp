@@ -8,110 +8,108 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug"/>
+				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DSA_L2_Iterated_List_DLL">
-				<Option output="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/DSA_L2_Iterated_List_DLL.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug"/>
+				<Option output="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/DSA_L2_Iterated_List_DLL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSA_L2_Iterated_List_DLL"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSA_L2_Iterated_List_DLL"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DSA_L2_Iterated_List_DLL/fast">
-				<Option output="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/DSA_L2_Iterated_List_DLL.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug"/>
+				<Option output="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/DSA_L2_Iterated_List_DLL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSA_L2_Iterated_List_DLL/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSA_L2_Iterated_List_DLL/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug"/>
+				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug"/>
+				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/App.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/App.cpp">
 			<Option target="DSA_L2_Iterated_List_DLL"/>
 		</Unit>
-		<Unit filename="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/ExtendedTest.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/ExtendedTest.cpp">
 			<Option target="DSA_L2_Iterated_List_DLL"/>
 		</Unit>
-		<Unit filename="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/ExtendedTest.h">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/ExtendedTest.h">
 			<Option target="DSA_L2_Iterated_List_DLL"/>
 		</Unit>
-		<Unit filename="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/IteratedList.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/IteratedList.cpp">
 			<Option target="DSA_L2_Iterated_List_DLL"/>
 		</Unit>
-		<Unit filename="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/IteratedList.h">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/IteratedList.h">
 			<Option target="DSA_L2_Iterated_List_DLL"/>
 		</Unit>
-		<Unit filename="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/ListIterator.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/ListIterator.cpp">
 			<Option target="DSA_L2_Iterated_List_DLL"/>
 		</Unit>
-		<Unit filename="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/ListIterator.h">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/ListIterator.h">
 			<Option target="DSA_L2_Iterated_List_DLL"/>
 		</Unit>
-		<Unit filename="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/ShortTest.cpp">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/ShortTest.cpp">
 			<Option target="DSA_L2_Iterated_List_DLL"/>
 		</Unit>
-		<Unit filename="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/ShortTest.h">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/ShortTest.h">
 			<Option target="DSA_L2_Iterated_List_DLL"/>
 		</Unit>
-		<Unit filename="C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/CMakeLists.txt">
+		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

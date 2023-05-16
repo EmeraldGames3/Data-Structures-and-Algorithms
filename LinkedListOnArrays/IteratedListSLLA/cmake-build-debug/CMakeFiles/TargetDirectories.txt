@@ -1,0 +1,3 @@
+/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedListOnArrays/IteratedListSLLA/cmake-build-debug/CMakeFiles/IteratedListSLLA.dir
+/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedListOnArrays/IteratedListSLLA/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedListOnArrays/IteratedListSLLA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

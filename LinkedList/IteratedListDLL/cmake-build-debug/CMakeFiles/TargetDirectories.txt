@@ -1,3 +1,3 @@
-C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/CMakeFiles/DSA_L2_Iterated_List_DLL.dir
-C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/CMakeFiles/DSA_L2_Iterated_List_DLL.dir
+/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/cmake-build-debug/CMakeFiles/rebuild_cache.dir

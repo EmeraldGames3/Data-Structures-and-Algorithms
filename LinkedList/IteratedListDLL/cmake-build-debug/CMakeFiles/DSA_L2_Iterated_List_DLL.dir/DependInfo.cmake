@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/App.cpp" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/App.cpp.obj" "gcc" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/App.cpp.obj.d"
-  "C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/ExtendedTest.cpp" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ExtendedTest.cpp.obj" "gcc" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ExtendedTest.cpp.obj.d"
-  "C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/IteratedList.cpp" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/IteratedList.cpp.obj" "gcc" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/IteratedList.cpp.obj.d"
-  "C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/ListIterator.cpp" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ListIterator.cpp.obj" "gcc" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ListIterator.cpp.obj.d"
-  "C:/Users/mserg/CLionProjects/DSA_L2_Iterated_List_DLL/ShortTest.cpp" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ShortTest.cpp.obj" "gcc" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ShortTest.cpp.obj.d"
+  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/App.cpp" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/App.cpp.o" "gcc" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/App.cpp.o.d"
+  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/ExtendedTest.cpp" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ExtendedTest.cpp.o" "gcc" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ExtendedTest.cpp.o.d"
+  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/IteratedList.cpp" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/IteratedList.cpp.o" "gcc" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/IteratedList.cpp.o.d"
+  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/ListIterator.cpp" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ListIterator.cpp.o" "gcc" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ListIterator.cpp.o.d"
+  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/LinkedList/IteratedListDLL/ShortTest.cpp" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ShortTest.cpp.o" "gcc" "CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ShortTest.cpp.o.d"
   )
 
 # Targets to which this target links.

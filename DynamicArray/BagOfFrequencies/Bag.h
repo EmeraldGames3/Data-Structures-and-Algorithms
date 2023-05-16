@@ -24,11 +24,11 @@ public:
 	//adds an element to the bag
 	void add(TElem e);
 
-	//removes one occurence of an element from a bag
+	//removes one occurrence of an element from a bag
 	//returns true if an element was removed, false otherwise (if e was not part of the bag)
 	bool remove(TElem e);
 
-	//checks if an element appearch is the bag
+	//checks if an element appears is the bag
 	bool search(TElem e) const;
 
 	//returns the number of occurrences for an element in the bag

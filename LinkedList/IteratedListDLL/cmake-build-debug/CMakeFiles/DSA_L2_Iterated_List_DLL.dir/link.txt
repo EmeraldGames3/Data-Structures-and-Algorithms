@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\DSA_L2_Iterated_List_DLL.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\DSA_L2_Iterated_List_DLL.dir/objects.a @CMakeFiles\DSA_L2_Iterated_List_DLL.dir\objects1
-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\DSA_L2_Iterated_List_DLL.dir/objects.a -Wl,--no-whole-archive -o DSA_L2_Iterated_List_DLL.exe -Wl,--out-implib,libDSA_L2_Iterated_List_DLL.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DSA_L2_Iterated_List_DLL.dir\linkLibs.rsp
+/usr/bin/c++ -g CMakeFiles/DSA_L2_Iterated_List_DLL.dir/App.cpp.o CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ExtendedTest.cpp.o CMakeFiles/DSA_L2_Iterated_List_DLL.dir/IteratedList.cpp.o CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ListIterator.cpp.o CMakeFiles/DSA_L2_Iterated_List_DLL.dir/ShortTest.cpp.o -o DSA_L2_Iterated_List_DLL 

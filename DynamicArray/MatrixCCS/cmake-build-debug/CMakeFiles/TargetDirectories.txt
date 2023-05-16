@@ -1,3 +1,0 @@
-C:/Users/boboo/Downloads/Data-Structures-and-Algorithms-main/Laborator/L1/cmake-build-debug/CMakeFiles/L1.dir
-C:/Users/boboo/Downloads/Data-Structures-and-Algorithms-main/Laborator/L1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/boboo/Downloads/Data-Structures-and-Algorithms-main/Laborator/L1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
