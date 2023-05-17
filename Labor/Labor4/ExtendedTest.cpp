@@ -229,7 +229,6 @@ void testRemoveAndSearch(Relation r) {
 	}
 	assert(sm.isEmpty());
 	assert(sm.size() == 0);
-
 }
 
 void testRemove() {

@@ -8,8 +8,7 @@ using namespace std;
 
 SortedMap::SortedMap(Relation r) {
     relation = r;
-//    capacity = 13;
-    capacity = 10007;
+    capacity = 13;
     table = new Node *[capacity];
     nrElements = 0;
 
@@ -22,8 +21,10 @@ SortedMap::SortedMap(Relation r) {
 }
 
 TValue SortedMap::add(TKey k, TValue v) {
+    automaticResize();
+
     Node *newNode = new Node{TElem{k, v}};
-    int position = hash(k);
+    int position = hash(k, capacity);
 
     TValue oldValue = NULL_TVALUE;
 
@@ -85,7 +86,7 @@ TValue SortedMap::search(TKey k) const {
     if (isEmpty())
         return NULL_TVALUE;
 
-    int position = hash(k);
+    int position = hash(k, capacity);
     Node *current = table[position];
 
     while (current != nullptr) {
@@ -104,7 +105,7 @@ TValue SortedMap::remove(TKey k) {
         return NULL_TVALUE;
     }
 
-    int position = hash(k);
+    int position = hash(k, capacity);
 
     Node *current = table[position];
     Node *previousNode = nullptr;
@@ -180,19 +181,26 @@ SMIterator SortedMap::iterator() const {
 }
 
 SortedMap::~SortedMap() {
-//    for (int i = 0; i < capacity; i++) {
-//        Node *current = table[i];
-//        while (current != nullptr) {
-//            auto *oldNode = current;
-//            current = current->nextCollision;
-//            delete[] oldNode;
-//        }
-//    }
-//    delete[] table;
+    Node *current = head;
+    Node *previous;
+    while (current != nullptr){
+        previous = current;
+        current = current->next;
+        delete[] previous;
+    }
+
+    for(int i = 0; i < capacity; i++){
+        table[i] = nullptr;
+    }
+    delete[] table;
+
+    head = nullptr;
+    tail = nullptr;
+    nrElements = 0;
 }
 
-int SortedMap::hash(TKey key) const {
-    return abs(key) % capacity;
+int SortedMap::hash(TKey key, int _capacity) {
+    return abs(key) % _capacity;
 }
 
 bool SortedMap::isPrime(int number) {
@@ -229,5 +237,39 @@ void SortedMap::findFirstPrime(int number) {
     }
     while (!isPrime(number)) {
         number += 2;
+    }
+}
+
+void SortedMap::resize(int newCapacity) {
+    Node** newTable = new Node*[newCapacity];
+
+    // Initialize the new table with nullptr
+    for (int i = 0; i < newCapacity; i++) {
+        newTable[i] = nullptr;
+    }
+
+    // Rehash all the existing elements into the new table
+    Node* currentNode = head;
+    while (currentNode != nullptr) {
+        int newPosition = hash(currentNode->key, newCapacity);
+
+        // Insert the node at the beginning of the linked list
+        currentNode->nextCollision = newTable[newPosition];
+        newTable[newPosition] = currentNode;
+
+        currentNode = currentNode->next;
+    }
+
+    // Delete the old table and update with the new one
+    delete[] table;
+    table = newTable;
+    capacity = newCapacity;
+}
+
+void SortedMap::automaticResize() {
+    if(nrElements == capacity){
+        int newCapacity = capacity * 2;
+        findFirstPrime(newCapacity);
+        resize(newCapacity);
     }
 }

@@ -44,10 +44,13 @@ private:
     Relation relation;
 
     //Hashing function
-    [[nodiscard]] int hash(TKey key) const;
+    static int hash(TKey key, int _capacity);
 
-    //Resize the table to a new size
+    //Resize the table to a new capacity
     void resize(int newCapacity);
+
+    //Resize the table to a new capacity automatically
+    void automaticResize();
 
     //Check if a number is prime
     static bool isPrime(int number);
