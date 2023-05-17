@@ -52,8 +52,8 @@ private:
     //Check if a number is prime
     static bool isPrime(int number);
 
-    //Find the first prime number larger then the capacity
-    void findFirstPrime();
+    //Find the first prime number larger than the capacity
+    static void findFirstPrime(int number);
 
 public:
     // implicit constructor

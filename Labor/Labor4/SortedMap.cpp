@@ -1,12 +1,15 @@
 #include "SMIterator.h"
 #include "SortedMap.h"
 #include <exception>
+#include <cmath>
+#include <iostream>
 
 using namespace std;
 
 SortedMap::SortedMap(Relation r) {
     relation = r;
-    capacity = 13;
+//    capacity = 13;
+    capacity = 10007;
     table = new Node *[capacity];
     nrElements = 0;
 
@@ -17,8 +20,6 @@ SortedMap::SortedMap(Relation r) {
     head = nullptr;
     tail = nullptr;
 }
-
-#include <iostream>
 
 TValue SortedMap::add(TKey k, TValue v) {
     Node *newNode = new Node{TElem{k, v}};
@@ -36,11 +37,12 @@ TValue SortedMap::add(TKey k, TValue v) {
             if (current->key == k) {
                 oldValue = current->value;
                 current->value = v;
+                return oldValue;
             }
 
             current = current->nextCollision;
         }
-
+        nrElements++;
         newNode->nextCollision = table[position];
         table[position] = newNode;
     }
@@ -49,18 +51,38 @@ TValue SortedMap::add(TKey k, TValue v) {
         head = newNode;
         tail = newNode;
     } else {
-        //TODO: use the relation
-        newNode->previous = tail;
-        tail->next = newNode;
-        tail = newNode;
-    }
+        Node *currentNode = head;
 
+        while (currentNode != nullptr && relation(currentNode->key, k)) {
+            currentNode = currentNode->next;
+        }
+
+        if (currentNode == head) {
+            newNode->next = head;
+            head->previous = newNode;
+            head = newNode;
+            head->previous = nullptr;
+        } else if (currentNode == nullptr) {
+            //we add the element onto the end of the list
+            newNode->previous = tail;
+            tail->next = newNode;
+            tail = newNode;
+            tail->next = nullptr;
+        } else {
+            Node *previousNode = currentNode->previous;
+
+            previousNode->next = newNode;
+            newNode->previous = previousNode;
+            newNode->next = currentNode;
+            currentNode->previous = newNode;
+        }
+    }
 
     return oldValue;
 }
 
 TValue SortedMap::search(TKey k) const {
-    if(isEmpty())
+    if (isEmpty())
         return NULL_TVALUE;
 
     int position = hash(k);
@@ -78,7 +100,7 @@ TValue SortedMap::search(TKey k) const {
 }
 
 TValue SortedMap::remove(TKey k) {
-    if(isEmpty()){
+    if (isEmpty()) {
         return NULL_TVALUE;
     }
 
@@ -87,20 +109,20 @@ TValue SortedMap::remove(TKey k) {
     Node *current = table[position];
     Node *previousNode = nullptr;
 
-    Node * nodeToBeRemoved = nullptr;
+    Node *nodeToBeRemoved = nullptr;
 
     while (current != nullptr && current->key != k) {
         previousNode = current;
         current = current->nextCollision;
     }
 
-    if(current == nullptr){
+    if (current == nullptr) {
         //Node is not in the map
         nrElements--;
         return NULL_TVALUE;
     }
 
-    if(size() == 1){
+    if (size() == 1) {
         head = nullptr;
         tail = nullptr;
         nrElements = 0;
@@ -113,11 +135,11 @@ TValue SortedMap::remove(TKey k) {
     nodeToBeRemoved = current;
     previousNode->nextCollision = current->nextCollision;
 
-    if(nodeToBeRemoved == head){
-        if(nodeToBeRemoved == tail){
+    if (nodeToBeRemoved == head) {
+        if (nodeToBeRemoved == tail) {
             head = nullptr;
             tail = nullptr;
-        } else{
+        } else {
             head = head->next;
             head->previous = nullptr;
         }
@@ -127,7 +149,7 @@ TValue SortedMap::remove(TKey k) {
         return value;
     }
 
-    if(nodeToBeRemoved == tail){
+    if (nodeToBeRemoved == tail) {
         tail = tail->previous;
         tail->next = nullptr;
         nrElements--;
@@ -158,20 +180,19 @@ SMIterator SortedMap::iterator() const {
 }
 
 SortedMap::~SortedMap() {
-    for (int i = 0; i < capacity; i++) {
-        Node *current = table[i];
-        while (current != nullptr) {
-            auto *oldNode = current;
-            current = current->nextCollision;
-            delete[] oldNode;
-        }
-    }
-
-    delete[] table;
+//    for (int i = 0; i < capacity; i++) {
+//        Node *current = table[i];
+//        while (current != nullptr) {
+//            auto *oldNode = current;
+//            current = current->nextCollision;
+//            delete[] oldNode;
+//        }
+//    }
+//    delete[] table;
 }
 
 int SortedMap::hash(TKey key) const {
-    return key % capacity;
+    return abs(key) % capacity;
 }
 
 bool SortedMap::isPrime(int number) {
@@ -202,8 +223,11 @@ bool SortedMap::isPrime(int number) {
     return true;
 }
 
-void SortedMap::findFirstPrime() {
-    while (!isPrime(capacity)) {
-        capacity++;
+void SortedMap::findFirstPrime(int number) {
+    if (number % 2 == 0) {
+        number++;
+    }
+    while (!isPrime(number)) {
+        number += 2;
     }
 }

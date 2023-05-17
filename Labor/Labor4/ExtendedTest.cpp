@@ -182,12 +182,11 @@ void testAddAndSearch(Relation r) {
 			it.next();
 		}
 	}
-
 }
 
 void testAdd() {
-	testAddAndSearch(increasing);
-	testAddAndSearch(decreasing);
+    testAddAndSearch(increasing);
+    testAddAndSearch(decreasing);
 }
 
 void testRemoveAndSearch(Relation r) {
@@ -318,8 +317,8 @@ void testIterator() {
 
 void testAllExtended() {
 	testCreate();
-//	testAdd();
-//	testSearch();
+	testAdd();
+	testSearch();
 //	testRemove();
 //	testIterator();
 //	testQuantity();
