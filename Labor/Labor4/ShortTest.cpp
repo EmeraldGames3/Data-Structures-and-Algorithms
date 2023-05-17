@@ -23,7 +23,7 @@ void testAll(){
     assert(sm.size() == 1);
     assert(!sm.isEmpty());
     assert(sm.search(1)!=NULL_TVALUE);
-    TValue v =sm.add(1,3);
+    TValue v = sm.add(1,3);
     assert(v == 2);
     assert(sm.search(1) == 3);
     SMIterator it = sm.iterator();

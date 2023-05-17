@@ -19,11 +19,14 @@ struct Node {
     TKey key;
     TValue value;
 
+    //Hashtable SLL
     Node *nextCollision;
+
+    //DLL
     Node *next;
     Node *previous;
 
-    explicit Node(TElem elem) : key(elem.first), value(elem.second), next(nullptr), nextCollision(nullptr),
+    explicit Node(TElem elem) : key(elem.first), value(elem.second), nextCollision(nullptr), next(nullptr),
                                 previous(nullptr) {}
 };
 
@@ -37,20 +40,22 @@ private:
     Node *tail;
 
     int capacity;
-    int count;
+    int nrElements;
     Relation relation;
 
     //Hashing function
-    int hash(TKey key) const;
+    [[nodiscard]] int hash(TKey key) const;
 
     //Resize the table to a new size
     void resize(int newCapacity);
 
-    //Rehash all elements after a resize
-    void rehash();
+    //Check if a number is prime
+    static bool isPrime(int number);
+
+    //Find the first prime number larger then the capacity
+    void findFirstPrime();
 
 public:
-
     // implicit constructor
     explicit SortedMap(Relation r);
 
@@ -60,20 +65,20 @@ public:
     TValue add(TKey c, TValue v);
 
     //searches for the key and returns the value associated with the key if the map contains the key or null: NULL_TVALUE otherwise
-    TValue search(TKey c) const;
+    [[nodiscard]] TValue search(TKey c) const;
 
     //removes a key from the map and returns the value associated with the key if the key existed ot null: NULL_TVALUE otherwise
     TValue remove(TKey c);
 
     //returns the number of pairs (key,value) from the map
-    int size() const;
+    [[nodiscard]] int size() const;
 
     //checks whether the map is empty or not
-    bool isEmpty() const;
+    [[nodiscard]] bool isEmpty() const;
 
     // return the iterator for the map
     // the iterator will return the keys following the order given by the relation
-    SMIterator iterator() const;
+    [[nodiscard]] SMIterator iterator() const;
 
     // destructor
     ~SortedMap();

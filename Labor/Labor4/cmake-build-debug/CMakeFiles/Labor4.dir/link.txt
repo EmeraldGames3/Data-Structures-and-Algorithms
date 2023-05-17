@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Labor4.dir/App.cpp.o CMakeFiles/Labor4.dir/ShortTest.cpp.o CMakeFiles/Labor4.dir/ExtendedTest.cpp.o CMakeFiles/Labor4.dir/SMIterator.cpp.o CMakeFiles/Labor4.dir/SortedMap.cpp.o -o Labor4 
