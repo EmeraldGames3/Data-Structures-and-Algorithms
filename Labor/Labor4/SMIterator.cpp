@@ -4,26 +4,30 @@
 
 using namespace std;
 
-SMIterator::SMIterator(const SortedMap& m) : map(m){
-	currentNode = m.head;
+SMIterator::SMIterator(const SortedMap &m) : map(m) {
+    currentNode = map.head;
 }
 
-void SMIterator::first(){
-	//TODO - Implementation
+void SMIterator::first() {
+    currentNode = map.head;
 }
 
-void SMIterator::next(){
-	//TODO - Implementation
+void SMIterator::next() {
+    if (!valid())
+        throw exception();
+
+    currentNode = currentNode->next;
 }
 
-bool SMIterator::valid() const{
-	//TODO - Implementation
-	return false;
+bool SMIterator::valid() const {
+    return currentNode != nullptr;
 }
 
-TElem SMIterator::getCurrent() const{
-	//TODO - Implementation
-	return NULL_TPAIR;
+TElem SMIterator::getCurrent() const {
+    if(!valid())
+        throw exception();
+
+    return TElem{currentNode->key, currentNode->value};
 }
 
 

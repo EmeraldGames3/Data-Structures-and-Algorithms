@@ -1,5 +1,5 @@
 #include <assert.h>
-
+#include <iostream>
 #include "SortedMap.h"
 #include "SMIterator.h"
 #include "ShortTest.h"

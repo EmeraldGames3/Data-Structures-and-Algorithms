@@ -18,9 +18,12 @@ SortedMap::SortedMap(Relation r) {
     tail = nullptr;
 }
 
+#include <iostream>
+
 TValue SortedMap::add(TKey k, TValue v) {
     Node *newNode = new Node{TElem{k, v}};
     int position = hash(k);
+
     TValue oldValue = NULL_TVALUE;
 
     if (table[position] == nullptr) {
@@ -42,7 +45,6 @@ TValue SortedMap::add(TKey k, TValue v) {
         table[position] = newNode;
     }
 
-
     if (head == nullptr) {
         head = newNode;
         tail = newNode;
@@ -53,10 +55,14 @@ TValue SortedMap::add(TKey k, TValue v) {
         tail = newNode;
     }
 
+
     return oldValue;
 }
 
 TValue SortedMap::search(TKey k) const {
+    if(isEmpty())
+        return NULL_TVALUE;
+
     int position = hash(k);
     Node *current = table[position];
 
@@ -72,8 +78,71 @@ TValue SortedMap::search(TKey k) const {
 }
 
 TValue SortedMap::remove(TKey k) {
-    //TODO - Implementation
-    return NULL_TVALUE;
+    if(isEmpty()){
+        return NULL_TVALUE;
+    }
+
+    int position = hash(k);
+
+    Node *current = table[position];
+    Node *previousNode = nullptr;
+
+    Node * nodeToBeRemoved = nullptr;
+
+    while (current != nullptr && current->key != k) {
+        previousNode = current;
+        current = current->nextCollision;
+    }
+
+    if(current == nullptr){
+        //Node is not in the map
+        nrElements--;
+        return NULL_TVALUE;
+    }
+
+    if(size() == 1){
+        head = nullptr;
+        tail = nullptr;
+        nrElements = 0;
+        TValue value = current->value;
+        delete nodeToBeRemoved;
+        return value;
+    }
+
+    //Remove the node from the collisions list
+    nodeToBeRemoved = current;
+    previousNode->nextCollision = current->nextCollision;
+
+    if(nodeToBeRemoved == head){
+        if(nodeToBeRemoved == tail){
+            head = nullptr;
+            tail = nullptr;
+        } else{
+            head = head->next;
+            head->previous = nullptr;
+        }
+        nrElements--;
+        TValue value = nodeToBeRemoved->value;
+        delete nodeToBeRemoved;
+        return value;
+    }
+
+    if(nodeToBeRemoved == tail){
+        tail = tail->previous;
+        tail->next = nullptr;
+        nrElements--;
+        TValue value = nodeToBeRemoved->value;
+        delete nodeToBeRemoved;
+        return value;
+    }
+
+    (nodeToBeRemoved->next)->previous = nodeToBeRemoved->previous;
+    (nodeToBeRemoved->previous)->next = nodeToBeRemoved->next;
+
+    nrElements--;
+    TValue value = nodeToBeRemoved->value;
+    delete nodeToBeRemoved;
+    return value;
 }
 
 int SortedMap::size() const {
