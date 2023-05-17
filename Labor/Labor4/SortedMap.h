@@ -44,7 +44,7 @@ private:
     Relation relation;
 
     //Hashing function
-    static int hash(TKey key, int _capacity);
+    static int hash(TKey key, int n);
 
     //Resize the table to a new capacity
     void resize(int newCapacity);

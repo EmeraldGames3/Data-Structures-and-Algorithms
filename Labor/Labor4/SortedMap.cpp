@@ -30,7 +30,6 @@ TValue SortedMap::add(TKey k, TValue v) {
 
     if (table[position] == nullptr) {
         table[position] = newNode;
-        nrElements++;
     } else {
         Node *current = table[position];
 
@@ -43,7 +42,7 @@ TValue SortedMap::add(TKey k, TValue v) {
 
             current = current->nextCollision;
         }
-        nrElements++;
+
         newNode->nextCollision = table[position];
         table[position] = newNode;
     }
@@ -64,7 +63,7 @@ TValue SortedMap::add(TKey k, TValue v) {
             head = newNode;
             head->previous = nullptr;
         } else if (currentNode == nullptr) {
-            //we add the element onto the end of the list
+            // we add the element onto the end of the list
             newNode->previous = tail;
             tail->next = newNode;
             tail = newNode;
@@ -79,6 +78,7 @@ TValue SortedMap::add(TKey k, TValue v) {
         }
     }
 
+    nrElements++; // Increment nrElements after adding a new node
     return oldValue;
 }
 
@@ -199,8 +199,8 @@ SortedMap::~SortedMap() {
     nrElements = 0;
 }
 
-int SortedMap::hash(TKey key, int _capacity) {
-    return abs(key) % _capacity;
+int SortedMap::hash(TKey key, int n) {
+    return abs(key) % n;
 }
 
 bool SortedMap::isPrime(int number) {
