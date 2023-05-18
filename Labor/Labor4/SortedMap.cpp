@@ -130,7 +130,7 @@ TValue SortedMap::remove(TKey k) {
         return NULL_TVALUE;
     }
 
-    if (size() == 1) {
+    if (nrElements == 1) {
         head = nullptr;
         tail = nullptr;
         nrElements = 0;
