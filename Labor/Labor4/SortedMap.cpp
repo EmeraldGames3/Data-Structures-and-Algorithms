@@ -190,7 +190,7 @@ SortedMap::~SortedMap() {
     while (current != nullptr){
         previous = current;
         current = current->next;
-        delete[] previous;
+        delete previous;
     }
 
     for(int i = 0; i < capacity; i++){
