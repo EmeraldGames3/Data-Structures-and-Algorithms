@@ -105,21 +105,28 @@ TValue SortedMap::remove(TKey k) {
         return NULL_TVALUE;
     }
 
+    automaticResize();
+
     int position = hash(k, capacity);
 
-    Node *current = table[position];
-    Node *previousNode = nullptr;
+    if (table[position] == nullptr) {
+        //Node is not in the map
+        return NULL_TVALUE;
+    }
 
+    Node *current = table[position];
+    Node *previousCollision = nullptr;
     Node *nodeToBeRemoved = nullptr;
 
     while (current != nullptr && current->key != k) {
-        previousNode = current;
+        previousCollision = current;
         current = current->nextCollision;
     }
 
+    nodeToBeRemoved = current;
+
     if (current == nullptr) {
         //Node is not in the map
-        nrElements--;
         return NULL_TVALUE;
     }
 
@@ -128,13 +135,17 @@ TValue SortedMap::remove(TKey k) {
         tail = nullptr;
         nrElements = 0;
         TValue value = current->value;
+        table[position] = nullptr;
         delete nodeToBeRemoved;
         return value;
     }
 
     //Remove the node from the collisions list
-    nodeToBeRemoved = current;
-    previousNode->nextCollision = current->nextCollision;
+    if (previousCollision == nullptr) {
+        table[position] = nodeToBeRemoved->next;
+    } else {
+        previousCollision->nextCollision = nodeToBeRemoved->next;
+    }
 
     if (nodeToBeRemoved == head) {
         if (nodeToBeRemoved == tail) {
@@ -144,23 +155,16 @@ TValue SortedMap::remove(TKey k) {
             head = head->next;
             head->previous = nullptr;
         }
-        nrElements--;
-        TValue value = nodeToBeRemoved->value;
-        delete nodeToBeRemoved;
-        return value;
-    }
-
-    if (nodeToBeRemoved == tail) {
+    } else if (nodeToBeRemoved == tail) {
         tail = tail->previous;
         tail->next = nullptr;
-        nrElements--;
-        TValue value = nodeToBeRemoved->value;
-        delete nodeToBeRemoved;
-        return value;
-    }
+    } else {
+        Node *previous = nodeToBeRemoved->previous;
+        Node *next = nodeToBeRemoved->next;
 
-    (nodeToBeRemoved->next)->previous = nodeToBeRemoved->previous;
-    (nodeToBeRemoved->previous)->next = nodeToBeRemoved->next;
+        previous->next = next;
+        next->previous = previous;
+    }
 
     nrElements--;
     TValue value = nodeToBeRemoved->value;
@@ -241,7 +245,7 @@ void SortedMap::findFirstPrime(int number) {
 }
 
 void SortedMap::resize(int newCapacity) {
-    Node** newTable = new Node*[newCapacity];
+    Node **newTable = new Node *[newCapacity];
 
     // Initialize the new table with nullptr
     for (int i = 0; i < newCapacity; i++) {
@@ -249,7 +253,7 @@ void SortedMap::resize(int newCapacity) {
     }
 
     // Rehash all the existing elements into the new table
-    Node* currentNode = head;
+    Node *currentNode = head;
     while (currentNode != nullptr) {
         int newPosition = hash(currentNode->key, newCapacity);
 
@@ -267,8 +271,13 @@ void SortedMap::resize(int newCapacity) {
 }
 
 void SortedMap::automaticResize() {
-    if(nrElements == capacity){
+    if (nrElements == capacity) {
         int newCapacity = capacity * 2;
+        findFirstPrime(newCapacity);
+        resize(newCapacity);
+    }
+    if(nrElements == capacity / 4 && capacity > 13){
+        int newCapacity = capacity / 2;
         findFirstPrime(newCapacity);
         resize(newCapacity);
     }
