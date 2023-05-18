@@ -209,14 +209,17 @@ int SortedMap::hash(TKey key, int n) {
 
 bool SortedMap::isPrime(int number) {
     if (number <= 1) {
+        // Numbers less than or equal to 1 are not prime
         return false;
     }
 
     if (number <= 3) {
+        // Numbers 2 and 3 are prime
         return true;
     }
 
     if (number % 2 == 0 || number % 3 == 0) {
+        // Numbers divisible by 2 or 3 are not prime
         return false;
     }
 
@@ -225,24 +228,33 @@ bool SortedMap::isPrime(int number) {
 
     while (i * i <= number) {
         if (number % i == 0) {
+            // Number is divisible by i, hence not prime
             return false;
         }
 
         i += increment;
         increment = 6 - increment;
+        // Increment i by 2 or 4 alternately (2, 4, 2, 4, ...)
+        // to check for divisibility with numbers other than multiples of 2 and 3
     }
 
+    // If no factors are found, the number is prime
     return true;
 }
 
 void SortedMap::findFirstPrime(int number) {
     if (number % 2 == 0) {
+        // If the number is even, increment it by 1
+        // to start searching for the next prime number
         number++;
     }
+
     while (!isPrime(number)) {
+        // Increment the number by 2 (odd numbers only) until a prime is found
         number += 2;
     }
 }
+
 
 void SortedMap::resize(int newCapacity) {
     Node **newTable = new Node *[newCapacity];

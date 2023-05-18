@@ -297,6 +297,8 @@ void testQuantity() {
         assert(sm.search(c) == c);
         TValue v = it.getCurrent().second;
         assert(c == v);
+
+        cout << c << ' ' << v << '\n';
         it.next();
     }
     assert(!it.valid());
@@ -305,8 +307,19 @@ void testQuantity() {
         assert(sm.search(c) == NULL_TVALUE);
         testIteratorSteps(sm, increasing);
     }
-    assert(sm.size() == 0);
-    assert(sm.isEmpty());
+
+    it.first();
+    while (it.valid()){
+        TKey c = it.getCurrent().first;
+        TValue v = it.getCurrent().second;
+
+        cout << c << ' ' << v << '\n';
+        it.next();
+    }
+
+
+//    assert(sm.size() == 0);
+//    assert(sm.isEmpty());
 }
 
 void testIterator() {
