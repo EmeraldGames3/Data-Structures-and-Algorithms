@@ -116,7 +116,7 @@ TValue SortedMap::remove(TKey k) {
 
     Node *current = table[position];
     Node *previousCollision = nullptr;
-    Node *nodeToBeRemoved = nullptr;
+    Node *nodeToBeRemoved;
 
     while (current != nullptr && current->key != k) {
         previousCollision = current;
@@ -192,10 +192,6 @@ SortedMap::~SortedMap() {
         current = current->next;
         delete previous;
     }
-
-    for(int i = 0; i < capacity; i++){
-        table[i] = nullptr;
-    }
     delete[] table;
 
     head = nullptr;
@@ -204,7 +200,11 @@ SortedMap::~SortedMap() {
 }
 
 int SortedMap::hash(TKey key, int n) {
-    return abs(key) % n;
+    if (key >= 0) {
+        return key % n;
+    } else {
+        return (n - abs(key) % n) % n;
+    }
 }
 
 bool SortedMap::isPrime(int number) {
@@ -254,7 +254,6 @@ void SortedMap::findFirstPrime(int number) {
         number += 2;
     }
 }
-
 
 void SortedMap::resize(int newCapacity) {
     Node **newTable = new Node *[newCapacity];

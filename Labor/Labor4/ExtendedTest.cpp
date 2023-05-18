@@ -25,7 +25,7 @@ bool decreasing(TKey c1, TKey c2) {
     }
 }
 
-void testIteratorSteps(SortedMap &m, Relation r) {
+void testIteratorSteps(SortedMap& m, Relation r) {
     SMIterator li = m.iterator();
     TElem elem = NULL_TPAIR;
     int count = 0;
@@ -57,14 +57,14 @@ void testCreate() {
         it.next();
         assert(false);
     }
-    catch (exception &) {
+    catch (exception&) {
         assert(true);
     }
     try {
         it.getCurrent();
         assert(false);
     }
-    catch (exception &) {
+    catch (exception&) {
         assert(true);
     }
 
@@ -87,7 +87,7 @@ void testSearch(Relation r) {
             sm.add(i, i + 1);
         }
         assert(true);
-    } catch (exception &) {
+    } catch (exception&) {
         assert(false);
     }
     int intervalDim = 10;
@@ -121,7 +121,7 @@ vector<int> keysInRandomOrder(int cMin, int cMax) {
     return keys;
 }
 
-void populateSMEmpty(SortedMap &sm, int cMin, int cMax) {
+void populateSMEmpty(SortedMap& sm, int cMin, int cMax) {
     vector<int> keys = keysInRandomOrder(cMin, cMax);
     int n = keys.size();
     for (int i = 0; i < n; i++) {
@@ -129,7 +129,7 @@ void populateSMEmpty(SortedMap &sm, int cMin, int cMax) {
     }
 }
 
-void rePopulateSMShift(SortedMap &sm, int cMin, int cMax, int shift) {
+void rePopulateSMShift(SortedMap& sm, int cMin, int cMax, int shift) {
     vector<int> keys = keysInRandomOrder(cMin, cMax);
     int n = keys.size();
     for (int i = 0; i < n; i++) {
@@ -137,7 +137,7 @@ void rePopulateSMShift(SortedMap &sm, int cMin, int cMax, int shift) {
     }
 }
 
-void populateSMShift(SortedMap &sm, int cMin, int cMax, int shift) {
+void populateSMShift(SortedMap& sm, int cMin, int cMax, int shift) {
     vector<int> keys = keysInRandomOrder(cMin, cMax);
     int n = keys.size();
     for (int i = 0; i < n; i++) {
@@ -182,6 +182,7 @@ void testAddAndSearch(Relation r) {
             it.next();
         }
     }
+
 }
 
 void testAdd() {
@@ -229,6 +230,7 @@ void testRemoveAndSearch(Relation r) {
     }
     assert(sm.isEmpty());
     assert(sm.size() == 0);
+
 }
 
 void testRemove() {
@@ -257,7 +259,7 @@ void testIterator(Relation r) {
     assert(itSM.valid());
 
     TKey cPrec = itSM.getCurrent().first;
-    for (int i = 1; i < 100; i++) {
+    for (int i=1; i<100; i++){
         assert(cPrec == itSM.getCurrent().first);
     }
     itSM.next();
@@ -271,19 +273,19 @@ void testIterator(Relation r) {
     }
 }
 
-void testQuantity() {
+void testQuantity(){
     cout << "Test quantity" << endl;
     SortedMap sm(increasing);
     int cMin = -3000;
     int cMax = 3000;
-    vector<int> keys = keysInRandomOrder(cMin, cMax);
+    vector<int> keys  = keysInRandomOrder(cMin, cMax);
     populateSMEmpty(sm, cMin, cMax);
-    for (int c = cMin; c <= cMax; c++) {
+    for (int c = cMin; c <= cMax; c++){
         assert(sm.search(c) == c);
     }
     testIteratorSteps(sm, increasing);
     assert(sm.size() == cMax - cMin + 1);
-    SMIterator it = sm.iterator();
+    SMIterator it  = sm.iterator();
     assert(it.valid());
     it.first();
     assert(it.valid());
@@ -292,34 +294,21 @@ void testQuantity() {
     }
     assert(!it.valid());
     it.first();
-    while (it.valid()) {
+    while (it.valid()){
         TKey c = it.getCurrent().first;
         assert(sm.search(c) == c);
-        TValue v = it.getCurrent().second;
+        TValue v  = it.getCurrent().second;
         assert(c == v);
-
-        cout << c << ' ' << v << '\n';
         it.next();
     }
     assert(!it.valid());
-    for (int c = cMin - 100; c <= cMax + 100; c++) {
+    for (int c = cMin-100; c <= cMax+100; c++){
         sm.remove(c);
         assert(sm.search(c) == NULL_TVALUE);
         testIteratorSteps(sm, increasing);
     }
-
-    it.first();
-    while (it.valid()){
-        TKey c = it.getCurrent().first;
-        TValue v = it.getCurrent().second;
-
-        cout << c << ' ' << v << '\n';
-        it.next();
-    }
-
-
-//    assert(sm.size() == 0);
-//    assert(sm.isEmpty());
+    assert(sm.size() == 0);
+    assert(sm.isEmpty());
 }
 
 void testIterator() {
@@ -332,6 +321,6 @@ void testAllExtended() {
     testAdd();
     testSearch();
     testRemove();
-	testIterator();
-	testQuantity();
+    testIterator();
+    testQuantity();
 }

@@ -33,7 +33,7 @@ struct Node {
 class SortedMap {
     friend class SMIterator;
 
-private:
+public:
     Node **table;
 
     Node *head;
