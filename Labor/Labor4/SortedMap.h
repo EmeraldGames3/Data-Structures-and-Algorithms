@@ -85,4 +85,8 @@ public:
 
     // destructor
     ~SortedMap();
+
+    SortedMap(const SortedMap &other);
+
+    [[nodiscard]] SortedMap keysInInterval(TKey left, TKey right) const;
 };

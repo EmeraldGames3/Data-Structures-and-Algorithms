@@ -2,10 +2,13 @@
 #include "SortedMap.h"
 #include <exception>
 #include <cmath>
-#include <iostream>
 
 using namespace std;
 
+/**
+* @brief Sorted Map constructor
+* @complexity θ(1)
+**/
 SortedMap::SortedMap(Relation r) {
     relation = r;
     capacity = 13;
@@ -20,6 +23,12 @@ SortedMap::SortedMap(Relation r) {
     tail = nullptr;
 }
 
+/**
+* @brief Add an element in the Sorted Map
+* @complexityΩ θ(1)
+* @complexityθ θ(n)
+* @complexityO θ(n)
+**/
 TValue SortedMap::add(TKey k, TValue v) {
     automaticResize();
 
@@ -28,6 +37,7 @@ TValue SortedMap::add(TKey k, TValue v) {
 
     TValue oldValue = NULL_TVALUE;
 
+    //Add the element in the table
     if (table[position] == nullptr) {
         table[position] = newNode;
     } else {
@@ -47,6 +57,7 @@ TValue SortedMap::add(TKey k, TValue v) {
         table[position] = newNode;
     }
 
+    //Add the element in the linked list
     if (head == nullptr) {
         head = newNode;
         tail = newNode;
@@ -82,6 +93,12 @@ TValue SortedMap::add(TKey k, TValue v) {
     return oldValue;
 }
 
+/**
+* @brief search for a key in the Sorted Map
+* @complexityΩ θ(1)
+* @complexityθ θ(1)
+* @complexityO θ(n)
+**/
 TValue SortedMap::search(TKey k) const {
     if (isEmpty())
         return NULL_TVALUE;
@@ -100,10 +117,15 @@ TValue SortedMap::search(TKey k) const {
     return NULL_TVALUE;
 }
 
+/**
+* @brief Add an element in the Sorted Map
+* @complexityΩ θ(1)
+* @complexityθ θ(1)
+* @complexityO θ(n)
+**/
 TValue SortedMap::remove(TKey k) {
-    if (isEmpty()) {
+    if (isEmpty())
         return NULL_TVALUE;
-    }
 
     automaticResize();
 
@@ -147,6 +169,7 @@ TValue SortedMap::remove(TKey k) {
         previousCollision->nextCollision = nodeToBeRemoved->next;
     }
 
+    //Remove the node from the linked list
     if (nodeToBeRemoved == head) {
         if (nodeToBeRemoved == tail) {
             head = nullptr;
@@ -172,22 +195,38 @@ TValue SortedMap::remove(TKey k) {
     return value;
 }
 
+/**
+* @brief Find the size of the Sorted Map
+* @complexity θ(1)
+**/
 int SortedMap::size() const {
     return nrElements;
 }
 
+/**
+* @brief Check if the Sorted Map is empty
+* @complexity θ(1)
+**/
 bool SortedMap::isEmpty() const {
     return nrElements == 0;
 }
 
+/**
+* @brief Create an iterator for the Sorted Map
+* @complexity θ(1)
+**/
 SMIterator SortedMap::iterator() const {
     return SMIterator(*this);
 }
 
+/**
+* @brief Sorted map destructor
+* @complexity θ(n)
+**/
 SortedMap::~SortedMap() {
     Node *current = head;
     Node *previous;
-    while (current != nullptr){
+    while (current != nullptr) {
         previous = current;
         current = current->next;
         delete previous;
@@ -199,14 +238,21 @@ SortedMap::~SortedMap() {
     nrElements = 0;
 }
 
+/**
+* @brief Find the hash of a key, based on the capacity of the table
+* @complexity θ(1)
+**/
 int SortedMap::hash(TKey key, int n) {
-    if (key >= 0) {
+    if (key >= 0)
         return key % n;
-    } else {
+    else
         return (n - abs(key) % n) % n;
-    }
 }
 
+/**
+* @brief Check if a number is prime
+* @complexity θ(n)
+**/
 bool SortedMap::isPrime(int number) {
     if (number <= 1) {
         // Numbers less than or equal to 1 are not prime
@@ -242,6 +288,10 @@ bool SortedMap::isPrime(int number) {
     return true;
 }
 
+/**
+* @brief Find the first prime number greater than the received number
+* @complexity θ(n)
+**/
 void SortedMap::findFirstPrime(int number) {
     if (number % 2 == 0) {
         // If the number is even, increment it by 1
@@ -255,6 +305,10 @@ void SortedMap::findFirstPrime(int number) {
     }
 }
 
+/**
+* @brief Resize the table to a new capacity
+* @complexity θ(n) (θ(n + m), where n is the new capacity and m is the number of elements in the linked list))
+**/
 void SortedMap::resize(int newCapacity) {
     Node **newTable = new Node *[newCapacity];
 
@@ -281,15 +335,155 @@ void SortedMap::resize(int newCapacity) {
     capacity = newCapacity;
 }
 
+/**
+* @complexityΩ θ(1)
+* @complexityθ θ(1) // Costuri amortizate
+* @complexityO θ(n) (( θ(n + m), where n is the new capacity and m is the number of elements in the linked list) ))
+**/
 void SortedMap::automaticResize() {
     if (nrElements == capacity) {
         int newCapacity = capacity * 2;
         findFirstPrime(newCapacity);
         resize(newCapacity);
     }
-    if(nrElements == capacity / 4 && capacity > 13){
+    if (nrElements == capacity / 4 && capacity > 13) {
         int newCapacity = capacity / 2;
         findFirstPrime(newCapacity);
         resize(newCapacity);
+    }
+}
+
+/**
+ * Un map nou cu cheile intr-un interval dat
+ * complexity Theta(N)
+ */
+SortedMap SortedMap::keysInInterval(TKey left, TKey right) const {
+    //description: Return a new map with all keys in the given interval
+    //pre: S is a sorted map, left is a key and right is key
+    //post newMap is a sorted map, where only the keys in the given interval [left, right] remain
+    //     newMap = S intersected with [left, right]
+
+    /*
+     * newMap = this
+     *
+     * while(currentNode != NULL)
+     *      if(relation(currentNode.key, left) or not relation(currentNode.key, right))
+     *         table[position] = table[position].nextCollision
+     *
+     *      if(currentNode == newMap.head)
+     *         newMap.head = currentNode.next
+     *         (newMap.head).previous = NULL
+     *      else if( currentNode == newMap.tail)
+     *         (newMap.tail) = currentNode.previous;
+     *         (newMap.tail).next = nullptr;
+     *      else
+     *         (currentNode.previous).next = currentNode.next;
+     *         (currentNode.next).previous = currentNode.previous;
+     *
+     *      Node *deletedNode = currentNode;
+     *      currentNode = currentNode.next;
+     *
+     *      delete deletedNode;
+     *      newMap.nrElements--;
+     *
+     *      currentNode = currentNode.next
+     *
+     */
+
+    SortedMap newMap(*this);
+
+    Node *currentNode = newMap.head;
+    while (currentNode != nullptr) {
+        if( (relation(currentNode->key, left) && currentNode->key != left)|| !relation(currentNode->key, right)){
+            int position = hash(currentNode->key, capacity);
+
+            //Delete the node from the table
+            table[position] = table[position]->nextCollision;
+
+            //Delete the node from the linked list
+            if (currentNode == newMap.head) {
+                newMap.head = currentNode->next;
+                newMap.head->previous = nullptr;
+            } else if (currentNode == newMap.tail) {
+                newMap.tail = currentNode->previous;
+                newMap.tail->next = nullptr;
+            } else {
+                (currentNode->previous)->next = currentNode->next;
+                (currentNode->next)->previous = currentNode->previous;
+            }
+            Node *deletedNode = currentNode;
+            currentNode = currentNode->next;
+
+            delete deletedNode;
+            newMap.nrElements--;
+            newMap.automaticResize();
+        } else {
+            currentNode = currentNode->next;
+        }
+    }
+    return newMap;
+}
+
+//@complexity Theta(N)
+SortedMap::SortedMap(const SortedMap &other) {
+    //description: Copy constructor for SortedMultimap
+    //pre: other is a Map
+    //post: S' is a new Sorted Map with the same elements as other ( S' = other)
+
+    /*
+     * capacity = other.capacity
+     * head = other.head
+     * Node *current = other.head
+     * nrElems = other.nrElems
+     *
+     * while( current != NULL)
+     *      newNode = current
+     *      position = hash(newNode.key, capacity)
+     *
+     *      if(table[position] == NULL)
+     *          table[position] = newNode
+     *      else
+     *          newNode.nextCollision = table[position]
+     *          table[position] = newNode
+     *
+     *      newNode.previous = currentThis;
+     *      currentThis.next = newNode
+     *
+     *      currentOther = currentOther.next
+     *      currentThis = currentThis.next
+     */
+
+    capacity = other.capacity;
+    table = new Node *[capacity];
+    nrElements = other.nrElements;
+    relation = other.relation;
+
+    Node *newNode = new Node{TElem{other.head->key, other.head->value}};
+    head = newNode;
+    table[hash(newNode->key, capacity)] = newNode;
+    tail = head;
+
+    Node *currentOther = other.head->next;
+    Node *currentThis = head;
+
+    while (currentOther != nullptr) {
+        newNode = new Node{TElem{currentOther->key, currentOther->value}};
+
+        int position = hash(newNode->key, capacity);
+
+        //Add the element in the table
+        if (table[position] == nullptr) {
+            table[position] = newNode;
+        } else {
+            newNode->nextCollision = table[position];
+            table[position] = newNode;
+        }
+
+        //Add the element in the linked list
+        newNode->previous = currentThis;
+        currentThis->next = newNode;
+
+        currentOther = currentOther->next;
+        currentThis = currentThis->next;
     }
 }

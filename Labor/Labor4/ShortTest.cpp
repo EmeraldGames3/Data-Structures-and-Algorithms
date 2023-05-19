@@ -35,5 +35,20 @@ void testAll(){
     }
     assert(sm.remove(1) == 3);
     assert(sm.isEmpty());
-}
 
+    sm.add(1, 2);
+    sm.add(2, 2);
+
+    auto sm2 = sm.keysInInterval(0, 3);
+    assert(sm2.size() == 2);
+
+    sm.add(3,3);
+    sm.add(4,4);
+
+    auto sm3 = sm.keysInInterval(1, 4);
+    assert(sm3.size() == 4);
+
+    sm.add(5, 9);
+    auto sm4 = sm.keysInInterval(2, 11);
+    assert(sm3.size() == sm4.size());
+}
