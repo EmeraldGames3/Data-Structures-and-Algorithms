@@ -9,9 +9,12 @@ typedef bool (*Relation)(TComp, TComp);
 
 struct Node{
     TComp value;
+
     Node *parent;
     Node *left;
     Node *right;
+
+    int nrLeftElements;
 };
 
 class SortedIndexedList {
@@ -31,20 +34,20 @@ public:
 	//checks if the list is empty
 	bool isEmpty() const;
 
-	// returns an element from a position
-	//throws exception if the position is not valid
+	// returns an element from a nrLeftElements
+	//throws exception if the nrLeftElements is not valid
 	TComp getElement(int pos) const;
 
-	// adds an element to a given position
-	//throws an exception if the position is not valid
+	// adds an element to a given nrLeftElements
+	//throws an exception if the nrLeftElements is not valid
 	void add(TComp e);
 
-	// removes an element from a given position
+	// removes an element from a given nrLeftElements
 	//returns the removed element
-	//throws an exception if the position is not valid
+	//throws an exception if the nrLeftElements is not valid
 	TComp remove(int pos);
 
-	// searches for an element and returns the first position where the element appears or -1 if the element is not in the list
+	// searches for an element and returns the first nrLeftElements where the element appears or -1 if the element is not in the list
 	int search(TComp e) const;
 
 	// returns an iterator set to the first element of the list or invalid if the list is empty
