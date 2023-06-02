@@ -185,7 +185,7 @@ void testAddAndSearch(Relation r) {
 		for (int v = vMin; v <= vMax; v++) {
 			int p = list.search(v);
 			//we can't find values which are a multiple of s
-//			assert((p != -1) == (v % s != 0));
+			assert((p != -1) == (v % s != 0));
 			//values which are a multiple of m can be found exactly v/m+1 times
             if (p != -1 && v%m == 0){
 //            	for (int i=0; i<=v/m; i++){
@@ -285,7 +285,7 @@ void testDeleteSearch() {
 
 void testAddAndSearch() {
 	testAddAndSearch(asc);
-//	testAddAndSearch(desc);
+	testAddAndSearch(desc);
 }
 
 void testQuantity(){
@@ -345,7 +345,7 @@ void testQuantity(){
 
 void testAllExtended() {
 	testCreate();
-//	testAddAndSearch();
+	testAddAndSearch();
 //	testDeleteSearch();
 //  testQuantity();
 }

@@ -92,29 +92,49 @@ void SortedIndexedList::add(TComp e) {
     Node *current = head;
     Node *newNode = new Node{e, nullptr, nullptr, nullptr, 0};
 
+    nrElems++;
     if (current == nullptr) {
         head = newNode;
-        nrElems = 1;
         return;
     }
 
     if(relation(e, head->value) && head->left == nullptr){
         head->nrLeftElements = 1;
-        nrElems++;
         head->left = newNode;
         newNode->parent = head;
         return;
     }
 
     if(!relation(e, head->value) && head->right == nullptr){
-        nrElems++;
         head->right = newNode;
         newNode->parent = head;
         return;
     }
 
+    if(relation(e, head->value)){
+        current = head->left;
+        head->nrLeftElements++;
+    }
+    else{
+        current = head->right;
+    }
 
+    Node *parent = current;
+    while (current != nullptr){
+        parent = current;
+        if(relation(e, current->value)){
+            current->nrLeftElements++;
+            current = current->left;
+        } else{
+            current = current->right;
+        }
+    }
 
+    newNode->parent = parent;
+    if(relation(e, parent->value))
+        parent->left = newNode;
+    else
+        parent->right = newNode;
 }
 
 ListIterator SortedIndexedList::iterator() {
