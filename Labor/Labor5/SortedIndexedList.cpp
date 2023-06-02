@@ -157,29 +157,29 @@ ListIterator SortedIndexedList::iterator() {
     return ListIterator(*this);
 }
 
-void deleteNodesIterative(Node* node) {
-    std::stack<Node*> nodeStack;
-    Node* current = node;
+SortedIndexedList::~SortedIndexedList() {
+    Node** nodeStack = new Node*[nrElems];
+    int top = -1;
+
+    Node* current = head;
     Node* lastVisited = nullptr;
 
-    while (current || !nodeStack.empty()) {
+    while (current != nullptr || top != -1) {
         if (current) {
-            nodeStack.push(current);
+            nodeStack[++top] = current;
             current = current->left;
         } else {
-            Node* peekNode = nodeStack.top();
+            Node* peekNode = nodeStack[top];
 
             if (peekNode->right && lastVisited != peekNode->right) {
                 current = peekNode->right;
             } else {
-                nodeStack.pop();
+                top--;
                 lastVisited = peekNode;
                 delete peekNode;
             }
         }
     }
-}
 
-SortedIndexedList::~SortedIndexedList() {
-    deleteNodesIterative(head);
+    delete[] nodeStack;
 }
