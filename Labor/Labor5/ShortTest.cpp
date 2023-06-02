@@ -37,15 +37,31 @@ void testAll(){
 
     list.add(10);
     list.add(12);
+    list.add(13);
+    list.add(4);
+    list.add(2);
+    list.add(3);
+    list.add(1);
     list.add(0);
     list.add(11);
-    list.add(1);
+    list.add(14);
 
     iterator.first();
     while (iterator.valid()){
         cout << iterator.getCurrent() << ' '
         << list.search(iterator.getCurrent())
         << '\n';
+        iterator.next();
+    }
+
+    cout << '\n';
+
+    assert(list.remove(2) == 2);
+    iterator.first();
+    while (iterator.valid()){
+        cout << iterator.getCurrent() << ' '
+             << list.search(iterator.getCurrent())
+             << '\n';
         iterator.next();
     }
 
