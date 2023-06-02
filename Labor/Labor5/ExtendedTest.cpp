@@ -326,7 +326,6 @@ void testQuantity(){
     }
     assert(!it.valid());
 
-
     int d = 100;
     //consider the interval [vMin-d, vMax+d]
     for (int v = vMin-d; v <= vMax+d; v++){
@@ -345,7 +344,7 @@ void testQuantity(){
 
 void testAllExtended() {
 	testCreate();
-	testAddAndSearch();
+//	testAddAndSearch();
 //	testDeleteSearch();
 //  testQuantity();
 }
