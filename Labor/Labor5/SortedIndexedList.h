@@ -23,6 +23,9 @@ private:
     Node *head;
     Relation relation;
 
+    [[nodiscard]] Node *findNode(int pos) const;
+    [[nodiscard]] Node *findSuccessor(Node *node) const;
+    void removeNode(Node *node);
 public:
     // constructor
     explicit SortedIndexedList(Relation r);
