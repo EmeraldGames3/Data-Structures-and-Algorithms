@@ -37,14 +37,7 @@ TComp SortedIndexedList::getElement(int i) const {
 }
 
 TComp SortedIndexedList::remove(int i) {
-    if (isEmpty())
-        throw exception();
-
-    if (i > nrElems - 1) {
-        throw exception();
-    }
-
-    if (i < 0) {
+    if (i > nrElems - 1 || i < 0) {
         throw exception();
     }
 
@@ -60,58 +53,7 @@ TComp SortedIndexedList::remove(int i) {
         return deletedValue;
     }
 
-    deletedNode = findNode(i);
-    deletedValue = deletedNode->value;
-    Node *parent = deletedNode->parent;
 
-    if(deletedNode->left == nullptr && deletedNode->right == nullptr){
-        if(parent->left == deletedNode)
-            parent->left = nullptr;
-        else
-            parent->right = nullptr;
-    }
-
-    if(deletedNode->left == nullptr && deletedNode->right != nullptr){
-        if(parent->left == deletedNode)
-            parent->left = deletedNode->right;
-        else
-            parent->right = deletedNode->right;
-    }
-
-    if(deletedNode->left != nullptr && deletedNode->right == nullptr){
-        if(parent->left == deletedNode)
-            parent->left = deletedNode->left;
-        else
-            parent->right = deletedNode->left;
-    }
-
-    delete deletedNode;
-    return deletedValue;
-}
-
-Node *SortedIndexedList::findNode(int pos) const{
-    if(isEmpty())
-        return nullptr;
-
-    Node *current = head;
-    int currentPosition = head->nrLeftElements;
-
-    while (current != nullptr){
-        if(currentPosition == pos){
-            return current;
-        }
-        if(pos < currentPosition){
-            current = current->left;
-            if(current != nullptr)
-                currentPosition -= (current->parent->nrLeftElements - current->nrLeftElements);
-        } else{
-            current = current->right;
-            if(current != nullptr)
-                currentPosition += (current->nrLeftElements + 1);
-        }
-    }
-
-    return nullptr;
 }
 
 int SortedIndexedList::search(TComp e) const {
