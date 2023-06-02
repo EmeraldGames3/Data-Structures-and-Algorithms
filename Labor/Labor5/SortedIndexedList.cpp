@@ -54,11 +54,12 @@ TComp SortedIndexedList::remove(int i) {
     if (head->left == nullptr && head->right == nullptr) {
         deletedValue = head->value;
         deletedNode = head;
+        nrElems = 0;
+        delete deletedNode;
+        return deletedValue;
     }
 
-    nrElems--;
-    delete deletedNode;
-    return deletedValue;
+
 }
 
 int SortedIndexedList::search(TComp e) const {
@@ -156,6 +157,29 @@ ListIterator SortedIndexedList::iterator() {
     return ListIterator(*this);
 }
 
-SortedIndexedList::~SortedIndexedList(){
+void deleteNodesIterative(Node* node) {
+    std::stack<Node*> nodeStack;
+    Node* current = node;
+    Node* lastVisited = nullptr;
 
+    while (current || !nodeStack.empty()) {
+        if (current) {
+            nodeStack.push(current);
+            current = current->left;
+        } else {
+            Node* peekNode = nodeStack.top();
+
+            if (peekNode->right && lastVisited != peekNode->right) {
+                current = peekNode->right;
+            } else {
+                nodeStack.pop();
+                lastVisited = peekNode;
+                delete peekNode;
+            }
+        }
+    }
+}
+
+SortedIndexedList::~SortedIndexedList() {
+    deleteNodesIterative(head);
 }
