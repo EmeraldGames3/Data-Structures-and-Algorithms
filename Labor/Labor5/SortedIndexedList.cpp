@@ -125,6 +125,13 @@ TComp SortedIndexedList::remove(int i) {
             }
 
             current->value = nextNode->value;
+            nextNode->value = -1;
+
+            (nextNode->parent)->left = nextNode->right;
+            if(nextNode->right != nullptr){
+                (nextNode->right)->parent = (nextNode->parent);
+            }
+//            delete nextNode;
         }
     }
 
