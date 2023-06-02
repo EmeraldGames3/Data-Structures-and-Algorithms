@@ -7,14 +7,14 @@ class ListIterator{
 	friend class SortedIndexedList;
 private:
 	const SortedIndexedList& list;
-	ListIterator(const SortedIndexedList& list);
+	explicit ListIterator(const SortedIndexedList& list);
 	Node *current;
 
 public:
 	void first();
 	void next();
-	bool valid() const;
-    TComp getCurrent() const;
+	[[nodiscard]] bool valid() const;
+    [[nodiscard]] TComp getCurrent() const;
 };
 
 

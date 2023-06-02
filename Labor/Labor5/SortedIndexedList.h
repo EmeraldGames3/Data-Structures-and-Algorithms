@@ -11,6 +11,7 @@ struct Node{
     TComp value;
 
     Node *parent;
+
     Node *left;
     Node *right;
 
@@ -23,37 +24,37 @@ private:
 private:
 	int nrElems;
     Node *head;
+    Relation relation;
 
 public:
-	// constructor
-	SortedIndexedList(Relation r);
+    // constructor
+    explicit SortedIndexedList(Relation r);
 
-	// returns the size of the list
-	int size() const;
+    // returns the size of the list
+    [[nodiscard]] int size() const;
 
-	//checks if the list is empty
-	bool isEmpty() const;
+    //checks if the list is empty
+    [[nodiscard]] bool isEmpty() const;
 
-	// returns an element from a nrLeftElements
-	//throws exception if the nrLeftElements is not valid
-	TComp getElement(int pos) const;
+    // returns an element from a position
+    //throws exception if the position is not valid
+    [[nodiscard]] TComp getElement(int pos) const;
 
-	// adds an element to a given nrLeftElements
-	//throws an exception if the nrLeftElements is not valid
-	void add(TComp e);
+    // adds an element to a given position
+    //throws an exception if the position is not valid
+    void add(TComp e);
 
-	// removes an element from a given nrLeftElements
-	//returns the removed element
-	//throws an exception if the nrLeftElements is not valid
-	TComp remove(int pos);
+    // removes an element from a given position
+    //returns the removed element
+    //throws an exception if the position is not valid
+    TComp remove(int pos);
 
-	// searches for an element and returns the first nrLeftElements where the element appears or -1 if the element is not in the list
-	int search(TComp e) const;
+    // searches for an element and returns the first position where the element appears or -1 if the element is not in the list
+    [[nodiscard]] int search(TComp e) const;
 
-	// returns an iterator set to the first element of the list or invalid if the list is empty
-	ListIterator iterator();
+    // returns an iterator set to the first element of the list or invalid if the list is empty
+    ListIterator iterator();
 
-	//destructor
-	~SortedIndexedList();
-
+    //destructor
+    ~SortedIndexedList();
 };
