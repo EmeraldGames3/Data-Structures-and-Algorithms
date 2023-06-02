@@ -46,14 +46,4 @@ void testAll(){
         << '\n';
         iterator.next();
     }
-
-    cout << '\n';
-    list.remove(0);
-    iterator.first();
-    while (iterator.valid()){
-        cout << iterator.getCurrent() << ' '
-             << list.search(iterator.getCurrent())
-             << '\n';
-        iterator.next();
-    }
 }
