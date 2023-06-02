@@ -1,11 +1,9 @@
 #include "ListIterator.h"
 #include "SortedIndexedList.h"
 #include <iostream>
+#include <exception>
 
 using namespace std;
-
-#include <exception>
-#include <stack>
 
 SortedIndexedList::SortedIndexedList(Relation r) {
     relation = r; //relation(e, value) == e <= value
@@ -48,145 +46,82 @@ TComp SortedIndexedList::getElement(int i) const {
 }
 
 TComp SortedIndexedList::remove(int i) {
-    if (i > nrElems - 1 || i < 0) {
+    if(i < 0 || i > nrElems - 1)
         throw exception();
-    }
 
-    Node *nodeToBeDeleted;
-    TComp deletedValue;
+    Node *current = head;
     int currentPosition = head->nrLeftElements;
+    TComp deletedValue;
 
-    if (head->left == nullptr && head->right == nullptr) {
-        deletedValue = head->value;
-        nodeToBeDeleted = head;
-        nrElems = 0;
-        delete nodeToBeDeleted;
-        head = nullptr;
-        return deletedValue;
-    }
-
-    if (i == 0 && head->left == nullptr) {
-        //Delete head case 1
-        nodeToBeDeleted = head;
-        head = head->right;
-        nrElems--;
-        deletedValue = nodeToBeDeleted->value;
-        delete nodeToBeDeleted;
-        return deletedValue;
-    }
-
-    if (i == nrElems - 1 && head->right == nullptr) {
-        //Delete head case 2
-        nodeToBeDeleted = head;
-        head = head->left;
-        nrElems--;
-        deletedValue = nodeToBeDeleted->value;
-        delete nodeToBeDeleted;
-        return deletedValue;
-    }
-
-    if (i == head->nrLeftElements) {
-        // Delete head case 3
-        // Replace head with the minimum in the right subtree and delete the old head
-        Node *current = head->right;
-
-        // Find the minimum node in the right subtree
-        while (current->left != nullptr) {
-            current->nrLeftElements--;
+    while (currentPosition != i){
+        if(i < currentPosition){
             current = current->left;
-        }
-
-        // Replace the value of the head node with the minimum value
-        head->value = current->value;
-
-        // Update the parent's link
-        Node *parent = current->parent;
-        parent->left = current->right;
-
-        // Delete the node
-        TComp value = current->value;
-        delete current;
-        nrElems--;
-        return value;
-    }
-
-    Node *current;
-    Node *parent = head;
-    if (i < head->nrLeftElements) {
-        //Node is in the left tree
-        current = head->left;
-        head->nrLeftElements--;
-        currentPosition -= (current->parent->nrLeftElements - current->nrLeftElements);
-    } else {
-        //Node is in the right tree
-        current = head->right;
-        currentPosition += (current->nrLeftElements + 1);
-    }
-
-    // Find the node to be deleted
-    while (current != nullptr) {
-        parent = current;
-        if (currentPosition == i) {
-            break;
-        }
-        if (i < currentPosition) {
-            current->nrLeftElements--;
-            current = current->left;
-            if (current != nullptr)
-                currentPosition -= (current->parent->nrLeftElements - current->nrLeftElements);
-        } else {
+            currentPosition--;
+            int nrRightTreeElements = current->parent->nrLeftElements - current->nrLeftElements - 1;
+            current->parent->nrLeftElements--;
+            currentPosition -= nrRightTreeElements;
+        } else{
             current = current->right;
-            if (current != nullptr)
-                currentPosition += (current->nrLeftElements + 1);
+            currentPosition++;
+            currentPosition += current->nrLeftElements;
         }
     }
 
-    nodeToBeDeleted = parent;
-    parent = nodeToBeDeleted->parent;
-    deletedValue = nodeToBeDeleted->value;
+    deletedValue = current->value;
 
-    //Case 1
-    if (nodeToBeDeleted->left == nullptr && nodeToBeDeleted->right == nullptr) {
-        if (nodeToBeDeleted == parent->left)
-            parent->left = nullptr;
-        else
-            parent->right = nullptr;
-    }
+    if(current == head){
+        if(head->right == nullptr && head->left == nullptr){
+            delete current;
+            head = nullptr;
+        } else if(head->right == nullptr && head->left != nullptr){
+            head = head->left;
+            delete current;
+            head->parent = nullptr;
+        } else if(head->right != nullptr && head->left == nullptr){
+            head = head->right;
+            delete current;
+            head->parent = nullptr;
+        } else{
+            Node *nextNode = head->right;
 
-    //Case 2
-    if (nodeToBeDeleted->left == nullptr && nodeToBeDeleted->right != nullptr) {
-        if (nodeToBeDeleted == parent->left)
-            parent->left = nodeToBeDeleted->right;
-        else
-            parent->right = nodeToBeDeleted->right;
-    }
-    if (nodeToBeDeleted->right == nullptr && nodeToBeDeleted->left != nullptr) {
-        if (nodeToBeDeleted == parent->left)
-            parent->left = nodeToBeDeleted->left;
-        else
-            parent->right = nodeToBeDeleted->left;
-    }
+            while (nextNode->left != nullptr){
+                nextNode->nrLeftElements--;
+                nextNode = nextNode->left;
+            }
 
-    //Case 3
-    if (nodeToBeDeleted->left != nullptr && nodeToBeDeleted->right != nullptr) {
-        Node *successor = nodeToBeDeleted->right;
+            head->value = nextNode->value;
+            (nextNode->parent)->left = nextNode->right;
 
-        // Find the minimum node in the right subtree
-        while (successor->left != nullptr) {
-            successor->nrLeftElements--;
-            successor = current->left;
+            delete nextNode;
         }
+    } else{
+        Node *parent = current->parent;
+        if(current->right == nullptr && current->left == nullptr){
+            if(parent->left == current)
+                parent->left = nullptr;
+            else
+                parent->right = nullptr;
+            delete current;
+        } else if (current ->right != nullptr && current->left == nullptr){
+            if(parent->left == current)
+                parent->left = current->right;
+            else
+                parent->right = current->right;
+            (current->right)->parent = parent;
+            delete current;
+        } else if (current->right == nullptr && current->left != nullptr){
+            if(parent->left == current)
+                parent->left = current->left;
+            else
+                parent->right = current->left;
+            (current->left)->parent = parent;
+            delete current;
+        } else{
 
-        // Replace the value of the head node with the minimum value
-        nodeToBeDeleted->value = successor->value;
-
-        // Update the parent's link
-        parent = successor->parent;
-        parent->left = successor->right;
+        }
     }
 
     nrElems--;
-    delete nodeToBeDeleted;
     return deletedValue;
 }
 

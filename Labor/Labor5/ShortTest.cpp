@@ -36,8 +36,10 @@ void testAll(){
     assert(list.isEmpty());
 
     list.add(10);
+    list.add(12);
     list.add(0);
     list.add(11);
+    list.add(1);
 
     iterator.first();
     while (iterator.valid()){
@@ -46,4 +48,6 @@ void testAll(){
         << '\n';
         iterator.next();
     }
+
+    cout << '\n';
 }
