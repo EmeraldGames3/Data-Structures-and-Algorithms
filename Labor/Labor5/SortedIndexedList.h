@@ -9,12 +9,9 @@ typedef bool (*Relation)(TComp, TComp);
 
 struct Node{
     TComp value;
-
     Node *parent;
-
     Node *left;
     Node *right;
-
     int nrLeftElements;
 };
 

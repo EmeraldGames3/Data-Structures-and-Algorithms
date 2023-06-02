@@ -8,7 +8,7 @@ using namespace std;
 #include <stack>
 
 SortedIndexedList::SortedIndexedList(Relation r) {
-    relation = r;
+    relation = r; //relation(e, value) == e <= value
     nrElems = 0;
     head = nullptr;
 }
@@ -56,6 +56,7 @@ TComp SortedIndexedList::remove(int i) {
         deletedNode = head;
         nrElems = 0;
         delete deletedNode;
+        head = nullptr;
         return deletedValue;
     }
 
@@ -63,39 +64,24 @@ TComp SortedIndexedList::remove(int i) {
 }
 
 int SortedIndexedList::search(TComp e) const {
-    if (isEmpty())
+    if(isEmpty())
         return -1;
 
-    if (head->value == e) {
-        return head->nrLeftElements;
-    }
-
-    int currentPosition = head->nrLeftElements;
     Node *current = head;
+    int position = head->nrLeftElements;
 
-    while (current->left != nullptr || current->right != nullptr) {
-        if (current->value == e) {
-            return currentPosition;
-        } else if (relation(e, current->value)) {
-            //current->value >= e
-            //Search in the left tree
-            if (current->left == nullptr) {
-                //Element is not in the list
-                return -1;
-            }
-
-            int lastNrLeftElements = current->nrLeftElements;
+    while (current != nullptr){
+        if(current->value == e){
+            return position;
+        }
+        if(relation(e, current->value)){
             current = current->left;
-            currentPosition -= ((lastNrLeftElements - currentPosition) + 1);
-        } else {
-            //Search in the right tree
-            if (current->right == nullptr) {
-                //Element is not in the list
-                return -1;
-            }
-
+            if(current != nullptr)
+                position -= (current->parent->nrLeftElements - current->nrLeftElements);
+        } else{
             current = current->right;
-            currentPosition += (current->nrLeftElements + 1);
+            if(current != nullptr)
+                position += (current->nrLeftElements + 1);
         }
     }
 
@@ -112,45 +98,23 @@ void SortedIndexedList::add(TComp e) {
         return;
     }
 
-    while (current->left != nullptr || current->right != nullptr) {
-        if (relation(e, current->value)) {
-            //current->value >= e
-            //The value is located in the left tree
-            current->nrLeftElements += 1;
-
-            if (current->left == nullptr) {
-                newNode->parent = current;
-                current->left = newNode;
-                nrElems++;
-                return;
-            }
-
-            current = current->left;
-        } else {
-            //The value is located in the right tree
-
-            if (current->right == nullptr) {
-                newNode->parent = current;
-                current->right = newNode;
-                nrElems++;
-                return;
-            }
-
-            current = current->right;
-        }
-    }
-
-    if (relation(e, current->value)){
-        newNode->parent = current;
-        current->left = newNode;
+    if(relation(e, head->value) && head->left == nullptr){
+        head->nrLeftElements = 1;
         nrElems++;
-        return;
-    } else{
-        newNode->parent = current;
-        current->right = newNode;
-        nrElems++;
+        head->left = newNode;
+        newNode->parent = head;
         return;
     }
+
+    if(!relation(e, head->value) && head->right == nullptr){
+        nrElems++;
+        head->right = newNode;
+        newNode->parent = head;
+        return;
+    }
+
+
+
 }
 
 ListIterator SortedIndexedList::iterator() {

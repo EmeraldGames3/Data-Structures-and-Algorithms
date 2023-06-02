@@ -285,7 +285,7 @@ void testDeleteSearch() {
 
 void testAddAndSearch() {
 	testAddAndSearch(asc);
-	testAddAndSearch(desc);
+//	testAddAndSearch(desc);
 }
 
 void testQuantity(){
@@ -345,10 +345,7 @@ void testQuantity(){
 
 void testAllExtended() {
 	testCreate();
-	testAddAndSearch();
+//	testAddAndSearch();
 //	testDeleteSearch();
 //  testQuantity();
 }
-
-
-

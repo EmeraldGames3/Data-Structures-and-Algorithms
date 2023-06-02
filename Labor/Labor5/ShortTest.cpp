@@ -2,6 +2,7 @@
 
 #include "ListIterator.h"
 #include "SortedIndexedList.h"
+#include <iostream>
 
 using namespace std;
 
@@ -33,4 +34,40 @@ void testAll(){
     assert(list.remove(0) == 1);
     assert(list.size() == 0);
     assert(list.isEmpty());
+
+    list.add(10);
+//    list.add(9);
+//    list.add(9);
+//    list.add(8);
+//    list.add(7);
+//    list.add(6);
+//    list.add(5);
+//    list.add(4);
+//    list.add(3);
+//    list.add(2);
+//    list.add(1);
+//    list.add(0);
+//    list.add(0);
+//    list.add(0);
+//
+//    list.add(8);
+//    list.add(8);
+//    list.add(8);
+//
+//    list.add(1);
+//    list.add(1);
+//    list.add(1);
+
+//    list.add(10);
+
+    list.add(11);
+    list.add(9);
+
+    iterator.first();
+    while (iterator.valid()){
+        cout << iterator.getCurrent() << ' '
+        << list.search(iterator.getCurrent())
+        << '\n';
+        iterator.next();
+    }
 }
