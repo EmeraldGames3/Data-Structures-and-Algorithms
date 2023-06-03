@@ -82,7 +82,27 @@ TComp SortedIndexedList::remove(int i) {
             delete current;
             head->parent = nullptr;
         } else {
+            Node *nextNode = head->right;
 
+            while (nextNode->left != nullptr){
+                nextNode->nrLeftElements--;
+                nextNode = nextNode->left;
+            }
+
+            head->value = nextNode->value;
+            Node *parent = nextNode->parent;
+
+            if(parent == head){
+                parent->right = nextNode->right;
+                if(nextNode->right != nullptr)
+                    (nextNode->right)->parent = parent;
+            } else{
+                parent->left = nextNode->right;
+                if(nextNode->right != nullptr)
+                    (nextNode->right)->parent = parent;
+            }
+
+            delete nextNode;
         }
     } else {
         Node *parent = current->parent;
@@ -107,7 +127,27 @@ TComp SortedIndexedList::remove(int i) {
             (current->left)->parent = parent;
             delete current;
         } else {
+            Node *nextNode = current->right;
 
+            while (nextNode->left != nullptr){
+                nextNode->nrLeftElements--;
+                nextNode = nextNode->left;
+            }
+
+            current->value = nextNode->value;
+            parent = nextNode->parent;
+
+            if(parent == current){
+                parent->right = nextNode->right;
+                if(nextNode->right != nullptr)
+                    (nextNode->right)->parent = parent;
+            } else{
+                parent->left = nextNode->right;
+                if(nextNode->right != nullptr)
+                    (nextNode->right)->parent = parent;
+            }
+
+            delete nextNode;
         }
     }
 
