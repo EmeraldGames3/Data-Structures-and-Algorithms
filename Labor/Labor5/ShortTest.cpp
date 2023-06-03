@@ -45,8 +45,12 @@ void testAll(){
     list.add(0);
     list.add(11);
     list.add(14);
-//    list.add(10);
-//    list.add(10);
+    list.add(10);
+    list.add(10);
+    list.add(2);
+    list.add(2);
+    list.add(2);
+    list.add(2);
 
     iterator.first();
     while (iterator.valid()){
@@ -58,7 +62,6 @@ void testAll(){
 
     cout << '\n';
 
-    list.remove(5);
     iterator.first();
     while (iterator.valid()){
         cout << iterator.getCurrent() << ' '

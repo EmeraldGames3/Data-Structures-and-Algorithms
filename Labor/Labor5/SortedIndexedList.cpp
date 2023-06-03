@@ -94,11 +94,11 @@ TComp SortedIndexedList::remove(int i) {
 
             Node *parent = nextNode->parent;
 
-            if(parent == head){
+            if (parent == head) {
                 head->left = nextNode->left;
-                if(nextNode->left != nullptr)
+                if (nextNode->left != nullptr)
                     (nextNode->left)->parent = parent;
-            } else{
+            } else {
                 head->left = nextNode->right;
                 (nextNode->right)->parent = parent;
             }
@@ -171,20 +171,20 @@ void SortedIndexedList::add(TComp e) {
         return;
     }
 
-    if (relation(e, head->value) && head->left == nullptr) {
+    if ((!relation(e, head->value) || e == head->value) && head->right == nullptr) {
+        head->right = newNode;
+        newNode->parent = head;
+        return;
+    }
+
+    if ((relation(e, head->value) && e != head->value) && head->left == nullptr) {
         head->nrLeftElements = 1;
         head->left = newNode;
         newNode->parent = head;
         return;
     }
 
-    if (!relation(e, head->value) && head->right == nullptr) {
-        head->right = newNode;
-        newNode->parent = head;
-        return;
-    }
-
-    if (relation(e, head->value)) {
+    if (relation(e, head->value) && e != head->value) {
         current = head->left;
         head->nrLeftElements++;
     } else {
@@ -194,7 +194,7 @@ void SortedIndexedList::add(TComp e) {
     Node *parent = current;
     while (current != nullptr) {
         parent = current;
-        if (relation(e, current->value)) {
+        if (relation(e, current->value) && e != current->value) {
             current->nrLeftElements++;
             current = current->left;
         } else {
