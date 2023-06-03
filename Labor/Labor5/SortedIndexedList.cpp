@@ -24,7 +24,7 @@ TComp SortedIndexedList::getElement(int i) const {
         throw std::out_of_range("Invalid position in the list!");
     }
 
-    Node* current = this->head;
+    Node *current = this->head;
     int position = 0;
 
     while (current != nullptr) {
@@ -46,21 +46,21 @@ TComp SortedIndexedList::getElement(int i) const {
 }
 
 TComp SortedIndexedList::remove(int i) {
-    if(i < 0 || i > nrElems - 1)
+    if (i < 0 || i > nrElems - 1)
         throw exception();
 
     Node *current = head;
     int currentPosition = head->nrLeftElements;
     TComp deletedValue;
 
-    while (currentPosition != i){
-        if(i < currentPosition){
+    while (currentPosition != i) {
+        if (i < currentPosition) {
             current = current->left;
             currentPosition--;
             int nrRightTreeElements = current->parent->nrLeftElements - current->nrLeftElements - 1;
             current->parent->nrLeftElements--;
             currentPosition -= nrRightTreeElements;
-        } else{
+        } else {
             current = current->right;
             currentPosition++;
             currentPosition += current->nrLeftElements;
@@ -69,72 +69,66 @@ TComp SortedIndexedList::remove(int i) {
 
     deletedValue = current->value;
 
-    if(current == head){
-        if(head->right == nullptr && head->left == nullptr){
+    if (current == head) {
+        if (head->right == nullptr && head->left == nullptr) {
             delete current;
             head = nullptr;
-        } else if(head->right == nullptr && head->left != nullptr){
+        } else if (head->right == nullptr && head->left != nullptr) {
             head = head->left;
             delete current;
             head->parent = nullptr;
-        } else if(head->right != nullptr && head->left == nullptr){
+        } else if (head->right != nullptr && head->left == nullptr) {
             head = head->right;
             delete current;
             head->parent = nullptr;
-        } else{
-            Node *nextNode = head->right;
+        } else {
+            Node *nextNode = head->left;
 
-            while (nextNode->left != nullptr){
-                nextNode->nrLeftElements--;
+            while (nextNode->right != nullptr) {
                 nextNode = nextNode->left;
             }
 
             head->value = nextNode->value;
-            (nextNode->parent)->left = nextNode->right;
+            head->nrLeftElements--;
+            nextNode->value = -1;
+
+            Node *parent = nextNode->parent;
+
+            if(parent == head){
+                head->left = nextNode->left;
+                if(nextNode->left != nullptr)
+                    (nextNode->left)->parent = parent;
+            } else{
+                head->left = nextNode->right;
+                (nextNode->right)->parent = parent;
+            }
 
             delete nextNode;
         }
-    } else{
+    } else {
         Node *parent = current->parent;
-        if(current->right == nullptr && current->left == nullptr){
-            if(parent->left == current)
+        if (current->right == nullptr && current->left == nullptr) {
+            if (parent->left == current)
                 parent->left = nullptr;
             else
                 parent->right = nullptr;
             delete current;
-        } else if (current ->right != nullptr && current->left == nullptr){
-            if(parent->left == current)
+        } else if (current->right != nullptr && current->left == nullptr) {
+            if (parent->left == current)
                 parent->left = current->right;
             else
                 parent->right = current->right;
             (current->right)->parent = parent;
             delete current;
-        } else if (current->right == nullptr && current->left != nullptr){
-            if(parent->left == current)
+        } else if (current->right == nullptr && current->left != nullptr) {
+            if (parent->left == current)
                 parent->left = current->left;
             else
                 parent->right = current->left;
             (current->left)->parent = parent;
             delete current;
-        } else{
-            Node *nextNode = current->right;
+        } else {
 
-            while (nextNode->left != nullptr){
-                nextNode->nrLeftElements--;
-                nextNode = nextNode->left;
-            }
-
-            current->value = nextNode->value;
-            nextNode->value = -1;
-
-            parent = nextNode->parent;
-            if(parent == current){
-                parent->right = nextNode->right;
-            } else{
-                parent->left = nextNode->right;
-            }
-
-            delete nextNode;
         }
     }
 
