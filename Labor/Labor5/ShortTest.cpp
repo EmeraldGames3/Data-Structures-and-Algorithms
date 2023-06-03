@@ -45,6 +45,8 @@ void testAll(){
     list.add(0);
     list.add(11);
     list.add(14);
+//    list.add(10);
+//    list.add(10);
 
     iterator.first();
     while (iterator.valid()){
