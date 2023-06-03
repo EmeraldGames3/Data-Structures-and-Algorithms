@@ -47,10 +47,11 @@ void testAll(){
     list.add(14);
     list.add(10);
     list.add(10);
-    list.add(2);
-    list.add(2);
-    list.add(2);
-    list.add(2);
+    list.add(10);
+    list.add(10);
+    list.add(10);
+    list.add(10);
+    list.add(10);
 
     iterator.first();
     while (iterator.valid()){
@@ -60,15 +61,15 @@ void testAll(){
         iterator.next();
     }
 
-    cout << '\n';
-
-    iterator.first();
-    while (iterator.valid()){
-        cout << iterator.getCurrent() << ' '
-             << list.search(iterator.getCurrent())
-             << '\n';
-        iterator.next();
-    }
-
-    cout << '\n';
+//    cout << '\n';
+//
+//    iterator.first();
+//    while (iterator.valid()){
+//        cout << iterator.getCurrent() << ' '
+//             << list.search(iterator.getCurrent())
+//             << '\n';
+//        iterator.next();
+//    }
+//
+//    cout << '\n';
 }
