@@ -19,30 +19,32 @@ bool SortedIndexedList::isEmpty() const {
     return nrElems == 0;
 }
 
-TComp SortedIndexedList::getElement(int i) const {
-    if (i < 0 || i >= this->nrElems) {
-        throw std::out_of_range("Invalid position in the list!");
-    }
+TComp SortedIndexedList::getElement(int pos) const {
+    if (isEmpty())
+        throw exception();
 
-    Node *current = this->head;
-    int position = 0;
+    if (pos < 0 || pos >= nrElems)
+        throw exception();
+
+    Node* current = head;
+    int currentPosition = head->nrLeftElements;
 
     while (current != nullptr) {
-        int leftSize = current->nrLeftElements;
-
-        if (i == (position + leftSize)) {
+        if (currentPosition == pos)
             return current->value;
-        }
 
-        if (i < (position + leftSize)) {
+        if (pos < currentPosition) {
             current = current->left;
+            if (current != nullptr)
+                currentPosition -= (current->parent->nrLeftElements - current->nrLeftElements);
         } else {
-            position = position + leftSize + 1;
             current = current->right;
+            if (current != nullptr)
+                currentPosition += (current->nrLeftElements + 1);
         }
     }
 
-    return NULL_TCOMP;
+    throw exception();
 }
 
 TComp SortedIndexedList::remove(int i) {
