@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Programming/Data-Structures-and-Algorithms/Labor/Labor5/App.cpp" "CMakeFiles/Labor5.dir/App.cpp.obj" "gcc" "CMakeFiles/Labor5.dir/App.cpp.obj.d"
-  "D:/Programming/Data-Structures-and-Algorithms/Labor/Labor5/ExtendedTest.cpp" "CMakeFiles/Labor5.dir/ExtendedTest.cpp.obj" "gcc" "CMakeFiles/Labor5.dir/ExtendedTest.cpp.obj.d"
-  "D:/Programming/Data-Structures-and-Algorithms/Labor/Labor5/ListIterator.cpp" "CMakeFiles/Labor5.dir/ListIterator.cpp.obj" "gcc" "CMakeFiles/Labor5.dir/ListIterator.cpp.obj.d"
-  "D:/Programming/Data-Structures-and-Algorithms/Labor/Labor5/ShortTest.cpp" "CMakeFiles/Labor5.dir/ShortTest.cpp.obj" "gcc" "CMakeFiles/Labor5.dir/ShortTest.cpp.obj.d"
-  "D:/Programming/Data-Structures-and-Algorithms/Labor/Labor5/SortedIndexedList.cpp" "CMakeFiles/Labor5.dir/SortedIndexedList.cpp.obj" "gcc" "CMakeFiles/Labor5.dir/SortedIndexedList.cpp.obj.d"
+  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor5/App.cpp" "CMakeFiles/Labor5.dir/App.cpp.o" "gcc" "CMakeFiles/Labor5.dir/App.cpp.o.d"
+  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor5/ExtendedTest.cpp" "CMakeFiles/Labor5.dir/ExtendedTest.cpp.o" "gcc" "CMakeFiles/Labor5.dir/ExtendedTest.cpp.o.d"
+  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor5/ListIterator.cpp" "CMakeFiles/Labor5.dir/ListIterator.cpp.o" "gcc" "CMakeFiles/Labor5.dir/ListIterator.cpp.o.d"
+  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor5/ShortTest.cpp" "CMakeFiles/Labor5.dir/ShortTest.cpp.o" "gcc" "CMakeFiles/Labor5.dir/ShortTest.cpp.o.d"
+  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor5/SortedIndexedList.cpp" "CMakeFiles/Labor5.dir/SortedIndexedList.cpp.o" "gcc" "CMakeFiles/Labor5.dir/SortedIndexedList.cpp.o.d"
   )
 
 # Targets to which this target links.
