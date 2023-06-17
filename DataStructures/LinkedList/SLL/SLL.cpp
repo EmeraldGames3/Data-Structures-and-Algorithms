@@ -1,4 +1,5 @@
 #include "SLL.h"
+#include "SLL_Iterator.h"
 #include <stdexcept>
 
 SLL::SLL() {
@@ -30,22 +31,38 @@ TElem SLL::deleteElement(TElem element) {
     if (isEmpty())
         return NULL_TELEM;
 
-    SLLNode *current = head;
-    SLLNode *previous;
-    while (current != nullptr){
-        previous = current;
-        current = current->next;
-        if(current->info == element){
-            auto deletedValue = current->info;
-            previous->next = current->next;
+    if (element == head->info) {
+        TElem deletedValue = head->info;
+        SLLNode* deletedNode = head;
+        head = head->next;
+        delete deletedNode;
+        size--;
+        return deletedValue;
+    }
 
+    SLLNode* current = head;
+    SLLNode* previous = nullptr;
+
+    while (current != nullptr) {
+        if (current->info == element) {
+            if (previous == nullptr) {
+                // If previous is nullptr, it means the element to delete is at the head
+                head = current->next;
+            } else {
+                previous->next = current->next;
+            }
+
+            auto deletedValue = current->info;
             delete current;
             size--;
             return deletedValue;
         }
+
+        previous = current;
+        current = current->next;
     }
 
-    return NULL_TELEM
+    return NULL_TELEM;
 }
 
 void SLL::addFirst(TElem element) {
@@ -58,11 +75,11 @@ void SLL::addFirst(TElem element) {
 
 void SLL::AddBeforeNode(SLLNode *currentNode, TElem element) {
     SLLNode *previous = head;
-    while (previous != nullptr && previous->next != currentNode){
+    while (previous != nullptr && previous->next != currentNode) {
         previous = previous->next;
     }
 
-    if(previous == nullptr){
+    if (previous == nullptr) {
         throw std::invalid_argument("Node does not exist");
     }
 
@@ -100,4 +117,8 @@ TElem SLL::deleteFirst() {
     delete deletedNode;
     size--;
     return deletedValue;
+}
+
+SLLIterator SLL::getIterator() {
+    return SLLIterator(*this);
 }

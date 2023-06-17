@@ -1,5 +1,6 @@
 #pragma once
 
+
 typedef int TElem;
 #define NULL_TELEM (-11111);
 
@@ -11,7 +12,7 @@ struct SLLNode {
 };
 
 class SLL {
-    friend class SLL;
+    friend class SLLIterator;
 
 private:
     SLLNode *head;
@@ -35,6 +36,8 @@ public:
     [[nodiscard]] int getSize() const;
 
     [[nodiscard]] bool isEmpty() const;
+
+    SLLIterator getIterator();
 
     ~SLL();
 };
