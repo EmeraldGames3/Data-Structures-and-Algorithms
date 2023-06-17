@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Labor5.exe"
-		},
-		{
-			"path" : "Labor5.pdb"
+			"path" : "Labor5"
 		}
 	],
 	"backtrace" : 1,
@@ -75,16 +72,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Labor5",
-	"nameOnDisk" : "Labor5.exe",
+	"nameOnDisk" : "Labor5",
 	"paths" : 
 	{
 		"build" : ".",

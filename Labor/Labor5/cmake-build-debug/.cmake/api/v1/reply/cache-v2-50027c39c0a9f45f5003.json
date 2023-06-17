@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"
+			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor5/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -151,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/bin/cmake"
+			"value" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/linux/x64/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/bin/cpack"
+			"value" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/linux/x64/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -175,7 +175,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/bin/ctest"
+			"value" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/linux/x64/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -627,7 +627,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor5/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4"
+			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor5"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -931,7 +931,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Labor4"
+			"value" : "Labor5"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -975,7 +975,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25"
+			"value" : "/home/bogdan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/cmake/linux/x64/share/cmake-3.25"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1214,7 +1214,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Labor4_BINARY_DIR",
+			"name" : "Labor5_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1223,10 +1223,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"
+			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor5/cmake-build-debug"
 		},
 		{
-			"name" : "Labor4_IS_TOP_LEVEL",
+			"name" : "Labor5_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1238,7 +1238,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Labor4_SOURCE_DIR",
+			"name" : "Labor5_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4"
+			"value" : "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor5"
 		},
 		{
 			"name" : "ProcessorCount_cmd_nproc",

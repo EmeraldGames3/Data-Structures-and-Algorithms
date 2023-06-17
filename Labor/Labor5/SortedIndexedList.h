@@ -46,6 +46,8 @@ public:
     //throws an exception if the position is not valid
     TComp remove(int pos);
 
+    void deleteKElement(int k);
+
     // searches for an element and returns the first position where the element appears or -1 if the element is not in the list
     [[nodiscard]] int search(TComp e) const;
 

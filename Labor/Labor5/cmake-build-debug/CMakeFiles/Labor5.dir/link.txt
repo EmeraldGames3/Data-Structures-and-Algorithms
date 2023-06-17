@@ -1,3 +1,1 @@
-C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\Labor5.dir/objects.a
-C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\ar.exe qc CMakeFiles\Labor5.dir/objects.a @CMakeFiles\Labor5.dir\objects1
-C:\Users\boboo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.9011.31\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Labor5.dir/objects.a -Wl,--no-whole-archive -o Labor5.exe -Wl,--out-implib,libLabor5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Labor5.dir\linkLibs.rsp
+/usr/bin/c++ -g CMakeFiles/Labor5.dir/App.cpp.o CMakeFiles/Labor5.dir/ListIterator.cpp.o CMakeFiles/Labor5.dir/ExtendedTest.cpp.o CMakeFiles/Labor5.dir/ShortTest.cpp.o CMakeFiles/Labor5.dir/SortedIndexedList.cpp.o -o Labor5 
