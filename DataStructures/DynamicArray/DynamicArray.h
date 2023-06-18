@@ -1,7 +1,7 @@
 #pragma once
 #include <cstddef>
 #define NULL_TELEM (-111111)
-typedef int TElem;
+typedef int TComp;
 
 class DynamicArrayIterator;
 
@@ -11,7 +11,7 @@ class DynamicArray {
 
 private:
     size_t size, capacity;
-    TElem *array;
+    TComp *array;
 
     ///Resize the array
     void resize(size_t newCapacity);
@@ -26,22 +26,22 @@ public:
     [[nodiscard]] bool isEmpty() const;
 
     ///Get an element
-    TElem getElementWithPosition(size_t position);
-    TElem getElement(TElem element);
+    TComp getElementWithPosition(size_t position);
+    TComp getElement(TComp element);
 
     ///Set the value of an element
-    TElem setElement(size_t position, TElem newElement);
+    TComp setElement(size_t position, TComp newElement);
 
     ///Add an element to the array
-    void addToPosition(size_t position, TElem element);
-    void addToStart(TElem element);
-    void addToEnd(TElem element);
+    void addToPosition(size_t position, TComp element);
+    void addToStart(TComp element);
+    void addToEnd(TComp element);
 
     ///Remove an element from the array
-    TElem removeElementPosition(size_t position);
-    TElem removeElement(TElem element);
-    TElem removeFromStart();
-    TElem removeFromEnd();
+    TComp removeElementPosition(size_t position);
+    TComp removeElement(TComp element);
+    TComp removeFromStart();
+    TComp removeFromEnd();
 
     ///Get an iterator
     DynamicArrayIterator getIterator();

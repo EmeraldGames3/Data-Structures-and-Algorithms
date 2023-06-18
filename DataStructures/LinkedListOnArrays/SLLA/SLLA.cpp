@@ -18,7 +18,7 @@ SingleLinkedListOnArrays::~SingleLinkedListOnArrays() {
     delete[] array;
 }
 
-void SingleLinkedListOnArrays::addToStart(TElem element) {
+void SingleLinkedListOnArrays::addToStart(TComp element) {
     int current = firstEmpty;
     firstEmpty = array[firstEmpty].next;
     array[current] = SLLANode{element, head};
@@ -27,7 +27,7 @@ void SingleLinkedListOnArrays::addToStart(TElem element) {
 //    automaticResize();
 }
 
-void SingleLinkedListOnArrays::addToPosition(int position, TElem elem) {
+void SingleLinkedListOnArrays::addToPosition(int position, TComp elem) {
     if(position == 0)
         addToStart(elem);
 
@@ -53,7 +53,7 @@ SLLAIterator SingleLinkedListOnArrays::getIterator() const {
     return SLLAIterator(*this);
 }
 
-TElem SingleLinkedListOnArrays::removeFromStart() {
+TComp SingleLinkedListOnArrays::removeFromStart() {
     int oldIndex = head;
     head = array[head].next;
     array[oldIndex].next = firstEmpty;
@@ -61,7 +61,7 @@ TElem SingleLinkedListOnArrays::removeFromStart() {
     return array[oldIndex].info;
 }
 
-TElem SingleLinkedListOnArrays::removeElement(TElem element) {
+TComp SingleLinkedListOnArrays::removeElement(TComp element) {
     int current = head;
     int previous = -1;  // Initialize previous as -1 (invalid index)
 
@@ -84,7 +84,7 @@ TElem SingleLinkedListOnArrays::removeElement(TElem element) {
     return NULL_TELEM;
 }
 
-TElem SingleLinkedListOnArrays::removeFromPosition(int position) {
+TComp SingleLinkedListOnArrays::removeFromPosition(int position) {
     if (position < 0 || position >= size) {
         throw std::out_of_range("Invalid position");
     }
@@ -105,7 +105,7 @@ TElem SingleLinkedListOnArrays::removeFromPosition(int position) {
         array[previous].next = array[current].next;
     }
 
-    TElem removedElement = array[current].info;
+    TComp removedElement = array[current].info;
     array[current].info = NULL_TELEM; // Optional: Clear the info of the removed node
     array[current].next = firstEmpty;
     firstEmpty = current;

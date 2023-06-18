@@ -21,7 +21,7 @@ DLLA::~DLLA() {
     delete[] array;
 }
 
-void DLLA::addToStart(TElem elem) {
+void DLLA::addToStart(TComp elem) {
     if (size == 0) {
         array[firstEmpty].info = elem;
         head = firstEmpty;
@@ -46,12 +46,12 @@ DLLAIterator DLLA::getIterator() {
     return DLLAIterator(*this);
 }
 
-TElem DLLA::removeFromStart() {
+TComp DLLA::removeFromStart() {
     if (size == 0) {
         throw std::invalid_argument("List is empty");
     }
 
-    TElem removedElem = array[head].info;  // Store the element value to be removed
+    TComp removedElem = array[head].info;  // Store the element value to be removed
 
     if (size == 1) {
         firstEmpty = head;  // Mark the current head node as the first empty node

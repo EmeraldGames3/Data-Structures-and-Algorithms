@@ -22,7 +22,7 @@ bool DynamicArrayIterator::valid() {
     return true;
 }
 
-TElem DynamicArrayIterator::getCurrent() {
+TComp DynamicArrayIterator::getCurrent() {
     if(!valid())
         throw std::invalid_argument("Iterator is invalid");
     return this->array.array[current];

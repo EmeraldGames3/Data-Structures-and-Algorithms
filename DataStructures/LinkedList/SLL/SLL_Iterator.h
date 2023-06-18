@@ -19,5 +19,5 @@ public:
 
     [[nodiscard]] bool valid() const;
 
-    [[nodiscard]] TElem getCurrent() const;
+    [[nodiscard]] TComp getCurrent() const;
 };

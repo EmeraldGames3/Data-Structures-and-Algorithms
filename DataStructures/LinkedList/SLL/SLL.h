@@ -1,13 +1,13 @@
 #pragma once
 
 
-typedef int TElem;
+typedef int TComp;
 #define NULL_TELEM (-11111);
 
 class SLLIterator;
 
 struct SLLNode {
-    TElem info;
+    TComp info;
     SLLNode *next;
 };
 
@@ -21,17 +21,17 @@ private:
 public:
     SLL();
 
-    void addFirst(TElem element);
+    void addFirst(TComp element);
 
-    void AddBeforeNode(SLLNode *currentNode, TElem element);
+    void AddBeforeNode(SLLNode *currentNode, TComp element);
 
-    void addAfterNode(SLLNode *currentNode, TElem element);
+    void addAfterNode(SLLNode *currentNode, TComp element);
 
-    void insertPosition(int position, TElem element);
+    void insertPosition(int position, TComp element);
 
-    TElem deleteFirst();
+    TComp deleteFirst();
 
-    TElem deleteElement(TElem element);
+    TComp deleteElement(TComp element);
 
     [[nodiscard]] int getSize() const;
 

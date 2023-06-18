@@ -5,7 +5,7 @@
 DynamicArray::DynamicArray() {
     size = 0;
     capacity = 10;
-    array = new TElem[capacity];
+    array = new TComp[capacity];
 }
 
 DynamicArray::~DynamicArray() {
@@ -22,7 +22,7 @@ void DynamicArray::resize(size_t newCapacity) {
     if (newCapacity < size)
         throw std::invalid_argument("New size is smaller than the actual size");
 
-    auto *newArray = new TElem[newCapacity];
+    auto *newArray = new TComp[newCapacity];
 
     for (size_t i = 0; i < size; i++) {
         newArray[i] = array[i];
@@ -48,7 +48,7 @@ bool DynamicArray::isEmpty() const {
     return size == 0;
 }
 
-TElem DynamicArray::getElement(TElem element) {
+TComp DynamicArray::getElement(TComp element) {
     for (size_t i = 0; i < size; i++) {
         if (array[i] == element) {
             return array[i];
@@ -58,23 +58,23 @@ TElem DynamicArray::getElement(TElem element) {
     return NULL_TELEM;
 }
 
-TElem DynamicArray::getElementWithPosition(size_t position) {
+TComp DynamicArray::getElementWithPosition(size_t position) {
     if (position >= size)
         throw std::invalid_argument("Invalid size");
     return array[position];
 }
 
-TElem DynamicArray::setElement(size_t position, TElem newElement) {
+TComp DynamicArray::setElement(size_t position, TComp newElement) {
     if (position >= size)
         throw std::invalid_argument("Invalid position");
 
-    TElem oldValue = array[position];
+    TComp oldValue = array[position];
     array[position] = newElement;
 
     return oldValue;
 }
 
-void DynamicArray::addToPosition(size_t position, TElem element) {
+void DynamicArray::addToPosition(size_t position, TComp element) {
     if (size == 0) {
         addToStart(element);
         return;
@@ -95,7 +95,7 @@ void DynamicArray::addToPosition(size_t position, TElem element) {
     automaticResize();
 }
 
-void DynamicArray::addToStart(TElem element) {
+void DynamicArray::addToStart(TComp element) {
     if (size == 0) {
         array[0] = element;
         size = 1;
@@ -111,7 +111,7 @@ void DynamicArray::addToStart(TElem element) {
     automaticResize();
 }
 
-void DynamicArray::addToEnd(TElem element) {
+void DynamicArray::addToEnd(TComp element) {
     if (size == 0) {
         array[0] = element;
         size = 1;
@@ -123,7 +123,7 @@ void DynamicArray::addToEnd(TElem element) {
     automaticResize();
 }
 
-TElem DynamicArray::removeElement(TElem element) {
+TComp DynamicArray::removeElement(TComp element) {
     if (isEmpty())
         throw std::invalid_argument("Array is empty");
     automaticResize();
@@ -137,11 +137,11 @@ TElem DynamicArray::removeElement(TElem element) {
     return NULL_TELEM;
 }
 
-TElem DynamicArray::removeElementPosition(size_t position) {
+TComp DynamicArray::removeElementPosition(size_t position) {
     if (position >= size)
         throw std::invalid_argument("Invalid position");
 
-    TElem oldValue = array[position];
+    TComp oldValue = array[position];
 
     // Move elements from position + 1 to the left
     for (size_t i = position; i < size - 1; i++) {
@@ -153,15 +153,15 @@ TElem DynamicArray::removeElementPosition(size_t position) {
     return oldValue;
 }
 
-TElem DynamicArray::removeFromEnd() {
+TComp DynamicArray::removeFromEnd() {
     automaticResize();
-    TElem oldValue = array[size - 1];
+    TComp oldValue = array[size - 1];
     size--;
     automaticResize();
     return oldValue;
 }
 
-TElem DynamicArray::removeFromStart() {
+TComp DynamicArray::removeFromStart() {
     automaticResize();
     return removeElementPosition(0);
 }

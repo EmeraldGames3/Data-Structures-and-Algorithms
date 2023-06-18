@@ -17,7 +17,7 @@ private:
 public:
     ~DynamicArrayIterator() = default;
 
-    TElem getCurrent();
+    TComp getCurrent();
 
     bool valid();
 

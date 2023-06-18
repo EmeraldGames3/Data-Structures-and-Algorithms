@@ -22,7 +22,7 @@ bool DLLIterator::valid() {
     return current != nullptr;
 }
 
-TElem DLLIterator::getCurrent() {
+TComp DLLIterator::getCurrent() {
     if(!valid())
         throw std::invalid_argument("Invalid iterator");
 

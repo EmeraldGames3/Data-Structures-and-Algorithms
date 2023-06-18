@@ -17,7 +17,7 @@ DLL::~DLL() {
     }
 }
 
-void DLL::addToEnd(TElem element) {
+void DLL::addToEnd(TComp element) {
     auto newNode = new DLLNode{element, nullptr, tail};
     if(size == 0){
         head = newNode;
@@ -31,7 +31,7 @@ void DLL::addToEnd(TElem element) {
     size++;
 }
 
-void DLL::addToPosition(int position, TElem elem) {
+void DLL::addToPosition(int position, TComp elem) {
     if (position < 0 || position > size)
         throw std::invalid_argument("Invalid position!");
 
@@ -52,7 +52,7 @@ void DLL::addToPosition(int position, TElem elem) {
     size++;
 }
 
-void DLL::addToStart(TElem elem) {
+void DLL::addToStart(TComp elem) {
     auto *newNode = new DLLNode{elem, head, nullptr};
     if(isEmpty()){
         head = newNode;
@@ -66,7 +66,7 @@ void DLL::addToStart(TElem elem) {
     size++;
 }
 
-TElem DLL::removeStart() {
+TComp DLL::removeStart() {
     if (size == 0)
         throw std::invalid_argument("List is empty!");
 
@@ -87,12 +87,12 @@ TElem DLL::removeStart() {
     return deletedValue;
 }
 
-TElem DLL::removeElement(TElem element) {
+TComp DLL::removeElement(TComp element) {
     if(isEmpty())
         return NULL_TELEM;
 
     if(element == head->info) {
-        TElem deletedValue = head->info;
+        TComp deletedValue = head->info;
         DLLNode* deletedNode = head;
         head = head->next;
         head->previous = nullptr;

@@ -1,11 +1,11 @@
 #pragma once
 
 class SLLAIterator;
-typedef int TElem;
+typedef int TComp;
 #define NULL_TELEM (-11111);
 
 struct SLLANode{
-    TElem info;
+    TComp info;
     int next;
 };
 
@@ -24,13 +24,13 @@ public:
 
     ~SingleLinkedListOnArrays();
 
-    void addToStart(TElem element);
+    void addToStart(TComp element);
 
-    void addToPosition(int position, TElem elem);
+    void addToPosition(int position, TComp elem);
 
-    TElem removeFromStart();
-    TElem removeElement(TElem element);
-    TElem removeFromPosition(int position);
+    TComp removeFromStart();
+    TComp removeElement(TComp element);
+    TComp removeFromPosition(int position);
 
     [[nodiscard]] SLLAIterator getIterator() const;
 };

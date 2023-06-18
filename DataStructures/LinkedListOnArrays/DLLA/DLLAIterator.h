@@ -21,5 +21,5 @@ public:
 
     bool valid() const;
 
-    TElem getCurrent();
+    TComp getCurrent();
 };

@@ -19,7 +19,7 @@ bool SLLAIterator::valid() const {
     return current != -1;
 }
 
-TElem SLLAIterator::getCurrent() {
+TComp SLLAIterator::getCurrent() {
     if(!valid())
         throw std::invalid_argument("Invalid position in slla");
     return singleLinkedListOnArrays.array[current].info;

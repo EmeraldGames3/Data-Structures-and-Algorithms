@@ -18,5 +18,5 @@ public:
 
     [[nodiscard]] bool valid() const;
 
-    TElem getCurrent();
+    TComp getCurrent();
 };

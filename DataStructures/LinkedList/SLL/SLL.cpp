@@ -27,12 +27,12 @@ bool SLL::isEmpty() const {
     return false;
 }
 
-TElem SLL::deleteElement(TElem element) {
+TComp SLL::deleteElement(TComp element) {
     if (isEmpty())
         return NULL_TELEM;
 
     if (element == head->info) {
-        TElem deletedValue = head->info;
+        TComp deletedValue = head->info;
         SLLNode* deletedNode = head;
         head = head->next;
         delete deletedNode;
@@ -65,7 +65,7 @@ TElem SLL::deleteElement(TElem element) {
     return NULL_TELEM;
 }
 
-void SLL::addFirst(TElem element) {
+void SLL::addFirst(TComp element) {
     auto *newNode = new SLLNode;
     newNode->info = element;
     newNode->next = head;
@@ -73,7 +73,7 @@ void SLL::addFirst(TElem element) {
     size++;
 }
 
-void SLL::AddBeforeNode(SLLNode *currentNode, TElem element) {
+void SLL::AddBeforeNode(SLLNode *currentNode, TComp element) {
     SLLNode *previous = head;
     while (previous != nullptr && previous->next != currentNode) {
         previous = previous->next;
@@ -87,14 +87,14 @@ void SLL::AddBeforeNode(SLLNode *currentNode, TElem element) {
     previous->next = newNode;
 }
 
-void SLL::addAfterNode(SLLNode *currentNode, TElem element) {
+void SLL::addAfterNode(SLLNode *currentNode, TComp element) {
     auto *newNode = new SLLNode;
     newNode->info = element;
     newNode->next = currentNode->next;
     currentNode->next = newNode;
 }
 
-void SLL::insertPosition(int position, TElem element) {
+void SLL::insertPosition(int position, TComp element) {
     if (position < 0 || position >= size)
         throw std::invalid_argument("Invalid position");
 
@@ -106,7 +106,7 @@ void SLL::insertPosition(int position, TElem element) {
     current->next = newNode;
 }
 
-TElem SLL::deleteFirst() {
+TComp SLL::deleteFirst() {
     if (size == 0) {
         throw std::invalid_argument("List is empty");
     }

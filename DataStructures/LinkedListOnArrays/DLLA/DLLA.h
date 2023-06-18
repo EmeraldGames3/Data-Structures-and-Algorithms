@@ -1,13 +1,13 @@
 #pragma once
 
-typedef int TElem;
+typedef int TComp;
 
 #define NULL_TELEM (-11111);
 
 class DLLAIterator;
 
 struct DLLANode {
-    TElem info;
+    TComp info;
     int next;
     int previous;
 };
@@ -24,9 +24,9 @@ public:
 
     ~DLLA();
 
-    void addToStart(TElem elem);
+    void addToStart(TComp elem);
 
-    TElem removeFromStart();
+    TComp removeFromStart();
 
     DLLAIterator getIterator();
 };

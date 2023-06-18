@@ -1,11 +1,11 @@
 #pragma once
 
-typedef int TElem;
+typedef int TComp;
 #define NULL_TELEM (-11111)
 class DLLIterator;
 
 struct DLLNode{
-    TElem info;
+    TComp info;
     DLLNode *next;
     DLLNode *previous;
 };
@@ -22,14 +22,14 @@ public:
 
     ~DLL();
 
-    void addToPosition(int position, TElem elem);
+    void addToPosition(int position, TComp elem);
 
-    void addToStart(TElem elem);
-    void addToEnd(TElem element);
+    void addToStart(TComp elem);
+    void addToEnd(TComp element);
 
-    TElem removeStart();
+    TComp removeStart();
 
-    TElem removeElement(TElem element);
+    TComp removeElement(TComp element);
 
     [[nodiscard]] bool isEmpty() const;
 

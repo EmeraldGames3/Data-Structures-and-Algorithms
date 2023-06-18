@@ -19,7 +19,7 @@ bool DLLAIterator::valid() const {
     return current != -1;
 }
 
-TElem DLLAIterator::getCurrent() {
+TComp DLLAIterator::getCurrent() {
     if(!valid())
         throw std::invalid_argument("Invalid position in dlla");
     return dlla.array[current].info;

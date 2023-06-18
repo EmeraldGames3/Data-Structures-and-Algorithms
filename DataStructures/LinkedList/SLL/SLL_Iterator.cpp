@@ -20,7 +20,7 @@ bool SLLIterator::valid() const {
     return node != nullptr;
 }
 
-TElem SLLIterator::getCurrent() const {
+TComp SLLIterator::getCurrent() const {
     if(!valid())
         throw std::invalid_argument("Iterator is invalid");
 

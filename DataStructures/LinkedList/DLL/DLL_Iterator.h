@@ -17,5 +17,5 @@ public:
 
     bool valid();
 
-    TElem getCurrent();
+    TComp getCurrent();
 };
