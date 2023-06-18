@@ -31,7 +31,7 @@ public:
 
     TElem removeElement(TElem element);
 
-    bool isEmpty() const;
+    [[nodiscard]] bool isEmpty() const;
 
     int getSize() const;
 

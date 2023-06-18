@@ -91,6 +91,30 @@ build CMakeFiles/DataStructures.dir/LinkedList/DLL/DLL_Iterator.cpp.obj: CXX_COM
   OBJECT_DIR = CMakeFiles\DataStructures.dir
   OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\LinkedList\DLL
 
+build CMakeFiles/DataStructures.dir/LinkedListOnArrays/SLLA/SLLA.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/LinkedListOnArrays/SLLA/SLLA.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\LinkedListOnArrays\SLLA\SLLA.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\LinkedListOnArrays\SLLA
+
+build CMakeFiles/DataStructures.dir/LinkedListOnArrays/SLLA/SLLAIterator.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/LinkedListOnArrays/SLLA/SLLAIterator.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\LinkedListOnArrays\SLLA\SLLAIterator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\LinkedListOnArrays\SLLA
+
+build CMakeFiles/DataStructures.dir/LinkedListOnArrays/DLLA/DLLA.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/LinkedListOnArrays/DLLA/DLLA.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\LinkedListOnArrays\DLLA\DLLA.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\LinkedListOnArrays\DLLA
+
+build CMakeFiles/DataStructures.dir/LinkedListOnArrays/DLLA/DLLAIterator.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/LinkedListOnArrays/DLLA/DLLAIterator.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\LinkedListOnArrays\DLLA\DLLAIterator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\LinkedListOnArrays\DLLA
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructures
@@ -99,7 +123,7 @@ build CMakeFiles/DataStructures.dir/LinkedList/DLL/DLL_Iterator.cpp.obj: CXX_COM
 #############################################
 # Link the executable DataStructures.exe
 
-build DataStructures.exe: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/main.cpp.obj CMakeFiles/DataStructures.dir/DynamicArray/DynamicArrayIterator.cpp.obj CMakeFiles/DataStructures.dir/DynamicArray/DynamicArray.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/SLL/SLL.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/SLL/SLL_Iterator.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/DLL/DLL.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/DLL/DLL_Iterator.cpp.obj
+build DataStructures.exe: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/main.cpp.obj CMakeFiles/DataStructures.dir/DynamicArray/DynamicArrayIterator.cpp.obj CMakeFiles/DataStructures.dir/DynamicArray/DynamicArray.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/SLL/SLL.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/SLL/SLL_Iterator.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/DLL/DLL.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/DLL/DLL_Iterator.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/SLLA/SLLA.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/SLLA/SLLAIterator.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/DLLA/DLLA.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/DLLA/DLLAIterator.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DataStructures.dir
