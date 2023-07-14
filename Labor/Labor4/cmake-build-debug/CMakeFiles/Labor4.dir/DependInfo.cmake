@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/App.cpp" "CMakeFiles/Labor4.dir/App.cpp.o" "gcc" "CMakeFiles/Labor4.dir/App.cpp.o.d"
-  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/ExtendedTest.cpp" "CMakeFiles/Labor4.dir/ExtendedTest.cpp.o" "gcc" "CMakeFiles/Labor4.dir/ExtendedTest.cpp.o.d"
-  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/SMIterator.cpp" "CMakeFiles/Labor4.dir/SMIterator.cpp.o" "gcc" "CMakeFiles/Labor4.dir/SMIterator.cpp.o.d"
-  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/ShortTest.cpp" "CMakeFiles/Labor4.dir/ShortTest.cpp.o" "gcc" "CMakeFiles/Labor4.dir/ShortTest.cpp.o.d"
-  "/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/SortedMap.cpp" "CMakeFiles/Labor4.dir/SortedMap.cpp.o" "gcc" "CMakeFiles/Labor4.dir/SortedMap.cpp.o.d"
+  "D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/App.cpp" "CMakeFiles/Labor4.dir/App.cpp.obj" "gcc" "CMakeFiles/Labor4.dir/App.cpp.obj.d"
+  "D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/ExtendedTest.cpp" "CMakeFiles/Labor4.dir/ExtendedTest.cpp.obj" "gcc" "CMakeFiles/Labor4.dir/ExtendedTest.cpp.obj.d"
+  "D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/SMIterator.cpp" "CMakeFiles/Labor4.dir/SMIterator.cpp.obj" "gcc" "CMakeFiles/Labor4.dir/SMIterator.cpp.obj.d"
+  "D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/ShortTest.cpp" "CMakeFiles/Labor4.dir/ShortTest.cpp.obj" "gcc" "CMakeFiles/Labor4.dir/ShortTest.cpp.obj.d"
+  "D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/SortedMap.cpp" "CMakeFiles/Labor4.dir/SortedMap.cpp.obj" "gcc" "CMakeFiles/Labor4.dir/SortedMap.cpp.obj.d"
   )
 
 # Targets to which this target links.

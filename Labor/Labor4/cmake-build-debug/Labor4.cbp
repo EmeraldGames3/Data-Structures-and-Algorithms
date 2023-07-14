@@ -8,108 +8,108 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"/>
+				<Option working_dir="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Labor4">
-				<Option output="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Labor4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"/>
+				<Option output="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Labor4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Labor4"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Labor4"/>
+					<CompileFile command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Labor4/fast">
-				<Option output="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Labor4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"/>
+				<Option output="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Labor4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Labor4/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Labor4/fast"/>
+					<CompileFile command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"/>
+				<Option working_dir="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"/>
+				<Option working_dir="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/boboo/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/App.cpp">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/App.cpp">
 			<Option target="Labor4"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/ExtendedTest.cpp">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/ExtendedTest.cpp">
 			<Option target="Labor4"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/ExtendedTest.h">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/ExtendedTest.h">
 			<Option target="Labor4"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/SMIterator.cpp">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/SMIterator.cpp">
 			<Option target="Labor4"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/SMIterator.h">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/SMIterator.h">
 			<Option target="Labor4"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/ShortTest.cpp">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/ShortTest.cpp">
 			<Option target="Labor4"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/ShortTest.h">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/ShortTest.h">
 			<Option target="Labor4"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/SortedMap.cpp">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/SortedMap.cpp">
 			<Option target="Labor4"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/SortedMap.h">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/SortedMap.h">
 			<Option target="Labor4"/>
 		</Unit>
-		<Unit filename="/home/bogdan/Programming/University/Data-Structures-and-Algorithms/Labor/Labor4/CMakeLists.txt">
+		<Unit filename="D:/Programming/Data-Structures-and-Algorithms/Labor/Labor4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

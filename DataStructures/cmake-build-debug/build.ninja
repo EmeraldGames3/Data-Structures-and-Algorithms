@@ -121,6 +121,66 @@ build CMakeFiles/DataStructures.dir/Heap/BinaryHeap.cpp.obj: CXX_COMPILER__DataS
   OBJECT_DIR = CMakeFiles\DataStructures.dir
   OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\Heap
 
+build CMakeFiles/DataStructures.dir/Hashtable/UnabhangigeVerkettung/UnabhangigeVekettung.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/Hashtable/UnabhangigeVerkettung/UnabhangigeVekettung.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\Hashtable\UnabhangigeVerkettung\UnabhangigeVekettung.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\Hashtable\UnabhangigeVerkettung
+
+build CMakeFiles/DataStructures.dir/Hashtable/UnabhangigeVerkettung/UnabhangigeVerkettungIterator.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/Hashtable/UnabhangigeVerkettung/UnabhangigeVerkettungIterator.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\Hashtable\UnabhangigeVerkettung\UnabhangigeVerkettungIterator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\Hashtable\UnabhangigeVerkettung
+
+build CMakeFiles/DataStructures.dir/Hashtable/CoalescedChaining/CoalescedChaining.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/Hashtable/CoalescedChaining/CoalescedChaining.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\Hashtable\CoalescedChaining\CoalescedChaining.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\Hashtable\CoalescedChaining
+
+build CMakeFiles/DataStructures.dir/Hashtable/CoalescedChaining/CoalescedChainingIterator.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/Hashtable/CoalescedChaining/CoalescedChainingIterator.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\Hashtable\CoalescedChaining\CoalescedChainingIterator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\Hashtable\CoalescedChaining
+
+build CMakeFiles/DataStructures.dir/Hashtable/OffeneAddresierung/LinearProbing/OffeneAddressierung.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/Hashtable/OffeneAddresierung/LinearProbing/OffeneAddressierung.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\Hashtable\OffeneAddresierung\LinearProbing\OffeneAddressierung.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\Hashtable\OffeneAddresierung\LinearProbing
+
+build CMakeFiles/DataStructures.dir/Hashtable/OffeneAddresierung/LinearProbing/OffeneAddresierungIterator.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/Hashtable/OffeneAddresierung/LinearProbing/OffeneAddresierungIterator.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\Hashtable\OffeneAddresierung\LinearProbing\OffeneAddresierungIterator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\Hashtable\OffeneAddresierung\LinearProbing
+
+build CMakeFiles/DataStructures.dir/Hashtable/OffeneAddresierung/DoubleHashing/OffeneAddresierungDoubleHashing.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/Hashtable/OffeneAddresierung/DoubleHashing/OffeneAddresierungDoubleHashing.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\Hashtable\OffeneAddresierung\DoubleHashing\OffeneAddresierungDoubleHashing.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\Hashtable\OffeneAddresierung\DoubleHashing
+
+build CMakeFiles/DataStructures.dir/Hashtable/OffeneAddresierung/QuadraticProbing/OffeneAddresierungQuadraticProbing.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/Hashtable/OffeneAddresierung/QuadraticProbing/OffeneAddresierungQuadraticProbing.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\Hashtable\OffeneAddresierung\QuadraticProbing\OffeneAddresierungQuadraticProbing.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\Hashtable\OffeneAddresierung\QuadraticProbing
+
+build CMakeFiles/DataStructures.dir/Hashtable/OffeneAddresierung/QuadraticProbing/OffeneAddresierungQuadraticProbingIterator.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/Hashtable/OffeneAddresierung/QuadraticProbing/OffeneAddresierungQuadraticProbingIterator.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\Hashtable\OffeneAddresierung\QuadraticProbing\OffeneAddresierungQuadraticProbingIterator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\Hashtable\OffeneAddresierung\QuadraticProbing
+
+build CMakeFiles/DataStructures.dir/BinaryTree/SimpleBinaryTree/BinaryTree.cpp.obj: CXX_COMPILER__DataStructures_Debug D$:/Programming/Data-Structures-and-Algorithms/DataStructures/BinaryTree/SimpleBinaryTree/BinaryTree.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\BinaryTree\SimpleBinaryTree\BinaryTree.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\BinaryTree\SimpleBinaryTree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructures
@@ -129,7 +189,7 @@ build CMakeFiles/DataStructures.dir/Heap/BinaryHeap.cpp.obj: CXX_COMPILER__DataS
 #############################################
 # Link the executable DataStructures.exe
 
-build DataStructures.exe: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/main.cpp.obj CMakeFiles/DataStructures.dir/DynamicArray/DynamicArrayIterator.cpp.obj CMakeFiles/DataStructures.dir/DynamicArray/DynamicArray.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/SLL/SLL.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/SLL/SLL_Iterator.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/DLL/DLL.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/DLL/DLL_Iterator.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/SLLA/SLLA.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/SLLA/SLLAIterator.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/DLLA/DLLA.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/DLLA/DLLAIterator.cpp.obj CMakeFiles/DataStructures.dir/Heap/BinaryHeap.cpp.obj
+build DataStructures.exe: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/main.cpp.obj CMakeFiles/DataStructures.dir/DynamicArray/DynamicArrayIterator.cpp.obj CMakeFiles/DataStructures.dir/DynamicArray/DynamicArray.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/SLL/SLL.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/SLL/SLL_Iterator.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/DLL/DLL.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/DLL/DLL_Iterator.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/SLLA/SLLA.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/SLLA/SLLAIterator.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/DLLA/DLLA.cpp.obj CMakeFiles/DataStructures.dir/LinkedListOnArrays/DLLA/DLLAIterator.cpp.obj CMakeFiles/DataStructures.dir/Heap/BinaryHeap.cpp.obj CMakeFiles/DataStructures.dir/Hashtable/UnabhangigeVerkettung/UnabhangigeVekettung.cpp.obj CMakeFiles/DataStructures.dir/Hashtable/UnabhangigeVerkettung/UnabhangigeVerkettungIterator.cpp.obj CMakeFiles/DataStructures.dir/Hashtable/CoalescedChaining/CoalescedChaining.cpp.obj CMakeFiles/DataStructures.dir/Hashtable/CoalescedChaining/CoalescedChainingIterator.cpp.obj CMakeFiles/DataStructures.dir/Hashtable/OffeneAddresierung/LinearProbing/OffeneAddressierung.cpp.obj CMakeFiles/DataStructures.dir/Hashtable/OffeneAddresierung/LinearProbing/OffeneAddresierungIterator.cpp.obj CMakeFiles/DataStructures.dir/Hashtable/OffeneAddresierung/DoubleHashing/OffeneAddresierungDoubleHashing.cpp.obj CMakeFiles/DataStructures.dir/Hashtable/OffeneAddresierung/QuadraticProbing/OffeneAddresierungQuadraticProbing.cpp.obj CMakeFiles/DataStructures.dir/Hashtable/OffeneAddresierung/QuadraticProbing/OffeneAddresierungQuadraticProbingIterator.cpp.obj CMakeFiles/DataStructures.dir/BinaryTree/SimpleBinaryTree/BinaryTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DataStructures.dir
